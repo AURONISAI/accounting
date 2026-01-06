@@ -1,0 +1,75 @@
+﻿"""Saldolista""";;;;;;
+Samis Jackets AB;;;;;;
+559489-5301;;;;;;
+"""Utskriftsdatum"": den 6 January 2026 18:49:10";;;;;;
+;;;;;;
+"""Avser perioden"" 2024-07-01 - 2025-12-31";;;;;;
+;;;;;;
+"""Konto""";"""Beskrivning""";"""Ingående balans""";"""Debet""";"""Kredit""";"""Differens""";"""Utgående saldo"""
+1220;Inventarier och verktyg;0.00;49170.68;0.00;49170.68;49170.68
+1240;Bilar och andra transportmedel;0.00;27500.00;0.00;27500.00;27500.00
+1383;Lämnade depositioner, långfristiga;0.00;120000.00;120000.00;0.00;0.00
+1460;Lager av handelsvaror;0.00;1522537.98;539788.52;982749.46;982749.46
+1469;Förändring av lager av handelsvaror;0.00;163901.24;163901.24;0.00;0.00
+1580;Fordringar för kontokort och kuponger;0.00;103610.19;103610.19;0.00;0.00
+1630;Avräkning för skatter och avgifter (skattekonto);0.00;76901.00;83482.00;-6581.00;-6581.00
+1910;Kassa;0.00;93381.92;50000.00;43381.92;43381.92
+1930;Företagskonto/checkkonto/affärskonto;0.00;1384386.21;1293853.49;90532.72;90532.72
+1940;Övriga bankkonton;0.00;36362.75;83566.41;-47203.66;-47203.66
+1941;Annat bankkonto viva.com;0.00;109925.64;109926.19;-0.55;-0.55
+1942;Wise USD;0.00;683156.19;681406.29;1749.90;1749.90
+1943;Wise GBP;0.00;622625.88;620777.89;1847.99;1847.99
+1944;Wise EUR;0.00;74982.23;72977.65;2004.58;2004.58
+1945;Wise SEK;0.00;640510.56;632343.68;8166.88;8166.88
+1947;Worldline;0.00;673251.88;662279.91;10971.97;10971.97
+1948;Sales account;0.00;331446.17;331446.00;0.17;0.17
+2091;Balanserad vinst eller förlust;0.00;0.00;2511.47;-2511.47;-2511.47
+2093;Erhållna aktieägartillskott;0.00;0.00;1.00;-1.00;-1.00
+2441;Future World Tech;0.00;1256950.17;1062465.45;194484.72;194484.72
+2448;Ej reskontraförda leverantörsskulder;0.00;728987.00;728987.92;-0.92;-0.92
+2611;Utgående moms på försäljning inom Sverige, 25%;0.00;104552.65;197150.08;-92597.43;-92597.43
+2615;Utgående moms import av varor 25%;0.00;274369.75;274369.75;0.00;0.00
+2641;Debiterad ingående moms;0.00;78910.05;67955.43;10954.62;10954.62
+2645;Beräknad ingående moms på förvärv från utlandet;0.00;274369.75;274369.75;0.00;0.00
+2650;Redovisningskonto för moms;0.00;107669.00;107269.00;400.00;400.00
+2893;Skulder till närstående personer, kortfristig del;0.00;731939.36;2328537.43;-1596598.07;-1596598.07
+3051;Försäljn varor 25% sv;0.00;0.00;788606.16;-788606.16;-788606.16
+3740;Öres- och kronutjämning;0.00;0.18;1.47;-1.29;-1.29
+4000;Inköp av varor från Sverige;0.00;1928.92;121.01;1807.91;1807.91
+4001;Inkop av tjanst;0.00;9583.59;0.00;9583.59;9583.59
+4110;Kostnad sÑlda varor;0.00;487504.98;0.00;487504.98;487504.98
+4545;Import av varor, 25 % moms;0.00;1099429.92;1099436.85;-6.93;-6.93
+5010;Lokalhyra;0.00;223008.48;0.00;223008.48;223008.48
+5070;Reparation och underhåll av lokaler;0.00;807.62;0.00;807.62;807.62
+5410;Förbrukningsinventarier;0.00;10144.78;0.00;10144.78;10144.78
+5420;Programvaror;0.00;12104.10;0.00;12104.10;12104.10
+5460;Förbrukningsmaterial;0.00;16092.27;629.15;15463.12;15463.12
+5610;Personbilskostnader;0.00;14605.80;1160.88;13444.92;13444.92
+5611;Drivmedel för personbilar;0.00;7159.85;618.30;6541.55;6541.55
+5619;Övriga personbilskostnader;0.00;1625.24;0.00;1625.24;1625.24
+5620;Lastbilskostnader;0.00;849.00;0.00;849.00;849.00
+5700;Frakter och transporter (gruppkonto);0.00;170813.52;158892.00;11921.52;11921.52
+5800;Resekostnader (gruppkonto);0.00;12864.18;802.37;12061.81;12061.81
+5810;Biljetter;0.00;20513.15;0.00;20513.15;20513.15
+5830;Kost och logi;0.00;7945.21;0.00;7945.21;7945.21
+5890;Övriga resekostnader;0.00;13003.76;0.00;13003.76;13003.76
+5900;Reklam och PR (gruppkonto);0.00;113199.00;18454.90;94744.10;94744.10
+5910;Annonsering;0.00;28375.86;0.00;28375.86;28375.86
+5911;AI-marknadsforingsverktyg;0.00;2740.40;0.00;2740.40;2740.40
+5920;Utomhus- och trafikreklam;0.00;256.72;0.00;256.72;256.72
+6110;Kontorsmateriel;0.00;785.62;0.00;785.62;785.62
+6212;Mobiltelefon;0.00;2248.07;0.00;2248.07;2248.07
+6250;Postbefordran;0.00;1757.00;0.00;1757.00;1757.00
+6310;Företagsförsäkringar;0.00;11683.00;3960.00;7723.00;7723.00
+6500;Övriga externa tjänster (gruppkonto);0.00;1732.07;0.00;1732.07;1732.07
+6540;IT-tjänster;0.00;325.29;0.00;325.29;325.29
+6570;Bankkostnader;0.00;14070.14;147.26;13922.88;13922.88
+6590;Övriga externa tjänster;0.00;6029.46;0.00;6029.46;6029.46
+6990;Övriga externa kostnader;0.00;15238.05;0.00;15238.05;15238.05
+6991;Övriga externa kostnader, avdragsgilla;0.00;37383.41;4079.64;33303.77;33303.77
+6992;Övriga externa kostnader, ej avdragsgilla;0.00;28428.12;0.00;28428.12;28428.12
+7010;Löner till kollektivanställda;0.00;24528.00;0.00;24528.00;24528.00
+8311;Ränteintäkter från bank;0.00;140.74;294.41;-153.67;-153.67
+8400;Räntekostnader (gruppkonto);0.00;0.00;122.61;-122.61;-122.61
+;;;;;;
+;"""Totalt""";0.00;12670303.75;12670303.75;0.00;0.00;

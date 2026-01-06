@@ -1,0 +1,2609 @@
+﻿"""Preliminär Huvudbok""";;;;;;;;
+Samis Jackets AB;;;;;;;;
+559489-5301;;;;;;;;
+"""Utskriftsdatum"": den 6 January 2026 18:53:59";;;;;;;;
+;;;;;;;;
+"""Räkenskapsår:"" 2024-07-01 - 2025-12-31";;;;;;;;
+"""Avser perioden"" 2024-07-01 - 2025-12-31";;;;;;;;
+;;;;;;;;
+;;;;;;;;
+"""Konto""";"""Verifikation""";"""Datum""";"""Beskrivning""";"""Momskod""";"""Moms""";"""Debet""";"""Kredit""";"""Saldo"""
+1220 Inventarier och verktyg;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 606;2025-06-30;Allokering maskiner och inventarier frÑn import;;;49 170,68;;49 170,68
+;;;"""Utgående saldo:""";;0,00;49 170,68;0,00;49 170,68
+;;;;;;;;
+1240 Bilar och andra transportmedel;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 459;2025-02-26;"Purchase of co. vehicle; part-financed by Director's Loan bil GLS947";;;27 500,00;;27 500,00
+;;;"""Utgående saldo:""";;0,00;27 500,00;0,00;27 500,00
+;;;;;;;;
+1383 Lämnade depositioner, långfristiga;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 48;2024-10-21;(Fastighets AB Akvarium ) Lokaldeposition;;;120 000,00;;120 000,00
+;A 477;2025-06-24;ABET.DEPOSIT - àterbetalning;;;;120 000,00;0,00
+;;;"""Utgående saldo:""";;0,00;120 000,00;120 000,00;0,00
+;;;;;;;;
+1460 Lager av handelsvaror;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 21;2024-10-30;FASTIGHETS AB AKVARIUM F. 5002146107;;;15 000,00;;15 000,00
+;A 617;2025-01-31;Avskrivning av stulna damjackor (frsta 4 mÑnader);;;;5 462,99;9 537,01
+;A 585;2025-02-14;Tullavgifter;;;36 946,00;;46 483,01
+;A 608;2025-06-30;Allokering handelslager 85% frÑn import;;;761 502,53;;807 985,54
+;A 614;2025-06-30;KSV fr sÑlda damjackor oktober 2024 - juni 2025;;;;163 049,24;644 936,30
+;A 615;2025-06-30;KSV fr sÑlda kinaprodukter oktober 2024 - juni 2025;;;;42 970,00;601 966,30
+;A 616;2025-06-30;Avskrivning av skadade damjackor (transport/knappar);;;;9 245,06;592 721,24
+;A 619;2025-06-30;fixing invintory costs ;;;158 892,00;;751 613,24
+;A 620;2025-06-30;Varor bags skor biliga for markiting to assest mellan att dela de ;;;134 382,00;;885 995,24
+;A 623;2025-09-30;COGS - Q3 2025 sales (921 units);;;;45 344,24;840 651,00
+;A 624;2025-09-30;Allocate Q3 2025 marketing gifts to staging (231 units @ 25% policy);;;;11 337,54;829 313,46
+;A 959;2025-12-31;Varufrbrukning Q4 2025;;;;236 141,50;593 171,96
+;A 960;2025-12-31;Reklamgvor till kunder Q4 2025;;;;26 237,95;566 934,01
+;A 961;2025-12-31;Varuinkop Future World Tech Q4 38658 USD kurs 10.755;;;415 815,45;;982 749,46
+;;;"""Utgående saldo:""";;0,00;1 522 537,98;539 788,52;982 749,46
+;;;;;;;;
+1469 Förändring av lager av handelsvaror;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 609;2025-06-30;Allokering marknadsfringslager 15% frÑn import;;;134 382,80;;134 382,80
+;A 618;2025-06-30;MarknadsfringsgÑvor enligt 15% policy fr kinaprodukter;;;;18 181,70;116 201,10
+;A 620;2025-06-30;Varor bags skor biliga for markiting to assest mellan att dela de ;;;;134 382,00;-18 180,90
+;A 622;2025-07-01;Clear opening 1469 balance - previous period marketing gifts;;;18 180,90;;0,00
+;A 624;2025-09-30;Allocate Q3 2025 marketing gifts to staging (231 units @ 25% policy);;;11 337,54;;11 337,54
+;A 625;2025-09-30;Expense Q3 2025 marketing gifts - clean 1469 to zero;;;;11 337,54;0,00
+;;;"""Utgående saldo:""";;0,00;163 901,24;163 901,24;0,00
+;;;;;;;;
+1580 Fordringar för kontokort och kuponger;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 777;2025-10-03;Shopify EUR inbetalning 103.75 EUR;;;;1 193,13;-1 193,13
+;A 948;2025-10-03;Shopify EUR 103.75;;;1 193,13;;0,00
+;A 782;2025-10-10;Shopify EUR inbetalning 86.12 EUR;;;;990,38;-990,38
+;A 949;2025-10-10;Shopify EUR 86.12;;;990,38;;0,00
+;A 785;2025-10-17;Shopify EUR inbetalning 418.35 EUR;;;;4 811,03;-4 811,03
+;A 950;2025-10-17;Shopify EUR 418.35;;;4 811,03;;0,00
+;A 787;2025-10-24;Shopify EUR inbetalning 154.12 EUR;;;;1 772,38;-1 772,38
+;A 951;2025-10-24;Shopify EUR 154.12;;;1 772,38;;0,00
+;A 797;2025-11-07;Shopify EUR inbetalning 371.75 EUR;;;;4 275,13;-4 275,13
+;A 952;2025-11-07;Shopify EUR 371.75;;;4 275,13;;0,00
+;A 798;2025-11-14;Shopify EUR inbetalning 86.37 EUR;;;;993,32;-993,32
+;A 953;2025-11-14;Shopify EUR 86.37;;;993,32;;0,00
+;A 801;2025-11-21;Shopify EUR inbetalning 1398.29 EUR;;;;16 080,33;-16 080,33
+;A 954;2025-11-21;Shopify EUR 1398.29;;;16 080,33;;0,00
+;A 810;2025-11-28;Shopify EUR inbetalning 2199.39 EUR;;;;25 292,99;-25 292,99
+;A 902;2025-11-28;Shopify Sales Wise inbetalning;;;;39 934,97;-65 227,96
+;A 955;2025-11-28;Shopify EUR 2199.39;;;25 292,99;;-39 934,97
+;A 1011;2025-11-28;Shopify Sale for Wise payout;;;39 934,97;;0,00
+;A 815;2025-12-05;Shopify EUR inbetalning 573.75 EUR;;;;6 598,13;-6 598,13
+;A 956;2025-12-05;Shopify EUR 573.75;;;6 598,13;;0,00
+;A 821;2025-12-12;Shopify EUR inbetalning 58.31 EUR;;;;670,55;-670,55
+;A 957;2025-12-12;Shopify EUR 58.31;;;670,55;;0,00
+;A 836;2025-12-29;Shopify EUR inbetalning 86.77 EUR;;;;997,85;-997,85
+;A 958;2025-12-29;Shopify EUR 86.77;;;997,85;;0,00
+;;;"""Utgående saldo:""";;0,00;103 610,19;103 610,19;0,00
+;;;;;;;;
+1630 Avräkning för skatter och avgifter (skattekonto);;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 166;2024-11-29;Skatteverket;;;625,00;;625,00
+;A 486;2025-06-11;abdi skatt;;;16 233,00;;16 858,00
+;A 468;2025-06-27;skatt och arbetsgivare abdi;;;6 707,00;;23 565,00
+;A 471;2025-06-27;SK5594895301 - Government Support (Two-step);;;;21 027,00;2 538,00
+;A 760;2025-06-30;fel dupple trascthion man betala moms en gång  (korrigerad med verifikation A762 av Mohammad Sami Alsharef, 2025-10-27);;;26 668,00;;29 206,00
+;A 762;2025-06-30;Korrigering av ver.nr. A760, fel dupple trascthion man betala moms en gång  (av Mohammad Sami Alsharef, 2025-10-27);;;;26 668,00;2 538,00
+;A 651;2025-07-18;Arbetsformedlingen government subsidy;;;;9 119,00;-6 581,00
+;A 758;2025-08-18;Betalning moms för period: April-Juni 2025 (korrigerad med verifikation A761 av Mohammad Sami Alsharef, 2025-10-27);;;;26 668,00;-33 249,00
+;A 761;2025-08-18;Korrigering av ver.nr. A758, Betalning moms för period: April-Juni 2025;;;26 668,00;;-6 581,00
+;;;"""Utgående saldo:""";;0,00;76 901,00;83 482,00;-6 581,00
+;;;;;;;;
+1910 Kassa;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 459;2025-02-26;"Purchase of co. vehicle; part-financed by Director's Loan bil GLS947";;;;15 000,00;-15 000,00
+;A 463;2025-06-26;Kontant frsñljning;;;24 023,00;;9 023,00
+;A 759;2025-06-30;Återbitalning till nära stånde ;;;;35 000,00;-25 977,00
+;A 752;2025-09-30;Q3 2025 cash sales;;;26 271,17;;294,17
+;A 947;2025-12-31;Kontantforsaljning Q4;;;43 087,75;;43 381,92
+;;;"""Utgående saldo:""";;0,00;93 381,92;50 000,00;43 381,92
+;;;;;;;;
+1930 Företagskonto/checkkonto/affärskonto;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 597;2024-07-01;MÑnadsavgift;;;;70,00;-70,00
+;A 598;2024-07-01;MÑnadsavgift;;;;70,00;-140,00
+;A 599;2024-07-01;MÑnadsavgift;;;;70,00;-210,00
+;A 596;2024-08-01;MÑnadsavgift;;;;70,00;-280,00
+;A 595;2024-09-01;MÑnadsavgift;;;;70,00;-350,00
+;A 170;2024-09-08;avgift bankintyg;;;;995,00;-1 345,00
+;A 171;2024-09-17;Loan from Director to Company - Cash Flow Support;;;35 000,00;;33 655,00
+;A 168;2024-10-01;BANKKOSTNADER;;;;70,00;33 585,00
+;A 594;2024-10-01;MÑnadsavgift;;;;70,00;33 515,00
+;A 169;2024-10-16;Loan from Director to Company - Cash Flow Support;;;120 000,00;;153 515,00
+;A 48;2024-10-21;(Fastighets AB Akvarium ) Lokaldeposition;;;;120 000,00;33 515,00
+;A 413;2024-10-25;Topped up balance;;;;520,00;32 995,00
+;A 21;2024-10-30;FASTIGHETS AB AKVARIUM F. 5002146107;;;;18 750,00;14 245,00
+;A 167;2024-11-01;BANKKOSTNADER;;;;70,00;14 175,00
+;A 592;2024-11-01;MÑnadsavgift;;;;70,00;14 105,00
+;A 593;2024-11-01;MÑnadsavgift;;;;70,00;14 035,00
+;A 173;2024-11-13;frskring;;;;3 960,00;10 075,00
+;A 174;2024-11-20;Elmontering till sträckning;;;;4 507,00;5 568,00
+;A 166;2024-11-29;Skatteverket;;;;625,00;4 943,00
+;A 165;2024-12-01;BANKKOSTNADER;;;;70,00;4 873,00
+;A 591;2024-12-01;MÑnadsavgift;;;;70,00;4 803,00
+;A 70;2024-12-03;Bolagsverket avgift;;;;1 400,00;3 403,00
+;A 164;2024-12-05;Loan from Director to Company - Cash Flow Support;;;120 000,00;;123 403,00
+;A 411;2024-12-09;Topped up balance;;;;124 000,00;-597,00
+;A 163;2024-12-31;rnta;;;;70,74;-667,74
+;A 175;2025-01-01;Månadsavgift fretagskonto;;;;70,00;-737,74
+;A 409;2025-01-04;Topped up balance;;;;100,00;-837,74
+;A 176;2025-01-13;Crona Software AB;;;;61,00;-898,74
+;A 177;2025-01-13;Fortnox Finans AB;;;;96,00;-994,74
+;A 178;2025-01-14;Fortnox Finans AB;;;;96,00;-1 090,74
+;A 406;2025-01-27;Sent money to Samis Jackets AB;;;13 639,88;;12 549,14
+;A 590;2025-02-01;MÑnadsavgift;;;;70,00;12 479,14
+;A 404;2025-02-11;Sent money to Samis Jackets AB;;;47 065,87;;59 545,01
+;A 586;2025-02-13;Repayment of Director's Loan;;;15 000,00;;74 545,01
+;A 587;2025-02-13;Repayment of Director's Loan;;;15 000,00;;89 545,01
+;A 588;2025-02-13;B02131637331 - Worldline kortbetalning;;;29,85;;89 574,86
+;A 582;2025-02-14;ûverfring - Programvara med moms;;;;700,00;88 874,86
+;A 583;2025-02-14;B02141664681 - Worldline kortbetalning;;;17,90;;88 892,76
+;A 584;2025-02-14;Lokalhyra - med moms;;;;20 760,00;68 132,76
+;A 585;2025-02-14;Tullavgifter;;;;36 946,00;31 186,76
+;A 580;2025-02-17;B02151692210 - Worldline kortbetalning;;;895,50;;32 082,26
+;A 581;2025-02-17;Repayment of Director's Loan;;;;30 000,00;2 082,26
+;A 579;2025-02-24;B02241912572 - Worldline kortbetalning;;;1 492,50;;3 574,76
+;A 589;2025-02-27;Loan from Director to Company - Cash Flow Support;;;7 000,00;;10 574,76
+;A 577;2025-02-28;Bankgiro - Avgift med moms;;;;2 500,00;8 074,76
+;A 578;2025-02-28;Bankgiro - Avgift med moms;;;;624,00;7 450,76
+;A 575;2025-03-10;B03102263589 - Worldline kortbetalning;;;447,75;;7 898,51
+;A 576;2025-03-10;Bankgiro - Avgift med moms;;;;802,00;7 096,51
+;A 399;2025-03-11;Topped up balance;;;;6 499,00;597,51
+;A 574;2025-03-11;B03112280424 - Worldline kortbetalning;;;596,99;;1 194,50
+;A 573;2025-03-17;B03152389857 - Worldline kortbetalning;;;1 242,74;;2 437,24
+;A 572;2025-03-18;B03182456390 - Worldline kortbetalning;;;2 811,85;;5 249,09
+;A 571;2025-03-20;B03202508892 - Worldline kortbetalning;;;4 474,49;;9 723,58
+;A 570;2025-03-21;B03212537039 - Worldline kortbetalning;;;247,75;;9 971,33
+;A 567;2025-03-24;B03232597052 - Worldline kortbetalning;;;1 966,11;;11 937,44
+;A 568;2025-03-24;Bankgiro - Avgift med moms;;;;41,00;11 896,44
+;A 569;2025-03-24;Bankgiro - Avgift med moms;;;;156,00;11 740,44
+;A 566;2025-03-26;B03262657151 - Worldline kortbetalning;;;99,49;;11 839,93
+;A 563;2025-03-27;Bankgiro - Ej avdragsgill;;;;4 321,00;7 518,93
+;A 564;2025-03-27;Bankgiro - Ej avdragsgill;;;;2 371,00;5 147,93
+;A 565;2025-03-27;Bankgiro - Avgift med moms;;;;624,00;4 523,93
+;A 562;2025-03-28;B03282715066 - Worldline kortbetalning;;;5 368,97;;9 892,90
+;A 558;2025-03-31;B03312794595 - Worldline kortbetalning;;;2 194,95;;12 087,85
+;A 559;2025-03-31;B03292744665 - Worldline kortbetalning;;;1 415,87;;13 503,72
+;A 560;2025-03-31;Repayment of Director's Loan;;;;8 300,00;5 203,72
+;A 561;2025-03-31;B03302773435 - Worldline kortbetalning;;;6 521,20;;11 724,92
+;A 374;2025-04-01;Topped up balance;;;;2 500,00;9 224,92
+;A 556;2025-04-01;B04012811476 - Worldline kortbetalning;;;2 410,38;;11 635,30
+;A 557;2025-04-01;Bankgiro - Ej avdragsgill;;;;976,00;10 659,30
+;A 555;2025-04-02;B04022838225 - Worldline kortbetalning;;;2 269,57;;12 928,87
+;A 554;2025-04-03;B04032867693 - Worldline kortbetalning;;;9 772,84;;22 701,71
+;A 368;2025-04-07;Topped up balance;;;;2 000,00;20 701,71
+;A 552;2025-04-07;B04052926667 - Worldline kortbetalning;;;3 713,27;;24 414,98
+;A 553;2025-04-07;B04072977639 - Worldline kortbetalning;;;1 069,62;;25 484,60
+;A 550;2025-04-08;B04082995583 - Worldline kortbetalning;;;3 466,21;;28 950,81
+;A 551;2025-04-08;Lokalhyra - med moms;;;;20 566,00;8 384,81
+;A 549;2025-04-09;B04093019900 - Worldline kortbetalning;;;816,47;;9 201,28
+;A 366;2025-04-10;Topped up balance;;;;5 000,00;4 201,28
+;A 548;2025-04-10;B04103048976 - Worldline kortbetalning;;;4 995,88;;9 197,16
+;A 545;2025-04-14;B04133138224 - Worldline kortbetalning;;;2 306,99;;11 504,15
+;A 546;2025-04-14;Bankgiro - Avgift med moms;;;;248,00;11 256,15
+;A 547;2025-04-14;Bankgiro - Avgift med moms;;;;500,00;10 756,15
+;A 543;2025-04-15;B04153179106 - Worldline kortbetalning;;;3 028,76;;13 784,91
+;A 544;2025-04-15;Bankgiro - Avgift med moms;;;;98,00;13 686,91
+;A 540;2025-04-22;B04183262982 - Worldline kortbetalning;;;4 002,17;;17 689,08
+;A 541;2025-04-22;B04193286201 - Worldline kortbetalning;;;2 605,29;;20 294,37
+;A 542;2025-04-22;B04203301238 - Worldline kortbetalning;;;401,98;;20 696,35
+;A 539;2025-04-23;B04233349233 - Worldline kortbetalning;;;4 695,37;;25 391,72
+;A 538;2025-04-24;B04243377627 - Worldline kortbetalning;;;3 597,89;;28 989,61
+;A 537;2025-04-25;B04253406484 - Worldline kortbetalning;;;3 844,65;;32 834,26
+;A 533;2025-04-28;B04263436358 - Worldline kortbetalning;;;2 565,08;;35 399,34
+;A 534;2025-04-28;B04273467432 - Worldline kortbetalning;;;1 613,87;;37 013,21
+;A 535;2025-04-28;Bankgiro - Avgift med moms;;;;624,00;36 389,21
+;A 536;2025-04-28;Repayment of Director's Loan;;;;5 000,00;31 389,21
+;A 530;2025-04-29;B04293507506 - Worldline kortbetalning;;;5 078,43;;36 467,64
+;A 531;2025-04-29;Lokalhyra - med moms;;;;1 896,00;34 571,64
+;A 532;2025-04-29;Lokalhyra - med moms;;;;20 042,00;14 529,64
+;A 529;2025-04-30;B04303534914 - Worldline kortbetalning;;;5 729,07;;20 258,71
+;A 527;2025-05-02;B05023592847 - Worldline kortbetalning;;;729,33;;20 988,04
+;A 528;2025-05-02;B05013562069 - Worldline kortbetalning;;;5 770,76;;26 758,80
+;A 523;2025-05-05;B05053663933 - Worldline kortbetalning;;;3 009,60;;29 768,40
+;A 524;2025-05-05;Lokalhyra - med moms;;;;19 983,00;9 785,40
+;A 525;2025-05-05;Lokalhyra - med moms;;;;1 896,00;7 889,40
+;A 526;2025-05-05;Bankgiro - Avgift med moms;;;;125,00;7 764,40
+;A 521;2025-05-07;B05073707835 - Worldline kortbetalning;;;1 963,10;;9 727,50
+;A 522;2025-05-07;Bankgiro - Avgift med moms;;;;198,00;9 529,50
+;A 520;2025-05-09;B05093766218 - Worldline kortbetalning;;;6 013,72;;15 543,22
+;A 517;2025-05-12;B05123850534 - Worldline kortbetalning;;;2 702,41;;18 245,63
+;A 518;2025-05-12;B05113826980 - Worldline kortbetalning;;;3 077,51;;21 323,14
+;A 519;2025-05-12;B05103798167 - Worldline kortbetalning;;;2 723,27;;24 046,41
+;A 353;2025-05-13;Topped up balance;;;;10 000,00;14 046,41
+;A 516;2025-05-13;B05133868910 - Worldline kortbetalning;;;1 893,46;;15 939,87
+;A 515;2025-05-14;B05143893340 - Worldline kortbetalning;;;1 773,07;;17 712,94
+;A 514;2025-05-16;Bankgiro - Avgift med moms;;;;248,00;17 464,94
+;A 351;2025-05-19;Topped up balance;;;;1 500,00;15 964,94
+;A 511;2025-05-19;B05194034090 - Worldline kortbetalning;;;2 443,71;;18 408,65
+;A 512;2025-05-19;B05184011681 - Worldline kortbetalning;;;3 537,99;;21 946,64
+;A 513;2025-05-19;B05173983976 - Worldline kortbetalning;;;9 459,46;;31 406,10
+;A 510;2025-05-20;Repayment of Director's Loan;;;10 000,00;;41 406,10
+;A 509;2025-05-21;B05214076902 - Worldline kortbetalning;;;3 238,64;;44 644,74
+;A 508;2025-05-23;B05234137836 - Worldline kortbetalning;;;2 371,07;;47 015,81
+;A 504;2025-05-26;B05264219988 - Worldline kortbetalning;;;2 397,90;;49 413,71
+;A 505;2025-05-26;B05254196636 - Worldline kortbetalning;;;4 299,35;;53 713,06
+;A 506;2025-05-26;El i butiken - med moms;;;;816,00;52 897,06
+;A 507;2025-05-26;Repayment of Director's Loan;;;;12 906,00;39 991,06
+;A 501;2025-05-27;Repayment of Director's Loan;;;;1 000,00;38 991,06
+;A 502;2025-05-27;Repayment of Director's Loan;;;;6 000,00;32 991,06
+;A 503;2025-05-27;abdi ln maj;;;;16 884,00;16 107,06
+;A 500;2025-05-30;B05294294981 - Worldline kortbetalning;;;4 690,26;;20 797,32
+;A 495;2025-06-02;51500954163 - Insñttning;;;8 985,00;;29 782,32
+;A 496;2025-06-02;51500997244 - Insñttning;;;5 098,00;;34 880,32
+;A 497;2025-06-02;Bankgiro - Avgift med moms;;;;684,00;34 196,32
+;A 498;2025-06-02;B05314341919 - Worldline kortbetalning;;;4 914,25;;39 110,57
+;A 499;2025-06-02;B06014371231 - Worldline kortbetalning;;;2,49;;39 113,06
+;A 492;2025-06-03;B06034410431 - Worldline kortbetalning;;;2 463,08;;41 576,14
+;A 493;2025-06-03;Bankgiro - Avgift med moms;;;;248,00;41 328,14
+;A 494;2025-06-03;Repayment of Director's Loan;;;;25 000,00;16 328,14
+;A 491;2025-06-04;Fora Abdirabi;;;;1 171,61;15 156,53
+;A 489;2025-06-05;B06054467666 - Worldline kortbetalning;;;3 145,16;;18 301,69
+;A 490;2025-06-05;Bolag verket;;;;1 900,00;16 401,69
+;A 348;2025-06-09;Topped up balance;;;;1 000,00;15 401,69
+;A 487;2025-06-09;B06094571959 - Worldline kortbetalning;;;1 426,23;;16 827,92
+;A 488;2025-06-09;B06074525843 - Worldline kortbetalning;;;4 910,27;;21 738,19
+;A 485;2025-06-11;B06114611917 - Worldline kortbetalning;;;3 121,28;;24 859,47
+;A 486;2025-06-11;abdi skatt;;;;16 233,00;8 626,47
+;A 484;2025-06-13;B06134669729 - Worldline kortbetalning;;;6 105,27;;14 731,74
+;A 346;2025-06-16;Topped up balance;;;;3 000,00;11 731,74
+;A 483;2025-06-16;B06154731299 - Worldline kortbetalning;;;2 244,68;;13 976,42
+;A 480;2025-06-18;Lokalhyra - med moms;;;;19 983,00;-6 006,58
+;A 481;2025-06-18;Loan from Director to Company - Cash Flow Support;;;11 000,00;;4 993,42
+;A 482;2025-06-18;Bankgiro - Avgift med moms;;;;250,00;4 743,42
+;A 479;2025-06-19;B06194827606 - Worldline kortbetalning;;;602,96;;5 346,38
+;A 478;2025-06-23;B06214886452 - Worldline kortbetalning;;;2 546,18;;7 892,56
+;A 474;2025-06-24;Repayment of Director's Loan;;;;20 000,00;-12 107,44
+;A 475;2025-06-24;Repayment of Director's Loan;;;;12 713,12;-24 820,56
+;A 476;2025-06-24;Auronis Repayment of Director's Loan;;;;11 000,00;-35 820,56
+;A 477;2025-06-24;ABET.DEPOSIT - àterbetalning;;;120 000,00;;84 179,44
+;A 472;2025-06-25;B06254970813 - Worldline kortbetalning;;;1 625,80;;85 805,24
+;A 473;2025-06-25;Nñtet - El/internet med moms;;;;624,00;85 181,24
+;A 468;2025-06-27;skatt och arbetsgivare abdi;;;;6 707,00;78 474,24
+;A 469;2025-06-27;ln abdi 13dag;;;;7 644,00;70 830,24
+;A 470;2025-06-27;Repayment of Director's Loan;;;;45 000,00;25 830,24
+;A 471;2025-06-27;SK5594895301 - Government Support (Two-step);;;21 027,00;;46 857,24
+;A 465;2025-06-30;B06305111839 - Worldline kortbetalning;;;1 892,47;;48 749,71
+;A 466;2025-06-30;B06285059190 - Worldline kortbetalning;;;6 280,39;;55 030,10
+;A 467;2025-06-30;Bankgiro - Avgift med moms;;;;248,00;54 782,10
+;A 629;2025-07-01;Bank fee - Marginalen monthly;;;;70,00;54 712,10
+;A 630;2025-07-03;Lagar Hyra office rent;;;;1 956,00;52 756,10
+;A 631;2025-07-03;Visma software;;;;1 872,00;50 884,10
+;A 632;2025-07-03;Hyra Butik shop rent;;;;20 550,00;30 334,10
+;A 633;2025-07-03;Lagar Hyra office rent duplicate;;;;1 956,00;28 378,10
+;A 634;2025-07-03;Worldline card sales;;;865,64;;29 243,74
+;A 641;2025-07-07;Bolagsverket registration fee;;;;507,00;28 736,74
+;A 642;2025-07-07;VAT payment to Skatteverket - Q2 balance;;;;20 707,00;8 029,74
+;A 643;2025-07-07;Easy Cashier POS system;;;;3 435,00;4 594,74
+;A 644;2025-07-07;Worldline card sales;;;3 806,83;;8 401,57
+;A 645;2025-07-08;Worldline card sales;;;2 221,81;;10 623,38
+;A 646;2025-07-10;Worldline card sales;;;1 343,23;;11 966,61
+;A 648;2025-07-14;Worldline card sales;;;2 837,70;;14 804,31
+;A 649;2025-07-15;Worldline card sales;;;743,25;;15 547,56
+;A 650;2025-07-17;Worldline card sales;;;3 845,66;;19 393,22
+;A 651;2025-07-18;Arbetsformedlingen government subsidy;;;9 119,00;;28 512,22
+;A 652;2025-07-18;Administrative fee payment;;;;500,00;28 012,22
+;A 653;2025-07-21;Worldline card sales;;;198,00;;28 210,22
+;A 654;2025-07-21;Worldline card sales;;;493,50;;28 703,72
+;A 655;2025-07-22;Administrative fee payment;;;;250,00;28 453,72
+;A 656;2025-07-24;Shareholder loan repayment;;;;15 274,28;13 179,44
+;A 657;2025-07-24;Bredband internet service;;;;625,00;12 554,44
+;A 658;2025-07-24;Worldline card sales;;;2 528,26;;15 082,70
+;A 659;2025-07-28;Worldline card sales;;;4 848,61;;19 931,31
+;A 660;2025-07-29;Worldline card sales;;;3 619,76;;23 551,07
+;A 661;2025-07-30;Card terminal maintenance fee;;;;248,00;23 303,07
+;A 662;2025-07-31;Worldline card sales;;;1 865,60;;25 168,67
+;A 664;2025-08-01;Bank fee - August monthly;;;;70,00;25 098,67
+;A 665;2025-08-01;Hyra Butik shop rent;;;;19 983,00;5 115,67
+;A 666;2025-08-01;Worldline card sales;;;6,14;;5 121,81
+;A 669;2025-08-04;Worldline card sales;;;6 001,77;;11 123,58
+;A 670;2025-08-04;Worldline card sales;;;2 515,32;;13 638,90
+;A 671;2025-08-06;Rent correction August;;;;1 896,00;11 742,90
+;A 672;2025-08-06;Worldline card sales;;;3 370,02;;15 112,92
+;A 673;2025-08-07;Worldline card sales - POSSIBLE DUPLICATE;;;3 370,02;;18 482,94
+;A 675;2025-08-11;Customer payment via Bankgiro;;;250,00;;18 732,94
+;A 676;2025-08-11;Worldline card sales;;;2 418,89;;21 151,83
+;A 677;2025-08-12;Worldline card sales;;;1 757,15;;22 908,98
+;A 678;2025-08-13;Worldline card sales;;;1,98;;22 910,96
+;A 679;2025-08-14;Worldline card sales;;;1 879,51;;24 790,47
+;A 683;2025-08-18;Worldline card sales;;;1 359,16;;26 149,63
+;A 684;2025-08-26;Car insurance Bilforsakring;;;;849,00;25 300,63
+;A 685;2025-08-26;Worldline card sales;;;788,03;;26 088,66
+;A 687;2025-08-27;Shareholder loan repayment 2;;;;12 000,00;14 088,66
+;A 688;2025-08-27;Administrative fee payment;;;;500,00;13 588,66
+;A 689;2025-08-27;WISE account transfer;;;;2 500,00;11 088,66
+;A 690;2025-08-27;Worldline card sales;;;198,99;;11 287,65
+;A 691;2025-08-28;Worldline card sales;;;6 558,62;;17 846,27
+;A 702;2025-09-01;Bank fee - September monthly;;;;70,00;17 776,27
+;A 703;2025-09-01;Worldline card sales;;;4 095,38;;21 871,65
+;A 704;2025-09-01;Worldline card sales;;;1,50;;21 873,15
+;A 706;2025-09-02;Rent correction September;;;;1 896,00;19 977,15
+;A 707;2025-09-02;Worldline card sales;;;774,10;;20 751,25
+;A 709;2025-09-03;Bank service fees;;;;248,00;20 503,25
+;A 713;2025-09-04;WISE account transfer;;;;5 000,00;15 503,25
+;A 714;2025-09-04;Worldline card sales;;;11 344,02;;26 847,27
+;A 720;2025-09-05;Worldline card sales;;;4 529,31;;31 376,58
+;A 722;2025-09-06;Worldline card sales;;;3 904,36;;35 280,94
+;A 724;2025-09-08;Hyra Butik shop rent;;;;19 983,00;15 297,94
+;A 725;2025-09-09;Worldline card sales;;;5 495,34;;20 793,28
+;A 727;2025-09-15;Worldline card sales;;;8 216,41;;29 009,69
+;A 728;2025-09-15;Worldline card sales;;;3 500,37;;32 510,06
+;A 729;2025-09-18;Worldline card sales;;;2 649,66;;35 159,72
+;A 730;2025-09-22;WISE account transfer;;;;12 000,00;23 159,72
+;A 731;2025-09-22;Worldline card sales;;;6 306,25;;29 465,97
+;A 732;2025-09-22;Worldline card sales;;;5 883,39;;35 349,36
+;A 735;2025-09-25;Worldline card sales;;;10 481,25;;45 830,61
+;A 736;2025-09-26;Rent correction September;;;;2 016,00;43 814,61
+;A 737;2025-09-26;Additional rent September;;;;20 159,00;23 655,61
+;A 738;2025-09-26;Plusgiro service fee;;;;248,00;23 407,61
+;A 739;2025-09-29;Worldline card sales;;;12 047,34;;35 454,95
+;A 740;2025-09-30;Shareholder loan repayment 3;;;;27 905,00;7 549,95
+;A 741;2025-09-30;Worldline settlement;;;17 122,87;;24 672,82
+;A 742;2025-09-30;Shareholder loan repayment 4;;;;17 000,00;7 672,82
+;A 841;2025-10-01;Manadsavgift Foretagskonto okt;;;;70,00;7 602,82
+;A 842;2025-10-03;Worldline deposit B10037527853;;;6 744,05;;14 346,87
+;A 843;2025-10-06;Worldline deposit B10047556132;;;3 689,41;;18 036,28
+;A 844;2025-10-06;Overforing till Wise;;;;10 486,00;7 550,28
+;A 845;2025-10-06;Worldline deposit B10067605445;;;3 336,21;;10 886,49
+;A 846;2025-10-07;Worldline deposit B10077622879;;;2 555,13;;13 441,62
+;A 847;2025-10-08;Skatt forseningsavgift;;;;625,00;12 816,62
+;A 848;2025-10-08;Bankgiro betalning 2027001;;;;500,00;12 316,62
+;A 849;2025-10-09;Overforing till Wise;;;;4 500,00;7 816,62
+;A 850;2025-10-09;Worldline deposit B10097674111;;;0,99;;7 817,61
+;A 851;2025-10-10;Worldline deposit B10107702101;;;1 701,91;;9 519,52
+;A 852;2025-10-13;Worldline deposit B10127760785;;;5 491,37;;15 010,89
+;A 853;2025-10-14;Frakt PostNord 50207042;;;;424,00;14 586,89
+;A 854;2025-10-14;Worldline deposit B10147798619;;;2 972,53;;17 559,42
+;A 855;2025-10-17;Svea Ekonomi kortterminal;;;;248,00;17 311,42
+;A 856;2025-10-17;Forsakring 53020525;;;;3 763,00;13 548,42
+;A 857;2025-10-17;Worldline deposit B10177881088;;;6 687,36;;20 235,78
+;A 858;2025-10-20;Worldline deposit B10197936186;;;5 266,50;;25 502,28
+;A 859;2025-10-22;Worldline deposit B10228000236;;;7 578,34;;33 080,62
+;A 860;2025-10-24;Worldline deposit B10248056799;;;4 268,50;;37 349,12
+;A 861;2025-10-27;Worldline deposit B10258085288;;;2 928,26;;40 277,38
+;A 862;2025-10-27;Worldline deposit B10278133717;;;5 268,49;;45 545,87
+;A 863;2025-10-28;Hyra oktober butik/lager 4392007;;;;19 983,00;25 562,87
+;A 864;2025-10-28;Hyra lagar 4392007;;;;1 896,00;23 666,87
+;A 865;2025-10-28;Moms Q3 betalning Skatteverket;;;;15 714,00;7 952,87
+;A 866;2025-10-28;Worldline deposit B10288150305;;;4 349,13;;12 302,00
+;A 867;2025-10-29;Worldline deposit B10298175527;;;5 560,94;;17 862,94
+;A 868;2025-10-30;Worldline deposit B10308203309;;;2 750,16;;20 613,10
+;A 869;2025-10-31;Worldline deposit B10318231769;;;4 535,93;;25 149,03
+;A 870;2025-11-01;Manadsavgift Foretagskonto nov;;;;70,00;25 079,03
+;A 871;2025-11-03;Worldline deposit B11018260572;;;6 164,00;;31 243,03
+;A 872;2025-11-03;Worldline deposit B11028288982;;;1 191,00;;32 434,03
+;A 873;2025-11-04;Worldline deposit B11048324588;;;2 243,70;;34 677,73
+;A 874;2025-11-07;Bank avgift enskildfirma samis;;;;1 000,00;33 677,73
+;A 875;2025-11-07;Worldline deposit B11078404621;;;4 180,96;;37 858,69
+;A 876;2025-11-10;Worldline deposit B11088433471;;;3 324,26;;41 182,95
+;A 877;2025-11-10;Worldline deposit B11108482009;;;1 188,01;;42 370,96
+;A 878;2025-11-11;Worldline deposit B11118498315;;;2 482,51;;44 853,47
+;A 879;2025-11-12;Worldline deposit B11128524941;;;1 141,26;;45 994,73
+;A 880;2025-11-13;Worldline deposit B11138552310;;;892,51;;46 887,24
+;A 881;2025-11-14;Worldline deposit B11148578818;;;1 941,22;;48 828,46
+;A 882;2025-11-17;Svea Ekonomi kortterminal;;;;248,00;48 580,46
+;A 883;2025-11-17;Worldline deposit B11178656600;;;1 981,02;;50 561,48
+;A 884;2025-11-17;Skuld 2893 inbetalning 6641229;;;284,00;;50 845,48
+;A 885;2025-11-18;Worldline deposit B11188674426;;;3 048,64;;53 894,12
+;A 886;2025-11-19;Worldline deposit B11198697754;;;16 205,47;;70 099,59
+;A 887;2025-11-20;Svea Ekonomi kortterminal;;;;248,00;69 851,59
+;A 888;2025-11-20;Worldline deposit B11208725080;;;8 057,42;;77 909,01
+;A 889;2025-11-21;Worldline deposit B11218753235;;;14 373,20;;92 282,21
+;A 890;2025-11-24;Worldline deposit B11228781865;;;7 070,42;;99 352,63
+;A 891;2025-11-24;Frakt PostNord 52494309;;;;918,70;98 433,93
+;A 892;2025-11-24;Frakt PostNord 52494309;;;;1 935,86;96 498,07
+;A 893;2025-11-24;Worldline deposit B11248831366;;;29 356,25;;125 854,32
+;A 894;2025-11-25;Frakt DB Schenker 9423047;;;;2 158,00;123 696,32
+;A 895;2025-11-26;Skuld 2893 inbetalning;;;19 000,00;;142 696,32
+;A 896;2025-11-26;SAMIS1 Skuld 2893 inbetalning;;;20 000,00;;162 696,32
+;A 897;2025-11-26;Worldline deposit B11268872500;;;14 641,45;;177 337,77
+;A 898;2025-11-26;Skuld 2893 inbetalning 6641229;;;778,00;;178 115,77
+;A 899;2025-11-26;Skuld 2893 inbetalning SKULDRA;;;38 800,00;;216 915,77
+;A 900;2025-11-27;Worldline deposit B11278900577;;;4 219,76;;221 135,53
+;A 901;2025-11-27;Inbetalning 07306298220;;;7 856,00;;228 991,53
+;A 812;2025-11-28;Overforing till Marginalen SEK 39934.97 SEK;;;39 923,51;;268 915,04
+;A 902;2025-11-28;Shopify Sales Wise inbetalning;;;39 934,97;;308 850,01
+;A 903;2025-12-01;Manadsavgift Foretagskonto dec;;;;70,00;308 780,01
+;A 904;2025-12-01;Worldline deposit B11298957172;;;21 737,55;;330 517,56
+;A 905;2025-12-01;Worldline deposit B12019008327;;;7,49;;330 525,05
+;A 906;2025-12-01;Worldline deposit B11308985634;;;8 006,70;;338 531,75
+;A 907;2025-12-02;Worldline deposit B12029026954;;;4 400,82;;342 932,57
+;A 908;2025-12-03;Worldline deposit B12039050289;;;1 617,86;;344 550,43
+;A 909;2025-12-04;China invoice payment till Wise;;;;297 000,00;47 550,43
+;A 910;2025-12-08;Worldline deposit B12069136385;;;10 857,31;;58 407,74
+;A 911;2025-12-08;Worldline deposit B12089184747;;;4 611,77;;63 019,51
+;A 912;2025-12-09;Wise transfer 55250500;;;;15 546,00;47 473,51
+;A 913;2025-12-09;Worldline deposit B12099203466;;;1 710,39;;49 183,90
+;A 914;2025-12-10;Worldline deposit B12109227020;;;2 889,45;;52 073,35
+;A 915;2025-12-11;Worldline deposit B12119255696;;;2 136,02;;54 209,37
+;A 916;2025-12-12;Worldline deposit B12129284073;;;5 373,35;;59 582,72
+;A 917;2025-12-15;Frakt 50516822;;;;2 915,00;56 667,72
+;A 918;2025-12-15;Frakt DB Schenker 9423047;;;;127,00;56 540,72
+;A 919;2025-12-15;Frakt DB Schenker 9423047;;;;237,00;56 303,72
+;A 920;2025-12-15;Frakt DB Schenker 9423047;;;;988,00;55 315,72
+;A 921;2025-12-15;Frakt DB Schenker 9423047;;;;3 113,00;52 202,72
+;A 922;2025-12-15;Frakt DB Schenker 9423047;;;;145,00;52 057,72
+;A 923;2025-12-15;Frakt PostNord 52494309;;;;389,00;51 668,72
+;A 925;2025-12-15;Plusgiro betalning 47704044;;;;248,00;51 420,72
+;A 926;2025-12-15;Worldline deposit B12159361494;;;4 866,82;;56 287,54
+;A 927;2025-12-17;Frakt DB Schenker 9423047;;;;119,00;56 168,54
+;A 928;2025-12-17;Frakt DB Schenker 9423047;;;;76,80;56 091,74
+;A 929;2025-12-17;Worldline deposit B12179405561;;;4 422,83;;60 514,57
+;A 930;2025-12-19;Worldline deposit B12199460221;;;6 409,08;;66 923,65
+;A 931;2025-12-22;Svea Ekonomi kortterminal;;;;248,00;66 675,65
+;A 932;2025-12-22;Worldline deposit B12219518994;;;8 512,45;;75 188,10
+;A 933;2025-12-29;Frakt DB Schenker 9423047;;;;249,38;74 938,72
+;A 934;2025-12-29;Frakt DB Schenker 9423047;;;;105,00;74 833,72
+;A 935;2025-12-29;Worldline deposit B12269613247;;;6 894,90;;81 728,62
+;A 936;2025-12-29;Worldline deposit B12299649730;;;3 644,67;;85 373,29
+;A 937;2025-12-29;Worldline deposit B12249582328;;;4 899,72;;90 273,01
+;A 938;2025-12-30;Worldline deposit B12309664541;;;137,10;;90 410,11
+;A 939;2025-12-31;Ranta Marginalen;;;122,38;;90 532,49
+;A 940;2025-12-31;Ranta Marginalen;;;0,23;;90 532,72
+;;;"""Utgående saldo:""";;0,00;1 384 386,21;1 293 853,49;90 532,72
+;;;;;;;;
+1940 Övriga bankkonton;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 319;2024-12-05;Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com;;;8 500,00;;8 500,00
+;A 306;2024-12-21;Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com;;;14 000,00;;22 500,00
+;A 340;2024-12-30;Viva Wallet - Money out to IBAN fee;;;;6,00;22 494,00
+;A 341;2024-12-30;Money out to IBAN - SE7680000890116948003766 - 1088488505 - Hyra med moms;;;;20 566,00;1 928,00
+;A 277;2025-01-16;Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com;;;;1 928,00;0,00
+;A 779;2025-10-06;SEK till TRY 12486 SEK kurs 4.43116;;;12 432,54;;12 432,54
+;A 780;2025-10-06;EUR till TRY 124.81 EUR kurs 48.6857;;;1 430,21;;13 862,75
+;A 781;2025-10-06;Loan repayment TRY 61066.41 TRY;;;;61 066,41;-47 203,66
+;;;"""Utgående saldo:""";;0,00;36 362,75;83 566,41;-47 203,66
+;;;;;;;;
+1941 Annat bankkonto viva.com;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 339;2024-11-11;Sales Clearance Commission Cards;;;;17,00;-17,00
+;A 338;2024-11-14;Sales Clearance Commission Cards;;;;32,00;-49,00
+;A 337;2024-11-15;Sales Clearance Commission Cards;;;;34,00;-83,00
+;A 336;2024-11-17;Sales Clearance Commission Cards;;;;32,00;-115,00
+;A 335;2024-11-18;Sales Clearance Commission Cards;;;;30,00;-145,00
+;A 334;2024-11-22;Sales Clearance Commission Cards;;;;34,00;-179,00
+;A 332;2024-11-23;Sales Clearance Commission Cards;;;;29,00;-208,00
+;A 333;2024-11-23;Sales Clearance Commission Cards;;;;3,00;-211,00
+;A 329;2024-11-26;Sales Clearance Commission Cards;;;;17,00;-228,00
+;A 330;2024-11-26;Sales Clearance Commission Cards;;;;32,00;-260,00
+;A 331;2024-11-26;Sales Clearance Commission Cards;;;;19,00;-279,00
+;A 327;2024-11-27;Sales Clearance Commission Cards;;;;26,00;-305,00
+;A 328;2024-11-27;Sales Clearance Commission Cards;;;;30,00;-335,00
+;A 325;2024-11-29;Sales Clearance Commission Cards;;;;17,00;-352,00
+;A 326;2024-11-29;Sales Clearance Commission Cards;;;;26,00;-378,00
+;A 324;2024-11-30;Billing Fee - Account Default Plan (2024-10-31 - 2024-11-29);;;;58,00;-436,00
+;A 323;2024-12-02;Sales Clearance Commission Cards;;;;3,00;-439,00
+;A 95;2024-12-04;flygbiljett;;;;9 945,82;-10 384,82
+;A 320;2024-12-04;Sales Clearance Commission Cards;;;;32,00;-10 416,82
+;A 321;2024-12-04;Viva Wallet Card Purchase - mytrip_1045449237;;;;9 945,00;-20 361,82
+;A 322;2024-12-04;Sales Clearance Commission Cards;;;;32,00;-20 393,82
+;A 96;2024-12-05;Viva bankavgift retur;;;45,83;;-20 347,99
+;A 97;2024-12-05;BANKKOSTNADER;;;;298,37;-20 646,36
+;A 317;2024-12-05;Billing Fee - Foreign Currency Fee for Transaction Amount 900.49 USD (2024-12-04);;;;298,00;-20 944,36
+;A 318;2024-12-05;Viva Cashback;;;45,00;;-20 899,36
+;A 319;2024-12-05;Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com;;;;8 500,00;-29 399,36
+;A 316;2024-12-06;Sales Clearance Commission Cards;;;;46,00;-29 445,36
+;A 315;2024-12-07;Sales Clearance Commission Cards;;;;23,00;-29 468,36
+;A 313;2024-12-11;Sales Clearance Commission Cards;;;;32,00;-29 500,36
+;A 314;2024-12-11;Sales Clearance Commission Cards;;;;23,00;-29 523,36
+;A 312;2024-12-13;Sales Clearance Commission Cards;;;;32,00;-29 555,36
+;A 311;2024-12-14;Sales Clearance Commission Cards;;;;28,00;-29 583,36
+;A 310;2024-12-16;Sales Clearance Commission Cards;;;;5,00;-29 588,36
+;A 307;2024-12-20;Sales Clearance Commission Cards;;;;17,00;-29 605,36
+;A 308;2024-12-20;Sales Clearance Commission Cards;;;;17,00;-29 622,36
+;A 309;2024-12-20;Sales Clearance Commission Cards;;;;17,00;-29 639,36
+;A 305;2024-12-21;Sales Clearance Commission Cards;;;;28,00;-29 667,36
+;A 306;2024-12-21;Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com;;;;14 000,00;-43 667,36
+;A 98;2024-12-22;Viva bankavgift retur;;;0,81;;-43 666,55
+;A 300;2024-12-23;Sales Clearance Commission Cards;;;;23,00;-43 689,55
+;A 301;2024-12-23;Sales Clearance Commission Cards;;;;46,00;-43 735,55
+;A 302;2024-12-23;Sales Clearance Commission Cards;;;;32,00;-43 767,55
+;A 303;2024-12-23;Sales Clearance Commission Cards;;;;8,00;-43 775,55
+;A 304;2024-12-23;Sales Clearance Commission Cards;;;;8,00;-43 783,55
+;A 299;2024-12-26;Sales Clearance Commission Cards;;;;14,00;-43 797,55
+;A 298;2024-12-27;Sales Clearance Commission Cards;;;;7,00;-43 804,55
+;A 296;2024-12-28;Sales Clearance Commission Cards;;;;24,00;-43 828,55
+;A 297;2024-12-28;Sales Clearance Commission Cards;;;;37,00;-43 865,55
+;A 294;2024-12-30;Sales Clearance Commission Cards;;;;14,00;-43 879,55
+;A 295;2024-12-30;Sales Clearance Commission Cards;;;;37,00;-43 916,55
+;A 99;2024-12-31;banktjnster avgift;;;;58,00;-43 974,55
+;A 292;2024-12-31;Billing Fee - Account Default Plan (2024-11-30 - 2024-12-30);;;;58,00;-44 032,55
+;A 293;2024-12-31;Sales Clearance Commission Cards;;;;14,00;-44 046,55
+;A 290;2025-01-02;Sales Clearance Commission Cards;;;;14,00;-44 060,55
+;A 291;2025-01-02;Sales Clearance Commission Cards;;;;12,00;-44 072,55
+;A 288;2025-01-06;Sales Clearance Commission Cards;;;;43,00;-44 115,55
+;A 289;2025-01-06;Sales Clearance Commission Cards;;;;46,00;-44 161,55
+;A 285;2025-01-07;Sales Clearance Commission Cards;;;;32,00;-44 193,55
+;A 286;2025-01-07;Sales Clearance Commission Cards;;;;35,00;-44 228,55
+;A 287;2025-01-07;Sales Clearance Commission Cards;;;;17,00;-44 245,55
+;A 284;2025-01-09;Money out to IBAN - SE2150000000057461042734 - ZSE104000077549;;;;12 000,00;-56 245,55
+;A 283;2025-01-10;Sales Clearance Commission Cards;;;;30,00;-56 275,55
+;A 282;2025-01-11;Viva Wallet Card Purchase - BOLAGSVERKET;;;;1 400,00;-57 675,55
+;A 281;2025-01-12;Viva Cashback;;;6,00;;-57 669,55
+;A 280;2025-01-13;Sales Clearance Commission Cards;;;;22,00;-57 691,55
+;A 279;2025-01-14;Sales Clearance Commission Cards;;;;23,00;-57 714,55
+;A 278;2025-01-15;Sales Clearance Commission Cards;;;;20,00;-57 734,55
+;A 276;2025-01-16;Sales Clearance Commission Cards;;;;13,00;-57 747,55
+;A 277;2025-01-16;Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com;;;1 928,00;;-55 819,55
+;A 275;2025-01-17;Sales Clearance Commission Cards;;;;11,00;-55 830,55
+;A 273;2025-01-19;Sales Clearance Commission Cards;;;;11,00;-55 841,55
+;A 274;2025-01-19;Sales Clearance Commission Cards;;;;25,00;-55 866,55
+;A 257;2025-01-20;Sales Clearance Commission Cards;;;;11,00;-55 877,55
+;A 258;2025-01-20;Viva Wallet Card Purchase - FACEBK *4SMPEFYP52;;;;50,00;-55 927,55
+;A 259;2025-01-20;Viva Wallet Card Purchase - FACEBK *9R5X8G8Q52;;;;22,00;-55 949,55
+;A 260;2025-01-20;Viva Wallet Card Purchase - FACEBK *73Q8KHUQ52;;;;18,00;-55 967,55
+;A 261;2025-01-20;Viva Wallet Card Purchase - FACEBK *26JAVGGQ52;;;;22,00;-55 989,55
+;A 262;2025-01-20;Viva Wallet Card Purchase - FACEBK *Y3Y8EFYP52;;;;22,00;-56 011,55
+;A 263;2025-01-20;Viva Wallet Card Purchase - FACEBK *XV4LEFYP52;;;;15,00;-56 026,55
+;A 264;2025-01-20;Viva Wallet Card Purchase - FACEBK *SZTWUGGQ52;;;;21,00;-56 047,55
+;A 265;2025-01-20;Viva Wallet Card Purchase - FACEBK *GY53QFUP52;;;;22,00;-56 069,55
+;A 266;2025-01-20;Viva Wallet Card Purchase - FACEBK *F95NHGQQ52;;;;22,00;-56 091,55
+;A 267;2025-01-20;Viva Wallet Card Purchase - FACEBK *AE7DEFYP52;;;;22,00;-56 113,55
+;A 268;2025-01-20;Viva Wallet Card Purchase - FACEBK *8RHZBG4Q52;;;;33,00;-56 146,55
+;A 269;2025-01-20;Viva Wallet Card Purchase - FACEBK *Z2VMEFYP52;;;;33,00;-56 179,55
+;A 270;2025-01-20;Viva Wallet Card Purchase - FACEBK *ZHKQEFYP52;;;;19,00;-56 198,55
+;A 271;2025-01-20;Sales Clearance Commission Cards;;;;13,00;-56 211,55
+;A 272;2025-01-20;Sales Clearance Commission Cards;;;;13,00;-56 224,55
+;A 251;2025-01-21;Viva Wallet Card Purchase - FACEBK *E4QVEFYP52;;;;50,00;-56 274,55
+;A 252;2025-01-21;Viva Wallet Card Purchase - FACEBK *PBLRLFLQ52;;;;50,00;-56 324,55
+;A 253;2025-01-21;Viva Wallet Card Purchase - FACEBK *NDBXCG4Q52;;;;27,00;-56 351,55
+;A 254;2025-01-21;Viva Cashback;;;1,00;;-56 350,55
+;A 255;2025-01-21;Sales Clearance Commission Cards;;;;16,00;-56 366,55
+;A 256;2025-01-21;Sales Clearance Commission Cards;;;;25,00;-56 391,55
+;A 250;2025-01-22;Viva Wallet Card Purchase - WILLYS ESKILSTUNA C;;;;708,00;-57 099,55
+;A 248;2025-01-23;Viva Wallet Card Refund - BOLAGSVERKET;;;1 400,00;;-55 699,55
+;A 249;2025-01-23;Viva Cashback;;;3,00;;-55 696,55
+;A 244;2025-01-24;Sales Clearance Commission Cards;;;;69,00;-55 765,55
+;A 245;2025-01-24;Sales Clearance Commission Cards;;;;30,00;-55 795,55
+;A 246;2025-01-24;Sales Clearance Commission Cards;;;;42,00;-55 837,55
+;A 247;2025-01-24;Sales Clearance Commission Cards;;;;12,00;-55 849,55
+;A 242;2025-01-25;Viva Wallet Card Purchase - ARAN FOOD AB;;;;1 099,00;-56 948,55
+;A 243;2025-01-25;Viva Wallet Card Purchase - FACEBK *F9GBGG8Q52;;;;16,00;-56 964,55
+;A 241;2025-01-26;Sales Clearance Commission Cards;;;;5,00;-56 969,55
+;A 237;2025-01-27;Sales Clearance Commission Cards;;;;3,00;-56 972,55
+;A 238;2025-01-27;Sales Clearance Commission Cards;;;;75,00;-57 047,55
+;A 239;2025-01-27;Sales Clearance Commission Cards;;;;15,00;-57 062,55
+;A 240;2025-01-27;Sales Clearance Commission Cards;;;;13,00;-57 075,55
+;A 231;2025-01-28;Sales Clearance Commission Cards;;;;17,00;-57 092,55
+;A 232;2025-01-28;Viva Wallet Card Purchase - CHILIMOBIL.SE;;;;624,00;-57 716,55
+;A 233;2025-01-28;Sales Clearance Commission Cards;;;;13,00;-57 729,55
+;A 234;2025-01-28;Repayment of Director's Loan  bil ;;;;12 000,00;-69 729,55
+;A 235;2025-01-28;Money out to IBAN - SE7680000890116948003766 - 1088488604 - Hyra med moms;;;;20 566,00;-90 295,55
+;A 236;2025-01-28;Money out to IBAN - SE7680000890116948003766 - 1088975006 - Hyra med moms;;;;1 896,00;-92 191,55
+;A 229;2025-01-29;Viva Cashback;;;1,00;;-92 190,55
+;A 230;2025-01-29;Sales Clearance Commission Cards;;;;45,00;-92 235,55
+;A 228;2025-01-30;Viva Wallet Card Purchase - Temu.com;;;;1 750,00;-93 985,55
+;A 223;2025-01-31;Billing Fee - Account Default Plan (2024-12-31 - 2025-01-30);;;;58,00;-94 043,55
+;A 224;2025-01-31;Sales Clearance Commission Cards;;;;22,00;-94 065,55
+;A 225;2025-01-31;Viva Wallet Card Purchase - Temu.com;;;;283,00;-94 348,55
+;A 226;2025-01-31;Viva Cashback;;;7,00;;-94 341,55
+;A 227;2025-01-31;Sales Clearance Commission Cards;;;;7,00;-94 348,55
+;A 220;2025-02-01;Sales Clearance Commission Cards;;;;13,00;-94 361,55
+;A 221;2025-02-01;Sales Clearance Commission Cards;;;;16,00;-94 377,55
+;A 222;2025-02-01;Viva Cashback;;;1,00;;-94 376,55
+;A 219;2025-02-02;Sales Clearance Commission Cards;;;;25,00;-94 401,55
+;A 216;2025-02-03;Sales Clearance Commission Cards;;;;3,00;-94 404,55
+;A 217;2025-02-03;Sales Clearance Commission Cards;;;;42,00;-94 446,55
+;A 218;2025-02-03;Sales Clearance Commission Cards;;;;8,00;-94 454,55
+;A 212;2025-02-04;Sales Clearance Commission Cards;;;;8,00;-94 462,55
+;A 213;2025-02-04;Viva Wallet Card Purchase - Freightseeker AB;;;;86,00;-94 548,55
+;A 214;2025-02-04;Viva Wallet Card Purchase - Freightseeker AB;;;;98,00;-94 646,55
+;A 215;2025-02-04;Sales Clearance Commission Cards;;;;3,00;-94 649,55
+;A 210;2025-02-05;Viva Wallet Card Purchase - Freightseeker AB;;;;90,00;-94 739,55
+;A 211;2025-02-05;Sales Clearance Commission Cards;;;;11,00;-94 750,55
+;A 208;2025-02-06;Viva Wallet Card Refund - CLAS OHLSON;;;199,00;;-94 551,55
+;A 209;2025-02-06;Viva Wallet Card Purchase - CLAS OHLSON;;;;618,00;-95 169,55
+;A 206;2025-02-07;Viva Cashback;;;1,00;;-95 168,55
+;A 207;2025-02-07;Sales Clearance Commission Cards;;;;16,00;-95 184,55
+;A 203;2025-02-08;Viva Wallet Card Purchase - TikTok Ads;;;;728,00;-95 912,55
+;A 204;2025-02-08;Viva Wallet Card Purchase - Freightseeker AB;;;;131,00;-96 043,55
+;A 205;2025-02-08;Viva Wallet Card Purchase - WILLYS ESKILSTUNA C;;;;1 253,00;-97 296,55
+;A 200;2025-02-09;Viva Wallet Card Purchase - ARAN FOOD AB;;;;2 597,00;-99 893,55
+;A 201;2025-02-09;Viva Cashback;;;9,00;;-99 884,55
+;A 202;2025-02-09;Sales Clearance Commission Cards;;;;20,00;-99 904,55
+;A 197;2025-02-10;Viva Wallet Card Purchase - TikTok Ads;;;;728,00;-100 632,55
+;A 198;2025-02-10;Viva Wallet Card Purchase - FACEBK *3L4QAGYC72;;;;417,00;-101 049,55
+;A 199;2025-02-10;Viva Cashback;;;11,00;;-101 038,55
+;A 196;2025-02-11;Viva Cashback;;;5,00;;-101 033,55
+;A 194;2025-02-12;Viva Wallet Card Purchase - Freightseeker AB;;;;86,00;-101 119,55
+;A 195;2025-02-12;Viva Wallet Card Purchase - Freightseeker AB;;;;157,00;-101 276,55
+;A 193;2025-02-13;Viva Cashback;;;1,00;;-101 275,55
+;A 192;2025-02-15;Viva Wallet Card Purchase - St1 Gillbergaplan;;;;640,00;-101 915,55
+;A 190;2025-02-16;Viva Wallet Card Purchase - BILTEMA ESKILSTUNA;;;;891,00;-102 806,55
+;A 191;2025-02-16;Viva Cashback;;;2,00;;-102 804,55
+;A 188;2025-02-17;Viva Wallet Card Purchase - WILLYS ESKILSTUNA C;;;;1 573,00;-104 377,55
+;A 189;2025-02-17;Viva Cashback;;;4,00;;-104 373,55
+;A 185;2025-02-18;Viva Wallet Card Purchase - CLAS OHLSON;;;;69,00;-104 442,55
+;A 186;2025-02-18;Viva Wallet Card Purchase - SHOPIFY* 330742565;;;;470,00;-104 912,55
+;A 187;2025-02-18;Viva Cashback;;;7,00;;-104 905,55
+;A 183;2025-02-19;Billing Fee - Foreign Currency Fee for Transaction Amount 41.72 EUR (2025-02-18);;;;14,00;-104 919,55
+;A 184;2025-02-19;Viva Cashback;;;2,00;;-104 917,55
+;A 182;2025-02-20;Viva Wallet Card Purchase - ARAN FOOD AB;;;;1 145,00;-106 062,55
+;A 181;2025-02-21;Viva Cashback;;;5,00;;-106 057,55
+;A 180;2025-02-28;Billing Fee - In-Person Default (2025-01-31 - 2025-02-27);;;;58,00;-106 115,55
+;A 179;2025-03-01;Viva Wallet Card Purchase - TikTok Ads;;;;58,00;-106 173,55
+;A 342;2025-03-29;Money out to IBAN - SE6230000000030860059626;;;;68,00;-106 241,55
+;A 457;2025-06-26;Viva Wallet Card Payments;;;106 241,00;;-0,55
+;;;"""Utgående saldo:""";;0,00;109 925,64;109 926,19;-0,55
+;;;;;;;;
+1942 Wise USD;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 410;2024-12-10;Converted 124,000.00 SEK to 11,241.24 USD;;;124 000,00;;124 000,00
+;A 426;2024-12-10;Sent money to FUTURE WORLD TECH;;;;124 440,54;-440,54
+;A 425;2024-12-11;Converted 12,800.00 GBP to 16,270.93 USD;;;177 920,00;;177 479,46
+;A 423;2024-12-12;Sent money to FUTURE WORLD TECH;;;;276 750,00;-99 270,54
+;A 424;2024-12-12;Converted 16,400.00 GBP to 20,888.12 USD;;;227 960,00;;128 689,46
+;A 422;2024-12-17;Sent money to FUTURE WORLD TECH;;;;134 600,68;-5 911,22
+;A 421;2025-01-07;Balance cashback;;;45,83;;-5 865,39
+;A 419;2025-01-14;Sent money to FUTURE WORLD TECH;;;;110 859,71;-116 725,10
+;A 420;2025-01-14;Converted 8,234.00 GBP to 10,015.78 USD;;;114 452,60;;-2 272,50
+;A 418;2025-02-12;Card transaction Clas Ohlson;;;;61,10;-2 333,60
+;A 365;2025-04-07;Converted 2,000.00 SEK to 196.96 USD;;;2 000,00;;-333,60
+;A 367;2025-04-07;Converted 484.42 SEK to 47.79 USD;;;484,42;;150,82
+;A 415;2025-04-07;Sent money to ahmed gheyath al-sharif;;;;2 180,35;-2 029,53
+;A 416;2025-04-07;Converted 34.20 EUR to 37.28 USD;;;410,40;;-1 619,13
+;A 417;2025-04-07;Sent money to ahmed gheyath al-sharif;;;;941,72;-2 560,85
+;A 344;2025-06-16;Converted 1,635.80 SEK to 172.13 USD;;;1 635,80;;-925,05
+;A 414;2025-06-16;Sent money to ahmed gheyath al-sharif;;;;1 106,70;-2 031,75
+;A 755;2025-07-01;Google Cloud SEK card purchase - Wise USD;;;;172,81;-2 204,56
+;A 754;2025-07-15;Shopify EUR card purchase - Wise USD;;;;398,01;-2 602,57
+;A 756;2025-09-22;SEK to USD conversion - Wise platform;;;9 602,44;;6 999,87
+;A 757;2025-09-22;Transfer payment from Wise USD account;;;;9 426,49;-2 426,62
+;A 776;2025-10-02;Hallon USD 9.40 USD kurs 9.35988;;;;88,00;-2 514,62
+;A 783;2025-10-10;SEK till USD 2870 SEK kurs 0.105;;;2 857,14;;342,52
+;A 784;2025-10-10;Loan repayment USD 320.00 USD;;;;2 944,00;-2 601,48
+;A 804;2025-11-25;Booking.com USD 0.98 USD;;;;9,02;-2 610,50
+;A 817;2025-12-08;EUR till USD 465.94 EUR kurs 1.1651;;;5 355,62;;2 745,12
+;A 818;2025-12-09;SEK till USD 15546 SEK kurs 0.10707;;;15 437,54;;18 182,66
+;A 819;2025-12-11;Beijing mat USD 75.61 USD kurs 7.0621 CNY;;;;702,23;17 480,43
+;A 820;2025-12-11;Malardalstrafik USD 79.49 USD kurs 9.23423;;;;735,49;16 744,94
+;A 822;2025-12-12;Circle K drivmedel USD 67.13 USD kurs 9.28897;;;;624,65;16 120,29
+;A 823;2025-12-12;Fadushka mat USD 2.16 USD kurs 9.27977;;;;20,07;16 100,22
+;A 827;2025-12-17;Shopify avgift USD 32.95 USD kurs 0.85346;;;;303,60;15 796,62
+;A 828;2025-12-17;Loan repayment USD 225.96 USD kurs 9.33791;;;;2 114,00;13 682,62
+;A 829;2025-12-19;One.com USD 13.75 USD kurs 9.31722;;;;128,48;13 554,14
+;A 830;2025-12-24;Bolagsverket USD 240.06 USD kurs 9.16446;;;;2 204,70;11 349,44
+;A 831;2025-12-24;PRV registrering USD 294.43 USD kurs 9.17034;;;;2 705,72;8 643,72
+;A 832;2025-12-25;TikTok Ads USD 179.76 USD kurs 9.17929;;;;1 653,36;6 990,36
+;A 833;2025-12-25;Loan repayment USD 205.02 USD kurs 9.17442;;;;1 884,80;5 105,56
+;A 834;2025-12-25;Loan repayment USD 7.49 USD kurs 9.17442;;;;68,82;5 036,74
+;A 835;2025-12-25;Loan repayment USD 63.11 USD kurs 9.17442;;;;580,23;4 456,51
+;A 837;2025-12-29;EUR till USD 86.47 EUR kurs 1.1762;;;994,40;;5 450,91
+;A 838;2025-12-29;St1 drivmedel USD 96.07 USD kurs 9.17915;;;;883,49;4 567,42
+;A 839;2025-12-30;TikTok Ads USD 152.94 USD kurs 9.19322;;;;1 408,98;3 158,44
+;A 840;2025-12-31;TikTok Ads USD 152.46 USD kurs 9.22201;;;;1 408,54;1 749,90
+;;;"""Utgående saldo:""";;0,00;683 156,19;681 406,29;1 749,90
+;;;;;;;;
+1943 Wise GBP;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 425;2024-12-11;Converted 12,800.00 GBP to 16,270.93 USD;;;;177 920,00;-177 920,00
+;A 453;2024-12-11;Received money from ahmed gheyath;;;177 920,00;;0,00
+;A 424;2024-12-12;Converted 16,400.00 GBP to 20,888.12 USD;;;;227 960,00;-227 960,00
+;A 451;2024-12-12;Received money from MOHAMMAD SAMI;;;133 440,00;;-94 520,00
+;A 452;2024-12-12;Received money from MOHAMMAD SAMI;;;94 520,00;;0,00
+;A 450;2025-01-09;Received money from ahmed gheyath;;;68 110,00;;68 110,00
+;A 420;2025-01-14;Converted 8,234.00 GBP to 10,015.78 USD;;;;114 452,60;-46 342,60
+;A 448;2025-01-14;Received money from MOHAMMAD SAMI;;;139,83;;-46 202,77
+;A 449;2025-01-14;Received money from MOHAMMAD SAMI;;;50 253,92;;4 051,15
+;A 447;2025-01-17;Received money from ahmed gheyath;;;57 101,20;;61 152,35
+;A 446;2025-01-21;Received money from ahmed gheyath;;;27 841,70;;88 994,05
+;A 407;2025-01-27;Converted 1,000.00 GBP to 13,639.88 SEK;;;;13 639,88;75 354,17
+;A 445;2025-01-27;Card transaction Back Market;;;;2 679,64;72 674,53
+;A 444;2025-02-03;Card refund Back Market;;;2 679,64;;75 354,17
+;A 443;2025-02-06;Balance cashback;;;85,90;;75 440,07
+;A 403;2025-02-11;Converted 100.00 GBP to 1,345.85 SEK;;;;1 345,85;74 094,22
+;A 405;2025-02-11;Converted 3,500.00 GBP to 47,065.87 SEK;;;;47 065,87;27 028,35
+;A 398;2025-02-12;Converted 1,801.68 GBP to 24,302.42 SEK;;;;24 302,42;2 725,93
+;A 442;2025-02-12;Card transaction Clas Ohlson;;;;96,61;2 629,32
+;A 441;2025-03-05;Balance cashback;;;41,42;;2 670,74
+;A 440;2025-03-12;Card transaction Shopify;;;;41,42;2 629,32
+;A 352;2025-05-13;Converted 10,492.27 SEK to 811.05 GBP;;;10 492,27;;13 121,59
+;A 439;2025-05-13;Sent money to ahmed gheyath al-sharif;;;;11 273,60;1 847,99
+;;;"""Utgående saldo:""";;0,00;622 625,88;620 777,89;1 847,99
+;;;;;;;;
+1944 Wise EUR;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 408;2025-01-04;Converted 100.00 SEK to 8.69 EUR;;;100,00;;100,00
+;A 438;2025-01-07;Received money from STRIPE;;;1 049,04;;1 149,04
+;A 437;2025-01-10;Received money from STRIPE;;;1 951,92;;3 100,96
+;A 436;2025-01-13;Paid to Shopify;;;;1 043,04;2 057,92
+;A 435;2025-01-24;Received money from STRIPE;;;637,68;;2 695,60
+;A 434;2025-02-06;Balance cashback;;;1,80;;2 697,40
+;A 433;2025-02-07;Received money from STRIPE;;;3 915,84;;6 613,24
+;A 397;2025-02-12;Converted 551.46 EUR to 6,203.22 SEK;;;;6 203,22;410,02
+;A 432;2025-03-05;Balance cashback;;;1,32;;411,34
+;A 431;2025-03-12;Card transaction Shopify;;;;1,32;410,02
+;A 430;2025-04-04;Received money from STRIPE;;;1 716,60;;2 126,62
+;A 428;2025-04-05;Card transaction Ryanair;;;;813,84;1 312,78
+;A 429;2025-04-05;Card transaction Pegasus;;;;492,36;820,42
+;A 416;2025-04-07;Converted 34.20 EUR to 37.28 USD;;;;410,40;410,02
+;A 345;2025-06-16;Converted 1,925.67 SEK to 175.00 EUR;;;1 925,67;;2 335,69
+;A 427;2025-06-16;Sent money to Mohammad Alsharef;;;;2 100,00;235,69
+;A 777;2025-10-03;Shopify EUR inbetalning 103.75 EUR;;;1 193,13;;1 428,82
+;A 780;2025-10-06;EUR till TRY 124.81 EUR kurs 48.6857;;;;1 436,55;-7,73
+;A 782;2025-10-10;Shopify EUR inbetalning 86.12 EUR;;;990,38;;982,65
+;A 785;2025-10-17;Shopify EUR inbetalning 418.35 EUR;;;4 811,03;;5 793,68
+;A 787;2025-10-24;Shopify EUR inbetalning 154.12 EUR;;;1 772,38;;7 566,06
+;A 794;2025-11-01;TikTok Ads EUR 23.45 EUR kurs 10.9513;;;;259,10;7 306,96
+;A 795;2025-11-02;Hallon EUR 11.78 EUR kurs 10.9513;;;;129,88;7 177,08
+;A 796;2025-11-06;Cashback EUR 0.15 EUR;;;1,73;;7 178,81
+;A 797;2025-11-07;Shopify EUR inbetalning 371.75 EUR;;;4 275,13;;11 453,94
+;A 798;2025-11-14;Shopify EUR inbetalning 86.37 EUR;;;993,32;;12 447,26
+;A 799;2025-11-14;Shipit.se frakt EUR 91.08 EUR kurs 10.9795;;;;1 004,63;11 442,63
+;A 800;2025-11-19;TikTok Ads EUR 178.32 EUR kurs 11.0027;;;;1 974,10;9 468,53
+;A 801;2025-11-21;Shopify EUR inbetalning 1398.29 EUR;;;16 080,33;;25 548,86
+;A 802;2025-11-23;St1 drivmedel EUR 37.82 EUR kurs 10.999;;;;415,94;25 132,92
+;A 803;2025-11-25;Booking.com flight EUR 624.99 EUR kurs 1.15685;;;;7 220,46;17 912,46
+;A 805;2025-11-27;Forex EUR 2.91 EUR kurs 10.9894;;;;32,13;17 880,33
+;A 806;2025-11-27;Arlanda Walk Through EUR 32.00 EUR kurs 10.9989;;;;353,55;17 526,78
+;A 807;2025-11-27;Jureskog mat EUR 52.65 EUR kurs 10.9975;;;;582,18;16 944,60
+;A 808;2025-11-27;Take Away Mart EUR 4.46 EUR kurs 10.9952;;;;49,28;16 895,32
+;A 809;2025-11-28;Beijing Airport mat EUR 0.98 EUR kurs 8.19996 CNY;;;;11,00;16 884,32
+;A 810;2025-11-28;Shopify EUR inbetalning 2199.39 EUR;;;25 292,99;;42 177,31
+;A 811;2025-11-28;EUR till SEK 3633.31 EUR kurs 10.9945;;;;40 174,82;2 002,49
+;A 813;2025-12-03;Cashback EUR 0.47 EUR;;;5,41;;2 007,90
+;A 815;2025-12-05;Shopify EUR inbetalning 573.75 EUR;;;6 598,13;;8 606,03
+;A 816;2025-12-08;Shopify avgift EUR 106.61 EUR;;;;1 226,58;7 379,45
+;A 817;2025-12-08;EUR till USD 465.94 EUR kurs 1.1651;;;;5 374,86;2 004,59
+;A 821;2025-12-12;Shopify EUR inbetalning 58.31 EUR;;;670,55;;2 675,14
+;A 824;2025-12-14;Shopify abonnemang EUR 36.00 EUR;;;;414,00;2 261,14
+;A 825;2025-12-15;Shopify avgift EUR 2.88 EUR;;;;33,12;2 228,02
+;A 826;2025-12-17;Shopify avgift EUR 19.43 EUR;;;;223,44;2 004,58
+;A 836;2025-12-29;Shopify EUR inbetalning 86.77 EUR;;;997,85;;3 002,43
+;A 837;2025-12-29;EUR till USD 86.47 EUR kurs 1.1762;;;;997,85;2 004,58
+;;;"""Utgående saldo:""";;0,00;74 982,23;72 977,65;2 004,58
+;;;;;;;;
+1945 Wise SEK;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 343;2024-07-01;Opening balance SEK;;;561,47;;561,47
+;A 412;2024-10-25;Bank details order checkout;;;;520,00;41,47
+;A 413;2024-10-25;Topped up balance;;;520,00;;561,47
+;A 411;2024-12-09;Topped up balance;;;124 000,00;;124 561,47
+;A 410;2024-12-10;Converted 124,000.00 SEK to 11,241.24 USD;;;;124 000,00;561,47
+;A 408;2025-01-04;Converted 100.00 SEK to 8.69 EUR;;;;100,00;461,47
+;A 409;2025-01-04;Topped up balance;;;100,00;;561,47
+;A 406;2025-01-27;Sent money to Samis Jackets AB;;;;13 639,88;-13 078,41
+;A 407;2025-01-27;Converted 1,000.00 GBP to 13,639.88 SEK;;;13 639,88;;561,47
+;A 402;2025-02-11;Card transaction Kontanten;;;;1 300,00;-738,53
+;A 403;2025-02-11;Converted 100.00 GBP to 1,345.85 SEK;;;1 345,85;;607,32
+;A 404;2025-02-11;Sent money to Samis Jackets AB;;;;47 065,87;-46 458,55
+;A 405;2025-02-11;Converted 3,500.00 GBP to 47,065.87 SEK;;;47 065,87;;607,32
+;A 397;2025-02-12;Converted 551.46 EUR to 6,203.22 SEK;;;6 203,22;;6 810,54
+;A 398;2025-02-12;Converted 1,801.68 GBP to 24,302.42 SEK;;;24 302,42;;31 112,96
+;A 400;2025-02-12;Repayment of Director's Loan;;;;30 505,64;607,32
+;A 401;2025-02-12;Card transaction Clas Ohlson;;;;45,85;561,47
+;A 399;2025-03-11;Topped up balance;;;6 499,00;;7 060,47
+;A 395;2025-03-12;Card transaction Shopify;;;;472,61;6 587,86
+;A 396;2025-03-12;Card transaction Babylon Livs;;;;32,00;6 555,86
+;A 391;2025-03-13;Card transaction Shopify;;;;103,62;6 452,24
+;A 392;2025-03-13;Card transaction Normal;;;;281,00;6 171,24
+;A 393;2025-03-13;Card transaction Shopify;;;;515,22;5 656,02
+;A 394;2025-03-13;Card transaction Shopify;;;;515,07;5 140,95
+;A 390;2025-03-14;Card transaction Normal;;;;20,00;5 120,95
+;A 387;2025-03-15;Card transaction Ma Livs;;;;16,98;5 103,97
+;A 388;2025-03-15;Card transaction Ma Livs;;;;26,96;5 077,01
+;A 389;2025-03-15;Card transaction Lidl;;;;60,70;5 016,31
+;A 386;2025-03-16;Card transaction OKQ8;;;;99,00;4 917,31
+;A 380;2025-03-17;Card transaction In & Finn;;;;12,00;4 905,31
+;A 381;2025-03-17;Card transaction Normal;;;;8,00;4 897,31
+;A 382;2025-03-17;Card transaction ICA;;;;166,00;4 731,31
+;A 383;2025-03-17;Card transaction Aran Food;;;;29,99;4 701,32
+;A 384;2025-03-17;Card transaction Apple;;;;249,00;4 452,32
+;A 385;2025-03-17;Card transaction Shopify;;;;1 436,59;3 015,73
+;A 379;2025-03-22;Card transaction Aran Food;;;;686,75;2 328,98
+;A 378;2025-03-23;Card transaction Ant Ifoto.ai;;;;100,87;2 228,11
+;A 377;2025-03-24;Card transaction Google Play;;;;254,47;1 973,64
+;A 376;2025-03-25;Card transaction Apple;;;;999,00;974,64
+;A 375;2025-03-31;Card transaction Freightseeker;;;;127,50;847,14
+;A 374;2025-04-01;Topped up balance;;;2 500,00;;3 347,14
+;A 372;2025-04-02;Card transaction Freightseeker;;;;108,75;3 238,39
+;A 373;2025-04-02;Card transaction OpenAI ChatGPT;;;;198,97;3 039,42
+;A 370;2025-04-04;Card transaction Willys;;;;838,90;2 200,52
+;A 371;2025-04-04;Card transaction Willys;;;;1 064,63;1 135,89
+;A 369;2025-04-06;Card transaction Freightseeker;;;;90,00;1 045,89
+;A 365;2025-04-07;Converted 2,000.00 SEK to 196.96 USD;;;;2 000,00;-954,11
+;A 367;2025-04-07;Converted 484.42 SEK to 47.79 USD;;;;484,42;-1 438,53
+;A 368;2025-04-07;Topped up balance;;;2 000,00;;561,47
+;A 366;2025-04-10;Topped up balance;;;5 000,00;;5 561,47
+;A 364;2025-04-13;Card transaction Willys;;;;856,23;4 705,24
+;A 358;2025-04-14;Card transaction Dohop;;;;810,61;3 894,63
+;A 359;2025-04-14;Card refund Dohop;;;802,37;;4 697,00
+;A 360;2025-04-14;Card transaction Dohop;;;;802,37;3 894,63
+;A 361;2025-04-14;Card transaction Willys;;;;199,90;3 694,73
+;A 362;2025-04-14;Card refund St1;;;1 160,88;;4 855,61
+;A 363;2025-04-14;Card transaction St1;;;;2 000,00;2 855,61
+;A 357;2025-04-16;Card transaction Shopify;;;;1 425,18;1 430,43
+;A 356;2025-04-17;Card transaction Norton;;;;191,00;1 239,43
+;A 355;2025-04-23;Card transaction Ant Ifoto.ai;;;;95,69;1 143,74
+;A 354;2025-04-28;Card transaction Freightseeker;;;;90,00;1 053,74
+;A 352;2025-05-13;Converted 10,492.27 SEK to 811.05 GBP;;;;10 492,27;-9 438,53
+;A 353;2025-05-13;Topped up balance;;;10 000,00;;561,47
+;A 351;2025-05-19;Topped up balance;;;1 500,00;;2 061,47
+;A 350;2025-05-20;Card transaction Shopify;;;;968,96;1 092,51
+;A 349;2025-05-27;Card transaction 2co.com imobie;;;;475,85;616,66
+;A 348;2025-06-09;Topped up balance;;;1 000,00;;1 616,66
+;A 347;2025-06-15;Card transaction Shopify;;;;493,72;1 122,94
+;A 344;2025-06-16;Converted 1,635.80 SEK to 172.13 USD;;;;1 635,80;-512,86
+;A 345;2025-06-16;Converted 1,925.67 SEK to 175.00 EUR;;;;1 925,67;-2 438,53
+;A 346;2025-06-16;Topped up balance;;;3 000,00;;561,47
+;A 667;2025-08-01;Facebook advertising;;;;125,00;436,47
+;A 689;2025-08-27;WISE account transfer;;;2 500,00;;2 936,47
+;A 692;2025-08-28;TikTok advertising;;;;90,00;2 846,47
+;A 693;2025-08-29;TikTok reversal credit;;;90,00;;2 936,47
+;A 694;2025-08-29;Facebook advertising;;;;138,00;2 798,47
+;A 695;2025-08-29;Facebook advertising;;;;21,09;2 777,38
+;A 696;2025-08-29;Facebook advertising;;;;152,00;2 625,38
+;A 697;2025-08-29;Facebook advertising;;;;14,55;2 610,83
+;A 698;2025-08-30;Facebook advertising;;;;167,00;2 443,83
+;A 699;2025-08-30;Facebook advertising;;;;49,33;2 394,50
+;A 700;2025-08-31;Facebook advertising;;;;184,00;2 210,50
+;A 701;2025-08-31;Facebook advertising;;;;45,23;2 165,27
+;A 705;2025-09-01;TikTok advertising;;;;267,72;1 897,55
+;A 708;2025-09-02;Facebook ad credit reversal;;;184,00;;2 081,55
+;A 711;2025-09-03;Temu business supplies;;;;281,19;1 800,36
+;A 712;2025-09-03;Facebook advertising;;;;65,77;1 734,59
+;A 713;2025-09-04;WISE account transfer;;;5 000,00;;6 734,59
+;A 715;2025-09-04;Facebook advertising;;;;202,00;6 532,59
+;A 716;2025-09-04;Facebook advertising;;;;184,00;6 348,59
+;A 717;2025-09-04;Facebook advertising;;;;221,00;6 127,59
+;A 718;2025-09-04;Facebook advertising;;;;18,73;6 108,86
+;A 719;2025-09-04;Facebook advertising;;;;241,00;5 867,86
+;A 730;2025-09-22;WISE account transfer;;;12 000,00;;17 867,86
+;A 756;2025-09-22;SEK to USD conversion - Wise platform;;;;9 602,44;8 265,42
+;A 775;2025-10-02;Hallon SEK 100.00 SEK;;;;100,00;8 165,42
+;A 778;2025-10-06;Wise avgift SEK 26.20 SEK;;;;26,20;8 139,22
+;A 779;2025-10-06;SEK till TRY 12486 SEK kurs 4.43116;;;;12 486,00;-4 346,78
+;A 844;2025-10-06;Overforing till Wise;;;10 486,00;;6 139,22
+;A 968;2025-10-06;Wise Enterprise transfer;;;2 026,20;;8 165,42
+;A 849;2025-10-09;Overforing till Wise;;;4 500,00;;12 665,42
+;A 783;2025-10-10;SEK till USD 2870 SEK kurs 0.105;;;;2 870,00;9 795,42
+;A 786;2025-10-17;Temu forpackning SEK 548.87 SEK;;;;548,87;9 246,55
+;A 788;2025-10-24;One.com SEK 11.25 SEK;;;;11,25;9 235,30
+;A 789;2025-10-27;Google Play app SEK 176.40 SEK;;;;176,40;9 058,90
+;A 790;2025-10-27;Google Play app SEK 176.40 SEK;;;;176,40;8 882,50
+;A 791;2025-10-31;YouTube Premium SEK 10.00 SEK;;;;10,00;8 872,50
+;A 792;2025-11-01;TikTok Ads SEK 748.05 SEK;;;;748,05;8 124,45
+;A 793;2025-11-01;Temu refund SEK 30.97 SEK;;;30,97;;8 155,42
+;A 811;2025-11-28;EUR till SEK 3633.31 EUR kurs 10.9945;;;39 946,43;;48 101,85
+;A 812;2025-11-28;Overforing till Marginalen SEK 39934.97 SEK;;;;39 934,97;8 166,88
+;A 814;2025-12-04;Future World Tech Kina 31472.19 USD kurs 0.10645;;;;297 000,00;-288 833,12
+;A 909;2025-12-04;China invoice payment till Wise;;;297 000,00;;8 166,88
+;A 818;2025-12-09;SEK till USD 15546 SEK kurs 0.10707;;;;15 546,00;-7 379,12
+;A 912;2025-12-09;Wise transfer 55250500;;;15 546,00;;8 166,88
+;;;"""Utgående saldo:""";;0,00;640 510,56;632 343,68;8 166,88
+;;;;;;;;
+1947 Worldline;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 588;2025-02-13;B02131637331 - Worldline kortbetalning;;;;29,85;-29,85
+;A 583;2025-02-14;B02141664681 - Worldline kortbetalning;;;;17,90;-47,75
+;A 580;2025-02-17;B02151692210 - Worldline kortbetalning;;;;895,50;-943,25
+;A 579;2025-02-24;B02241912572 - Worldline kortbetalning;;;;1 492,50;-2 435,75
+;A 575;2025-03-10;B03102263589 - Worldline kortbetalning;;;;447,75;-2 883,50
+;A 574;2025-03-11;B03112280424 - Worldline kortbetalning;;;;596,99;-3 480,49
+;A 573;2025-03-17;B03152389857 - Worldline kortbetalning;;;;1 242,74;-4 723,23
+;A 572;2025-03-18;B03182456390 - Worldline kortbetalning;;;;2 811,85;-7 535,08
+;A 571;2025-03-20;B03202508892 - Worldline kortbetalning;;;;4 474,49;-12 009,57
+;A 570;2025-03-21;B03212537039 - Worldline kortbetalning;;;;247,75;-12 257,32
+;A 567;2025-03-24;B03232597052 - Worldline kortbetalning;;;;1 966,11;-14 223,43
+;A 566;2025-03-26;B03262657151 - Worldline kortbetalning;;;;99,49;-14 322,92
+;A 562;2025-03-28;B03282715066 - Worldline kortbetalning;;;;5 368,97;-19 691,89
+;A 558;2025-03-31;B03312794595 - Worldline kortbetalning;;;;2 194,95;-21 886,84
+;A 559;2025-03-31;B03292744665 - Worldline kortbetalning;;;;1 415,87;-23 302,71
+;A 561;2025-03-31;B03302773435 - Worldline kortbetalning;;;;6 521,20;-29 823,91
+;A 556;2025-04-01;B04012811476 - Worldline kortbetalning;;;;2 410,38;-32 234,29
+;A 555;2025-04-02;B04022838225 - Worldline kortbetalning;;;;2 269,57;-34 503,86
+;A 554;2025-04-03;B04032867693 - Worldline kortbetalning;;;;9 772,84;-44 276,70
+;A 552;2025-04-07;B04052926667 - Worldline kortbetalning;;;;3 713,27;-47 989,97
+;A 553;2025-04-07;B04072977639 - Worldline kortbetalning;;;;1 069,62;-49 059,59
+;A 550;2025-04-08;B04082995583 - Worldline kortbetalning;;;;3 466,21;-52 525,80
+;A 549;2025-04-09;B04093019900 - Worldline kortbetalning;;;;816,47;-53 342,27
+;A 548;2025-04-10;B04103048976 - Worldline kortbetalning;;;;4 995,88;-58 338,15
+;A 545;2025-04-14;B04133138224 - Worldline kortbetalning;;;;2 306,99;-60 645,14
+;A 543;2025-04-15;B04153179106 - Worldline kortbetalning;;;;3 028,76;-63 673,90
+;A 540;2025-04-22;B04183262982 - Worldline kortbetalning;;;;4 002,17;-67 676,07
+;A 541;2025-04-22;B04193286201 - Worldline kortbetalning;;;;2 605,29;-70 281,36
+;A 542;2025-04-22;B04203301238 - Worldline kortbetalning;;;;401,98;-70 683,34
+;A 539;2025-04-23;B04233349233 - Worldline kortbetalning;;;;4 695,37;-75 378,71
+;A 538;2025-04-24;B04243377627 - Worldline kortbetalning;;;;3 597,89;-78 976,60
+;A 537;2025-04-25;B04253406484 - Worldline kortbetalning;;;;3 844,65;-82 821,25
+;A 533;2025-04-28;B04263436358 - Worldline kortbetalning;;;;2 565,08;-85 386,33
+;A 534;2025-04-28;B04273467432 - Worldline kortbetalning;;;;1 613,87;-87 000,20
+;A 530;2025-04-29;B04293507506 - Worldline kortbetalning;;;;5 078,43;-92 078,63
+;A 529;2025-04-30;B04303534914 - Worldline kortbetalning;;;;5 729,07;-97 807,70
+;A 527;2025-05-02;B05023592847 - Worldline kortbetalning;;;;729,33;-98 537,03
+;A 528;2025-05-02;B05013562069 - Worldline kortbetalning;;;;5 770,76;-104 307,79
+;A 523;2025-05-05;B05053663933 - Worldline kortbetalning;;;;3 009,60;-107 317,39
+;A 521;2025-05-07;B05073707835 - Worldline kortbetalning;;;;1 963,10;-109 280,49
+;A 520;2025-05-09;B05093766218 - Worldline kortbetalning;;;;6 013,72;-115 294,21
+;A 517;2025-05-12;B05123850534 - Worldline kortbetalning;;;;2 702,41;-117 996,62
+;A 518;2025-05-12;B05113826980 - Worldline kortbetalning;;;;3 077,51;-121 074,13
+;A 519;2025-05-12;B05103798167 - Worldline kortbetalning;;;;2 723,27;-123 797,40
+;A 516;2025-05-13;B05133868910 - Worldline kortbetalning;;;;1 893,46;-125 690,86
+;A 515;2025-05-14;B05143893340 - Worldline kortbetalning;;;;1 773,07;-127 463,93
+;A 511;2025-05-19;B05194034090 - Worldline kortbetalning;;;;2 443,71;-129 907,64
+;A 512;2025-05-19;B05184011681 - Worldline kortbetalning;;;;3 537,99;-133 445,63
+;A 513;2025-05-19;B05173983976 - Worldline kortbetalning;;;;9 459,46;-142 905,09
+;A 509;2025-05-21;B05214076902 - Worldline kortbetalning;;;;3 238,64;-146 143,73
+;A 508;2025-05-23;B05234137836 - Worldline kortbetalning;;;;2 371,07;-148 514,80
+;A 504;2025-05-26;B05264219988 - Worldline kortbetalning;;;;2 397,90;-150 912,70
+;A 505;2025-05-26;B05254196636 - Worldline kortbetalning;;;;4 299,35;-155 212,05
+;A 500;2025-05-30;B05294294981 - Worldline kortbetalning;;;;4 690,26;-159 902,31
+;A 498;2025-06-02;B05314341919 - Worldline kortbetalning;;;;4 914,25;-164 816,56
+;A 499;2025-06-02;B06014371231 - Worldline kortbetalning;;;;2,49;-164 819,05
+;A 492;2025-06-03;B06034410431 - Worldline kortbetalning;;;;2 463,08;-167 282,13
+;A 489;2025-06-05;B06054467666 - Worldline kortbetalning;;;;3 145,16;-170 427,29
+;A 487;2025-06-09;B06094571959 - Worldline kortbetalning;;;;1 426,23;-171 853,52
+;A 488;2025-06-09;B06074525843 - Worldline kortbetalning;;;;4 910,27;-176 763,79
+;A 485;2025-06-11;B06114611917 - Worldline kortbetalning;;;;3 121,28;-179 885,07
+;A 484;2025-06-13;B06134669729 - Worldline kortbetalning;;;;6 105,27;-185 990,34
+;A 483;2025-06-16;B06154731299 - Worldline kortbetalning;;;;2 244,68;-188 235,02
+;A 479;2025-06-19;B06194827606 - Worldline kortbetalning;;;;602,96;-188 837,98
+;A 478;2025-06-23;B06214886452 - Worldline kortbetalning;;;;2 546,18;-191 384,16
+;A 472;2025-06-25;B06254970813 - Worldline kortbetalning;;;;1 625,80;-193 009,96
+;A 458;2025-06-26;World Line Sales Card;;;201 182,00;;8 172,04
+;A 465;2025-06-30;B06305111839 - Worldline kortbetalning;;;;1 892,47;6 279,57
+;A 466;2025-06-30;B06285059190 - Worldline kortbetalning;;;;6 280,39;-0,82
+;A 634;2025-07-03;Worldline card sales;;;;865,64;-866,46
+;A 644;2025-07-07;Worldline card sales;;;;3 806,83;-4 673,29
+;A 645;2025-07-08;Worldline card sales;;;;2 221,81;-6 895,10
+;A 646;2025-07-10;Worldline card sales;;;;1 343,23;-8 238,33
+;A 648;2025-07-14;Worldline card sales;;;;2 837,70;-11 076,03
+;A 649;2025-07-15;Worldline card sales;;;;743,25;-11 819,28
+;A 650;2025-07-17;Worldline card sales;;;;3 845,66;-15 664,94
+;A 653;2025-07-21;Worldline card sales;;;;198,00;-15 862,94
+;A 654;2025-07-21;Worldline card sales;;;;493,50;-16 356,44
+;A 658;2025-07-24;Worldline card sales;;;;2 528,26;-18 884,70
+;A 659;2025-07-28;Worldline card sales;;;;4 848,61;-23 733,31
+;A 660;2025-07-29;Worldline card sales;;;;3 619,76;-27 353,07
+;A 662;2025-07-31;Worldline card sales;;;;1 865,60;-29 218,67
+;A 666;2025-08-01;Worldline card sales;;;;6,14;-29 224,81
+;A 669;2025-08-04;Worldline card sales;;;;6 001,77;-35 226,58
+;A 670;2025-08-04;Worldline card sales;;;;2 515,32;-37 741,90
+;A 672;2025-08-06;Worldline card sales;;;;3 370,02;-41 111,92
+;A 673;2025-08-07;Worldline card sales - POSSIBLE DUPLICATE;;;;3 370,02;-44 481,94
+;A 675;2025-08-11;Customer payment via Bankgiro;;;;250,00;-44 731,94
+;A 676;2025-08-11;Worldline card sales;;;;2 418,89;-47 150,83
+;A 677;2025-08-12;Worldline card sales;;;;1 757,15;-48 907,98
+;A 678;2025-08-13;Worldline card sales;;;;1,98;-48 909,96
+;A 679;2025-08-14;Worldline card sales;;;;1 879,51;-50 789,47
+;A 683;2025-08-18;Worldline card sales;;;;1 359,16;-52 148,63
+;A 685;2025-08-26;Worldline card sales;;;;788,03;-52 936,66
+;A 690;2025-08-27;Worldline card sales;;;;198,99;-53 135,65
+;A 691;2025-08-28;Worldline card sales;;;;6 558,62;-59 694,27
+;A 703;2025-09-01;Worldline card sales;;;;4 095,38;-63 789,65
+;A 704;2025-09-01;Worldline card sales;;;;1,50;-63 791,15
+;A 707;2025-09-02;Worldline card sales;;;;774,10;-64 565,25
+;A 714;2025-09-04;Worldline card sales;;;;11 344,02;-75 909,27
+;A 720;2025-09-05;Worldline card sales;;;;4 529,31;-80 438,58
+;A 722;2025-09-06;Worldline card sales;;;;3 904,36;-84 342,94
+;A 725;2025-09-09;Worldline card sales;;;;5 495,34;-89 838,28
+;A 727;2025-09-15;Worldline card sales;;;;8 216,41;-98 054,69
+;A 728;2025-09-15;Worldline card sales;;;;3 500,37;-101 555,06
+;A 729;2025-09-18;Worldline card sales;;;;2 649,66;-104 204,72
+;A 731;2025-09-22;Worldline card sales;;;;6 306,25;-110 510,97
+;A 732;2025-09-22;Worldline card sales;;;;5 883,39;-116 394,36
+;A 735;2025-09-25;Worldline card sales;;;;10 481,25;-126 875,61
+;A 739;2025-09-29;Worldline card sales;;;;12 047,34;-138 922,95
+;A 741;2025-09-30;Worldline settlement;;;;17 122,87;-156 045,82
+;A 751;2025-09-30;Q3 2025 card sales via Worldline;;;155 780,70;;-265,12
+;A 753;2025-09-30;Worldline transaction fees Q3 2025;;;;772,36;-1 037,48
+;A 842;2025-10-03;Worldline deposit B10037527853;;;;6 744,05;-7 781,53
+;A 843;2025-10-06;Worldline deposit B10047556132;;;;3 689,41;-11 470,94
+;A 845;2025-10-06;Worldline deposit B10067605445;;;;3 336,21;-14 807,15
+;A 846;2025-10-07;Worldline deposit B10077622879;;;;2 555,13;-17 362,28
+;A 850;2025-10-09;Worldline deposit B10097674111;;;;0,99;-17 363,27
+;A 851;2025-10-10;Worldline deposit B10107702101;;;;1 701,91;-19 065,18
+;A 852;2025-10-13;Worldline deposit B10127760785;;;;5 491,37;-24 556,55
+;A 854;2025-10-14;Worldline deposit B10147798619;;;;2 972,53;-27 529,08
+;A 857;2025-10-17;Worldline deposit B10177881088;;;;6 687,36;-34 216,44
+;A 858;2025-10-20;Worldline deposit B10197936186;;;;5 266,50;-39 482,94
+;A 859;2025-10-22;Worldline deposit B10228000236;;;;7 578,34;-47 061,28
+;A 860;2025-10-24;Worldline deposit B10248056799;;;;4 268,50;-51 329,78
+;A 861;2025-10-27;Worldline deposit B10258085288;;;;2 928,26;-54 258,04
+;A 862;2025-10-27;Worldline deposit B10278133717;;;;5 268,49;-59 526,53
+;A 866;2025-10-28;Worldline deposit B10288150305;;;;4 349,13;-63 875,66
+;A 867;2025-10-29;Worldline deposit B10298175527;;;;5 560,94;-69 436,60
+;A 868;2025-10-30;Worldline deposit B10308203309;;;;2 750,16;-72 186,76
+;A 869;2025-10-31;Worldline deposit B10318231769;;;;4 535,93;-76 722,69
+;A 941;2025-10-31;Worldline avgift oktober;;;;400,67;-77 123,36
+;A 944;2025-10-31;Kortforsaljning Oktober Worldline;;;75 685,21;;-1 438,15
+;A 871;2025-11-03;Worldline deposit B11018260572;;;;6 164,00;-7 602,15
+;A 872;2025-11-03;Worldline deposit B11028288982;;;;1 191,00;-8 793,15
+;A 873;2025-11-04;Worldline deposit B11048324588;;;;2 243,70;-11 036,85
+;A 875;2025-11-07;Worldline deposit B11078404621;;;;4 180,96;-15 217,81
+;A 876;2025-11-10;Worldline deposit B11088433471;;;;3 324,26;-18 542,07
+;A 877;2025-11-10;Worldline deposit B11108482009;;;;1 188,01;-19 730,08
+;A 878;2025-11-11;Worldline deposit B11118498315;;;;2 482,51;-22 212,59
+;A 879;2025-11-12;Worldline deposit B11128524941;;;;1 141,26;-23 353,85
+;A 880;2025-11-13;Worldline deposit B11138552310;;;;892,51;-24 246,36
+;A 881;2025-11-14;Worldline deposit B11148578818;;;;1 941,22;-26 187,58
+;A 883;2025-11-17;Worldline deposit B11178656600;;;;1 981,02;-28 168,60
+;A 885;2025-11-18;Worldline deposit B11188674426;;;;3 048,64;-31 217,24
+;A 886;2025-11-19;Worldline deposit B11198697754;;;;16 205,47;-47 422,71
+;A 888;2025-11-20;Worldline deposit B11208725080;;;;8 057,42;-55 480,13
+;A 889;2025-11-21;Worldline deposit B11218753235;;;;14 373,20;-69 853,33
+;A 890;2025-11-24;Worldline deposit B11228781865;;;;7 070,42;-76 923,75
+;A 893;2025-11-24;Worldline deposit B11248831366;;;;29 356,25;-106 280,00
+;A 897;2025-11-26;Worldline deposit B11268872500;;;;14 641,45;-120 921,45
+;A 900;2025-11-27;Worldline deposit B11278900577;;;;4 219,76;-125 141,21
+;A 942;2025-11-30;Worldline avgift november;;;;811,68;-125 952,89
+;A 945;2025-11-30;Kortforsaljning November Worldline;;;153 447,31;;27 494,42
+;A 904;2025-12-01;Worldline deposit B11298957172;;;;21 737,55;5 756,87
+;A 905;2025-12-01;Worldline deposit B12019008327;;;;7,49;5 749,38
+;A 906;2025-12-01;Worldline deposit B11308985634;;;;8 006,70;-2 257,32
+;A 907;2025-12-02;Worldline deposit B12029026954;;;;4 400,82;-6 658,14
+;A 908;2025-12-03;Worldline deposit B12039050289;;;;1 617,86;-8 276,00
+;A 910;2025-12-08;Worldline deposit B12069136385;;;;10 857,31;-19 133,31
+;A 911;2025-12-08;Worldline deposit B12089184747;;;;4 611,77;-23 745,08
+;A 913;2025-12-09;Worldline deposit B12099203466;;;;1 710,39;-25 455,47
+;A 914;2025-12-10;Worldline deposit B12109227020;;;;2 889,45;-28 344,92
+;A 915;2025-12-11;Worldline deposit B12119255696;;;;2 136,02;-30 480,94
+;A 916;2025-12-12;Worldline deposit B12129284073;;;;5 373,35;-35 854,29
+;A 926;2025-12-15;Worldline deposit B12159361494;;;;4 866,82;-40 721,11
+;A 929;2025-12-17;Worldline deposit B12179405561;;;;4 422,83;-45 143,94
+;A 930;2025-12-19;Worldline deposit B12199460221;;;;6 409,08;-51 553,02
+;A 932;2025-12-22;Worldline deposit B12219518994;;;;8 512,45;-60 065,47
+;A 935;2025-12-29;Worldline deposit B12269613247;;;;6 894,90;-66 960,37
+;A 936;2025-12-29;Worldline deposit B12299649730;;;;3 644,67;-70 605,04
+;A 937;2025-12-29;Worldline deposit B12249582328;;;;4 899,72;-75 504,76
+;A 938;2025-12-30;Worldline deposit B12309664541;;;;137,10;-75 641,86
+;A 943;2025-12-31;Worldline avgift december;;;;542,83;-76 184,69
+;A 946;2025-12-31;Kortforsaljning December Worldline;;;87 156,66;;10 971,97
+;;;"""Utgående saldo:""";;0,00;673 251,88;662 279,91;10 971,97
+;;;;;;;;
+1948 Sales account;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 454;2025-03-28;Crona Kassa Sales Period 1 Oct-Mar 28;;;110 544,00;;110 544,00
+;A 455;2025-05-28;Shopify POS Sales Period Mar 29-May 28;;;173 825,17;;284 369,17
+;A 457;2025-06-26;Viva Wallet Card Payments;;;;106 241,00;178 128,17
+;A 458;2025-06-26;World Line Sales Card;;;;201 182,00;-23 053,83
+;A 463;2025-06-26;Kontant frsñljning;;;;24 023,00;-47 076,83
+;A 456;2025-06-30;Easy Cashier Sales Period May 29-Jun 30;;;47 077,00;;0,17
+;;;"""Utgående saldo:""";;0,00;331 446,17;331 446,00;0,17
+;;;;;;;;
+2091 Balanserad vinst eller förlust;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 343;2024-07-01;Opening balance SEK;;;;561,47;-561,47
+;A 612;2025-02-01;korrgingirn av valuta fel ;;;;1 950,00;-2 511,47
+;;;"""Utgående saldo:""";;0,00;0,00;2 511,47;-2 511,47
+;;;;;;;;
+2093 Erhållna aktieägartillskott;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 621;2025-06-30;Omföring av 65% av lån från Ahmed Gheyath Al-Sharif till villkorat aktieägartillskott enligt avtal 2025-07-20.;;;;1,00;-1,00
+;;;"""Utgående saldo:""";;0,00;0,00;1,00;-1,00
+;;;;;;;;
+2441 Future World Tech;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 426;2024-12-10;Sent money to FUTURE WORLD TECH;;;124 440,54;;124 440,54
+;A 423;2024-12-12;Sent money to FUTURE WORLD TECH;;;276 750,00;;401 190,54
+;A 422;2024-12-17;Sent money to FUTURE WORLD TECH;;;134 600,68;;535 791,22
+;A 419;2025-01-14;Sent money to FUTURE WORLD TECH;;;110 859,71;;646 650,93
+;A 601;2025-02-01;Settlement of supplier invoice via related-party financing (korrigerad med verifikation A764 av Mohammad Sami Alsharef, 2025-12-29);;;;278 158,00;368 492,93
+;A 764;2025-02-01;Korrigering av ver.nr. A601, Settlement of supplier invoice via related-party financing (av Mohammad Sami Alsharef, 2025-12-29);;;278 158,00;;646 650,93
+;A 600;2025-02-28;First China container - ûverfring frÑn Futureworld till inkp;;;;368 492,00;278 158,93
+;A 772;2025-11-27;FOREX 861 Arlanda - Future World Tech loan;;;6 500,00;;284 658,93
+;A 773;2025-11-27;FOREX 861 Arlanda - Future World Tech loan;;;10 000,00;;294 658,93
+;A 774;2025-11-27;FOREX 861 Arlanda - Future World Tech loan;;;10 000,00;;304 658,93
+;A 964;2025-11-27;FOREX Arlanda - Lneavans till Future World Tech;;;10 000,00;;314 658,93
+;A 814;2025-12-04;Future World Tech Kina 31472.19 USD kurs 0.10645;;;295 641,24;;610 300,17
+;A 961;2025-12-31;Varuinkop Future World Tech Q4 38658 USD kurs 10.755;;;;415 815,45;194 484,72
+;;;"""Utgående saldo:""";;0,00;1 256 950,17;1 062 465,45;194 484,72
+;;;;;;;;
+2448 Ej reskontraförda leverantörsskulder;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 91;2024-09-26;Invoice (USD 40008) FIK20240000000042 vx enl. kurs 10,2296;;;;409 265,84;-409 265,84
+;A 92;2024-10-16;Invoice #906 (USD 30700 enl. vxelkurs 10,4144);;;;319 722,08;-728 987,92
+;A 464;2025-06-26;Repayment of documented loan from related party (Alsharif);;;728 987,00;;-0,92
+;;;"""Utgående saldo:""";;0,00;728 987,00;728 987,92;-0,92
+;;;;;;;;
+2611 Utgående moms på försäljning inom Sverige, 25%;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 438;2025-01-07;Received money from STRIPE;10 (25%);0,00;;209,81;-209,81
+;A 437;2025-01-10;Received money from STRIPE;10 (25%);0,00;;390,38;-600,19
+;A 435;2025-01-24;Received money from STRIPE;10 (25%);0,00;;127,54;-727,73
+;A 433;2025-02-07;Received money from STRIPE;10 (25%);0,00;;783,17;-1 510,90
+;A 582;2025-02-14;ûverfring - Programvara med moms;10 (25%);0,00;140,00;;-1 370,90
+;A 454;2025-03-28;Crona Kassa Sales Period 1 Oct-Mar 28;10 (25%);0,00;;22 108,00;-23 478,90
+;A 604;2025-03-31;Momsredovisning januari-mars 2025;10 (25%);0,00;23 478,90;;0,00
+;A 430;2025-04-04;Received money from STRIPE;10 (25%);0,00;;343,32;-343,32
+;A 506;2025-05-26;El i butiken - med moms;10 (25%);0,00;163,20;;-180,12
+;A 455;2025-05-28;Shopify POS Sales Period Mar 29-May 28;10 (25%);0,00;;34 765,06;-34 945,18
+;A 473;2025-06-25;Nñtet - El/internet med moms;10 (25%);0,00;124,80;;-34 820,38
+;A 456;2025-06-30;Easy Cashier Sales Period May 29-Jun 30;10 (25%);0,00;;9 415,00;-44 235,38
+;A 605;2025-06-30;Momsredovisning april-juni 2025;10 (25%);0,00;44 235,38;;0,00
+;A 751;2025-09-30;Q3 2025 card sales via Worldline;10 (25%);0,00;;31 156,14;-31 156,14
+;A 752;2025-09-30;Q3 2025 cash sales;10 (25%);0,00;;5 254,23;-36 410,37
+;A 763;2025-09-30;Momsredovisning juli-september 2025;10 (25%);0,00;36 410,37;;0,00
+;A 948;2025-10-03;Shopify EUR 103.75;10 (25%);0,00;;238,63;-238,63
+;A 949;2025-10-10;Shopify EUR 86.12;10 (25%);0,00;;198,08;-436,71
+;A 950;2025-10-17;Shopify EUR 418.35;10 (25%);0,00;;962,21;-1 398,92
+;A 951;2025-10-24;Shopify EUR 154.12;10 (25%);0,00;;354,48;-1 753,40
+;A 944;2025-10-31;Kortforsaljning Oktober Worldline;10 (25%);0,00;;15 137,04;-16 890,44
+;A 952;2025-11-07;Shopify EUR 371.75;10 (25%);0,00;;855,03;-17 745,47
+;A 953;2025-11-14;Shopify EUR 86.37;10 (25%);0,00;;198,66;-17 944,13
+;A 954;2025-11-21;Shopify EUR 1398.29;10 (25%);0,00;;3 216,06;-21 160,19
+;A 955;2025-11-28;Shopify EUR 2199.39;10 (25%);0,00;;5 058,60;-26 218,79
+;A 1011;2025-11-28;Shopify Sale for Wise payout;10 (25%);0,00;;7 986,99;-34 205,78
+;A 945;2025-11-30;Kortforsaljning November Worldline;10 (25%);0,00;;30 689,46;-64 895,24
+;A 956;2025-12-05;Shopify EUR 573.75;10 (25%);0,00;;1 319,63;-66 214,87
+;A 957;2025-12-12;Shopify EUR 58.31;10 (25%);0,00;;134,11;-66 348,98
+;A 958;2025-12-29;Shopify EUR 86.77;10 (25%);0,00;;199,57;-66 548,55
+;A 946;2025-12-31;Kortforsaljning December Worldline;10 (25%);0,00;;17 431,33;-83 979,88
+;A 947;2025-12-31;Kontantforsaljning Q4;10 (25%);0,00;;8 617,55;-92 597,43
+;;;"""Utgående saldo:""";;0,00;104 552,65;197 150,08;-92 597,43
+;;;;;;;;
+2615 Utgående moms import av varor 25%;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 91;2024-09-26;Invoice (USD 40008) FIK20240000000042 vx enl. kurs 10,2296;60 (25%);0,00;102 316,25;;102 316,25
+;A 602;2024-09-30;Momsredovisning juli-september 2024;60 (25%);0,00;;102 316,25;0,00
+;A 92;2024-10-16;Invoice #906 (USD 30700 enl. vxelkurs 10,4144);60 (25%);0,00;79 930,50;;79 930,50
+;A 603;2024-12-31;Momsredovisning oktober-december 2024;60 (25%);0,00;;79 930,50;0,00
+;A 600;2025-02-28;First China container - ûverfring frÑn Futureworld till inkp;60 (25%);0,00;92 123,00;;92 123,00
+;A 604;2025-03-31;Momsredovisning januari-mars 2025;60 (25%);0,00;;92 123,00;0,00
+;;;"""Utgående saldo:""";;0,00;274 369,75;274 369,75;0,00
+;;;;;;;;
+2641 Debiterad ingående moms;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 3;2024-07-10;LAGERBOLAGET F.102576;48;0,00;1 485,00;;1 485,00
+;A 602;2024-09-30;Momsredovisning juli-september 2024;48;0,00;;1 485,00;0,00
+;A 20;2024-10-01;CARGO CENTER KONTANTF, 202406312 FLYterminalavgift;48;0,00;656,18;;656,18
+;A 24;2024-10-08;Rusta;48;0,00;236,66;;892,84
+;A 26;2024-10-08;Biltema;48;0,00;73,00;;965,84
+;A 115;2024-10-08;JULA;48;0,00;;73,00;892,84
+;A 23;2024-10-09;Dollarstore;48;0,00;35,14;;927,98
+;A 23;2024-10-09;Dollarstore;48;0,00;12,00;;939,98
+;A 25;2024-10-09;Biltema;48;0,00;386,88;;1 326,86
+;A 15;2024-10-10;TEMU PO-191-055293649567125515;48;0,00;406,07;;1 732,93
+;A 28;2024-10-10;biltema;48;0,00;240,20;;1 973,13
+;A 35;2024-10-10;Clas Ohlson;48;0,00;20,00;;1 993,13
+;A 34;2024-10-11;biltema;48;0,00;160,40;;2 153,53
+;A 27;2024-10-12;Biltema;48;0,00;99,80;;2 253,33
+;A 30;2024-10-15;Clas Ohlson;48;0,00;47,92;;2 301,25
+;A 37;2024-10-16;Aimo Park Sweden;48;0,00;62,00;;2 363,25
+;A 16;2024-10-18;TEMU PO-191-06903722854952515;48;0,00;243,14;;2 606,39
+;A 33;2024-10-25;Clas Ohlson;48;0,00;299,80;;2 906,19
+;A 19;2024-10-28;CARGO CENTER KONTANTF. 202407034 FLYterminalavgift;48;0,00;767,48;;3 673,67
+;A 22;2024-10-28;Clas Ohlson;48;0,00;49,80;;3 723,47
+;A 29;2024-10-28;Biltema;48;0,00;79,80;;3 803,27
+;A 31;2024-10-28;Clas Ohlson;48;0,00;7,98;;3 811,25
+;A 14;2024-10-29;TEMU PO-191-15837295250472515;48;0,00;105,30;;3 916,55
+;A 21;2024-10-30;FASTIGHETS AB AKVARIUM F. 5002146107;48;0,00;3 750,00;;7 666,55
+;A 17;2024-10-31;AIMO PARK - HYRESAVI F.41986401814;48;0,00;372,58;;8 039,13
+;A 53;2024-11-02;Biltema;48;0,00;154,10;;8 193,23
+;A 52;2024-11-06;Clas Ohlson;48;0,00;3,98;;8 197,21
+;A 49;2024-11-07;Biltema;48;0,00;32,94;;8 230,15
+;A 50;2024-11-07;RUSTA;48;0,00;9,98;;8 240,13
+;A 54;2024-11-07;Clas Ohlson;48;0,00;35,98;;8 276,11
+;A 57;2024-11-07;Clas Ohlson;48;0,00;129,88;;8 405,99
+;A 59;2024-11-07;Clas Ohlson;48;0,00;43,80;;8 449,79
+;A 56;2024-11-11;Clas Ohlson;48;0,00;79,80;;8 529,59
+;A 58;2024-11-12;Clas Ohlson;48;0,00;;109,82;8 419,77
+;A 61;2024-11-15;Aimo Park Sweden;48;0,00;62,00;;8 481,77
+;A 75;2024-11-16;Aimo Park Sweden;48;0,00;62,00;;8 543,77
+;A 174;2024-11-20;Elmontering till sträckning;48;0,00;901,40;;9 445,17
+;A 60;2024-11-30;Assemblin EL AB (korrigerad med verifikation A243 av Mohammad Sami Alsharef, 2025-06-27) (korrigerad med verifikation A2;48;0,00;901,41;;10 346,58
+;A 76;2024-12-16;Aimo Park Sweden;48;0,00;62,00;;10 408,58
+;A 79;2024-12-19;Aimo Park Sweden;48;0,00;62,00;;10 470,58
+;A 89;2024-12-30;AIMO PARK - HYRESAVI F.41986486320;48;0,00;371,08;;10 841,66
+;A 90;2024-12-30;Crona kassasystem;48;0,00;44,00;;10 885,66
+;A 341;2024-12-30;Money out to IBAN - SE7680000890116948003766 - 1088488505 - Hyra med moms;48;0,00;5 141,50;;16 027,16
+;A 603;2024-12-31;Momsredovisning oktober-december 2024;48;0,00;;16 027,16;0,00
+;A 176;2025-01-13;Crona Software AB;48;0,00;12,20;;12,20
+;A 177;2025-01-13;Fortnox Finans AB;48;0,00;19,20;;31,40
+;A 178;2025-01-14;Fortnox Finans AB;48;0,00;19,20;;50,60
+;A 232;2025-01-28;Viva Wallet Card Purchase - CHILIMOBIL.SE;48;0,00;125,00;;175,60
+;A 235;2025-01-28;Money out to IBAN - SE7680000890116948003766 - 1088488604 - Hyra med moms;48;0,00;5 141,50;;5 317,10
+;A 236;2025-01-28;Money out to IBAN - SE7680000890116948003766 - 1088975006 - Hyra med moms;48;0,00;474,00;;5 791,10
+;A 228;2025-01-30;Viva Wallet Card Purchase - Temu.com;48;0,00;350,00;;6 141,10
+;A 225;2025-01-31;Viva Wallet Card Purchase - Temu.com;48;0,00;57,00;;6 198,10
+;A 213;2025-02-04;Viva Wallet Card Purchase - Freightseeker AB;48;0,00;17,00;;6 215,10
+;A 214;2025-02-04;Viva Wallet Card Purchase - Freightseeker AB;48;0,00;20,00;;6 235,10
+;A 210;2025-02-05;Viva Wallet Card Purchase - Freightseeker AB;48;0,00;18,00;;6 253,10
+;A 208;2025-02-06;Viva Wallet Card Refund - CLAS OHLSON;48;0,00;;40,00;6 213,10
+;A 209;2025-02-06;Viva Wallet Card Purchase - CLAS OHLSON;48;0,00;124,00;;6 337,10
+;A 204;2025-02-08;Viva Wallet Card Purchase - Freightseeker AB;48;0,00;26,00;;6 363,10
+;A 194;2025-02-12;Viva Wallet Card Purchase - Freightseeker AB;48;0,00;17,00;;6 380,10
+;A 195;2025-02-12;Viva Wallet Card Purchase - Freightseeker AB;48;0,00;31,00;;6 411,10
+;A 584;2025-02-14;Lokalhyra - med moms;48;0,00;4 152,00;;10 563,10
+;A 192;2025-02-15;Viva Wallet Card Purchase - St1 Gillbergaplan;48;0,00;128,00;;10 691,10
+;A 190;2025-02-16;Viva Wallet Card Purchase - BILTEMA ESKILSTUNA;48;0,00;178,00;;10 869,10
+;A 185;2025-02-18;Viva Wallet Card Purchase - CLAS OHLSON;48;0,00;14,00;;10 883,10
+;A 186;2025-02-18;Viva Wallet Card Purchase - SHOPIFY* 330742565;48;0,00;94,00;;10 977,10
+;A 577;2025-02-28;Bankgiro - Avgift med moms;48;0,00;500,00;;11 477,10
+;A 578;2025-02-28;Bankgiro - Avgift med moms;48;0,00;124,80;;11 601,90
+;A 576;2025-03-10;Bankgiro - Avgift med moms;48;0,00;160,40;;11 762,30
+;A 568;2025-03-24;Bankgiro - Avgift med moms;48;0,00;8,20;;11 770,50
+;A 569;2025-03-24;Bankgiro - Avgift med moms;48;0,00;31,20;;11 801,70
+;A 565;2025-03-27;Bankgiro - Avgift med moms;48;0,00;124,80;;11 926,50
+;A 604;2025-03-31;Momsredovisning januari-mars 2025;48;0,00;;11 926,50;0,00
+;A 551;2025-04-08;Lokalhyra - med moms;48;0,00;4 113,20;;4 113,20
+;A 546;2025-04-14;Bankgiro - Avgift med moms;48;0,00;49,60;;4 162,80
+;A 547;2025-04-14;Bankgiro - Avgift med moms;48;0,00;100,00;;4 262,80
+;A 544;2025-04-15;Bankgiro - Avgift med moms;48;0,00;19,60;;4 282,40
+;A 535;2025-04-28;Bankgiro - Avgift med moms;48;0,00;124,80;;4 407,20
+;A 531;2025-04-29;Lokalhyra - med moms;48;0,00;379,20;;4 786,40
+;A 532;2025-04-29;Lokalhyra - med moms;48;0,00;4 008,40;;8 794,80
+;A 524;2025-05-05;Lokalhyra - med moms;48;0,00;3 996,60;;12 791,40
+;A 525;2025-05-05;Lokalhyra - med moms;48;0,00;379,20;;13 170,60
+;A 526;2025-05-05;Bankgiro - Avgift med moms;48;0,00;25,00;;13 195,60
+;A 522;2025-05-07;Bankgiro - Avgift med moms;48;0,00;39,60;;13 235,20
+;A 514;2025-05-16;Bankgiro - Avgift med moms;48;0,00;49,60;;13 284,80
+;A 497;2025-06-02;Bankgiro - Avgift med moms;48;0,00;136,80;;13 421,60
+;A 493;2025-06-03;Bankgiro - Avgift med moms;48;0,00;49,60;;13 471,20
+;A 480;2025-06-18;Lokalhyra - med moms;48;0,00;3 996,60;;17 467,80
+;A 482;2025-06-18;Bankgiro - Avgift med moms;48;0,00;50,00;;17 517,80
+;A 467;2025-06-30;Bankgiro - Avgift med moms;48;0,00;49,60;;17 567,40
+;A 605;2025-06-30;Momsredovisning april-juni 2025;48;0,00;;17 567,40;0,00
+;A 626;2025-07-01;Google G Suite software;48;0,00;20,28;;20,28
+;A 627;2025-07-01;Fortnox software subscription;48;0,00;29,80;;50,08
+;A 630;2025-07-03;Lagar Hyra office rent;48;0,00;391,20;;441,28
+;A 631;2025-07-03;Visma software;48;0,00;374,40;;815,68
+;A 632;2025-07-03;Hyra Butik shop rent;48;0,00;4 110,00;;4 925,68
+;A 633;2025-07-03;Lagar Hyra office rent duplicate;48;0,00;391,20;;5 316,88
+;A 636;2025-07-06;Sormland traffic business travel;48;0,00;4,60;;5 321,48
+;A 640;2025-07-07;Aviation fee - flight booking;48;0,00;7,00;;5 328,48
+;A 643;2025-07-07;Easy Cashier POS system;48;0,00;687,00;;6 015,48
+;A 663;2025-07-31;Anthropic AI software;48;0,00;225,15;;6 240,63
+;A 665;2025-08-01;Hyra Butik shop rent;48;0,00;3 996,60;;10 237,23
+;A 748;2025-08-01;Google G Suite software;48;0,00;14,61;;10 251,84
+;A 668;2025-08-02;Fortnox software subscription;48;0,00;29,80;;10 281,64
+;A 671;2025-08-06;Rent correction August;48;0,00;379,20;;10 660,84
+;A 674;2025-08-08;Tele2 telecom service;48;0,00;22,57;;10 683,41
+;A 744;2025-08-10;Resecentrum travel booking;48;0,00;227,20;;10 910,61
+;A 680;2025-08-16;Clas Ohlson business supplies;48;0,00;15,98;;10 926,59
+;A 682;2025-08-16;IN & FINN AB business supplies;48;0,00;48,20;;10 974,79
+;A 686;2025-08-26;Hi3G telecom service;48;0,00;243,00;;11 217,79
+;A 749;2025-09-01;Google G Suite software;48;0,00;14,18;;11 231,97
+;A 706;2025-09-02;Rent correction September;48;0,00;379,20;;11 611,17
+;A 710;2025-09-03;Fortnox software subscription;48;0,00;29,80;;11 640,97
+;A 721;2025-09-05;OpenAI AI software;48;0,00;24,18;;11 665,15
+;A 747;2025-09-05;Aviation fee;48;0,00;7,80;;11 672,95
+;A 723;2025-09-06;Malardalstrafik business transport;48;0,00;73,40;;11 746,35
+;A 724;2025-09-08;Hyra Butik shop rent;48;0,00;3 996,60;;15 742,95
+;A 733;2025-09-22;Hi3G telecom service;48;0,00;322,20;;16 065,15
+;A 736;2025-09-26;Rent correction September;48;0,00;403,20;;16 468,35
+;A 737;2025-09-26;Additional rent September;48;0,00;4 031,80;;20 500,15
+;A 743;2025-09-30;St1 Gillbergaplan fuel;48;0,00;196,15;;20 696,30
+;A 763;2025-09-30;Momsredovisning juli-september 2025;48;0,00;;20 696,30;0,00
+;A 775;2025-10-02;Hallon SEK 100.00 SEK;48;0,00;20,00;;20,00
+;A 776;2025-10-02;Hallon USD 9.40 USD kurs 9.35988;48;0,00;17,60;;37,60
+;A 1009;2025-10-05;Tubekick - Underhllning/Fretag;48;0,00;26,21;;63,81
+;A 765;2025-10-06;St1 Gillbergaplan - Company fuel;48;0,00;181,29;;245,10
+;A 766;2025-10-07;TEMU.COM - Company purchase;48;0,00;223,46;;468,56
+;A 848;2025-10-08;Bankgiro betalning 2027001;48;0,00;100,00;;568,56
+;A 767;2025-10-09;AMAZONMKTPLC - Company purchase;48;0,00;258,77;;827,33
+;A 1007;2025-10-11;Apple.com iCloud - Fretagstjanst;48;0,00;49,80;;877,13
+;A 982;2025-10-12;MALARDALSTRAFIKEN - Arbetsresa;48;0,00;73,40;;950,53
+;A 991;2025-10-13;Shopify Platform - E-handel;48;0,00;80,92;;1 031,45
+;A 853;2025-10-14;Frakt PostNord 50207042;48;0,00;84,80;;1 116,25
+;A 981;2025-10-14;MALARDALSTRAFIKEN - Arbetsresa;48;0,00;73,40;;1 189,65
+;A 769;2025-10-16;TEMU.COM refund;48;0,00;;25,32;1 164,33
+;A 770;2025-10-16;TEMU.COM refund;48;0,00;;4,93;1 159,40
+;A 1006;2025-10-16;Apple.com iCloud - Fretagstjanst;48;0,00;3,60;;1 163,00
+;A 855;2025-10-17;Svea Ekonomi kortterminal;48;0,00;49,60;;1 212,60
+;A 974;2025-10-23;Fortnox Bokforingsprogram;48;0,00;29,80;;1 242,40
+;A 788;2025-10-24;One.com SEK 11.25 SEK;48;0,00;2,25;;1 244,65
+;A 979;2025-10-26;SJ AB Tag - Arbetsresa;48;0,00;19,20;;1 263,85
+;A 980;2025-10-26;SJ AB Tag - Arbetsresa;48;0,00;19,20;;1 283,05
+;A 863;2025-10-28;Hyra oktober butik/lager 4392007;48;0,00;3 996,60;;5 279,65
+;A 864;2025-10-28;Hyra lagar 4392007;48;0,00;379,20;;5 658,85
+;A 975;2025-11-01;Fortnox Bokforingsprogram;48;0,00;29,80;;5 688,65
+;A 795;2025-11-02;Hallon EUR 11.78 EUR kurs 10.9513;48;0,00;25,80;;5 714,45
+;A 993;2025-11-03;VIMLA Telefonabonnemang - Fretag;48;0,00;4,26;;5 718,71
+;A 994;2025-11-03;VIMLA Telefonabonnemang - Fretag;48;0,00;20,90;;5 739,61
+;A 995;2025-11-03;VIMLA Telefonabonnemang - Fretag;48;0,00;12,77;;5 752,38
+;A 996;2025-11-03;VIMLA Telefonabonnemang - Fretag;48;0,00;12,77;;5 765,15
+;A 1001;2025-11-10;St1 Gillbergaplan - Fretagsbrnsle;48;0,00;189,28;;5 954,43
+;A 992;2025-11-12;Shopify Platform - E-handel;48;0,00;100,12;;6 054,55
+;A 799;2025-11-14;Shipit.se frakt EUR 91.08 EUR kurs 10.9795;48;0,00;200,00;;6 254,55
+;A 976;2025-11-14;Fortnox Bokforingsprogram;48;0,00;4,80;;6 259,35
+;A 1010;2025-11-15;TG JBC Orebro - Arbetsresa;48;0,00;411,00;;6 670,35
+;A 1003;2025-11-16;Apple.com iCloud - Fretagstjanst;48;0,00;3,40;;6 673,75
+;A 882;2025-11-17;Svea Ekonomi kortterminal;48;0,00;49,60;;6 723,35
+;A 887;2025-11-20;Svea Ekonomi kortterminal;48;0,00;49,60;;6 772,95
+;A 802;2025-11-23;St1 drivmedel EUR 37.82 EUR kurs 10.999;48;0,00;83,18;;6 856,13
+;A 771;2025-11-24;APPLE.COM/BILL - iCloud company;48;0,00;49,80;;6 905,93
+;A 891;2025-11-24;Frakt PostNord 52494309;48;0,00;183,74;;7 089,67
+;A 892;2025-11-24;Frakt PostNord 52494309;48;0,00;387,17;;7 476,84
+;A 894;2025-11-25;Frakt DB Schenker 9423047;48;0,00;431,60;;7 908,44
+;A 1002;2025-11-25;AIMO Parkering - Fretag;48;0,00;70,99;;7 979,43
+;A 805;2025-11-27;Forex EUR 2.91 EUR kurs 10.9894;48;0,00;6,40;;7 985,83
+;A 806;2025-11-27;Arlanda Walk Through EUR 32.00 EUR kurs 10.9989;48;0,00;70,40;;8 056,23
+;A 807;2025-11-27;Jureskog mat EUR 52.65 EUR kurs 10.9975;48;0,00;62,04;;8 118,27
+;A 808;2025-11-27;Take Away Mart EUR 4.46 EUR kurs 10.9952;48;0,00;5,25;;8 123,52
+;A 983;2025-11-27;MALARDALSTRAFIKEN - Arbetsresa;48;0,00;146,80;;8 270,32
+;A 1008;2025-12-02;Partners on Booking BV - Resekostnader Arlanda;48;0,00;284,87;;8 555,19
+;A 997;2025-12-03;VIMLA Telefonabonnemang - Fretag;48;0,00;12,00;;8 567,19
+;A 998;2025-12-03;VIMLA Telefonabonnemang - Fretag;48;0,00;12,00;;8 579,19
+;A 999;2025-12-03;VIMLA Telefonabonnemang - Fretag;48;0,00;12,00;;8 591,19
+;A 1000;2025-12-03;VIMLA Telefonabonnemang - Fretag;48;0,00;4,00;;8 595,19
+;A 820;2025-12-11;Malardalstrafik USD 79.49 USD kurs 9.23423;48;0,00;41,55;;8 636,74
+;A 1004;2025-12-11;Apple.com iCloud - Fretagstjanst;48;0,00;49,80;;8 686,54
+;A 822;2025-12-12;Circle K drivmedel USD 67.13 USD kurs 9.28897;48;0,00;124,71;;8 811,25
+;A 823;2025-12-12;Fadushka mat USD 2.16 USD kurs 9.27977;48;0,00;2,14;;8 813,39
+;A 977;2025-12-12;Fortnox Bokforingsprogram;48;0,00;29,80;;8 843,19
+;A 917;2025-12-15;Frakt 50516822;48;0,00;583,00;;9 426,19
+;A 918;2025-12-15;Frakt DB Schenker 9423047;48;0,00;25,40;;9 451,59
+;A 919;2025-12-15;Frakt DB Schenker 9423047;48;0,00;47,40;;9 498,99
+;A 920;2025-12-15;Frakt DB Schenker 9423047;48;0,00;197,60;;9 696,59
+;A 921;2025-12-15;Frakt DB Schenker 9423047;48;0,00;622,60;;10 319,19
+;A 922;2025-12-15;Frakt DB Schenker 9423047;48;0,00;29,00;;10 348,19
+;A 923;2025-12-15;Frakt PostNord 52494309;48;0,00;77,80;;10 425,99
+;A 924;2025-12-15;Fretag mobil Telia 47460035;48;0,00;113,80;;10 539,79
+;A 925;2025-12-15;Plusgiro betalning 47704044;48;0,00;49,60;;10 589,39
+;A 1005;2025-12-16;Apple.com iCloud - Fretagstjanst;48;0,00;3,60;;10 592,99
+;A 927;2025-12-17;Frakt DB Schenker 9423047;48;0,00;23,80;;10 616,79
+;A 928;2025-12-17;Frakt DB Schenker 9423047;48;0,00;15,36;;10 632,15
+;A 829;2025-12-19;One.com USD 13.75 USD kurs 9.31722;48;0,00;25,63;;10 657,78
+;A 931;2025-12-22;Svea Ekonomi kortterminal;48;0,00;49,60;;10 707,38
+;A 838;2025-12-29;St1 drivmedel USD 96.07 USD kurs 9.17915;48;0,00;176,36;;10 883,74
+;A 933;2025-12-29;Frakt DB Schenker 9423047;48;0,00;49,88;;10 933,62
+;A 934;2025-12-29;Frakt DB Schenker 9423047;48;0,00;21,00;;10 954,62
+;;;"""Utgående saldo:""";;0,00;78 910,05;67 955,43;10 954,62
+;;;;;;;;
+2645 Beräknad ingående moms på förvärv från utlandet;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 91;2024-09-26;Invoice (USD 40008) FIK20240000000042 vx enl. kurs 10,2296;48;0,00;;102 316,25;-102 316,25
+;A 602;2024-09-30;Momsredovisning juli-september 2024;48;0,00;102 316,25;;0,00
+;A 92;2024-10-16;Invoice #906 (USD 30700 enl. vxelkurs 10,4144);48;0,00;;79 930,50;-79 930,50
+;A 603;2024-12-31;Momsredovisning oktober-december 2024;48;0,00;79 930,50;;0,00
+;A 600;2025-02-28;First China container - ûverfring frÑn Futureworld till inkp;48;0,00;;92 123,00;-92 123,00
+;A 604;2025-03-31;Momsredovisning januari-mars 2025;48;0,00;92 123,00;;0,00
+;;;"""Utgående saldo:""";;0,00;274 369,75;274 369,75;0,00
+;;;;;;;;
+2650 Redovisningskonto för moms;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 602;2024-09-30;Momsredovisning juli-september 2024;;0,00;1 485,00;;1 485,00
+;A 603;2024-12-31;Momsredovisning oktober-december 2024;;0,00;16 027,00;;17 512,00
+;A 604;2025-03-31;Momsredovisning januari-mars 2025;;0,00;;11 551,00;5 961,00
+;A 605;2025-06-30;Momsredovisning april-juni 2025;;0,00;;26 668,00;-20 707,00
+;A 760;2025-06-30;fel dupple trascthion man betala moms en gång  (korrigerad med verifikation A762 av Mohammad Sami Alsharef, 2025-10-27);;0,00;;26 668,00;-47 375,00
+;A 762;2025-06-30;Korrigering av ver.nr. A760, fel dupple trascthion man betala moms en gång  (av Mohammad Sami Alsharef, 2025-10-27);;0,00;26 668,00;;-20 707,00
+;A 642;2025-07-07;VAT payment to Skatteverket - Q2 balance;;0,00;20 707,00;;0,00
+;A 758;2025-08-18;Betalning moms för period: April-Juni 2025 (korrigerad med verifikation A761 av Mohammad Sami Alsharef, 2025-10-27);;0,00;26 668,00;;26 668,00
+;A 761;2025-08-18;Korrigering av ver.nr. A758, Betalning moms för period: April-Juni 2025;;0,00;;26 668,00;0,00
+;A 763;2025-09-30;Momsredovisning juli-september 2025;;0,00;;15 714,00;-15 714,00
+;A 865;2025-10-28;Moms Q3 betalning Skatteverket;;0,00;15 714,00;;0,00
+;A 978;2025-11-17;Skatteverket Betalning;;0,00;400,00;;400,00
+;;;"""Utgående saldo:""";;0,00;107 669,00;107 269,00;400,00
+;;;;;;;;
+2893 Skulder till närstående personer, kortfristig del;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 3;2024-07-10;LAGERBOLAGET F.102576;;;;9 075,00;-9 075,00
+;A 1;2024-07-16;utgift/kostnad (vatan caddesi i istanbul TR);;;;983,41;-10 058,41
+;A 2;2024-07-20;utgift/kostnad ( AKBANK/PENDIK ISANBUL TR);;;;664,26;-10 722,67
+;A 4;2024-08-01;Business Travel: Airfare for M.S. Alsharef, supplier sourcing;;;;1 306,49;-12 029,16
+;A 160;2024-08-25;(EDREAMS 348577891 MADRID);;;;1 251,06;-13 280,22
+;A 6;2024-08-26;(PEGASUS ISTANBUL)Business Travel: Airfare for M.S. Alsharef, supplier sourcing;;;;1 039,99;-14 320,21
+;A 8;2024-08-26;(THE GREEN OTEL)Business Travel: Airfare for M.S. Alsharef, supplier sourcing;;;;2 484,60;-16 804,81
+;A 146;2024-08-26;sipay/taksi yonetim;;;;440,65;-17 245,46
+;A 5;2024-08-27;utgift/kostnad (AKBANK/IMC ISTANBUL);;;;987,25;-18 232,71
+;A 7;2024-08-27;utgift/kostnad (ZAYAROGLU GIDA SAANAYI VE );;;;250,96;-18 483,67
+;A 145;2024-08-27;uber *trip;;;;40,06;-18 523,73
+;A 10;2024-09-06;(AJET.COM ISTANBUL);;;;291,57;-18 815,30
+;A 11;2024-09-06;(ST1 ESKILSTUNA);;;;667,63;-19 482,93
+;A 161;2024-09-06;( mlartg);;;;348,00;-19 830,93
+;A 12;2024-09-10;utgift/kostnad ( DARA ENERGI A.S) DRIVMEDEL;;;;652,06;-20 482,99
+;A 13;2024-09-11;(ISTANBUL SABINA GOKCEN) TAKE AWAY;;;;192,97;-20 675,96
+;A 159;2024-09-11;Preem Rosersberg;;;618,30;;-20 057,66
+;A 144;2024-09-12;Pegasus hava tasimacilik;;;;118,97;-20 176,63
+;A 144;2024-09-12;Pegasus hava tasimacilik;;;;35,69;-20 212,32
+;A 9;2024-09-14;(RECOMPUTE IT NORDIC );;;;400,00;-20 612,32
+;A 143;2024-09-14;Shopify * 273667915;;;;169,75;-20 782,07
+;A 171;2024-09-17;Loan from Director to Company - Cash Flow Support;;;;35 000,00;-55 782,07
+;A 142;2024-09-18;Shopify * 274917290;;;;11,53;-55 793,60
+;A 20;2024-10-01;CARGO CENTER KONTANTF, 202406312 FLYterminalavgift;;;;3 280,88;-59 074,48
+;A 40;2024-10-01;utgift/kostnad (okq8 drivmedel );;;;550,29;-59 624,77
+;A 141;2024-10-01;Google GSUITE-samisjack (google workspace);;;;10,64;-59 635,41
+;A 39;2024-10-02;utgift/kostnad (okq8 drivmedel );;;;745,39;-60 380,80
+;A 140;2024-10-03;Aimo Park Sweden;;;;84,95;-60 465,75
+;A 140;2024-10-03;Aimo Park Sweden;;;;69,95;-60 535,70
+;A 158;2024-10-03;Ryanair Ltd. Dublin;;;;192,08;-60 727,78
+;A 162;2024-10-03;OPODO internet transaktion;;;;5 967,68;-66 695,46
+;A 138;2024-10-07;Aimo Park Sweden;;;;29,95;-66 725,41
+;A 138;2024-10-07;Aimo Park Sweden;;;;29,95;-66 755,36
+;A 138;2024-10-07;Aimo Park Sweden;;;;29,95;-66 785,31
+;A 139;2024-10-07;sj app;;;;214,00;-66 999,31
+;A 24;2024-10-08;Rusta;;;;1 183,30;-68 182,61
+;A 26;2024-10-08;Biltema;;;;365,00;-68 547,61
+;A 62;2024-10-08;utgift/kostnad (okq8);;;;687,59;-69 235,20
+;A 115;2024-10-08;JULA;;;;365,00;-69 600,20
+;A 23;2024-10-09;Dollarstore;;;;388,00;-69 988,20
+;A 25;2024-10-09;Biltema;;;;1 934,40;-71 922,60
+;A 137;2024-10-09;Aimo Park Sweden;;;;29,95;-71 952,55
+;A 15;2024-10-10;TEMU PO-191-055293649567125515;;;;2 030,55;-73 983,10
+;A 28;2024-10-10;biltema;;;;1 201,00;-75 184,10
+;A 35;2024-10-10;Clas Ohlson;;;;80,00;-75 264,10
+;A 117;2024-10-10;patent och regverket;;;;2 400,00;-77 664,10
+;A 34;2024-10-11;biltema;;;;802,00;-78 466,10
+;A 44;2024-10-11;max burgers;;;;422,00;-78 888,10
+;A 45;2024-10-11;max burgers;;;;91,00;-78 979,10
+;A 27;2024-10-12;Biltema;;;;499,00;-79 478,10
+;A 32;2024-10-12;LIDL;;;;504,54;-79 982,64
+;A 136;2024-10-12;Aimo Park Sweden;;;;128,95;-80 111,59
+;A 136;2024-10-12;Aimo Park Sweden;;;;29,95;-80 141,54
+;A 30;2024-10-15;Clas Ohlson;;;;240,00;-80 381,54
+;A 37;2024-10-16;Aimo Park Sweden;;;;314,95;-80 696,49
+;A 169;2024-10-16;Loan from Director to Company - Cash Flow Support;;;;120 000,00;-200 696,49
+;A 16;2024-10-18;TEMU PO-191-06903722854952515;;;;1 215,68;-201 912,17
+;A 46;2024-10-18;shopify avgift f. 285551379;;;;1 222,65;-203 134,82
+;A 154;2024-10-22;n26 top-up;;;;233,10;-203 367,92
+;A 152;2024-10-24;apple.com bill;;;;250,00;-203 617,92
+;A 33;2024-10-25;Clas Ohlson;;;;1 499,00;-205 116,92
+;A 41;2024-10-26;max burgers;;;;490,00;-205 606,92
+;A 42;2024-10-26;max burgers;;;;25,00;-205 631,92
+;A 135;2024-10-27;Aimo Park Sweden;;;;29,95;-205 661,87
+;A 19;2024-10-28;CARGO CENTER KONTANTF. 202407034 FLYterminalavgift;;;;3 837,38;-209 499,25
+;A 22;2024-10-28;Clas Ohlson;;;;249,00;-209 748,25
+;A 29;2024-10-28;Biltema;;;;399,00;-210 147,25
+;A 31;2024-10-28;Clas Ohlson;;;;40,00;-210 187,25
+;A 38;2024-10-28;utgift/kostnad (shell drivmedel );;;;672,45;-210 859,70
+;A 14;2024-10-29;TEMU PO-191-15837295250472515;;;;476,40;-211 336,10
+;A 43;2024-10-29;max burgers;;;;590,00;-211 926,10
+;A 47;2024-10-29;Aimo Park Sweden;;;;29,99;-211 956,09
+;A 134;2024-10-29;Aimo Park Sweden;;;;29,95;-211 986,04
+;A 18;2024-10-30;LF SRMLAND FRSKRINGSPREMIE F: 69006*00 (korrigerad med verifikation A241 av Mohammad Sami Alsharef, 2025-06-27);;;;3 960,00;-215 946,04
+;A 36;2024-10-30;WILLYS;;;;1 053,40;-216 999,44
+;A 153;2024-10-30;Aimo Park Sweden;;;;500,00;-217 499,44
+;A 153;2024-10-30;Aimo Park Sweden;;;;500,00;-217 999,44
+;A 172;2024-10-30;Korrigering av ver.nr. A21, LF SRMLAND FRSKRINGSPREMIE F: 69006*00 (av Mohammad Sami Alsharef, 2025-06-27);;;3 960,00;;-214 039,44
+;A 17;2024-10-31;AIMO PARK - HYRESAVI F.41986401814;;;;1 862,90;-215 902,34
+;A 63;2024-11-01;google GSUITE SAMISJAC;;;;163,15;-216 065,49
+;A 53;2024-11-02;Biltema;;;;770,50;-216 835,99
+;A 51;2024-11-04;WILLYS;;;;1 726,09;-218 562,08
+;A 69;2024-11-04;utgift/kostnad (willys );;;;1 726,09;-220 288,17
+;A 52;2024-11-06;Clas Ohlson;;;;20,00;-220 308,17
+;A 49;2024-11-07;Biltema;;;;164,70;-220 472,87
+;A 50;2024-11-07;RUSTA;;;;49,90;-220 522,77
+;A 54;2024-11-07;Clas Ohlson;;;;180,00;-220 702,77
+;A 57;2024-11-07;Clas Ohlson;;;;649,00;-221 351,77
+;A 59;2024-11-07;Clas Ohlson;;;;219,00;-221 570,77
+;A 64;2024-11-07;utgift/kostnad (ST1);;;;676,93;-222 247,70
+;A 65;2024-11-09;max burgers;;;;890,00;-223 137,70
+;A 56;2024-11-11;Clas Ohlson;;;;399,00;-223 536,70
+;A 58;2024-11-12;Clas Ohlson;;;549,00;;-222 987,70
+;A 71;2024-11-13;(google ads 5215017274);;;;100,00;-223 087,70
+;A 55;2024-11-14;WILLYS;;;;3 210,24;-226 297,94
+;A 156;2024-11-14;AI-marknadsfring OPENAI;;;;112,11;-226 410,05
+;A 61;2024-11-15;Aimo Park Sweden;;;;314,95;-226 725,00
+;A 75;2024-11-16;Aimo Park Sweden;;;;314,95;-227 039,95
+;A 133;2024-11-16;apple.com bill;;;;18,00;-227 057,95
+;A 93;2024-11-17;shopify avgift f. 296203582;;;;1 779,28;-228 837,23
+;A 132;2024-11-17;(google ads5215017274);;;;500,00;-229 337,23
+;A 101;2024-11-18;Tiktok Ads*tiktok Ads Dublin;;;;90,00;-229 427,23
+;A 102;2024-11-18;Tiktok Ads* tiktok Ads Dublin;;;;90,00;-229 517,23
+;A 103;2024-11-18;Tiktok Ads*tiktok Ads Dublin;;;;40,00;-229 557,23
+;A 149;2024-11-18;apple.com bill;;;;39,00;-229 596,23
+;A 104;2024-11-19;Tiktok Ads*tiktok Ads Dublin;;;;180,00;-229 776,23
+;A 131;2024-11-19;SNAP *snap ads;;;;63,39;-229 839,62
+;A 131;2024-11-19;SNAP *snap ads;;;;57,08;-229 896,70
+;A 131;2024-11-19;SNAP *snap ads;;;;43,48;-229 940,18
+;A 131;2024-11-19;SNAP *snap ads;;;;29,51;-229 969,69
+;A 131;2024-11-19;SNAP *snap ads;;;;27,97;-229 997,66
+;A 131;2024-11-19;SNAP *snap ads;;;;23,30;-230 020,96
+;A 131;2024-11-19;SNAP *snap ads;;;;17,79;-230 038,75
+;A 105;2024-11-20;Tiktok Ads*tiktok Ads Dublin;;;;450,00;-230 488,75
+;A 128;2024-11-20;Google GSUITE-samisjack (google workspace);;;;1 000,00;-231 488,75
+;A 130;2024-11-20;SNAP *snap ads;;;;63,65;-231 552,40
+;A 130;2024-11-20;SNAP *snap ads;;;;55,46;-231 607,86
+;A 130;2024-11-20;SNAP *snap ads;;;;29,84;-231 637,70
+;A 130;2024-11-20;SNAP *snap ads;;;;25,91;-231 663,61
+;A 130;2024-11-20;SNAP *snap ads;;;;25,21;-231 688,82
+;A 130;2024-11-20;SNAP *snap ads;;;;23,09;-231 711,91
+;A 72;2024-11-21;utgift/kostnad (google ads 5215017274);;;;2 000,00;-233 711,91
+;A 129;2024-11-21;SNAP *snap ads;;;;112,24;-233 824,15
+;A 129;2024-11-21;SNAP *snap ads;;;;18,98;-233 843,13
+;A 129;2024-11-21;SNAP *snap ads;;;;16,01;-233 859,14
+;A 129;2024-11-21;SNAP *snap ads;;;;10,57;-233 869,71
+;A 73;2024-11-23;utgift/kostnad (google ads 5215017274);;;;3 500,00;-237 369,71
+;A 100;2024-11-23;tiktok ads;;;;450,00;-237 819,71
+;A 106;2024-11-25;Tiktok Ads*tiktok Ads London;;;;450,00;-238 269,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;22,00;-238 291,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;22,00;-238 313,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;22,00;-238 335,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;25,00;-238 360,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;22,00;-238 382,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;22,00;-238 404,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;22,00;-238 426,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;25,00;-238 451,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;25,00;-238 476,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;28,00;-238 504,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;40,00;-238 544,71
+;A 107;2024-11-26;Facebook Ads /Dublin;;;;40,00;-238 584,71
+;A 108;2024-11-27;Facebook Ads /Dublin;;;;61,00;-238 645,71
+;A 108;2024-11-27;Facebook Ads /Dublin;;;;92,00;-238 737,71
+;A 108;2024-11-27;Facebook Ads /Dublin;;;;61,00;-238 798,71
+;A 108;2024-11-27;Facebook Ads /Dublin;;;;61,00;-238 859,71
+;A 108;2024-11-27;Facebook Ads /Dublin;;;;92,00;-238 951,71
+;A 108;2024-11-27;Facebook Ads /Dublin;;;;125,00;-239 076,71
+;A 67;2024-11-28;utgift/kostnad (eparkera );;;;64,85;-239 141,56
+;A 68;2024-11-28;(CVS CENTER );;;;1 085,00;-240 226,56
+;A 109;2024-11-28;Facebook Ads /Dublin;;;;188,00;-240 414,56
+;A 109;2024-11-28;Facebook Ads /Dublin;;;;283,00;-240 697,56
+;A 109;2024-11-28;Facebook Ads /Dublin;;;;312,00;-241 009,56
+;A 150;2024-11-28;(605272 CVS);;;;1 085,00;-242 094,56
+;A 66;2024-11-29;WILLYS;;;;1 773,13;-243 867,69
+;A 74;2024-11-29;utgift/kostnad ( circle K);;;;691,81;-244 559,50
+;A 110;2024-11-29;Facebook Ads /Dublin;;;;344,00;-244 903,50
+;A 157;2024-11-29;AI-marknadsfring PictoryAI;;;;1 274,94;-246 178,44
+;A 157;2024-11-29;AI-marknadsfring PictoryAI;;;;1 342,05;-247 520,49
+;A 60;2024-11-30;Assemblin EL AB (korrigerad med verifikation A243 av Mohammad Sami Alsharef, 2025-06-27) (korrigerad med verifikation A2;;;;4 507,00;-252 027,49
+;A 111;2024-11-30;Facebook Ads /Dublin;;;;379,00;-252 406,49
+;A 116;2024-11-30;utgift/kostnad (google ads);;;;7 100,00;-259 506,49
+;A 151;2024-11-30;apple.com bill;;;;249,00;-259 755,49
+;A 81;2024-12-01;(google ads 5215017274);;;;2 708,96;-262 464,45
+;A 112;2024-12-01;Tiktok Ads*tiktok Ads London;;;;66,41;-262 530,86
+;A 113;2024-12-01;Facebook Ads /Dublin;;;;417,00;-262 947,86
+;A 124;2024-12-01;hallon tele;;;;19,00;-262 966,86
+;A 124;2024-12-01;hallon tele;;;;19,00;-262 985,86
+;A 124;2024-12-01;hallon tele;;;;19,00;-263 004,86
+;A 124;2024-12-01;hallon tele;;;;19,00;-263 023,86
+;A 124;2024-12-01;hallon tele;;;;19,00;-263 042,86
+;A 114;2024-12-02;Facebook Ads /Dublin;;;;459,00;-263 501,86
+;A 78;2024-12-03;(okq8);;;;419,52;-263 921,38
+;A 84;2024-12-03;utgift/kostnad (shell e4 norr);;;;159,00;-264 080,38
+;A 88;2024-12-03;utgift/kostnad (HMS Host Arlanda);;;;171,00;-264 251,38
+;A 118;2024-12-03;meta facebook ads;;;;505,00;-264 756,38
+;A 126;2024-12-03;(eparkera session 252);;;;36,90;-264 793,28
+;A 127;2024-12-03;Google GSUITE-samisjack (google workspace);;;;162,14;-264 955,42
+;A 85;2024-12-04;utgift/kostnad (hotel Booking.com );;;;1 985,03;-266 940,45
+;A 86;2024-12-04;(yesim) simkort;;;;235,82;-267 176,27
+;A 119;2024-12-04;meta facebook ads;;;;556,00;-267 732,27
+;A 87;2024-12-05;(yesim) simkort;;;;560,39;-268 292,66
+;A 164;2024-12-05;Loan from Director to Company - Cash Flow Support;;;;120 000,00;-388 292,66
+;A 80;2024-12-06;utgift/kostnad (hotel Booking.com );;;;1 971,52;-390 264,18
+;A 120;2024-12-08;meta facebook ads;;;;556,63;-390 820,81
+;A 453;2024-12-11;Received money from ahmed gheyath;;;;177 920,00;-568 740,81
+;A 451;2024-12-12;Received money from MOHAMMAD SAMI;;;;133 440,00;-702 180,81
+;A 452;2024-12-12;Received money from MOHAMMAD SAMI;;;;94 520,00;-796 700,81
+;A 76;2024-12-16;Aimo Park Sweden;;;;314,95;-797 015,76
+;A 125;2024-12-16;apple.com bill;;;;18,00;-797 033,76
+;A 83;2024-12-17;GOOGLE Google Workspace;;;;162,14;-797 195,90
+;A 94;2024-12-17;shopify avgift f. 307497458;;;;2 221,25;-799 417,15
+;A 79;2024-12-19;Aimo Park Sweden;;;;314,95;-799 732,10
+;A 77;2024-12-21;utgift/kostnad (willys );;;;1 937,17;-801 669,27
+;A 82;2024-12-21;utgift/kostnad (hotel Booking.com );;;;3 475,58;-805 144,85
+;A 121;2024-12-25;meta facebook ads;;;;464,60;-805 609,45
+;A 147;2024-12-27;apple.com bill;;;;39,00;-805 648,45
+;A 148;2024-12-27;AI-marknadsfring;;;;11,30;-805 659,75
+;A 155;2024-12-27;apple.com bill;;;;35,06;-805 694,81
+;A 122;2024-12-28;meta facebook ads;;;;556,00;-806 250,81
+;A 123;2024-12-28;meta facebook ads;;;;612,00;-806 862,81
+;A 89;2024-12-30;AIMO PARK - HYRESAVI F.41986486320;;;;1 484,34;-808 347,15
+;A 90;2024-12-30;Crona kassasystem;;;;220,00;-808 567,15
+;A 460;2025-01-08;Swish betalning EASYPARK AB - Business parking;;;;19,00;-808 586,15
+;A 284;2025-01-09;Money out to IBAN - SE2150000000057461042734 - ZSE104000077549;;;12 000,00;;-796 586,15
+;A 450;2025-01-09;Received money from ahmed gheyath;;;;68 110,00;-864 696,15
+;A 448;2025-01-14;Received money from MOHAMMAD SAMI;;;;139,83;-864 835,98
+;A 449;2025-01-14;Received money from MOHAMMAD SAMI;;;;50 253,92;-915 089,90
+;A 447;2025-01-17;Received money from ahmed gheyath;;;;57 101,20;-972 191,10
+;A 446;2025-01-21;Received money from ahmed gheyath;;;;27 841,70;-1 000 032,80
+;A 250;2025-01-22;Viva Wallet Card Purchase - WILLYS ESKILSTUNA C;;;708,00;;-999 324,80
+;A 242;2025-01-25;Viva Wallet Card Purchase - ARAN FOOD AB;;;1 099,00;;-998 225,80
+;A 234;2025-01-28;Repayment of Director's Loan  bil ;;;12 000,00;;-986 225,80
+;A 601;2025-02-01;Settlement of supplier invoice via related-party financing (korrigerad med verifikation A764 av Mohammad Sami Alsharef, 2025-12-29);;;278 158,00;;-708 067,80
+;A 764;2025-02-01;Korrigering av ver.nr. A601, Settlement of supplier invoice via related-party financing (av Mohammad Sami Alsharef, 2025-12-29);;;;278 158,00;-986 225,80
+;A 205;2025-02-08;Viva Wallet Card Purchase - WILLYS ESKILSTUNA C;;;1 253,00;;-984 972,80
+;A 200;2025-02-09;Viva Wallet Card Purchase - ARAN FOOD AB;;;2 597,00;;-982 375,80
+;A 402;2025-02-11;Card transaction Kontanten;;;1 300,00;;-981 075,80
+;A 400;2025-02-12;Repayment of Director's Loan;;;30 505,64;;-950 570,16
+;A 586;2025-02-13;Repayment of Director's Loan;;;;15 000,00;-965 570,16
+;A 587;2025-02-13;Repayment of Director's Loan;;;;15 000,00;-980 570,16
+;A 188;2025-02-17;Viva Wallet Card Purchase - WILLYS ESKILSTUNA C;;;1 573,00;;-978 997,16
+;A 581;2025-02-17;Repayment of Director's Loan;;;30 000,00;;-948 997,16
+;A 182;2025-02-20;Viva Wallet Card Purchase - ARAN FOOD AB;;;1 145,00;;-947 852,16
+;A 459;2025-02-26;"Purchase of co. vehicle; part-financed by Director's Loan bil GLS947";;;;12 500,00;-960 352,16
+;A 589;2025-02-27;Loan from Director to Company - Cash Flow Support;;;;7 000,00;-967 352,16
+;A 461;2025-03-03;Kortkp ST1 GILLBERGAPLAN - Business fuel;;;;757,40;-968 109,56
+;A 396;2025-03-12;Card transaction Babylon Livs;;;32,00;;-968 077,56
+;A 387;2025-03-15;Card transaction Ma Livs;;;16,98;;-968 060,58
+;A 388;2025-03-15;Card transaction Ma Livs;;;26,96;;-968 033,62
+;A 389;2025-03-15;Card transaction Lidl;;;60,70;;-967 972,92
+;A 380;2025-03-17;Card transaction In & Finn;;;12,00;;-967 960,92
+;A 382;2025-03-17;Card transaction ICA;;;166,00;;-967 794,92
+;A 383;2025-03-17;Card transaction Aran Food;;;29,99;;-967 764,93
+;A 379;2025-03-22;Card transaction Aran Food;;;686,75;;-967 078,18
+;A 342;2025-03-29;Money out to IBAN - SE6230000000030860059626;;;68,00;;-967 010,18
+;A 560;2025-03-31;Repayment of Director's Loan;;;8 300,00;;-958 710,18
+;A 370;2025-04-04;Card transaction Willys;;;838,90;;-957 871,28
+;A 371;2025-04-04;Card transaction Willys;;;1 064,63;;-956 806,65
+;A 415;2025-04-07;Sent money to ahmed gheyath al-sharif;;;2 180,35;;-954 626,30
+;A 417;2025-04-07;Sent money to ahmed gheyath al-sharif;;;941,72;;-953 684,58
+;A 364;2025-04-13;Card transaction Willys;;;856,23;;-952 828,35
+;A 361;2025-04-14;Card transaction Willys;;;199,90;;-952 628,45
+;A 536;2025-04-28;Repayment of Director's Loan;;;5 000,00;;-947 628,45
+;A 439;2025-05-13;Sent money to ahmed gheyath al-sharif;;;11 273,60;;-936 354,85
+;A 510;2025-05-20;Repayment of Director's Loan;;;;10 000,00;-946 354,85
+;A 507;2025-05-26;Repayment of Director's Loan;;;12 906,00;;-933 448,85
+;A 501;2025-05-27;Repayment of Director's Loan;;;1 000,00;;-932 448,85
+;A 502;2025-05-27;Repayment of Director's Loan;;;6 000,00;;-926 448,85
+;A 495;2025-06-02;51500954163 - Insñttning;;;;8 985,00;-935 433,85
+;A 496;2025-06-02;51500997244 - Insñttning;;;;5 098,00;-940 531,85
+;A 494;2025-06-03;Repayment of Director's Loan;;;25 000,00;;-915 531,85
+;A 414;2025-06-16;Sent money to ahmed gheyath al-sharif;;;1 106,70;;-914 425,15
+;A 427;2025-06-16;Sent money to Mohammad Alsharef;;;2 100,00;;-912 325,15
+;A 481;2025-06-18;Loan from Director to Company - Cash Flow Support;;;;11 000,00;-923 325,15
+;A 474;2025-06-24;Repayment of Director's Loan;;;20 000,00;;-903 325,15
+;A 475;2025-06-24;Repayment of Director's Loan;;;12 713,12;;-890 612,03
+;A 476;2025-06-24;Auronis Repayment of Director's Loan;;;11 000,00;;-879 612,03
+;A 462;2025-06-26;Kortkp Besikta Eskilstuna - Business vehicle inspection;;;;359,00;-879 971,03
+;A 464;2025-06-26;Repayment of documented loan from related party (Alsharif);;;;728 987,00;-1 608 958,03
+;A 470;2025-06-27;Repayment of Director's Loan;;;45 000,00;;-1 563 958,03
+;A 613;2025-06-30;235-IST-266493095 invoice 42 shipping from turkey ;;;;44 500,00;-1 608 458,03
+;A 621;2025-06-30;Omföring av 65% av lån från Ahmed Gheyath Al-Sharif till villkorat aktieägartillskott enligt avtal 2025-07-20.;;;1,00;;-1 608 457,03
+;A 759;2025-06-30;Återbitalning till nära stånde ;;;35 000,00;;-1 573 457,03
+;A 626;2025-07-01;Google G Suite software;;;;101,41;-1 573 558,44
+;A 627;2025-07-01;Fortnox software subscription;;;;149,00;-1 573 707,44
+;A 628;2025-07-01;TikTok advertising;;;;55,77;-1 573 763,21
+;A 637;2025-07-03;TEMU.COM - Business supplies;;;;339,00;-1 574 102,21
+;A 635;2025-07-05;Moneygram Greece - business travel;;;;2 944,11;-1 577 046,32
+;A 636;2025-07-06;Sormland traffic business travel;;;;23,00;-1 577 069,32
+;A 640;2025-07-07;Aviation fee - flight booking;;;;35,00;-1 577 104,32
+;A 638;2025-07-08;TEMU.COM - Business supplies;;;;702,00;-1 577 806,32
+;A 647;2025-07-14;Fatoora Riyadh - business travel;;;;906,03;-1 578 712,35
+;A 639;2025-07-19;TikTok Ads - Marketing expense;;;;2 000,00;-1 580 712,35
+;A 656;2025-07-24;Shareholder loan repayment;;;15 274,28;;-1 565 438,07
+;A 663;2025-07-31;Anthropic AI software;;;;1 125,75;-1 566 563,82
+;A 748;2025-08-01;Google G Suite software;;;;73,01;-1 566 636,83
+;A 668;2025-08-02;Fortnox software subscription;;;;149,00;-1 566 785,83
+;A 674;2025-08-08;Tele2 telecom service;;;;112,84;-1 566 898,67
+;A 744;2025-08-10;Resecentrum travel booking;;;;1 136,00;-1 568 034,67
+;A 745;2025-08-11;National Express - business transport;;;;279,99;-1 568 314,66
+;A 680;2025-08-16;Clas Ohlson business supplies;;;;79,90;-1 568 394,56
+;A 681;2025-08-16;Shopify advertising EUR;;;;409,08;-1 568 803,64
+;A 682;2025-08-16;IN & FINN AB business supplies;;;;241,00;-1 569 044,64
+;A 686;2025-08-26;Hi3G telecom service;;;;1 215,00;-1 570 259,64
+;A 746;2025-08-26;Budgetair flight booking;;;;555,88;-1 570 815,52
+;A 687;2025-08-27;Shareholder loan repayment 2;;;12 000,00;;-1 558 815,52
+;A 749;2025-09-01;Google G Suite software;;;;70,83;-1 558 886,35
+;A 750;2025-09-02;Shopify advertising EUR;;;;156,65;-1 559 043,00
+;A 710;2025-09-03;Fortnox software subscription;;;;149,00;-1 559 192,00
+;A 711;2025-09-03;Temu business supplies;;;281,19;;-1 558 910,81
+;A 721;2025-09-05;OpenAI AI software;;;;120,90;-1 559 031,71
+;A 747;2025-09-05;Aviation fee;;;;39,00;-1 559 070,71
+;A 723;2025-09-06;Malardalstrafik business transport;;;;367,00;-1 559 437,71
+;A 726;2025-09-13;Shopify advertising EUR;;;;400,82;-1 559 838,53
+;A 733;2025-09-22;Hi3G telecom service;;;;1 611,00;-1 561 449,53
+;A 757;2025-09-22;Transfer payment from Wise USD account;;;9 426,49;;-1 552 023,04
+;A 734;2025-09-24;TikTok advertising;;;;1 588,00;-1 553 611,04
+;A 740;2025-09-30;Shareholder loan repayment 3;;;27 905,00;;-1 525 706,04
+;A 742;2025-09-30;Shareholder loan repayment 4;;;17 000,00;;-1 508 706,04
+;A 743;2025-09-30;St1 Gillbergaplan fuel;;;;980,77;-1 509 686,81
+;A 985;2025-10-01;TikTok Ads - Marknadsforing;;;;1 070,11;-1 510 756,92
+;A 988;2025-10-01;Google GSUITE - Fretagstjanst;;;;63,77;-1 510 820,69
+;A 1009;2025-10-05;Tubekick - Underhllning/Fretag;;;;131,06;-1 510 951,75
+;A 765;2025-10-06;St1 Gillbergaplan - Company fuel;;;;906,47;-1 511 858,22
+;A 781;2025-10-06;Loan repayment TRY 61066.41 TRY;;;61 167,03;;-1 450 691,19
+;A 968;2025-10-06;Wise Enterprise transfer;;;;2 026,20;-1 452 717,39
+;A 971;2025-10-06;G&S By Samis jackets test transaktion;;;;1,00;-1 452 718,39
+;A 971;2025-10-06;G&S By Samis jackets test transaktion;;;1,00;;-1 452 717,39
+;A 972;2025-10-06;G&S By Samis jackets test transaktion;;;;1,00;-1 452 718,39
+;A 972;2025-10-06;G&S By Samis jackets test transaktion;;;1,00;;-1 452 717,39
+;A 766;2025-10-07;TEMU.COM - Company purchase;;;;1 117,28;-1 453 834,67
+;A 767;2025-10-09;AMAZONMKTPLC - Company purchase;;;;1 293,87;-1 455 128,54
+;A 768;2025-10-10;PEGASUS Turkey flight - Company travel;;;;867,14;-1 455 995,68
+;A 784;2025-10-10;Loan repayment USD 320.00 USD;;;2 944,00;;-1 453 051,68
+;A 1007;2025-10-11;Apple.com iCloud - Fretagstjanst;;;;249,00;-1 453 300,68
+;A 982;2025-10-12;MALARDALSTRAFIKEN - Arbetsresa;;;;367,00;-1 453 667,68
+;A 991;2025-10-13;Shopify Platform - E-handel;;;;404,59;-1 454 072,27
+;A 981;2025-10-14;MALARDALSTRAFIKEN - Arbetsresa;;;;367,00;-1 454 439,27
+;A 769;2025-10-16;TEMU.COM refund;;;126,62;;-1 454 312,65
+;A 770;2025-10-16;TEMU.COM refund;;;24,64;;-1 454 288,01
+;A 1006;2025-10-16;Apple.com iCloud - Fretagstjanst;;;;18,00;-1 454 306,01
+;A 970;2025-10-20;G&S By Samis jackets test transaktion;;;;1,00;-1 454 307,01
+;A 970;2025-10-20;G&S By Samis jackets test transaktion;;;1,00;;-1 454 306,01
+;A 974;2025-10-23;Fortnox Bokforingsprogram;;;;149,00;-1 454 455,01
+;A 979;2025-10-26;SJ AB Tag - Arbetsresa;;;;96,00;-1 454 551,01
+;A 980;2025-10-26;SJ AB Tag - Arbetsresa;;;;96,00;-1 454 647,01
+;A 975;2025-11-01;Fortnox Bokforingsprogram;;;;149,00;-1 454 796,01
+;A 986;2025-11-01;Google GSUITE - Fretagstjanst;;;;63,12;-1 454 859,13
+;A 969;2025-11-03;G&S By Samis jackets test transaktion;;;;1,00;-1 454 860,13
+;A 969;2025-11-03;G&S By Samis jackets test transaktion;;;1,00;;-1 454 859,13
+;A 993;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;;21,28;-1 454 880,41
+;A 994;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;;104,51;-1 454 984,92
+;A 995;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;;63,87;-1 455 048,79
+;A 996;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;;63,87;-1 455 112,66
+;A 1001;2025-11-10;St1 Gillbergaplan - Fretagsbrnsle;;;;946,42;-1 456 059,08
+;A 992;2025-11-12;Shopify Platform - E-handel;;;;500,61;-1 456 559,69
+;A 976;2025-11-14;Fortnox Bokforingsprogram;;;;24,00;-1 456 583,69
+;A 1010;2025-11-15;TG JBC Orebro - Arbetsresa;;;;2 055,00;-1 458 638,69
+;A 1003;2025-11-16;Apple.com iCloud - Fretagstjanst;;;;17,00;-1 458 655,69
+;A 884;2025-11-17;Skuld 2893 inbetalning 6641229;;;;284,00;-1 458 939,69
+;A 978;2025-11-17;Skatteverket Betalning;;;;400,00;-1 459 339,69
+;A 771;2025-11-24;APPLE.COM/BILL - iCloud company;;;;249,00;-1 459 588,69
+;A 962;2025-11-24;Liuhua Hotel Guangzhou - Kinaresa arbetsresa;;;;7 178,53;-1 466 767,22
+;A 1002;2025-11-25;AIMO Parkering - Fretag;;;;354,95;-1 467 122,17
+;A 895;2025-11-26;Skuld 2893 inbetalning;;;;19 000,00;-1 486 122,17
+;A 896;2025-11-26;SAMIS1 Skuld 2893 inbetalning;;;;20 000,00;-1 506 122,17
+;A 898;2025-11-26;Skuld 2893 inbetalning 6641229;;;;778,00;-1 506 900,17
+;A 899;2025-11-26;Skuld 2893 inbetalning SKULDRA;;;;38 800,00;-1 545 700,17
+;A 772;2025-11-27;FOREX 861 Arlanda - Future World Tech loan;;;;6 500,00;-1 552 200,17
+;A 773;2025-11-27;FOREX 861 Arlanda - Future World Tech loan;;;;10 000,00;-1 562 200,17
+;A 774;2025-11-27;FOREX 861 Arlanda - Future World Tech loan;;;;10 000,00;-1 572 200,17
+;A 901;2025-11-27;Inbetalning 07306298220;;;;7 856,00;-1 580 056,17
+;A 964;2025-11-27;FOREX Arlanda - Lneavans till Future World Tech;;;;10 000,00;-1 590 056,17
+;A 983;2025-11-27;MALARDALSTRAFIKEN - Arbetsresa;;;;734,00;-1 590 790,17
+;A 965;2025-11-28;Kontantuttagsavgift - Remamber kort avgift;;;;240,00;-1 591 030,17
+;A 963;2025-11-29;Liuhua Hotel Guangzhou - Kinaresa arbetsresa;;;;4 486,38;-1 595 516,55
+;A 987;2025-12-01;Google GSUITE - Fretagstjanst;;;;63,42;-1 595 579,97
+;A 989;2025-12-01;TikTok Ads - Marknadsforing;;;;29,03;-1 595 609,00
+;A 1008;2025-12-02;Partners on Booking BV - Resekostnader Arlanda;;;;1 424,34;-1 597 033,34
+;A 990;2025-12-03;TikTok Ads - Marknadsforing;;;;2 744,00;-1 599 777,34
+;A 997;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;;60,00;-1 599 837,34
+;A 998;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;;60,00;-1 599 897,34
+;A 999;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;;60,00;-1 599 957,34
+;A 1000;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;;20,00;-1 599 977,34
+;A 966;2025-12-05;Aviavgift - Remamber kortavgift;;;;31,20;-1 600 008,54
+;A 967;2025-12-05;vertrasseringsavgift - Remamber;;;;76,00;-1 600 084,54
+;A 973;2025-12-09;YESIM Roaming - Kinaresa;;;;167,17;-1 600 251,71
+;A 1004;2025-12-11;Apple.com iCloud - Fretagstjanst;;;;249,00;-1 600 500,71
+;A 977;2025-12-12;Fortnox Bokforingsprogram;;;;149,00;-1 600 649,71
+;A 924;2025-12-15;Fretag mobil Telia 47460035;;;;569,00;-1 601 218,71
+;A 1005;2025-12-16;Apple.com iCloud - Fretagstjanst;;;;18,00;-1 601 236,71
+;A 828;2025-12-17;Loan repayment USD 225.96 USD kurs 9.33791;;;2 110,00;;-1 599 126,71
+;A 984;2025-12-24;Swish Auronis AB - Fretagsbetalning;;;;100,00;-1 599 226,71
+;A 984;2025-12-24;Swish Auronis AB - Fretagsbetalning;;;100,00;;-1 599 126,71
+;A 833;2025-12-25;Loan repayment USD 205.02 USD kurs 9.17442;;;1 880,94;;-1 597 245,77
+;A 834;2025-12-25;Loan repayment USD 7.49 USD kurs 9.17442;;;68,70;;-1 597 177,07
+;A 835;2025-12-25;Loan repayment USD 63.11 USD kurs 9.17442;;;579,00;;-1 596 598,07
+;;;"""Utgående saldo:""";;0,00;731 939,36;2 328 537,43;-1 596 598,07
+;;;;;;;;
+3051 Försäljn varor 25% sv;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 438;2025-01-07;Received money from STRIPE;05 (25%);-209,81;;839,23;-839,23
+;A 437;2025-01-10;Received money from STRIPE;05 (25%);-390,38;;1 561,54;-2 400,77
+;A 435;2025-01-24;Received money from STRIPE;05 (25%);-127,54;;510,14;-2 910,91
+;A 433;2025-02-07;Received money from STRIPE;05 (25%);-783,17;;3 132,67;-6 043,58
+;A 454;2025-03-28;Crona Kassa Sales Period 1 Oct-Mar 28;05 (25%);-22 109,00;;88 436,00;-94 479,58
+;A 430;2025-04-04;Received money from STRIPE;05 (25%);-343,32;;1 373,28;-95 852,86
+;A 455;2025-05-28;Shopify POS Sales Period Mar 29-May 28;05 (25%);-34 765,03;;139 060,11;-234 912,97
+;A 456;2025-06-30;Easy Cashier Sales Period May 29-Jun 30;05 (25%);-9 415,50;;37 662,00;-272 574,97
+;A 751;2025-09-30;Q3 2025 card sales via Worldline;05 (25%);-31 156,14;;124 624,56;-397 199,53
+;A 752;2025-09-30;Q3 2025 cash sales;05 (25%);-5 254,24;;21 016,94;-418 216,47
+;A 948;2025-10-03;Shopify EUR 103.75;05 (25%);-238,62;;954,50;-419 170,97
+;A 949;2025-10-10;Shopify EUR 86.12;05 (25%);-198,08;;792,30;-419 963,27
+;A 950;2025-10-17;Shopify EUR 418.35;05 (25%);-962,20;;3 848,82;-423 812,09
+;A 951;2025-10-24;Shopify EUR 154.12;05 (25%);-354,48;;1 417,90;-425 229,99
+;A 944;2025-10-31;Kortforsaljning Oktober Worldline;05 (25%);-15 137,04;;60 548,17;-485 778,16
+;A 952;2025-11-07;Shopify EUR 371.75;05 (25%);-855,02;;3 420,10;-489 198,26
+;A 953;2025-11-14;Shopify EUR 86.37;05 (25%);-198,66;;794,66;-489 992,92
+;A 954;2025-11-21;Shopify EUR 1398.29;05 (25%);-3 216,07;;12 864,27;-502 857,19
+;A 955;2025-11-28;Shopify EUR 2199.39;05 (25%);-5 058,60;;20 234,39;-523 091,58
+;A 1011;2025-11-28;Shopify Sale for Wise payout;05 (25%);-7 987,00;;31 947,98;-555 039,56
+;A 945;2025-11-30;Kortforsaljning November Worldline;05 (25%);-30 689,46;;122 757,85;-677 797,41
+;A 956;2025-12-05;Shopify EUR 573.75;05 (25%);-1 319,62;;5 278,50;-683 075,91
+;A 957;2025-12-12;Shopify EUR 58.31;05 (25%);-134,11;;536,44;-683 612,35
+;A 958;2025-12-29;Shopify EUR 86.77;05 (25%);-199,57;;798,28;-684 410,63
+;A 946;2025-12-31;Kortforsaljning December Worldline;05 (25%);-17 431,33;;69 725,33;-754 135,96
+;A 947;2025-12-31;Kontantforsaljning Q4;05 (25%);-8 617,55;;34 470,20;-788 606,16
+;;;"""Utgående saldo:""";;-197 151,54;0,00;788 606,16;-788 606,16
+;;;;;;;;
+3740 Öres- och kronutjämning;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 603;2024-12-31;Momsredovisning oktober-december 2024;;;0,16;;0,16
+;A 604;2025-03-31;Momsredovisning januari-mars 2025;;;;1,40;-1,24
+;A 605;2025-06-30;Momsredovisning april-juni 2025;;;0,02;;-1,22
+;A 763;2025-09-30;Momsredovisning juli-september 2025;;;;0,07;-1,29
+;;;"""Utgående saldo:""";;0,00;0,18;1,47;-1,29
+;;;;;;;;
+4000 Inköp av varor från Sverige;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 766;2025-10-07;TEMU.COM - Company purchase;;;893,82;;893,82
+;A 767;2025-10-09;AMAZONMKTPLC - Company purchase;;;1 035,10;;1 928,92
+;A 769;2025-10-16;TEMU.COM refund;;;;101,30;1 827,62
+;A 770;2025-10-16;TEMU.COM refund;;;;19,71;1 807,91
+;;;"""Utgående saldo:""";;0,00;1 928,92;121,01;1 807,91
+;;;;;;;;
+4001 Inkop av tjanst;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 174;2024-11-20;Elmontering till sträckning;;;3 605,60;;3 605,60
+;A 68;2024-11-28;(CVS CENTER );;;1 085,00;;4 690,60
+;A 150;2024-11-28;(605272 CVS);;;1 085,00;;5 775,60
+;A 60;2024-11-30;Assemblin EL AB (korrigerad med verifikation A243 av Mohammad Sami Alsharef, 2025-06-27) (korrigerad med verifikation A2;;;3 605,59;;9 381,19
+;A 176;2025-01-13;Crona Software AB;;;48,80;;9 429,99
+;A 177;2025-01-13;Fortnox Finans AB;;;76,80;;9 506,79
+;A 178;2025-01-14;Fortnox Finans AB;;;76,80;;9 583,59
+;;;"""Utgående saldo:""";;0,00;9 583,59;0,00;9 583,59
+;;;;;;;;
+4110 Kostnad sÑlda varor;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 614;2025-06-30;KSV fr sÑlda damjackor oktober 2024 - juni 2025;;;163 049,24;;163 049,24
+;A 615;2025-06-30;KSV fr sÑlda kinaprodukter oktober 2024 - juni 2025;;;42 970,00;;206 019,24
+;A 623;2025-09-30;COGS - Q3 2025 sales (921 units);;;45 344,24;;251 363,48
+;A 959;2025-12-31;Varufrbrukning Q4 2025;;;236 141,50;;487 504,98
+;;;"""Utgående saldo:""";;0,00;487 504,98;0,00;487 504,98
+;;;;;;;;
+4545 Import av varor, 25 % moms;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 91;2024-09-26;Invoice (USD 40008) FIK20240000000042 vx enl. kurs 10,2296;50 (25%);102 316,46;409 265,84;;409 265,84
+;A 92;2024-10-16;Invoice #906 (USD 30700 enl. vxelkurs 10,4144);50 (25%);79 930,52;319 722,08;;728 987,92
+;A 612;2025-02-01;korrgingirn av valuta fel ;50 (25%);487,50;1 950,00;;730 937,92
+;A 600;2025-02-28;First China container - ûverfring frÑn Futureworld till inkp;50 (25%);92 123,00;368 492,00;;1 099 429,92
+;A 606;2025-06-30;Allokering maskiner och inventarier frÑn import;50 (25%);-12 292,67;;49 170,68;1 050 259,24
+;A 607;2025-06-30;Allokering marknadsfringskostnader frÑn import;50 (25%);-9 434,57;;37 738,29;1 012 520,95
+;A 608;2025-06-30;Allokering handelslager 85% frÑn import;50 (25%);-190 375,63;;761 502,53;251 018,42
+;A 609;2025-06-30;Allokering marknadsfringslager 15% frÑn import;50 (25%);-33 595,70;;134 382,80;116 635,62
+;A 610;2025-06-30;Allokering frbrukningsmaterial frÑn import;50 (25%);-562,40;;2 249,62;114 386,00
+;A 611;2025-06-30;Allokering frakt- och transportkostnader frÑn import;50 (25%);-28 598,23;;114 392,93;-6,93
+;;;"""Utgående saldo:""";;-1,72;1 099 429,92;1 099 436,85;-6,93
+;;;;;;;;
+5010 Lokalhyra;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 341;2024-12-30;Money out to IBAN - SE7680000890116948003766 - 1088488505 - Hyra med moms;;;15 424,50;;15 424,50
+;A 235;2025-01-28;Money out to IBAN - SE7680000890116948003766 - 1088488604 - Hyra med moms;;;15 424,50;;30 849,00
+;A 236;2025-01-28;Money out to IBAN - SE7680000890116948003766 - 1088975006 - Hyra med moms;;;1 422,00;;32 271,00
+;A 584;2025-02-14;Lokalhyra - med moms;;;16 608,00;;48 879,00
+;A 551;2025-04-08;Lokalhyra - med moms;;;16 452,80;;65 331,80
+;A 531;2025-04-29;Lokalhyra - med moms;;;1 516,80;;66 848,60
+;A 532;2025-04-29;Lokalhyra - med moms;;;16 033,60;;82 882,20
+;A 524;2025-05-05;Lokalhyra - med moms;;;15 986,40;;98 868,60
+;A 525;2025-05-05;Lokalhyra - med moms;;;1 516,80;;100 385,40
+;A 480;2025-06-18;Lokalhyra - med moms;;;15 986,40;;116 371,80
+;A 630;2025-07-03;Lagar Hyra office rent;;;1 564,80;;117 936,60
+;A 632;2025-07-03;Hyra Butik shop rent;;;16 440,00;;134 376,60
+;A 633;2025-07-03;Lagar Hyra office rent duplicate;;;1 564,80;;135 941,40
+;A 665;2025-08-01;Hyra Butik shop rent;;;15 986,40;;151 927,80
+;A 671;2025-08-06;Rent correction August;;;1 516,80;;153 444,60
+;A 706;2025-09-02;Rent correction September;;;1 516,80;;154 961,40
+;A 724;2025-09-08;Hyra Butik shop rent;;;15 986,40;;170 947,80
+;A 736;2025-09-26;Rent correction September;;;1 612,80;;172 560,60
+;A 737;2025-09-26;Additional rent September;;;16 127,20;;188 687,80
+;A 982;2025-10-12;MALARDALSTRAFIKEN - Arbetsresa;;;293,60;;188 981,40
+;A 981;2025-10-14;MALARDALSTRAFIKEN - Arbetsresa;;;293,60;;189 275,00
+;A 979;2025-10-26;SJ AB Tag - Arbetsresa;;;76,80;;189 351,80
+;A 980;2025-10-26;SJ AB Tag - Arbetsresa;;;76,80;;189 428,60
+;A 863;2025-10-28;Hyra oktober butik/lager 4392007;;;15 986,40;;205 415,00
+;A 864;2025-10-28;Hyra lagar 4392007;;;1 516,80;;206 931,80
+;A 1001;2025-11-10;St1 Gillbergaplan - Fretagsbrnsle;;;757,14;;207 688,94
+;A 1010;2025-11-15;TG JBC Orebro - Arbetsresa;;;1 644,00;;209 332,94
+;A 962;2025-11-24;Liuhua Hotel Guangzhou - Kinaresa arbetsresa;;;7 178,53;;216 511,47
+;A 1002;2025-11-25;AIMO Parkering - Fretag;;;283,96;;216 795,43
+;A 983;2025-11-27;MALARDALSTRAFIKEN - Arbetsresa;;;587,20;;217 382,63
+;A 963;2025-11-29;Liuhua Hotel Guangzhou - Kinaresa arbetsresa;;;4 486,38;;221 869,01
+;A 1008;2025-12-02;Partners on Booking BV - Resekostnader Arlanda;;;1 139,47;;223 008,48
+;;;"""Utgående saldo:""";;0,00;223 008,48;0,00;223 008,48
+;;;;;;;;
+5070 Reparation och underhåll av lokaler;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 53;2024-11-02;Biltema;;;616,40;;616,40
+;A 52;2024-11-06;Clas Ohlson;;;16,02;;632,42
+;A 59;2024-11-07;Clas Ohlson;;;175,20;;807,62
+;;;"""Utgående saldo:""";;0,00;807,62;0,00;807,62
+;;;;;;;;
+5410 Förbrukningsinventarier;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 33;2024-10-25;Clas Ohlson;;;1 199,20;;1 199,20
+;A 626;2025-07-01;Google G Suite software;;;81,13;;1 280,33
+;A 627;2025-07-01;Fortnox software subscription;;;119,20;;1 399,53
+;A 755;2025-07-01;Google Cloud SEK card purchase - Wise USD;;;172,81;;1 572,34
+;A 631;2025-07-03;Visma software;;;1 497,60;;3 069,94
+;A 643;2025-07-07;Easy Cashier POS system;;;2 748,00;;5 817,94
+;A 657;2025-07-24;Bredband internet service;;;625,00;;6 442,94
+;A 663;2025-07-31;Anthropic AI software;;;900,60;;7 343,54
+;A 748;2025-08-01;Google G Suite software;;;58,40;;7 401,94
+;A 668;2025-08-02;Fortnox software subscription;;;119,20;;7 521,14
+;A 674;2025-08-08;Tele2 telecom service;;;90,27;;7 611,41
+;A 686;2025-08-26;Hi3G telecom service;;;972,00;;8 583,41
+;A 749;2025-09-01;Google G Suite software;;;56,65;;8 640,06
+;A 710;2025-09-03;Fortnox software subscription;;;119,20;;8 759,26
+;A 721;2025-09-05;OpenAI AI software;;;96,72;;8 855,98
+;A 733;2025-09-22;Hi3G telecom service;;;1 288,80;;10 144,78
+;;;"""Utgående saldo:""";;0,00;10 144,78;0,00;10 144,78
+;;;;;;;;
+5420 Programvaror;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 436;2025-01-13;Paid to Shopify;;;1 043,04;;1 043,04
+;A 232;2025-01-28;Viva Wallet Card Purchase - CHILIMOBIL.SE;;;499,00;;1 542,04
+;A 582;2025-02-14;ûverfring - Programvara med moms;;;560,00;;2 102,04
+;A 186;2025-02-18;Viva Wallet Card Purchase - SHOPIFY* 330742565;;;376,00;;2 478,04
+;A 395;2025-03-12;Card transaction Shopify;;;472,61;;2 950,65
+;A 431;2025-03-12;Card transaction Shopify;;;1,32;;2 951,97
+;A 440;2025-03-12;Card transaction Shopify;;;41,42;;2 993,39
+;A 391;2025-03-13;Card transaction Shopify;;;103,62;;3 097,01
+;A 393;2025-03-13;Card transaction Shopify;;;515,22;;3 612,23
+;A 394;2025-03-13;Card transaction Shopify;;;515,07;;4 127,30
+;A 384;2025-03-17;Card transaction Apple;;;249,00;;4 376,30
+;A 385;2025-03-17;Card transaction Shopify;;;1 436,59;;5 812,89
+;A 378;2025-03-23;Card transaction Ant Ifoto.ai;;;100,87;;5 913,76
+;A 377;2025-03-24;Card transaction Google Play;;;254,47;;6 168,23
+;A 376;2025-03-25;Card transaction Apple;;;999,00;;7 167,23
+;A 373;2025-04-02;Card transaction OpenAI ChatGPT;;;198,97;;7 366,20
+;A 357;2025-04-16;Card transaction Shopify;;;1 425,18;;8 791,38
+;A 356;2025-04-17;Card transaction Norton;;;191,00;;8 982,38
+;A 355;2025-04-23;Card transaction Ant Ifoto.ai;;;95,69;;9 078,07
+;A 350;2025-05-20;Card transaction Shopify;;;968,96;;10 047,03
+;A 349;2025-05-27;Card transaction 2co.com imobie;;;475,85;;10 522,88
+;A 347;2025-06-15;Card transaction Shopify;;;493,72;;11 016,60
+;A 788;2025-10-24;One.com SEK 11.25 SEK;;;9,00;;11 025,60
+;A 789;2025-10-27;Google Play app SEK 176.40 SEK;;;176,40;;11 202,00
+;A 790;2025-10-27;Google Play app SEK 176.40 SEK;;;176,40;;11 378,40
+;A 791;2025-10-31;YouTube Premium SEK 10.00 SEK;;;10,00;;11 388,40
+;A 771;2025-11-24;APPLE.COM/BILL - iCloud company;;;199,20;;11 587,60
+;A 824;2025-12-14;Shopify abonnemang EUR 36.00 EUR;;;414,00;;12 001,60
+;A 829;2025-12-19;One.com USD 13.75 USD kurs 9.31722;;;102,50;;12 104,10
+;;;"""Utgående saldo:""";;0,00;12 104,10;0,00;12 104,10
+;;;;;;;;
+5460 Förbrukningsmaterial;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 24;2024-10-08;Rusta;;;946,64;;946,64
+;A 26;2024-10-08;Biltema;;;292,00;;1 238,64
+;A 115;2024-10-08;JULA;;;438,00;;1 676,64
+;A 25;2024-10-09;Biltema;;;1 547,52;;3 224,16
+;A 15;2024-10-10;TEMU PO-191-055293649567125515;;;1 624,48;;4 848,64
+;A 28;2024-10-10;biltema;;;960,80;;5 809,44
+;A 35;2024-10-10;Clas Ohlson;;;60,00;;5 869,44
+;A 27;2024-10-12;Biltema;;;399,20;;6 268,64
+;A 30;2024-10-15;Clas Ohlson;;;192,08;;6 460,72
+;A 16;2024-10-18;TEMU PO-191-06903722854952515;;;972,54;;7 433,26
+;A 22;2024-10-28;Clas Ohlson;;;199,20;;7 632,46
+;A 29;2024-10-28;Biltema;;;319,20;;7 951,66
+;A 31;2024-10-28;Clas Ohlson;;;32,02;;7 983,68
+;A 14;2024-10-29;TEMU PO-191-15837295250472515;;;371,10;;8 354,78
+;A 49;2024-11-07;Biltema;;;131,76;;8 486,54
+;A 50;2024-11-07;RUSTA;;;39,92;;8 526,46
+;A 57;2024-11-07;Clas Ohlson;;;519,12;;9 045,58
+;A 56;2024-11-11;Clas Ohlson;;;319,20;;9 364,78
+;A 58;2024-11-12;Clas Ohlson;;;;439,18;8 925,60
+;A 228;2025-01-30;Viva Wallet Card Purchase - Temu.com;;;1 400,00;;10 325,60
+;A 225;2025-01-31;Viva Wallet Card Purchase - Temu.com;;;226,00;;10 551,60
+;A 208;2025-02-06;Viva Wallet Card Refund - CLAS OHLSON;;;;159,00;10 392,60
+;A 209;2025-02-06;Viva Wallet Card Purchase - CLAS OHLSON;;;494,00;;10 886,60
+;A 190;2025-02-16;Viva Wallet Card Purchase - BILTEMA ESKILSTUNA;;;713,00;;11 599,60
+;A 185;2025-02-18;Viva Wallet Card Purchase - CLAS OHLSON;;;55,00;;11 654,60
+;A 610;2025-06-30;Allokering frbrukningsmaterial frÑn import;;;2 249,62;;13 904,22
+;A 637;2025-07-03;TEMU.COM - Business supplies;;;339,00;;14 243,22
+;A 638;2025-07-08;TEMU.COM - Business supplies;;;702,00;;14 945,22
+;A 786;2025-10-17;Temu forpackning SEK 548.87 SEK;;;548,87;;15 494,09
+;A 793;2025-11-01;Temu refund SEK 30.97 SEK;;;;30,97;15 463,12
+;;;"""Utgående saldo:""";;0,00;16 092,27;629,15;15 463,12
+;;;;;;;;
+5610 Personbilskostnader;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 37;2024-10-16;Aimo Park Sweden;;;252,95;;252,95
+;A 17;2024-10-31;AIMO PARK - HYRESAVI F.41986401814;;;1 490,32;;1 743,27
+;A 61;2024-11-15;Aimo Park Sweden;;;252,95;;1 996,22
+;A 75;2024-11-16;Aimo Park Sweden;;;252,95;;2 249,17
+;A 76;2024-12-16;Aimo Park Sweden;;;252,95;;2 502,12
+;A 79;2024-12-19;Aimo Park Sweden;;;252,95;;2 755,07
+;A 89;2024-12-30;AIMO PARK - HYRESAVI F.41986486320;;;1 113,26;;3 868,33
+;A 460;2025-01-08;Swish betalning EASYPARK AB - Business parking;;;19,00;;3 887,33
+;A 461;2025-03-03;Kortkp ST1 GILLBERGAPLAN - Business fuel;;;757,40;;4 644,73
+;A 386;2025-03-16;Card transaction OKQ8;;;99,00;;4 743,73
+;A 362;2025-04-14;Card refund St1;;;;1 160,88;3 582,85
+;A 363;2025-04-14;Card transaction St1;;;2 000,00;;5 582,85
+;A 462;2025-06-26;Kortkp Besikta Eskilstuna - Business vehicle inspection;;;359,00;;5 941,85
+;A 635;2025-07-05;Moneygram Greece - business travel;;;2 944,11;;8 885,96
+;A 636;2025-07-06;Sormland traffic business travel;;;18,40;;8 904,36
+;A 640;2025-07-07;Aviation fee - flight booking;;;28,00;;8 932,36
+;A 647;2025-07-14;Fatoora Riyadh - business travel;;;906,03;;9 838,39
+;A 744;2025-08-10;Resecentrum travel booking;;;908,80;;10 747,19
+;A 745;2025-08-11;National Express - business transport;;;279,99;;11 027,18
+;A 746;2025-08-26;Budgetair flight booking;;;555,88;;11 583,06
+;A 747;2025-09-05;Aviation fee;;;31,20;;11 614,26
+;A 723;2025-09-06;Malardalstrafik business transport;;;293,60;;11 907,86
+;A 802;2025-11-23;St1 drivmedel EUR 37.82 EUR kurs 10.999;;;332,76;;12 240,62
+;A 822;2025-12-12;Circle K drivmedel USD 67.13 USD kurs 9.28897;;;498,82;;12 739,44
+;A 838;2025-12-29;St1 drivmedel USD 96.07 USD kurs 9.17915;;;705,48;;13 444,92
+;;;"""Utgående saldo:""";;0,00;14 605,80;1 160,88;13 444,92
+;;;;;;;;
+5611 Drivmedel för personbilar;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 11;2024-09-06;(ST1 ESKILSTUNA);;;667,63;;667,63
+;A 12;2024-09-10;utgift/kostnad ( DARA ENERGI A.S) DRIVMEDEL;;;652,06;;1 319,69
+;A 159;2024-09-11;Preem Rosersberg;;;;618,30;701,39
+;A 40;2024-10-01;utgift/kostnad (okq8 drivmedel );;;550,29;;1 251,68
+;A 39;2024-10-02;utgift/kostnad (okq8 drivmedel );;;745,39;;1 997,07
+;A 62;2024-10-08;utgift/kostnad (okq8);;;687,59;;2 684,66
+;A 38;2024-10-28;utgift/kostnad (shell drivmedel );;;672,45;;3 357,11
+;A 64;2024-11-07;utgift/kostnad (ST1);;;676,93;;4 034,04
+;A 74;2024-11-29;utgift/kostnad ( circle K);;;691,81;;4 725,85
+;A 78;2024-12-03;(okq8);;;419,52;;5 145,37
+;A 84;2024-12-03;utgift/kostnad (shell e4 norr);;;159,00;;5 304,37
+;A 192;2025-02-15;Viva Wallet Card Purchase - St1 Gillbergaplan;;;512,00;;5 816,37
+;A 765;2025-10-06;St1 Gillbergaplan - Company fuel;;;725,18;;6 541,55
+;;;"""Utgående saldo:""";;0,00;7 159,85;618,30;6 541,55
+;;;;;;;;
+5619 Övriga personbilskostnader;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 140;2024-10-03;Aimo Park Sweden;;;154,90;;154,90
+;A 138;2024-10-07;Aimo Park Sweden;;;89,85;;244,75
+;A 137;2024-10-09;Aimo Park Sweden;;;29,95;;274,70
+;A 136;2024-10-12;Aimo Park Sweden;;;158,90;;433,60
+;A 135;2024-10-27;Aimo Park Sweden;;;29,95;;463,55
+;A 47;2024-10-29;Aimo Park Sweden;;;29,99;;493,54
+;A 134;2024-10-29;Aimo Park Sweden;;;29,95;;523,49
+;A 153;2024-10-30;Aimo Park Sweden;;;1 000,00;;1 523,49
+;A 67;2024-11-28;utgift/kostnad (eparkera );;;64,85;;1 588,34
+;A 126;2024-12-03;(eparkera session 252);;;36,90;;1 625,24
+;;;"""Utgående saldo:""";;0,00;1 625,24;0,00;1 625,24
+;;;;;;;;
+5620 Lastbilskostnader;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 684;2025-08-26;Car insurance Bilforsakring;;;849,00;;849,00
+;;;"""Utgående saldo:""";;0,00;849,00;0,00;849,00
+;;;;;;;;
+5700 Frakter och transporter (gruppkonto);;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 611;2025-06-30;Allokering frakt- och transportkostnader frÑn import;;;114 392,93;;114 392,93
+;A 613;2025-06-30;235-IST-266493095 invoice 42 shipping from turkey ;;;44 500,00;;158 892,93
+;A 619;2025-06-30;fixing invintory costs ;;;;158 892,00;0,93
+;A 853;2025-10-14;Frakt PostNord 50207042;;;339,20;;340,13
+;A 799;2025-11-14;Shipit.se frakt EUR 91.08 EUR kurs 10.9795;;;800,00;;1 140,13
+;A 891;2025-11-24;Frakt PostNord 52494309;;;734,96;;1 875,09
+;A 892;2025-11-24;Frakt PostNord 52494309;;;1 548,69;;3 423,78
+;A 894;2025-11-25;Frakt DB Schenker 9423047;;;1 726,40;;5 150,18
+;A 917;2025-12-15;Frakt 50516822;;;2 332,00;;7 482,18
+;A 918;2025-12-15;Frakt DB Schenker 9423047;;;101,60;;7 583,78
+;A 919;2025-12-15;Frakt DB Schenker 9423047;;;189,60;;7 773,38
+;A 920;2025-12-15;Frakt DB Schenker 9423047;;;790,40;;8 563,78
+;A 921;2025-12-15;Frakt DB Schenker 9423047;;;2 490,40;;11 054,18
+;A 922;2025-12-15;Frakt DB Schenker 9423047;;;116,00;;11 170,18
+;A 923;2025-12-15;Frakt PostNord 52494309;;;311,20;;11 481,38
+;A 927;2025-12-17;Frakt DB Schenker 9423047;;;95,20;;11 576,58
+;A 928;2025-12-17;Frakt DB Schenker 9423047;;;61,44;;11 638,02
+;A 933;2025-12-29;Frakt DB Schenker 9423047;;;199,50;;11 837,52
+;A 934;2025-12-29;Frakt DB Schenker 9423047;;;84,00;;11 921,52
+;;;"""Utgående saldo:""";;0,00;170 813,52;158 892,00;11 921,52
+;;;;;;;;
+5800 Resekostnader (gruppkonto);;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 321;2024-12-04;Viva Wallet Card Purchase - mytrip_1045449237;;;9 945,00;;9 945,00
+;A 428;2025-04-05;Card transaction Ryanair;;;813,84;;10 758,84
+;A 429;2025-04-05;Card transaction Pegasus;;;492,36;;11 251,20
+;A 358;2025-04-14;Card transaction Dohop;;;810,61;;12 061,81
+;A 359;2025-04-14;Card refund Dohop;;;;802,37;11 259,44
+;A 360;2025-04-14;Card transaction Dohop;;;802,37;;12 061,81
+;;;"""Utgående saldo:""";;0,00;12 864,18;802,37;12 061,81
+;;;;;;;;
+5810 Biljetter;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 139;2024-10-07;sj app;;;214,00;;214,00
+;A 95;2024-12-04;flygbiljett;;;9 945,82;;10 159,82
+;A 768;2025-10-10;PEGASUS Turkey flight - Company travel;;;867,14;;11 026,96
+;A 803;2025-11-25;Booking.com flight EUR 624.99 EUR kurs 1.15685;;;7 187,39;;18 214,35
+;A 804;2025-11-25;Booking.com USD 0.98 USD;;;9,02;;18 223,37
+;A 805;2025-11-27;Forex EUR 2.91 EUR kurs 10.9894;;;25,61;;18 248,98
+;A 806;2025-11-27;Arlanda Walk Through EUR 32.00 EUR kurs 10.9989;;;281,60;;18 530,58
+;A 807;2025-11-27;Jureskog mat EUR 52.65 EUR kurs 10.9975;;;516,96;;19 047,54
+;A 808;2025-11-27;Take Away Mart EUR 4.46 EUR kurs 10.9952;;;43,75;;19 091,29
+;A 809;2025-11-28;Beijing Airport mat EUR 0.98 EUR kurs 8.19996 CNY;;;10,90;;19 102,19
+;A 819;2025-12-11;Beijing mat USD 75.61 USD kurs 7.0621 CNY;;;700,65;;19 802,84
+;A 820;2025-12-11;Malardalstrafik USD 79.49 USD kurs 9.23423;;;692,45;;20 495,29
+;A 823;2025-12-12;Fadushka mat USD 2.16 USD kurs 9.27977;;;17,86;;20 513,15
+;;;"""Utgående saldo:""";;0,00;20 513,15;0,00;20 513,15
+;;;;;;;;
+5830 Kost och logi;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 8;2024-08-26;(THE GREEN OTEL)Business Travel: Airfare for M.S. Alsharef, supplier sourcing;;;2 484,60;;2 484,60
+;A 85;2024-12-04;utgift/kostnad (hotel Booking.com );;;1 985,03;;4 469,63
+;A 82;2024-12-21;utgift/kostnad (hotel Booking.com );;;3 475,58;;7 945,21
+;;;"""Utgående saldo:""";;0,00;7 945,21;0,00;7 945,21
+;;;;;;;;
+5890 Övriga resekostnader;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 4;2024-08-01;Business Travel: Airfare for M.S. Alsharef, supplier sourcing;;;1 306,49;;1 306,49
+;A 160;2024-08-25;(EDREAMS 348577891 MADRID);;;1 251,06;;2 557,55
+;A 6;2024-08-26;(PEGASUS ISTANBUL)Business Travel: Airfare for M.S. Alsharef, supplier sourcing;;;1 039,99;;3 597,54
+;A 146;2024-08-26;sipay/taksi yonetim;;;440,65;;4 038,19
+;A 145;2024-08-27;uber *trip;;;40,06;;4 078,25
+;A 10;2024-09-06;(AJET.COM ISTANBUL);;;291,57;;4 369,82
+;A 161;2024-09-06;( mlartg);;;348,00;;4 717,82
+;A 144;2024-09-12;Pegasus hava tasimacilik;;;154,66;;4 872,48
+;A 158;2024-10-03;Ryanair Ltd. Dublin;;;192,08;;5 064,56
+;A 162;2024-10-03;OPODO internet transaktion;;;5 967,68;;11 032,24
+;A 80;2024-12-06;utgift/kostnad (hotel Booking.com );;;1 971,52;;13 003,76
+;;;"""Utgående saldo:""";;0,00;13 003,76;0,00;13 003,76
+;;;;;;;;
+5900 Reklam och PR (gruppkonto);;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 607;2025-06-30;Allokering marknadsfringskostnader frÑn import;;;37 738,29;;37 738,29
+;A 618;2025-06-30;MarknadsfringsgÑvor enligt 15% policy fr kinaprodukter;;;18 181,70;;55 919,99
+;A 622;2025-07-01;Clear opening 1469 balance - previous period marketing gifts;;;;18 180,90;37 739,09
+;A 628;2025-07-01;TikTok advertising;;;55,77;;37 794,86
+;A 754;2025-07-15;Shopify EUR card purchase - Wise USD;;;398,01;;38 192,87
+;A 639;2025-07-19;TikTok Ads - Marketing expense;;;2 000,00;;40 192,87
+;A 667;2025-08-01;Facebook advertising;;;125,00;;40 317,87
+;A 681;2025-08-16;Shopify advertising EUR;;;409,08;;40 726,95
+;A 692;2025-08-28;TikTok advertising;;;90,00;;40 816,95
+;A 693;2025-08-29;TikTok reversal credit;;;;90,00;40 726,95
+;A 694;2025-08-29;Facebook advertising;;;138,00;;40 864,95
+;A 695;2025-08-29;Facebook advertising;;;21,09;;40 886,04
+;A 696;2025-08-29;Facebook advertising;;;152,00;;41 038,04
+;A 697;2025-08-29;Facebook advertising;;;14,55;;41 052,59
+;A 698;2025-08-30;Facebook advertising;;;167,00;;41 219,59
+;A 699;2025-08-30;Facebook advertising;;;49,33;;41 268,92
+;A 700;2025-08-31;Facebook advertising;;;184,00;;41 452,92
+;A 701;2025-08-31;Facebook advertising;;;45,23;;41 498,15
+;A 705;2025-09-01;TikTok advertising;;;267,72;;41 765,87
+;A 708;2025-09-02;Facebook ad credit reversal;;;;184,00;41 581,87
+;A 750;2025-09-02;Shopify advertising EUR;;;156,65;;41 738,52
+;A 712;2025-09-03;Facebook advertising;;;65,77;;41 804,29
+;A 715;2025-09-04;Facebook advertising;;;202,00;;42 006,29
+;A 716;2025-09-04;Facebook advertising;;;184,00;;42 190,29
+;A 717;2025-09-04;Facebook advertising;;;221,00;;42 411,29
+;A 718;2025-09-04;Facebook advertising;;;18,73;;42 430,02
+;A 719;2025-09-04;Facebook advertising;;;241,00;;42 671,02
+;A 726;2025-09-13;Shopify advertising EUR;;;400,82;;43 071,84
+;A 734;2025-09-24;TikTok advertising;;;1 588,00;;44 659,84
+;A 625;2025-09-30;Expense Q3 2025 marketing gifts - clean 1469 to zero;;;11 337,54;;55 997,38
+;A 743;2025-09-30;St1 Gillbergaplan fuel;;;784,62;;56 782,00
+;A 985;2025-10-01;TikTok Ads - Marknadsforing;;;1 070,11;;57 852,11
+;A 1009;2025-10-05;Tubekick - Underhllning/Fretag;;;104,85;;57 956,96
+;A 792;2025-11-01;TikTok Ads SEK 748.05 SEK;;;748,05;;58 705,01
+;A 794;2025-11-01;TikTok Ads EUR 23.45 EUR kurs 10.9513;;;256,81;;58 961,82
+;A 800;2025-11-19;TikTok Ads EUR 178.32 EUR kurs 11.0027;;;1 962,00;;60 923,82
+;A 965;2025-11-28;Kontantuttagsavgift - Remamber kort avgift;;;240,00;;61 163,82
+;A 989;2025-12-01;TikTok Ads - Marknadsforing;;;29,03;;61 192,85
+;A 990;2025-12-03;TikTok Ads - Marknadsforing;;;2 744,00;;63 936,85
+;A 966;2025-12-05;Aviavgift - Remamber kortavgift;;;31,20;;63 968,05
+;A 967;2025-12-05;vertrasseringsavgift - Remamber;;;76,00;;64 044,05
+;A 832;2025-12-25;TikTok Ads USD 179.76 USD kurs 9.17929;;;1 650,10;;65 694,15
+;A 839;2025-12-30;TikTok Ads USD 152.94 USD kurs 9.19322;;;1 406,00;;67 100,15
+;A 840;2025-12-31;TikTok Ads USD 152.46 USD kurs 9.22201;;;1 406,00;;68 506,15
+;A 960;2025-12-31;Reklamgvor till kunder Q4 2025;;;26 237,95;;94 744,10
+;;;"""Utgående saldo:""";;0,00;113 199,00;18 454,90;94 744,10
+;;;;;;;;
+5910 Annonsering;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 141;2024-10-01;Google GSUITE-samisjack (google workspace);;;10,64;;10,64
+;A 71;2024-11-13;(google ads 5215017274);;;100,00;;110,64
+;A 132;2024-11-17;(google ads5215017274);;;500,00;;610,64
+;A 101;2024-11-18;Tiktok Ads*tiktok Ads Dublin;;;90,00;;700,64
+;A 102;2024-11-18;Tiktok Ads* tiktok Ads Dublin;;;90,00;;790,64
+;A 103;2024-11-18;Tiktok Ads*tiktok Ads Dublin;;;40,00;;830,64
+;A 104;2024-11-19;Tiktok Ads*tiktok Ads Dublin;;;180,00;;1 010,64
+;A 131;2024-11-19;SNAP *snap ads;;;262,52;;1 273,16
+;A 105;2024-11-20;Tiktok Ads*tiktok Ads Dublin;;;450,00;;1 723,16
+;A 128;2024-11-20;Google GSUITE-samisjack (google workspace);;;1 000,00;;2 723,16
+;A 130;2024-11-20;SNAP *snap ads;;;223,16;;2 946,32
+;A 72;2024-11-21;utgift/kostnad (google ads 5215017274);;;2 000,00;;4 946,32
+;A 129;2024-11-21;SNAP *snap ads;;;157,80;;5 104,12
+;A 73;2024-11-23;utgift/kostnad (google ads 5215017274);;;3 500,00;;8 604,12
+;A 100;2024-11-23;tiktok ads;;;450,00;;9 054,12
+;A 106;2024-11-25;Tiktok Ads*tiktok Ads London;;;450,00;;9 504,12
+;A 107;2024-11-26;Facebook Ads /Dublin;;;315,00;;9 819,12
+;A 108;2024-11-27;Facebook Ads /Dublin;;;492,00;;10 311,12
+;A 109;2024-11-28;Facebook Ads /Dublin;;;783,00;;11 094,12
+;A 110;2024-11-29;Facebook Ads /Dublin;;;344,00;;11 438,12
+;A 111;2024-11-30;Facebook Ads /Dublin;;;379,00;;11 817,12
+;A 116;2024-11-30;utgift/kostnad (google ads);;;7 100,00;;18 917,12
+;A 81;2024-12-01;(google ads 5215017274);;;2 708,96;;21 626,08
+;A 112;2024-12-01;Tiktok Ads*tiktok Ads London;;;66,41;;21 692,49
+;A 113;2024-12-01;Facebook Ads /Dublin;;;417,00;;22 109,49
+;A 114;2024-12-02;Facebook Ads /Dublin;;;459,00;;22 568,49
+;A 118;2024-12-03;meta facebook ads;;;505,00;;23 073,49
+;A 127;2024-12-03;Google GSUITE-samisjack (google workspace);;;162,14;;23 235,63
+;A 119;2024-12-04;meta facebook ads;;;556,00;;23 791,63
+;A 120;2024-12-08;meta facebook ads;;;556,63;;24 348,26
+;A 121;2024-12-25;meta facebook ads;;;464,60;;24 812,86
+;A 122;2024-12-28;meta facebook ads;;;556,00;;25 368,86
+;A 123;2024-12-28;meta facebook ads;;;612,00;;25 980,86
+;A 258;2025-01-20;Viva Wallet Card Purchase - FACEBK *4SMPEFYP52;;;50,00;;26 030,86
+;A 259;2025-01-20;Viva Wallet Card Purchase - FACEBK *9R5X8G8Q52;;;22,00;;26 052,86
+;A 260;2025-01-20;Viva Wallet Card Purchase - FACEBK *73Q8KHUQ52;;;18,00;;26 070,86
+;A 261;2025-01-20;Viva Wallet Card Purchase - FACEBK *26JAVGGQ52;;;22,00;;26 092,86
+;A 262;2025-01-20;Viva Wallet Card Purchase - FACEBK *Y3Y8EFYP52;;;22,00;;26 114,86
+;A 263;2025-01-20;Viva Wallet Card Purchase - FACEBK *XV4LEFYP52;;;15,00;;26 129,86
+;A 264;2025-01-20;Viva Wallet Card Purchase - FACEBK *SZTWUGGQ52;;;21,00;;26 150,86
+;A 265;2025-01-20;Viva Wallet Card Purchase - FACEBK *GY53QFUP52;;;22,00;;26 172,86
+;A 266;2025-01-20;Viva Wallet Card Purchase - FACEBK *F95NHGQQ52;;;22,00;;26 194,86
+;A 267;2025-01-20;Viva Wallet Card Purchase - FACEBK *AE7DEFYP52;;;22,00;;26 216,86
+;A 268;2025-01-20;Viva Wallet Card Purchase - FACEBK *8RHZBG4Q52;;;33,00;;26 249,86
+;A 269;2025-01-20;Viva Wallet Card Purchase - FACEBK *Z2VMEFYP52;;;33,00;;26 282,86
+;A 270;2025-01-20;Viva Wallet Card Purchase - FACEBK *ZHKQEFYP52;;;19,00;;26 301,86
+;A 251;2025-01-21;Viva Wallet Card Purchase - FACEBK *E4QVEFYP52;;;50,00;;26 351,86
+;A 252;2025-01-21;Viva Wallet Card Purchase - FACEBK *PBLRLFLQ52;;;50,00;;26 401,86
+;A 253;2025-01-21;Viva Wallet Card Purchase - FACEBK *NDBXCG4Q52;;;27,00;;26 428,86
+;A 243;2025-01-25;Viva Wallet Card Purchase - FACEBK *F9GBGG8Q52;;;16,00;;26 444,86
+;A 203;2025-02-08;Viva Wallet Card Purchase - TikTok Ads;;;728,00;;27 172,86
+;A 197;2025-02-10;Viva Wallet Card Purchase - TikTok Ads;;;728,00;;27 900,86
+;A 198;2025-02-10;Viva Wallet Card Purchase - FACEBK *3L4QAGYC72;;;417,00;;28 317,86
+;A 179;2025-03-01;Viva Wallet Card Purchase - TikTok Ads;;;58,00;;28 375,86
+;;;"""Utgående saldo:""";;0,00;28 375,86;0,00;28 375,86
+;;;;;;;;
+5911 AI-marknadsforingsverktyg;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 156;2024-11-14;AI-marknadsfring OPENAI;;;112,11;;112,11
+;A 157;2024-11-29;AI-marknadsfring PictoryAI;;;2 616,99;;2 729,10
+;A 148;2024-12-27;AI-marknadsfring;;;11,30;;2 740,40
+;;;"""Utgående saldo:""";;0,00;2 740,40;0,00;2 740,40
+;;;;;;;;
+5920 Utomhus- och trafikreklam;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 680;2025-08-16;Clas Ohlson business supplies;;;63,92;;63,92
+;A 682;2025-08-16;IN & FINN AB business supplies;;;192,80;;256,72
+;;;"""Utgående saldo:""";;0,00;256,72;0,00;256,72
+;;;;;;;;
+6110 Kontorsmateriel;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 34;2024-10-11;biltema;;;641,60;;641,60
+;A 54;2024-11-07;Clas Ohlson;;;144,02;;785,62
+;;;"""Utgående saldo:""";;0,00;785,62;0,00;785,62
+;;;;;;;;
+6212 Mobiltelefon;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 152;2024-10-24;apple.com bill;;;250,00;;250,00
+;A 133;2024-11-16;apple.com bill;;;18,00;;268,00
+;A 149;2024-11-18;apple.com bill;;;39,00;;307,00
+;A 151;2024-11-30;apple.com bill;;;249,00;;556,00
+;A 124;2024-12-01;hallon tele;;;95,00;;651,00
+;A 86;2024-12-04;(yesim) simkort;;;235,82;;886,82
+;A 87;2024-12-05;(yesim) simkort;;;560,39;;1 447,21
+;A 125;2024-12-16;apple.com bill;;;18,00;;1 465,21
+;A 147;2024-12-27;apple.com bill;;;39,00;;1 504,21
+;A 155;2024-12-27;apple.com bill;;;35,06;;1 539,27
+;A 775;2025-10-02;Hallon SEK 100.00 SEK;;;80,00;;1 619,27
+;A 776;2025-10-02;Hallon USD 9.40 USD kurs 9.35988;;;70,40;;1 689,67
+;A 795;2025-11-02;Hallon EUR 11.78 EUR kurs 10.9513;;;103,20;;1 792,87
+;A 924;2025-12-15;Fretag mobil Telia 47460035;;;455,20;;2 248,07
+;;;"""Utgående saldo:""";;0,00;2 248,07;0,00;2 248,07
+;;;;;;;;
+6250 Postbefordran;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 641;2025-07-07;Bolagsverket registration fee;;;507,00;;507,00
+;A 652;2025-07-18;Administrative fee payment;;;500,00;;1 007,00
+;A 655;2025-07-22;Administrative fee payment;;;250,00;;1 257,00
+;A 688;2025-08-27;Administrative fee payment;;;500,00;;1 757,00
+;;;"""Utgående saldo:""";;0,00;1 757,00;0,00;1 757,00
+;;;;;;;;
+6310 Företagsförsäkringar;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 18;2024-10-30;LF SRMLAND FRSKRINGSPREMIE F: 69006*00 (korrigerad med verifikation A241 av Mohammad Sami Alsharef, 2025-06-27);;;3 960,00;;3 960,00
+;A 172;2024-10-30;Korrigering av ver.nr. A21, LF SRMLAND FRSKRINGSPREMIE F: 69006*00 (av Mohammad Sami Alsharef, 2025-06-27);;;;3 960,00;0,00
+;A 173;2024-11-13;frskring;;;3 960,00;;3 960,00
+;A 856;2025-10-17;Forsakring 53020525;;;3 763,00;;7 723,00
+;;;"""Utgående saldo:""";;0,00;11 683,00;3 960,00;7 723,00
+;;;;;;;;
+6500 Övriga externa tjänster (gruppkonto);;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 988;2025-10-01;Google GSUITE - Fretagstjanst;;;63,77;;63,77
+;A 1007;2025-10-11;Apple.com iCloud - Fretagstjanst;;;199,20;;262,97
+;A 991;2025-10-13;Shopify Platform - E-handel;;;323,67;;586,64
+;A 1006;2025-10-16;Apple.com iCloud - Fretagstjanst;;;14,40;;601,04
+;A 974;2025-10-23;Fortnox Bokforingsprogram;;;119,20;;720,24
+;A 975;2025-11-01;Fortnox Bokforingsprogram;;;119,20;;839,44
+;A 986;2025-11-01;Google GSUITE - Fretagstjanst;;;63,12;;902,56
+;A 992;2025-11-12;Shopify Platform - E-handel;;;400,49;;1 303,05
+;A 976;2025-11-14;Fortnox Bokforingsprogram;;;19,20;;1 322,25
+;A 1003;2025-11-16;Apple.com iCloud - Fretagstjanst;;;13,60;;1 335,85
+;A 987;2025-12-01;Google GSUITE - Fretagstjanst;;;63,42;;1 399,27
+;A 1004;2025-12-11;Apple.com iCloud - Fretagstjanst;;;199,20;;1 598,47
+;A 977;2025-12-12;Fortnox Bokforingsprogram;;;119,20;;1 717,67
+;A 1005;2025-12-16;Apple.com iCloud - Fretagstjanst;;;14,40;;1 732,07
+;;;"""Utgående saldo:""";;0,00;1 732,07;0,00;1 732,07
+;;;;;;;;
+6540 IT-tjänster;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 63;2024-11-01;google GSUITE SAMISJAC;;;163,15;;163,15
+;A 83;2024-12-17;GOOGLE Google Workspace;;;162,14;;325,29
+;;;"""Utgående saldo:""";;0,00;325,29;0,00;325,29
+;;;;;;;;
+6570 Bankkostnader;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 597;2024-07-01;MÑnadsavgift;;;70,00;;70,00
+;A 598;2024-07-01;MÑnadsavgift;;;70,00;;140,00
+;A 599;2024-07-01;MÑnadsavgift;;;70,00;;210,00
+;A 596;2024-08-01;MÑnadsavgift;;;70,00;;280,00
+;A 595;2024-09-01;MÑnadsavgift;;;70,00;;350,00
+;A 168;2024-10-01;BANKKOSTNADER;;;70,00;;420,00
+;A 594;2024-10-01;MÑnadsavgift;;;70,00;;490,00
+;A 412;2024-10-25;Bank details order checkout;;;520,00;;1 010,00
+;A 167;2024-11-01;BANKKOSTNADER;;;70,00;;1 080,00
+;A 592;2024-11-01;MÑnadsavgift;;;70,00;;1 150,00
+;A 593;2024-11-01;MÑnadsavgift;;;70,00;;1 220,00
+;A 339;2024-11-11;Sales Clearance Commission Cards;;;17,00;;1 237,00
+;A 338;2024-11-14;Sales Clearance Commission Cards;;;32,00;;1 269,00
+;A 337;2024-11-15;Sales Clearance Commission Cards;;;34,00;;1 303,00
+;A 336;2024-11-17;Sales Clearance Commission Cards;;;32,00;;1 335,00
+;A 335;2024-11-18;Sales Clearance Commission Cards;;;30,00;;1 365,00
+;A 334;2024-11-22;Sales Clearance Commission Cards;;;34,00;;1 399,00
+;A 332;2024-11-23;Sales Clearance Commission Cards;;;29,00;;1 428,00
+;A 333;2024-11-23;Sales Clearance Commission Cards;;;3,00;;1 431,00
+;A 329;2024-11-26;Sales Clearance Commission Cards;;;17,00;;1 448,00
+;A 330;2024-11-26;Sales Clearance Commission Cards;;;32,00;;1 480,00
+;A 331;2024-11-26;Sales Clearance Commission Cards;;;19,00;;1 499,00
+;A 327;2024-11-27;Sales Clearance Commission Cards;;;26,00;;1 525,00
+;A 328;2024-11-27;Sales Clearance Commission Cards;;;30,00;;1 555,00
+;A 325;2024-11-29;Sales Clearance Commission Cards;;;17,00;;1 572,00
+;A 326;2024-11-29;Sales Clearance Commission Cards;;;26,00;;1 598,00
+;A 324;2024-11-30;Billing Fee - Account Default Plan (2024-10-31 - 2024-11-29);;;58,00;;1 656,00
+;A 165;2024-12-01;BANKKOSTNADER;;;70,00;;1 726,00
+;A 591;2024-12-01;MÑnadsavgift;;;70,00;;1 796,00
+;A 323;2024-12-02;Sales Clearance Commission Cards;;;3,00;;1 799,00
+;A 320;2024-12-04;Sales Clearance Commission Cards;;;32,00;;1 831,00
+;A 322;2024-12-04;Sales Clearance Commission Cards;;;32,00;;1 863,00
+;A 96;2024-12-05;Viva bankavgift retur;;;;45,83;1 817,17
+;A 97;2024-12-05;BANKKOSTNADER;;;298,37;;2 115,54
+;A 317;2024-12-05;Billing Fee - Foreign Currency Fee for Transaction Amount 900.49 USD (2024-12-04);;;298,00;;2 413,54
+;A 316;2024-12-06;Sales Clearance Commission Cards;;;46,00;;2 459,54
+;A 315;2024-12-07;Sales Clearance Commission Cards;;;23,00;;2 482,54
+;A 313;2024-12-11;Sales Clearance Commission Cards;;;32,00;;2 514,54
+;A 314;2024-12-11;Sales Clearance Commission Cards;;;23,00;;2 537,54
+;A 312;2024-12-13;Sales Clearance Commission Cards;;;32,00;;2 569,54
+;A 311;2024-12-14;Sales Clearance Commission Cards;;;28,00;;2 597,54
+;A 310;2024-12-16;Sales Clearance Commission Cards;;;5,00;;2 602,54
+;A 307;2024-12-20;Sales Clearance Commission Cards;;;17,00;;2 619,54
+;A 308;2024-12-20;Sales Clearance Commission Cards;;;17,00;;2 636,54
+;A 309;2024-12-20;Sales Clearance Commission Cards;;;17,00;;2 653,54
+;A 305;2024-12-21;Sales Clearance Commission Cards;;;28,00;;2 681,54
+;A 98;2024-12-22;Viva bankavgift retur;;;;0,81;2 680,73
+;A 300;2024-12-23;Sales Clearance Commission Cards;;;23,00;;2 703,73
+;A 301;2024-12-23;Sales Clearance Commission Cards;;;46,00;;2 749,73
+;A 302;2024-12-23;Sales Clearance Commission Cards;;;32,00;;2 781,73
+;A 303;2024-12-23;Sales Clearance Commission Cards;;;8,00;;2 789,73
+;A 304;2024-12-23;Sales Clearance Commission Cards;;;8,00;;2 797,73
+;A 299;2024-12-26;Sales Clearance Commission Cards;;;14,00;;2 811,73
+;A 298;2024-12-27;Sales Clearance Commission Cards;;;7,00;;2 818,73
+;A 296;2024-12-28;Sales Clearance Commission Cards;;;24,00;;2 842,73
+;A 297;2024-12-28;Sales Clearance Commission Cards;;;37,00;;2 879,73
+;A 294;2024-12-30;Sales Clearance Commission Cards;;;14,00;;2 893,73
+;A 295;2024-12-30;Sales Clearance Commission Cards;;;37,00;;2 930,73
+;A 340;2024-12-30;Viva Wallet - Money out to IBAN fee;;;6,00;;2 936,73
+;A 99;2024-12-31;banktjnster avgift;;;58,00;;2 994,73
+;A 292;2024-12-31;Billing Fee - Account Default Plan (2024-11-30 - 2024-12-30);;;58,00;;3 052,73
+;A 293;2024-12-31;Sales Clearance Commission Cards;;;14,00;;3 066,73
+;A 290;2025-01-02;Sales Clearance Commission Cards;;;14,00;;3 080,73
+;A 291;2025-01-02;Sales Clearance Commission Cards;;;12,00;;3 092,73
+;A 288;2025-01-06;Sales Clearance Commission Cards;;;43,00;;3 135,73
+;A 289;2025-01-06;Sales Clearance Commission Cards;;;46,00;;3 181,73
+;A 285;2025-01-07;Sales Clearance Commission Cards;;;32,00;;3 213,73
+;A 286;2025-01-07;Sales Clearance Commission Cards;;;35,00;;3 248,73
+;A 287;2025-01-07;Sales Clearance Commission Cards;;;17,00;;3 265,73
+;A 283;2025-01-10;Sales Clearance Commission Cards;;;30,00;;3 295,73
+;A 280;2025-01-13;Sales Clearance Commission Cards;;;22,00;;3 317,73
+;A 279;2025-01-14;Sales Clearance Commission Cards;;;23,00;;3 340,73
+;A 278;2025-01-15;Sales Clearance Commission Cards;;;20,00;;3 360,73
+;A 276;2025-01-16;Sales Clearance Commission Cards;;;13,00;;3 373,73
+;A 275;2025-01-17;Sales Clearance Commission Cards;;;11,00;;3 384,73
+;A 273;2025-01-19;Sales Clearance Commission Cards;;;11,00;;3 395,73
+;A 274;2025-01-19;Sales Clearance Commission Cards;;;25,00;;3 420,73
+;A 257;2025-01-20;Sales Clearance Commission Cards;;;11,00;;3 431,73
+;A 271;2025-01-20;Sales Clearance Commission Cards;;;13,00;;3 444,73
+;A 272;2025-01-20;Sales Clearance Commission Cards;;;13,00;;3 457,73
+;A 255;2025-01-21;Sales Clearance Commission Cards;;;16,00;;3 473,73
+;A 256;2025-01-21;Sales Clearance Commission Cards;;;25,00;;3 498,73
+;A 244;2025-01-24;Sales Clearance Commission Cards;;;69,00;;3 567,73
+;A 245;2025-01-24;Sales Clearance Commission Cards;;;30,00;;3 597,73
+;A 246;2025-01-24;Sales Clearance Commission Cards;;;42,00;;3 639,73
+;A 247;2025-01-24;Sales Clearance Commission Cards;;;12,00;;3 651,73
+;A 241;2025-01-26;Sales Clearance Commission Cards;;;5,00;;3 656,73
+;A 237;2025-01-27;Sales Clearance Commission Cards;;;3,00;;3 659,73
+;A 238;2025-01-27;Sales Clearance Commission Cards;;;75,00;;3 734,73
+;A 239;2025-01-27;Sales Clearance Commission Cards;;;15,00;;3 749,73
+;A 240;2025-01-27;Sales Clearance Commission Cards;;;13,00;;3 762,73
+;A 231;2025-01-28;Sales Clearance Commission Cards;;;17,00;;3 779,73
+;A 233;2025-01-28;Sales Clearance Commission Cards;;;13,00;;3 792,73
+;A 230;2025-01-29;Sales Clearance Commission Cards;;;45,00;;3 837,73
+;A 223;2025-01-31;Billing Fee - Account Default Plan (2024-12-31 - 2025-01-30);;;58,00;;3 895,73
+;A 224;2025-01-31;Sales Clearance Commission Cards;;;22,00;;3 917,73
+;A 227;2025-01-31;Sales Clearance Commission Cards;;;7,00;;3 924,73
+;A 220;2025-02-01;Sales Clearance Commission Cards;;;13,00;;3 937,73
+;A 221;2025-02-01;Sales Clearance Commission Cards;;;16,00;;3 953,73
+;A 590;2025-02-01;MÑnadsavgift;;;70,00;;4 023,73
+;A 219;2025-02-02;Sales Clearance Commission Cards;;;25,00;;4 048,73
+;A 216;2025-02-03;Sales Clearance Commission Cards;;;3,00;;4 051,73
+;A 217;2025-02-03;Sales Clearance Commission Cards;;;42,00;;4 093,73
+;A 218;2025-02-03;Sales Clearance Commission Cards;;;8,00;;4 101,73
+;A 212;2025-02-04;Sales Clearance Commission Cards;;;8,00;;4 109,73
+;A 215;2025-02-04;Sales Clearance Commission Cards;;;3,00;;4 112,73
+;A 211;2025-02-05;Sales Clearance Commission Cards;;;11,00;;4 123,73
+;A 207;2025-02-07;Sales Clearance Commission Cards;;;16,00;;4 139,73
+;A 202;2025-02-09;Sales Clearance Commission Cards;;;20,00;;4 159,73
+;A 183;2025-02-19;Billing Fee - Foreign Currency Fee for Transaction Amount 41.72 EUR (2025-02-18);;;14,00;;4 173,73
+;A 180;2025-02-28;Billing Fee - In-Person Default (2025-01-31 - 2025-02-27);;;58,00;;4 231,73
+;A 629;2025-07-01;Bank fee - Marginalen monthly;;;70,00;;4 301,73
+;A 661;2025-07-30;Card terminal maintenance fee;;;248,00;;4 549,73
+;A 664;2025-08-01;Bank fee - August monthly;;;70,00;;4 619,73
+;A 702;2025-09-01;Bank fee - September monthly;;;70,00;;4 689,73
+;A 709;2025-09-03;Bank service fees;;;248,00;;4 937,73
+;A 738;2025-09-26;Plusgiro service fee;;;248,00;;5 185,73
+;A 753;2025-09-30;Worldline transaction fees Q3 2025;;;772,36;;5 958,09
+;A 841;2025-10-01;Manadsavgift Foretagskonto okt;;;70,00;;6 028,09
+;A 778;2025-10-06;Wise avgift SEK 26.20 SEK;;;26,20;;6 054,29
+;A 779;2025-10-06;SEK till TRY 12486 SEK kurs 4.43116;;;53,46;;6 107,75
+;A 780;2025-10-06;EUR till TRY 124.81 EUR kurs 48.6857;;;6,34;;6 114,09
+;A 781;2025-10-06;Loan repayment TRY 61066.41 TRY;;;;100,62;6 013,47
+;A 848;2025-10-08;Bankgiro betalning 2027001;;;400,00;;6 413,47
+;A 783;2025-10-10;SEK till USD 2870 SEK kurs 0.105;;;12,86;;6 426,33
+;A 855;2025-10-17;Svea Ekonomi kortterminal;;;198,40;;6 624,73
+;A 941;2025-10-31;Worldline avgift oktober;;;400,67;;7 025,40
+;A 794;2025-11-01;TikTok Ads EUR 23.45 EUR kurs 10.9513;;;2,29;;7 027,69
+;A 870;2025-11-01;Manadsavgift Foretagskonto nov;;;70,00;;7 097,69
+;A 795;2025-11-02;Hallon EUR 11.78 EUR kurs 10.9513;;;0,88;;7 098,57
+;A 874;2025-11-07;Bank avgift enskildfirma samis;;;1 000,00;;8 098,57
+;A 799;2025-11-14;Shipit.se frakt EUR 91.08 EUR kurs 10.9795;;;4,63;;8 103,20
+;A 882;2025-11-17;Svea Ekonomi kortterminal;;;198,40;;8 301,60
+;A 800;2025-11-19;TikTok Ads EUR 178.32 EUR kurs 11.0027;;;12,10;;8 313,70
+;A 887;2025-11-20;Svea Ekonomi kortterminal;;;198,40;;8 512,10
+;A 803;2025-11-25;Booking.com flight EUR 624.99 EUR kurs 1.15685;;;33,07;;8 545,17
+;A 805;2025-11-27;Forex EUR 2.91 EUR kurs 10.9894;;;0,12;;8 545,29
+;A 806;2025-11-27;Arlanda Walk Through EUR 32.00 EUR kurs 10.9989;;;1,55;;8 546,84
+;A 807;2025-11-27;Jureskog mat EUR 52.65 EUR kurs 10.9975;;;3,18;;8 550,02
+;A 808;2025-11-27;Take Away Mart EUR 4.46 EUR kurs 10.9952;;;0,28;;8 550,30
+;A 809;2025-11-28;Beijing Airport mat EUR 0.98 EUR kurs 8.19996 CNY;;;0,10;;8 550,40
+;A 811;2025-11-28;EUR till SEK 3633.31 EUR kurs 10.9945;;;228,39;;8 778,79
+;A 812;2025-11-28;Overforing till Marginalen SEK 39934.97 SEK;;;11,46;;8 790,25
+;A 942;2025-11-30;Worldline avgift november;;;811,68;;9 601,93
+;A 903;2025-12-01;Manadsavgift Foretagskonto dec;;;70,00;;9 671,93
+;A 814;2025-12-04;Future World Tech Kina 31472.19 USD kurs 0.10645;;;1 358,76;;11 030,69
+;A 816;2025-12-08;Shopify avgift EUR 106.61 EUR;;;1 226,58;;12 257,27
+;A 817;2025-12-08;EUR till USD 465.94 EUR kurs 1.1651;;;19,24;;12 276,51
+;A 818;2025-12-09;SEK till USD 15546 SEK kurs 0.10707;;;108,46;;12 384,97
+;A 819;2025-12-11;Beijing mat USD 75.61 USD kurs 7.0621 CNY;;;1,58;;12 386,55
+;A 820;2025-12-11;Malardalstrafik USD 79.49 USD kurs 9.23423;;;1,49;;12 388,04
+;A 822;2025-12-12;Circle K drivmedel USD 67.13 USD kurs 9.28897;;;1,12;;12 389,16
+;A 823;2025-12-12;Fadushka mat USD 2.16 USD kurs 9.27977;;;0,07;;12 389,23
+;A 825;2025-12-15;Shopify avgift EUR 2.88 EUR;;;33,12;;12 422,35
+;A 925;2025-12-15;Plusgiro betalning 47704044;;;198,40;;12 620,75
+;A 826;2025-12-17;Shopify avgift EUR 19.43 EUR;;;223,44;;12 844,19
+;A 827;2025-12-17;Shopify avgift USD 32.95 USD kurs 0.85346;;;303,60;;13 147,79
+;A 828;2025-12-17;Loan repayment USD 225.96 USD kurs 9.33791;;;4,00;;13 151,79
+;A 829;2025-12-19;One.com USD 13.75 USD kurs 9.31722;;;0,35;;13 152,14
+;A 931;2025-12-22;Svea Ekonomi kortterminal;;;198,40;;13 350,54
+;A 830;2025-12-24;Bolagsverket USD 240.06 USD kurs 9.16446;;;4,70;;13 355,24
+;A 831;2025-12-24;PRV registrering USD 294.43 USD kurs 9.17034;;;5,72;;13 360,96
+;A 832;2025-12-25;TikTok Ads USD 179.76 USD kurs 9.17929;;;3,26;;13 364,22
+;A 833;2025-12-25;Loan repayment USD 205.02 USD kurs 9.17442;;;3,86;;13 368,08
+;A 834;2025-12-25;Loan repayment USD 7.49 USD kurs 9.17442;;;0,12;;13 368,20
+;A 835;2025-12-25;Loan repayment USD 63.11 USD kurs 9.17442;;;1,23;;13 369,43
+;A 837;2025-12-29;EUR till USD 86.47 EUR kurs 1.1762;;;3,45;;13 372,88
+;A 838;2025-12-29;St1 drivmedel USD 96.07 USD kurs 9.17915;;;1,65;;13 374,53
+;A 839;2025-12-30;TikTok Ads USD 152.94 USD kurs 9.19322;;;2,98;;13 377,51
+;A 840;2025-12-31;TikTok Ads USD 152.46 USD kurs 9.22201;;;2,54;;13 380,05
+;A 943;2025-12-31;Worldline avgift december;;;542,83;;13 922,88
+;;;"""Utgående saldo:""";;0,00;14 070,14;147,26;13 922,88
+;;;;;;;;
+6590 Övriga externa tjänster;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 143;2024-09-14;Shopify * 273667915;;;169,75;;169,75
+;A 142;2024-09-18;Shopify * 274917290;;;11,53;;181,28
+;A 46;2024-10-18;shopify avgift f. 285551379;;;1 222,65;;1 403,93
+;A 93;2024-11-17;shopify avgift f. 296203582;;;1 779,28;;3 183,21
+;A 94;2024-12-17;shopify avgift f. 307497458;;;2 221,25;;5 404,46
+;A 847;2025-10-08;Skatt forseningsavgift;;;625,00;;6 029,46
+;;;"""Utgående saldo:""";;0,00;6 029,46;0,00;6 029,46
+;;;;;;;;
+6990 Övriga externa kostnader;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 617;2025-01-31;Avskrivning av stulna damjackor (frsta 4 mÑnader);;;5 462,99;;5 462,99
+;A 616;2025-06-30;Avskrivning av skadade damjackor (transport/knappar);;;9 245,06;;14 708,05
+;A 993;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;17,02;;14 725,07
+;A 994;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;83,61;;14 808,68
+;A 995;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;51,10;;14 859,78
+;A 996;2025-11-03;VIMLA Telefonabonnemang - Fretag;;;51,10;;14 910,88
+;A 997;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;48,00;;14 958,88
+;A 998;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;48,00;;15 006,88
+;A 999;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;48,00;;15 054,88
+;A 1000;2025-12-03;VIMLA Telefonabonnemang - Fretag;;;16,00;;15 070,88
+;A 973;2025-12-09;YESIM Roaming - Kinaresa;;;167,17;;15 238,05
+;;;"""Utgående saldo:""";;0,00;15 238,05;0,00;15 238,05
+;;;;;;;;
+6991 Övriga externa kostnader, avdragsgilla;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 3;2024-07-10;LAGERBOLAGET F.102576;;;7 590,00;;7 590,00
+;A 170;2024-09-08;avgift bankintyg;;;995,00;;8 585,00
+;A 9;2024-09-14;(RECOMPUTE IT NORDIC );;;400,00;;8 985,00
+;A 20;2024-10-01;CARGO CENTER KONTANTF, 202406312 FLYterminalavgift;;;2 624,70;;11 609,70
+;A 23;2024-10-09;Dollarstore;;;340,86;;11 950,56
+;A 117;2024-10-10;patent och regverket;;;2 400,00;;14 350,56
+;A 154;2024-10-22;n26 top-up;;;233,10;;14 583,66
+;A 19;2024-10-28;CARGO CENTER KONTANTF. 202407034 FLYterminalavgift;;;3 069,90;;17 653,56
+;A 70;2024-12-03;Bolagsverket avgift;;;1 400,00;;19 053,56
+;A 90;2024-12-30;Crona kassasystem;;;176,00;;19 229,56
+;A 282;2025-01-11;Viva Wallet Card Purchase - BOLAGSVERKET;;;1 400,00;;20 629,56
+;A 248;2025-01-23;Viva Wallet Card Refund - BOLAGSVERKET;;;;1 400,00;19 229,56
+;A 445;2025-01-27;Card transaction Back Market;;;2 679,64;;21 909,20
+;A 444;2025-02-03;Card refund Back Market;;;;2 679,64;19 229,56
+;A 213;2025-02-04;Viva Wallet Card Purchase - Freightseeker AB;;;69,00;;19 298,56
+;A 214;2025-02-04;Viva Wallet Card Purchase - Freightseeker AB;;;78,00;;19 376,56
+;A 210;2025-02-05;Viva Wallet Card Purchase - Freightseeker AB;;;72,00;;19 448,56
+;A 204;2025-02-08;Viva Wallet Card Purchase - Freightseeker AB;;;105,00;;19 553,56
+;A 194;2025-02-12;Viva Wallet Card Purchase - Freightseeker AB;;;69,00;;19 622,56
+;A 195;2025-02-12;Viva Wallet Card Purchase - Freightseeker AB;;;126,00;;19 748,56
+;A 401;2025-02-12;Card transaction Clas Ohlson;;;45,85;;19 794,41
+;A 418;2025-02-12;Card transaction Clas Ohlson;;;61,10;;19 855,51
+;A 442;2025-02-12;Card transaction Clas Ohlson;;;96,61;;19 952,12
+;A 577;2025-02-28;Bankgiro - Avgift med moms;;;2 000,00;;21 952,12
+;A 578;2025-02-28;Bankgiro - Avgift med moms;;;499,20;;22 451,32
+;A 576;2025-03-10;Bankgiro - Avgift med moms;;;641,60;;23 092,92
+;A 392;2025-03-13;Card transaction Normal;;;281,00;;23 373,92
+;A 390;2025-03-14;Card transaction Normal;;;20,00;;23 393,92
+;A 381;2025-03-17;Card transaction Normal;;;8,00;;23 401,92
+;A 568;2025-03-24;Bankgiro - Avgift med moms;;;32,80;;23 434,72
+;A 569;2025-03-24;Bankgiro - Avgift med moms;;;124,80;;23 559,52
+;A 565;2025-03-27;Bankgiro - Avgift med moms;;;499,20;;24 058,72
+;A 375;2025-03-31;Card transaction Freightseeker;;;127,50;;24 186,22
+;A 372;2025-04-02;Card transaction Freightseeker;;;108,75;;24 294,97
+;A 369;2025-04-06;Card transaction Freightseeker;;;90,00;;24 384,97
+;A 546;2025-04-14;Bankgiro - Avgift med moms;;;198,40;;24 583,37
+;A 547;2025-04-14;Bankgiro - Avgift med moms;;;400,00;;24 983,37
+;A 544;2025-04-15;Bankgiro - Avgift med moms;;;78,40;;25 061,77
+;A 354;2025-04-28;Card transaction Freightseeker;;;90,00;;25 151,77
+;A 535;2025-04-28;Bankgiro - Avgift med moms;;;499,20;;25 650,97
+;A 526;2025-05-05;Bankgiro - Avgift med moms;;;100,00;;25 750,97
+;A 522;2025-05-07;Bankgiro - Avgift med moms;;;158,40;;25 909,37
+;A 514;2025-05-16;Bankgiro - Avgift med moms;;;198,40;;26 107,77
+;A 506;2025-05-26;El i butiken - med moms;;;652,80;;26 760,57
+;A 497;2025-06-02;Bankgiro - Avgift med moms;;;547,20;;27 307,77
+;A 493;2025-06-03;Bankgiro - Avgift med moms;;;198,40;;27 506,17
+;A 482;2025-06-18;Bankgiro - Avgift med moms;;;200,00;;27 706,17
+;A 473;2025-06-25;Nñtet - El/internet med moms;;;499,20;;28 205,37
+;A 467;2025-06-30;Bankgiro - Avgift med moms;;;198,40;;28 403,77
+;A 830;2025-12-24;Bolagsverket USD 240.06 USD kurs 9.16446;;;2 200,00;;30 603,77
+;A 831;2025-12-24;PRV registrering USD 294.43 USD kurs 9.17034;;;2 700,00;;33 303,77
+;;;"""Utgående saldo:""";;0,00;37 383,41;4 079,64;33 303,77
+;;;;;;;;
+6992 Övriga externa kostnader, ej avdragsgilla;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 1;2024-07-16;utgift/kostnad (vatan caddesi i istanbul TR);;;983,41;;983,41
+;A 2;2024-07-20;utgift/kostnad ( AKBANK/PENDIK ISANBUL TR);;;664,26;;1 647,67
+;A 5;2024-08-27;utgift/kostnad (AKBANK/IMC ISTANBUL);;;987,25;;2 634,92
+;A 7;2024-08-27;utgift/kostnad (ZAYAROGLU GIDA SAANAYI VE );;;250,96;;2 885,88
+;A 13;2024-09-11;(ISTANBUL SABINA GOKCEN) TAKE AWAY;;;192,97;;3 078,85
+;A 44;2024-10-11;max burgers;;;422,00;;3 500,85
+;A 45;2024-10-11;max burgers;;;91,00;;3 591,85
+;A 32;2024-10-12;LIDL;;;504,54;;4 096,39
+;A 41;2024-10-26;max burgers;;;490,00;;4 586,39
+;A 42;2024-10-26;max burgers;;;25,00;;4 611,39
+;A 43;2024-10-29;max burgers;;;590,00;;5 201,39
+;A 36;2024-10-30;WILLYS;;;1 053,40;;6 254,79
+;A 51;2024-11-04;WILLYS;;;1 726,09;;7 980,88
+;A 69;2024-11-04;utgift/kostnad (willys );;;1 726,09;;9 706,97
+;A 65;2024-11-09;max burgers;;;890,00;;10 596,97
+;A 55;2024-11-14;WILLYS;;;3 210,24;;13 807,21
+;A 66;2024-11-29;WILLYS;;;1 773,13;;15 580,34
+;A 88;2024-12-03;utgift/kostnad (HMS Host Arlanda);;;171,00;;15 751,34
+;A 77;2024-12-21;utgift/kostnad (willys );;;1 937,17;;17 688,51
+;A 563;2025-03-27;Bankgiro - Ej avdragsgill;;;4 321,00;;22 009,51
+;A 564;2025-03-27;Bankgiro - Ej avdragsgill;;;2 371,00;;24 380,51
+;A 557;2025-04-01;Bankgiro - Ej avdragsgill;;;976,00;;25 356,51
+;A 491;2025-06-04;Fora Abdirabi;;;1 171,61;;26 528,12
+;A 490;2025-06-05;Bolag verket;;;1 900,00;;28 428,12
+;;;"""Utgående saldo:""";;0,00;28 428,12;0,00;28 428,12
+;;;;;;;;
+7010 Löner till kollektivanställda;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 503;2025-05-27;abdi ln maj;;;16 884,00;;16 884,00
+;A 469;2025-06-27;ln abdi 13dag;;;7 644,00;;24 528,00
+;;;"""Utgående saldo:""";;0,00;24 528,00;0,00;24 528,00
+;;;;;;;;
+8311 Ränteintäkter från bank;;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 318;2024-12-05;Viva Cashback;;;;45,00;-45,00
+;A 163;2024-12-31;rnta;;;70,74;;25,74
+;A 175;2025-01-01;Månadsavgift fretagskonto;;;70,00;;95,74
+;A 421;2025-01-07;Balance cashback;;;;45,83;49,91
+;A 281;2025-01-12;Viva Cashback;;;;6,00;43,91
+;A 254;2025-01-21;Viva Cashback;;;;1,00;42,91
+;A 249;2025-01-23;Viva Cashback;;;;3,00;39,91
+;A 229;2025-01-29;Viva Cashback;;;;1,00;38,91
+;A 226;2025-01-31;Viva Cashback;;;;7,00;31,91
+;A 222;2025-02-01;Viva Cashback;;;;1,00;30,91
+;A 434;2025-02-06;Balance cashback;;;;1,80;29,11
+;A 443;2025-02-06;Balance cashback;;;;85,90;-56,79
+;A 206;2025-02-07;Viva Cashback;;;;1,00;-57,79
+;A 201;2025-02-09;Viva Cashback;;;;9,00;-66,79
+;A 199;2025-02-10;Viva Cashback;;;;11,00;-77,79
+;A 196;2025-02-11;Viva Cashback;;;;5,00;-82,79
+;A 193;2025-02-13;Viva Cashback;;;;1,00;-83,79
+;A 191;2025-02-16;Viva Cashback;;;;2,00;-85,79
+;A 189;2025-02-17;Viva Cashback;;;;4,00;-89,79
+;A 187;2025-02-18;Viva Cashback;;;;7,00;-96,79
+;A 184;2025-02-19;Viva Cashback;;;;2,00;-98,79
+;A 181;2025-02-21;Viva Cashback;;;;5,00;-103,79
+;A 432;2025-03-05;Balance cashback;;;;1,32;-105,11
+;A 441;2025-03-05;Balance cashback;;;;41,42;-146,53
+;A 796;2025-11-06;Cashback EUR 0.15 EUR;;;;1,73;-148,26
+;A 813;2025-12-03;Cashback EUR 0.47 EUR;;;;5,41;-153,67
+;;;"""Utgående saldo:""";;0,00;140,74;294,41;-153,67
+;;;;;;;;
+8400 Räntekostnader (gruppkonto);;;;;;;;
+;;;"""Ingående saldo perioden:""";;;;;0,00
+;A 939;2025-12-31;Ranta Marginalen;;;;122,38;-122,38
+;A 940;2025-12-31;Ranta Marginalen;;;;0,23;-122,61
+;;;"""Utgående saldo:""";;0,00;0,00;122,61;-122,61
+;;;;;;;;
