@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -26,15 +27,15 @@
 //   * Positive amounts = Deposits IN
 //
 // CLASSIFICATION LOGIC:
-// - Business rent (Hyra Butik, Lagar Hyra, Bankgiro to 4392007 with "Hyra") → 5010 (Rent)
-// - Car insurance (Bilförsäkring) → 5620 (Insurance)
-// - Software payments (Visma, Easy Cashier, etc) → 5410 (Software)
-// - Worldline deposits → 1947 (Card processor)
-// - Government subsidies (Arbetsförmedlingen) → 1630 (Grant)
-// - VAT payments → 2650 (VAT payable)
-// - Bank fees (Månadsavgift, Bankavgifter, Plusgiro) → 6570 (Bank fees)
-// - Shareholder loans → 2893
-// - WISE transfers → 1945 (WISE SEK account)
+// - Business rent (Hyra Butik, Lagar Hyra, Bankgiro to 4392007 with "Hyra") ? 5010 (Rent)
+// - Car insurance (Bilf?rs?kring) ? 5620 (Insurance)
+// - Software payments (Visma, Easy Cashier, etc) ? 5410 (Software)
+// - Worldline deposits ? 1947 (Card processor)
+// - Government subsidies (Arbetsf?rmedlingen) ? 1630 (Grant)
+// - VAT payments ? 2650 (VAT payable)
+// - Bank fees (M?nadsavgift, Bankavgifter, Plusgiro) ? 6570 (Bank fees)
+// - Shareholder loans ? 2893
+// - WISE transfers ? 1945 (WISE SEK account)
 // ========================================
 
 // ========================================
@@ -157,7 +158,7 @@
 // 2025-07-18 TRANSACTIONS
 // ========================================
 
-#VER "" "MAR-015" 20250718 "Arbetsförmedlingen subsidy"
+#VER "" "MAR-015" 20250718 "Arbetsf?rmedlingen subsidy"
 {
     #TRANS 1930 {} 9119.00 "Employment subsidy"
     #TRANS 1630 {} -9119.00 "Government grant"

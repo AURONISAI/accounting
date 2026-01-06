@@ -1,6 +1,7 @@
 #FLAGGA 0
 
-#PROGRAM "Spiris Bokf�ring & Fakturering" 7.5.0.0
+
+#PROGRAM "Spiris Bokforing & Fakturering" 7.5.0.0
 #FORMAT PC8
 #GEN 20260106 "Mohammad Sami Alsharef"
 #SIETYP 4
@@ -10,49 +11,49 @@
 #KPTYP EUBAS97
 #VALUTA SEK
 
-#KONTO 1210 "Maskiner och andra tekniska anl�ggningar"
+#KONTO 1210 "Maskiner och andra tekniska anlaggningar"
 #KONTO 1220 "Inventarier och verktyg"
-#KONTO 1229 "Ackumulerade avskrivningar p� inventarier och verktyg"
+#KONTO 1229 "Ackumulerade avskrivningar pa inventarier och verktyg"
 #KONTO 1240 "Bilar och andra transportmedel"
-#KONTO 1337 "Ackumulerade nedskrivningar av andelar i �vriga f�retag som"
-#KONTO 1357 "Andelar i handelsbolag, andra f�retag"
-#KONTO 1382 "L�ngfristiga fordringar hos anst�llda"
-#KONTO 1383 "L�mnade depositioner, l�ngfristiga"
-#KONTO 1388 "L�ngfristiga kundfordringar"
+#KONTO 1337 "Ackumulerade nedskrivningar av andelar i ovriga foretag"
+#KONTO 1357 "Andelar i handelsbolag, andra foretag"
+#KONTO 1382 "Langfristiga fordringar hos anstallda"
+#KONTO 1383 "Lamnade depositioner, langfristiga"
+#KONTO 1388 "Langfristiga kundfordringar"
 #KONTO 1460 "Lager av handelsvaror"
-#KONTO 1469 "F�r�ndring av lager av handelsvaror"
-#KONTO 1470 "P�g�ende arbeten"
-#KONTO 1510 Kundfordringar
-#KONTO 1518 "Ej reskontraf�rda kundfordringar"
+#KONTO 1469 "Forandring av lager av handelsvaror"
+#KONTO 1470 "Pagaende arbeten"
+#KONTO 1510 "Kundfordringar"
+#KONTO 1518 "Ej reskontraforda kundfordringar"
 #KONTO 1519 "Nedskrivning av kundfordringar"
-#KONTO 1549 "Nedskrivning av ej reskontraf�rda kundfordringar"
+#KONTO 1549 "Nedskrivning av ej reskontraforda kundfordringar"
 #KONTO 1580 "Fordringar"
-#KONTO 1630 "Avr�kning f�r skatter och avgifter (skattekonto)"
-#KONTO 1640 Skattefordringar
-#KONTO 1650 Momsfordran
-#KONTO 1700 "F�rutbetalda kostnader/interimsfordringar"
-#KONTO 1790 "�vriga f�rutbetalda kostnader och upplupna int�kter"
-#KONTO 1910 Kassa
-#KONTO 1920 PlusGiro
-#KONTO 1930 F�retagskonto/checkkonto/aff�rskonto
-#KONTO 1940 "�vriga bankkonton"
+#KONTO 1630 "Avrakning for skatter och avgifter (skattekonto)"
+#KONTO 1640 "Skattefordringar"
+#KONTO 1650 "Momsfordran"
+#KONTO 1700 "Forutbetalda kostnader/interimsfordringar"
+#KONTO 1790 "Ovriga forutbetalda kostnader och upplupna intakter"
+#KONTO 1910 "Kassa"
+#KONTO 1920 "PlusGiro"
+#KONTO 1930 "Foretagskonto/checkkonto/affarskonto"
+#KONTO 1940 "Ovriga bankkonton"
 #KONTO 1941 "Annat bankkonto viva.com"
 #KONTO 1942 "Wise USD"
 #KONTO 1943 "Wise GBP"
 #KONTO 1944 "Wise EUR"
 #KONTO 1945 "Wise SEK"
-#KONTO 1947 Worldline
+#KONTO 1947 "Worldline"
 #KONTO 1948 "Sales account"
-#KONTO 1980 Valutakonton
-#KONTO 2018 "�vriga egna ins�ttningar"
-#KONTO 2081 Aktiekapital
-#KONTO 2086 Reservfond
-#KONTO 2087 "Bunden �verkursfond"
-#KONTO 2091 "Balanserad vinst eller f�rlust"
-#KONTO 2093 "Erh�llna aktie�gartillskott"
-#KONTO 2098 "Vinst eller f�rlust fr�n f�reg�ende �r"
-#KONTO 2099 "�rets resultat"
-#KONTO 2110 Periodiseringsfonder
+#KONTO 1980 "Valutakonton"
+#KONTO 2018 "Ovriga egna insattningar"
+#KONTO 2081 "Aktiekapital"
+#KONTO 2086 "Reservfond"
+#KONTO 2087 "Bunden overkursfond"
+#KONTO 2091 "Balanserad vinst eller forlust"
+#KONTO 2093 "Erhallna aktieagartillskott"
+#KONTO 2098 "Vinst eller forlust fran foregaende ar"
+#KONTO 2099 "Arets resultat"
+#KONTO 2110 "Periodiseringsfonder"
 #KONTO 2121 "Periodiseringsfond 2021"
 #KONTO 2122 "Periodiseringsfond 2022"
 #KONTO 2125 "Periodiseringsfond 2025"
@@ -70,210 +71,210 @@
 #KONTO 2137 "Periodiseringsfond 2027 - nr 2"
 #KONTO 2138 "Periodiseringsfond 2028 - nr 2"
 #KONTO 2139 "Periodiseringsfond 2019 - nr 2"
-#KONTO 2150 "Ackumulerade �veravskrivningar"
-#KONTO 2390 "�vriga l�ngfristiga skulder"
-#KONTO 2399 "�vriga l�ngfristiga skulder"
-#KONTO 2420 "F�rskott fr�n kunder"
-#KONTO 2440 Leverant�rsskulder
+#KONTO 2150 "Ackumulerade overavskrivningar"
+#KONTO 2390 "Ovriga langfristiga skulder"
+#KONTO 2399 "Ovriga langfristiga skulder"
+#KONTO 2420 "Forskott fran kunder"
+#KONTO 2440 "Leverantorsskulder"
 #KONTO 2441 "Future World Tech"
-#KONTO 2448 "Ej reskontraf�rda leverant�rsskulder"
-#KONTO 2499 "Andra �vriga kortfristiga skulder"
-#KONTO 2510 Skatteskulder
+#KONTO 2448 "Ej reskontraforda leverantorsskulder"
+#KONTO 2499 "Andra ovriga kortfristiga skulder"
+#KONTO 2510 "Skatteskulder"
 #KONTO 2518 "Betald F-skatt"
-#KONTO 2611 "Utg�ende moms p� f�rs�ljning inom Sverige, 25%"
-#KONTO 2612 "Utg�ende moms p� egna uttag, 25%"
-#KONTO 2614 "Utg�ende moms, omv�nd betalningsskyldighet, 25 %"
-#KONTO 2615 "Utg�ende moms import av varor 25%"
-#KONTO 2619 "Utg�ende moms p� f�rs�ljning inom EU, OSS"
-#KONTO 2621 "Utg�ende moms p� f�rs�ljning inom Sverige, 12%"
-#KONTO 2624 "Utg�ende moms, omv�nd betalningsskyldighet, 12 %"
-#KONTO 2631 "Utg�ende moms p� f�rs�ljning inom Sverige, 6%"
-#KONTO 2634 "Utg�ende moms, omv�nd betalningsskyldighet, 6 %"
-#KONTO 2641 "Debiterad ing�ende moms"
-#KONTO 2645 "Ber�knad ing�ende moms p� f�rv�rv fr�n utlandet"
-#KONTO 2647 "Ing�ende moms, omv�nd betalningsskyldighet varor och tj�nst"
-#KONTO 2650 "Redovisningskonto f�r moms"
-#KONTO 2710 Personalskatt
-#KONTO 2730 "Lagstadgade sociala avgifter och s�rskild l�neskatt"
-#KONTO 2731 "Avr�kning lagstadgade sociala avgifter"
-#KONTO 2732 "Avr�kning s�rskild l�neskatt"
-#KONTO 2790 "�vriga l�neavdrag"
-#KONTO 2794 Fackf�reningsavgifter
-#KONTO 2890 "�vriga kortfristiga skulder"
-#KONTO 2893 "Skulder till n�rst�ende personer, kortfristig del"
-#KONTO 2910 "Upplupna l�ner"
-#KONTO 2920 "Upplupna semesterl�ner"
+#KONTO 2611 "Utgaende moms pa forsaljning inom Sverige, 25%"
+#KONTO 2612 "Utgaende moms pa egna uttag, 25%"
+#KONTO 2614 "Utgaende moms, omvand betalningsskyldighet, 25%"
+#KONTO 2615 "Utgaende moms import av varor 25%"
+#KONTO 2619 "Utgaende moms pa forsaljning inom EU, OSS"
+#KONTO 2621 "Utgaende moms pa forsaljning inom Sverige, 12%"
+#KONTO 2624 "Utgaende moms, omvand betalningsskyldighet, 12%"
+#KONTO 2631 "Utgaende moms pa forsaljning inom Sverige, 6%"
+#KONTO 2634 "Utgaende moms, omvand betalningsskyldighet, 6%"
+#KONTO 2641 "Debiterad ingaende moms"
+#KONTO 2645 "Beraknad ingaende moms pa forvarv fran utlandet"
+#KONTO 2647 "Ingaende moms, omvand betalningsskyldighet varor och tjanst"
+#KONTO 2650 "Redovisningskonto for moms"
+#KONTO 2710 "Personalskatt"
+#KONTO 2730 "Lagstadgade sociala avgifter och sarskild loneskatt"
+#KONTO 2731 "Avrakning lagstadgade sociala avgifter"
+#KONTO 2732 "Avrakning sarskild loneskatt"
+#KONTO 2790 "Ovriga loneavdrag"
+#KONTO 2794 "Fackforeningsavgifter"
+#KONTO 2890 "Ovriga kortfristiga skulder"
+#KONTO 2893 "Skulder till narstaende personer, kortfristig del"
+#KONTO 2910 "Upplupna loner"
+#KONTO 2920 "Upplupna semesterloner"
 #KONTO 2940 "Upplupna lagstadgade sociala och andra avgifter"
-#KONTO 2941 "Ber�knade upplupna lagstadgade sociala avgifter"
+#KONTO 2941 "Beraknade upplupna lagstadgade sociala avgifter"
 #KONTO 2950 "Upplupna avtalade sociala avgifter"
-#KONTO 2959 "Upplupna avtalade pensionsf�rs�kringsavgifter, deklarations"
-#KONTO 2990 "�vriga upplupna kostnader och f�rutbetalda int�kter"
-#KONTO 2999 OBS-konto
-#KONTO 3041 "F�rs�ljn tj�nst 25% sv"
-#KONTO 3042 "F�rs�ljn tj�nst 12% sv"
-#KONTO 3043 "F�rs�ljn tj�nst 6% sv"
-#KONTO 3044 "F�rs�ljn tj�nst sv momsfri"
-#KONTO 3045 "F�rs�ljn tj�nst utanf�r EG momsfri"
-#KONTO 3046 "F�rs�ljn tj�nst till EG 25%"
-#KONTO 3048 "F�rs�ljn tj�nst EG momsfri"
-#KONTO 3051 "F�rs�ljn varor 25% sv"
-#KONTO 3052 "F�rs�ljn varor 12% sv"
-#KONTO 3053 "F�rs�ljn varor 6% sv"
-#KONTO 3054 "F�rs�ljn varor sv momsfri"
-#KONTO 3055 "F�rs�ljn varor utanf�r EG momsfri"
-#KONTO 3056 "F�rs�ljn varor till EG 25% momspliktig"
-#KONTO 3057 "Treparts f�rs�ljn varor till EG 25%"
-#KONTO 3058 "F�rs�ljn varor EG momsfri"
-#KONTO 3109 "F�rs�ljning varor till annat EU-land, OSS"
-#KONTO 3231 "F�rs�ljning inom byggsektorn, omv�nd skattskyldighet moms"
-#KONTO 3309 "F�rs�ljning tj�nster till annat EU-land, OSS"
+#KONTO 2959 "Upplupna avtalade pensionsforsakringsavgifter"
+#KONTO 2990 "Ovriga upplupna kostnader och forutbetalda intakter"
+#KONTO 2999 "OBS-konto"
+#KONTO 3041 "Forsaljn tjanst 25% sv"
+#KONTO 3042 "Forsaljn tjanst 12% sv"
+#KONTO 3043 "Forsaljn tjanst 6% sv"
+#KONTO 3044 "Forsaljn tjanst sv momsfri"
+#KONTO 3045 "Forsaljn tjanst utanfor EG momsfri"
+#KONTO 3046 "Forsaljn tjanst till EG 25%"
+#KONTO 3048 "Forsaljn tjanst EG momsfri"
+#KONTO 3051 "Forsaljn varor 25% sv"
+#KONTO 3052 "Forsaljn varor 12% sv"
+#KONTO 3053 "Forsaljn varor 6% sv"
+#KONTO 3054 "Forsaljn varor sv momsfri"
+#KONTO 3055 "Forsaljn varor utanfor EG momsfri"
+#KONTO 3056 "Forsaljn varor till EG 25% momspliktig"
+#KONTO 3057 "Treparts forsaljn varor till EG 25%"
+#KONTO 3058 "Forsaljn varor EG momsfri"
+#KONTO 3109 "Forsaljning varor till annat EU-land, OSS"
+#KONTO 3231 "Forsaljning inom byggsektorn, omvand skattskyldighet moms"
+#KONTO 3309 "Forsaljning tjanster till annat EU-land, OSS"
 #KONTO 3510 "Fakturerat emballage"
 #KONTO 3520 "Fakturerade frakter"
 #KONTO 3521 "Fakturerade frakter, EU-land"
 #KONTO 3522 "Fakturerade frakter, export"
 #KONTO 3530 "Fakturerade tull- och speditionskostnader m.m."
-#KONTO 3540 Faktureringsavgifter
+#KONTO 3540 "Faktureringsavgifter"
 #KONTO 3541 "Faktureringsavgifter, EU-land"
 #KONTO 3542 "Faktureringsavgifter, export"
 #KONTO 3543 "Faktureringavgift 12%"
 #KONTO 3544 "Faktureringavgift 6%"
-#KONTO 3590 "�vriga fakturerade kostnader"
-#KONTO 3596 P�minnelseavgift
-#KONTO 3690 "�vriga sidoint�kter"
-#KONTO 3740 "�res- och kronutj�mning"
-#KONTO 3950 "�tervunna, tidigare avskrivna kundfordringar"
-#KONTO 3960 "Valutakursvinster p� fordringar och skulder av r�relsekarak"
-#KONTO 3970 "Vinst vid avyttring av immateriella och materiella anl�ggni"
-#KONTO 3971 "Vinst vid avyttring av immateriella anl�ggningstillg�ngar"
-#KONTO 3980 "Erh�llna offentliga bidrag"
-#KONTO 4000 "Ink�p av varor fr�n Sverige"
+#KONTO 3590 "Ovriga fakturerade kostnader"
+#KONTO 3596 "Paminnelseavgift"
+#KONTO 3690 "Ovriga sidointakter"
+#KONTO 3740 "Ores- och kronutjamning"
+#KONTO 3950 "Atervunna, tidigare avskrivna kundfordringar"
+#KONTO 3960 "Valutakursvinster pa fordringar och skulder"
+#KONTO 3970 "Vinst vid avyttring av anlaggningar"
+#KONTO 3971 "Vinst vid avyttring av immateriella anlaggningstillgangar"
+#KONTO 3980 "Erhallna offentliga bidrag"
+#KONTO 4000 "Inkop av varor fran Sverige"
 #KONTO 4001 "Inkop av tjanst"
-#KONTO 4056 "Ink�p varor 25% EU"
-#KONTO 4057 "Ink�p varor 12% EU"
-#KONTO 4058 "Ink�p varor 6% EU"
-#KONTO 4059 "Ink�p varor EU momsfri"
-#KONTO 4110 "Kostnad s�lda varor"
-#KONTO 4400 "Momspliktiga ink�p i Sverige"
-#KONTO 4415 "Ink�pta varor i Sverige, omv�nd betalningsskyldighet, 25 %"
-#KONTO 4416 "Ink�pta varor i Sverige, omv�nd betalningsskyldighet, 12 %"
-#KONTO 4417 "Ink�pta varor i Sverige, omv�nd betalningsskyldighet, 6 %"
-#KONTO 4500 "�vriga momspliktiga ink�p"
-#KONTO 4531 "Ink�p av tj�nster fr�n ett land utanf�r EU, 25 % moms"
-#KONTO 4532 "Ink�p av tj�nster fr�n ett land utanf�r EU, 12 % moms"
-#KONTO 4533 "Ink�p av tj�nster fr�n ett land utanf�r EU, 6 % moms"
-#KONTO 4545 "Import av varor, 25 % moms"
+#KONTO 4056 "Inkop varor 25% EU"
+#KONTO 4057 "Inkop varor 12% EU"
+#KONTO 4058 "Inkop varor 6% EU"
+#KONTO 4059 "Inkop varor EU momsfri"
+#KONTO 4110 "Kostnad salda varor"
+#KONTO 4400 "Momspliktiga inkop i Sverige"
+#KONTO 4415 "Inkopta varor i Sverige, omvand betalningsskyldighet, 25 %"
+#KONTO 4416 "Inkopta varor i Sverige, omvand betalningsskyldighet, 12 %"
+#KONTO 4417 "Inkopta varor i Sverige, omvand betalningsskyldighet, 6 %"
+#KONTO 4500 "Ovriga momspliktiga inkop"
+#KONTO 4531 "Inkop av tjanster fran ett land utanfor EU, 25% moms"
+#KONTO 4532 "Inkop av tjanster fran ett land utanfor EU, 12 % moms"
+#KONTO 4533 "Inkop av tjanster fran ett land utanfor EU, 6 % moms"
+#KONTO 4545 "Import av varor, 25% moms"
 #KONTO 4546 "Import av varor, 12 % moms"
 #KONTO 4547 "Import av varor, 6 % moms"
 #KONTO 4549 "Motkonto beskattningsunderlag import"
-#KONTO 4700 "Reduktion av ink�pspriser (gruppkonto)"
-#KONTO 4900 "F�r�ndring av lager (gruppkonto)"
-#KONTO 5000 "Lokalkostnader (gruppkonto)"
-#KONTO 5010 Lokalhyra
-#KONTO 5070 "Reparation och underh�ll av lokaler"
-#KONTO 5200 "Hyra av anl�ggningstillg�ngar (gruppkonto)"
-#KONTO 5400 "F�rbrukningsinventarier och f�rbrukningsmaterial (gruppkont"
-#KONTO 5410 F�rbrukningsinventarier
-#KONTO 5420 Programvaror
-#KONTO 5460 F�rbrukningsmaterial
-#KONTO 5480 "Arbetskl�der och skyddsmaterial"
-#KONTO 5600 "Kostnader f�r transportmedel (gruppkonto)"
-#KONTO 5610 Personbilskostnader
-#KONTO 5611 "Drivmedel f�r personbilar"
-#KONTO 5612 "F�rs�kring och skatt f�r personbilar"
-#KONTO 5613 "Reparation och underh�ll av personbilar"
+#KONTO 4700 "Reduktion av inkopspriser"
+#KONTO 4900 "Forandring av lager"
+#KONTO 5000 "Lokalkostnader"
+#KONTO 5010 "Lokalhyra"
+#KONTO 5070 "Reparation och underhall av lokaler"
+#KONTO 5200 "Hyra av anlaggningstillgangar"
+#KONTO 5400 "Forbrukningsinventarier och forbrukningsmaterial"
+#KONTO 5410 "Forbrukningsinventarier"
+#KONTO 5420 "Programvaror"
+#KONTO 5460 "Forbrukningsmaterial"
+#KONTO 5480 "Arbetsklader och skyddsmaterial"
+#KONTO 5600 "Kostnader for transportmedel"
+#KONTO 5610 "Personbilskostnader"
+#KONTO 5611 "Drivmedel for personbilar"
+#KONTO 5612 "Forsakring och skatt for personbilar"
+#KONTO 5613 "Reparation och underhall av personbilar"
 #KONTO 5615 "Leasing av personbilar"
-#KONTO 5616 "Tr�ngselskatt, avdragsgill"
-#KONTO 5619 "�vriga personbilskostnader"
+#KONTO 5616 "Trangselskatt, avdragsgill"
+#KONTO 5619 "Ovriga personbilskostnader"
 #KONTO 5620 Lastbilskostnader
 #KONTO 5630 Truckkostnader
-#KONTO 5640 "Kostnader f�r arbetsmaskiner"
+#KONTO 5640 "Kostnader for arbetsmaskiner"
 #KONTO 5650 Traktorkostnader
 #KONTO 5660 "Motorcykel-, moped- och skoterkostnader"
-#KONTO 5670 "B�t-, flygplans- och helikopterkostnader"
-#KONTO 5690 "�vriga kostnader f�r transportmedel"
-#KONTO 5700 "Frakter och transporter (gruppkonto)"
-#KONTO 5800 "Resekostnader (gruppkonto)"
-#KONTO 5810 Biljetter
+#KONTO 5670 "Bat-, flygplans- och helikopterkostnader"
+#KONTO 5690 "Ovriga kostnader for transportmedel"
+#KONTO 5700 "Frakter och transporter"
+#KONTO 5800 "Resekostnader"
+#KONTO 5810 "Biljetter"
 #KONTO 5830 "Kost och logi"
-#KONTO 5890 "�vriga resekostnader"
-#KONTO 5900 "Reklam och PR (gruppkonto)"
-#KONTO 5910 Annonsering
+#KONTO 5890 "Ovriga resekostnader"
+#KONTO 5900 "Reklam och PR"
+#KONTO 5910 "Annonsering"
 #KONTO 5911 AI-marknadsforingsverktyg
 #KONTO 5920 "Utomhus- och trafikreklam"
-#KONTO 6000 "�vriga f�rs�ljningskostnader (gruppkonto)"
+#KONTO 6000 "Ovriga forsaljningskostnader (gruppkonto)"
 #KONTO 6044 "Avgift kortbetalning Webshop"
 #KONTO 6071 "Representation, avdragsgill"
 #KONTO 6072 "Representation, ej avdragsgill"
 #KONTO 6100 "Kontorsmateriel och trycksaker (gruppkonto)"
-#KONTO 6110 Kontorsmateriel
+#KONTO 6110 "Kontorsmateriel"
 #KONTO 6200 "Tele och post (gruppkonto)"
-#KONTO 6212 Mobiltelefon
-#KONTO 6250 Postbefordran
-#KONTO 6300 "F�retagsf�rs�kringar och �vriga riskkostnader (gruppkonto)"
-#KONTO 6310 F�retagsf�rs�kringar
-#KONTO 6350 "F�rluster p� kundfordringar"
-#KONTO 6351 "Konstaterade f�rluster p� kundfordringar"
-#KONTO 6352 "Befarade f�rluster p� kundfordringar"
-#KONTO 6358 "Befarade f�rluster p� kundfordringar, OSS"
-#KONTO 6359 "Konstaterade f�rluster p� kundfordringar, OSS"
-#KONTO 6420 "Ers�ttningar till revisor"
-#KONTO 6500 "�vriga externa tj�nster (gruppkonto)"
-#KONTO 6540 IT-tj�nster
-#KONTO 6570 Bankkostnader
-#KONTO 6590 "�vriga externa tj�nster"
+#KONTO 6212 "Mobiltelefon"
+#KONTO 6250 "Postbefordran"
+#KONTO 6300 "Foretagsforsakringar och ovriga riskkostnader (gruppkonto)"
+#KONTO 6310 "Foretagsforsakringar"
+#KONTO 6350 "Forluster pa kundfordringar"
+#KONTO 6351 "Konstaterade forluster pa kundfordringar"
+#KONTO 6352 "Befarade forluster pa kundfordringar"
+#KONTO 6358 "Befarade forluster pa kundfordringar, OSS"
+#KONTO 6359 "Konstaterade forluster pa kundfordringar, OSS"
+#KONTO 6420 "Ersattningar till revisor"
+#KONTO 6500 "Ovriga externa tjanster"
+#KONTO 6540 "IT-tjanster"
+#KONTO 6570 "Bankkostnader"
+#KONTO 6590 "Ovriga externa tjanster"
 #KONTO 6800 "Inhyrd personal (gruppkonto)"
 #KONTO 6810 "Inhyrd produktionspersonal"
 #KONTO 6820 "Inhyrd lagerpersonal"
 #KONTO 6830 "Inhyrd transportpersonal"
 #KONTO 6840 "Inhyrd kontors- och ekonomipersonal"
 #KONTO 6850 "Inhyrd IT-personal"
-#KONTO 6860 "Inhyrd marknads- och f�rs�ljningspersonal"
+#KONTO 6860 "Inhyrd marknads- och forsaljningspersonal"
 #KONTO 6870 "Inhyrd restaurang- och butikspersonal"
-#KONTO 6880 "Inhyrda f�retagsledare"
-#KONTO 6890 "�vrig inhyrd personal"
-#KONTO 6900 "�vriga externa kostnader (gruppkonto)"
-#KONTO 6990 "�vriga externa kostnader"
-#KONTO 6991 "�vriga externa kostnader, avdragsgilla"
-#KONTO 6992 "�vriga externa kostnader, ej avdragsgilla"
-#KONTO 7000 "L�ner till kollektivanst�llda (gruppkonto)"
-#KONTO 7010 "L�ner till kollektivanst�llda"
-#KONTO 7210 "L�ner till tj�nstem�n"
-#KONTO 7220 "L�ner till f�retagsledare"
-#KONTO 7300 "Kostnadsers�ttningar och f�rm�ner (gruppkonto)"
+#KONTO 6880 "Inhyrda foretagsledare"
+#KONTO 6890 "Ovrig inhyrd personal"
+#KONTO 6900 "Ovriga externa kostnader (gruppkonto)"
+#KONTO 6990 "Ovriga externa kostnader"
+#KONTO 6991 "Ovriga kostnader, avdragsgilla"
+#KONTO 6992 "Ovriga externa kostnader, ej avdragsgilla"
+#KONTO 7000 "Loner till kollektivanstallda (gruppkonto)"
+#KONTO 7010 "Loner till kollektivanstallda"
+#KONTO 7210 "Loner till tjansteman"
+#KONTO 7220 "Loner till foretagsledare"
+#KONTO 7300 "Kostnadsersattningar och formaner (gruppkonto)"
 #KONTO 7321 "Skattefria traktamenten, Sverige"
 #KONTO 7322 "Skattepliktiga traktamenten, Sverige"
 #KONTO 7323 "Skattefria traktamenten, utlandet"
 #KONTO 7324 "Skattepliktiga traktamenten, utlandet"
-#KONTO 7331 "Skattefria bilers�ttningar"
-#KONTO 7332 "Skattepliktiga bilers�ttningar"
-#KONTO 7350 "Ers�ttningar f�r f�reskrivna arbetskl�der"
-#KONTO 7380 "Kostnader f�r f�rm�ner till anst�llda"
-#KONTO 7390 "�vriga kostnadsers�ttningar och f�rm�ner"
-#KONTO 7399 "Motkontering f�rm�ner"
-#KONTO 7410 Pensionsf�rs�kringspremier
-#KONTO 7500 "Sociala och andra avgifter enligt lag och avtal (gruppkonto"
-#KONTO 7510 "Arbetsgivaravgifter 31,42 %"
+#KONTO 7331 "Skattefria bilersattningar"
+#KONTO 7332 "Skattepliktiga bilersattningar"
+#KONTO 7350 "Ersattningar for foreskrivna arbetsklader"
+#KONTO 7380 "Kostnader for formaner till anstallda"
+#KONTO 7390 "Ovriga kostnadsersattningar och formaner"
+#KONTO 7399 "Motkontering formaner"
+#KONTO 7410 Pensionsforsakringspremier
+#KONTO 7500 "Sociala och andra avgifter enligt lag och avtal (gruppkonto)"
+#KONTO 7510 "Arbetsgivaravgifter"
 #KONTO 7513 "Arbetsgivaravgift avdrag forskning"
-#KONTO 7514 "Arbetsgivaravgift f�rsta anst�lld"
-#KONTO 7533 "S�rskild l�neskatt f�r pensionskostnader"
+#KONTO 7514 "Arbetsgivaravgift forsta anstalld"
+#KONTO 7533 "Sarskild loneskatt for pensionskostnader"
 #KONTO 7560 "Arbetsgivaravgifter 25,46 %"
-#KONTO 7600 "�vriga personalkostnader (gruppkonto)"
-#KONTO 7831 "Avskrivningar p� maskiner och andra tekniska anl�ggningar"
-#KONTO 7832 "Avskrivningar p� inventarier och verktyg"
-#KONTO 7960 "Valutakursf�rluster p� fordringar och skulder av r�relsekar"
-#KONTO 7973 "F�rlust vid avyttring av maskiner och inventarier"
-#KONTO 8311 "R�nteint�kter fr�n bank"
-#KONTO 8314 "Skattefria r�nteint�kter"
-#KONTO 8330 "Valutakursdifferenser p� kortfristiga fordringar och placer"
-#KONTO 8400 "R�ntekostnader (gruppkonto)"
-#KONTO 8422 "Dr�jsm�lsr�ntor f�r leverant�rsskulder"
-#KONTO 8423 "R�ntekostnader f�r skatter och avgifter"
-#KONTO 8430 "Valutakursdifferenser p� skulder"
-#KONTO 8811 "Avs�ttning till periodiseringsfond"
-#KONTO 8819 "�terf�ring fr�n periodiseringsfond"
-#KONTO 8850 "F�r�ndring av �veravskrivningar"
-#KONTO 8910 "Skatt som belastar �rets resultat"
-#KONTO 8999 "�rets resultat"
+#KONTO 7600 "Ovriga personalkostnader (gruppkonto)"
+#KONTO 7831 "Avskrivningar pa maskiner och andra tekniska anlaggningar"
+#KONTO 7832 "Avskrivning byggnader"
+#KONTO 7960 "Valutakursforluster"
+#KONTO 7973 "Forlust vid avyttring av maskiner och inventarier"
+#KONTO 8311 "Ranteintakter fran bank"
+#KONTO 8314 "Ranteintakter fran kortfristiga placeringar"
+#KONTO 8330 "Valutakursdifferenser pa kortfristiga fordringar och placeringar"
+#KONTO 8400 "Rantekostnader"
+#KONTO 8422 "Drojsmalsrantor for leverantorsskulder"
+#KONTO 8423 "Rantekostnader for skatter och avgifter"
+#KONTO 8430 "Valutakursdifferenser pa skulder"
+#KONTO 8811 "Avsattning till periodiseringsfond"
+#KONTO 8819 "Aterforing fran periodiseringsfond"
+#KONTO 8850 "Forandring av overavskrivningar"
+#KONTO 8910 "Skatt pa arets resultat"
+#KONTO 8999 "Arets resultat"
 
 #UB 0 1220 49170.68
 #UB 0 1240 27500.00
@@ -844,7 +845,7 @@
 #TRANS 6570 {} 2.54
 }
 
-#VER A 841 20251001 "M�nadsavgift F�retagskonto okt"
+#VER A 841 20251001 "Manadsavgift Foretagskonto okt"
 {
 #TRANS 6570 {} 70.00
 #TRANS 1930 {} -70.00
@@ -862,7 +863,7 @@
 #TRANS 1947 {} -3689.41
 }
 
-#VER A 844 20251006 "�verf�ring till Wise"
+#VER A 844 20251006 "Overforing till Wise"
 {
 #TRANS 1945 {} 10486.00
 #TRANS 1930 {} -10486.00
@@ -880,7 +881,7 @@
 #TRANS 1947 {} -2555.13
 }
 
-#VER A 847 20251008 "Skatt f�rseningsavgift"
+#VER A 847 20251008 "Skatt forseningsavgift"
 {
 #TRANS 6590 {} 625.00
 #TRANS 1930 {} -625.00
@@ -893,7 +894,7 @@
 #TRANS 1930 {} -500.00
 }
 
-#VER A 849 20251009 "�verf�ring till Wise"
+#VER A 849 20251009 "Overforing till Wise"
 {
 #TRANS 1945 {} 4500.00
 #TRANS 1930 {} -4500.00
@@ -937,7 +938,7 @@
 #TRANS 1930 {} -248.00
 }
 
-#VER A 856 20251017 "F�rs�kring 53020525"
+#VER A 856 20251017 "Forsakring 53020525"
 {
 #TRANS 6310 {} 3763.00
 #TRANS 1930 {} -3763.00
@@ -1023,7 +1024,7 @@
 #TRANS 1947 {} -4535.93
 }
 
-#VER A 870 20251101 "M�nadsavgift F�retagskonto nov"
+#VER A 870 20251101 "Manadsavgift Foretagskonto nov"
 {
 #TRANS 6570 {} 70.00
 #TRANS 1930 {} -70.00
@@ -1226,7 +1227,7 @@
 #TRANS 1580 {} -39934.97
 }
 
-#VER A 903 20251201 "M�nadsavgift F�retagskonto dec"
+#VER A 903 20251201 "Manadsavgift Foretagskonto dec"
 {
 #TRANS 6570 {} 70.00
 #TRANS 1930 {} -70.00
@@ -1359,7 +1360,7 @@
 #TRANS 1930 {} -389.00
 }
 
-#VER A 924 20251215 "F�retag mobil Telia 47460035"
+#VER A 924 20251215 "Fretag mobil Telia 47460035"
 {
 #TRANS 6212 {} 455.20
 #TRANS 2641 {} 113.80
@@ -1456,13 +1457,13 @@
 #TRANS 1947 {} -137.10
 }
 
-#VER A 939 20251231 "R�nta Marginalen"
+#VER A 939 20251231 "Ranta Marginalen"
 {
 #TRANS 1930 {} 122.38
 #TRANS 8400 {} -122.38
 }
 
-#VER A 940 20251231 "R�nta Marginalen"
+#VER A 940 20251231 "Ranta Marginalen"
 {
 #TRANS 1930 {} 0.23
 #TRANS 8400 {} -0.23
@@ -1591,21 +1592,21 @@
 #TRANS 2611 {} -199.57
 }
 
-#VER A 959 20251231 "Varuf�rbrukning Q4 2025"
+#VER A 959 20251231 "Varufrbrukning Q4 2025"
 {
-#TRANS 4110 {} 236141.50 "Varuf�rbrukning s�lda varor"
+#TRANS 4110 {} 236141.50 "Varufrbrukning salda varor"
 #TRANS 1460 {} -236141.50 "Lageruttag"
 }
 
-#VER A 960 20251231 "Reklamg�vor till kunder Q4 2025"
+#VER A 960 20251231 "Reklamgvor till kunder Q4 2025"
 {
 #TRANS 5900 {} 26237.95 "Varuprover och presentartiklar"
 #TRANS 1460 {} -26237.95 "Lageruttag"
 }
 
-#VER A 961 20251231 "Varuink�p Future World Tech Q4 38658 USD kurs 10.755"
+#VER A 961 20251231 "Varuinkop Future World Tech Q4 38658 USD kurs 10.755"
 {
-#TRANS 1460 {} 415815.45 "Varuink�p - kl�der och accessoarer"
+#TRANS 1460 {} 415815.45 "Varuinkop - klder och accessoarer"
 #TRANS 2441 {} -415815.45 "Future World Tech skuld"
 }
 
@@ -1621,7 +1622,7 @@
 #TRANS 2893 {} -4486.38
 }
 
-#VER A 964 20251127 "FOREX Arlanda - L�neavans till Future World Tech"
+#VER A 964 20251127 "FOREX Arlanda - Lneavans till Future World Tech"
 {
 #TRANS 2441 {} 10000.00
 #TRANS 2893 {} -10000.00
@@ -1639,7 +1640,7 @@
 #TRANS 2893 {} -31.20
 }
 
-#VER A 967 20251205 "�vertrasseringsavgift - Remamber"
+#VER A 967 20251205 "vertrasseringsavgift - Remamber"
 {
 #TRANS 5900 {} 76.00
 #TRANS 2893 {} -76.00
@@ -1681,28 +1682,28 @@
 #TRANS 2893 {} -167.17
 }
 
-#VER A 974 20251023 "Fortnox Bokf�ringsprogram"
+#VER A 974 20251023 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 119.20
 #TRANS 2641 {} 29.80
 #TRANS 2893 {} -149.00
 }
 
-#VER A 975 20251101 "Fortnox Bokf�ringsprogram"
+#VER A 975 20251101 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 119.20
 #TRANS 2641 {} 29.80
 #TRANS 2893 {} -149.00
 }
 
-#VER A 976 20251114 "Fortnox Bokf�ringsprogram"
+#VER A 976 20251114 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 19.20
 #TRANS 2641 {} 4.80
 #TRANS 2893 {} -24.00
 }
 
-#VER A 977 20251212 "Fortnox Bokf�ringsprogram"
+#VER A 977 20251212 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 119.20
 #TRANS 2641 {} 29.80
@@ -1715,78 +1716,78 @@
 #TRANS 2893 {} -400.00
 }
 
-#VER A 979 20251026 "SJ AB T�g - Arbetsresa"
+#VER A 979 20251026 "SJ AB Tag - Arbetsresa"
 {
 #TRANS 5010 {} 76.80
 #TRANS 2641 {} 19.20
 #TRANS 2893 {} -96.00
 }
 
-#VER A 980 20251026 "SJ AB T�g - Arbetsresa"
+#VER A 980 20251026 "SJ AB Tag - Arbetsresa"
 {
 #TRANS 5010 {} 76.80
 #TRANS 2641 {} 19.20
 #TRANS 2893 {} -96.00
 }
 
-#VER A 981 20251014 "M�LARDALSTRAFIKKEN - Arbetsresa"
+#VER A 981 20251014 "MALARDALSTRAFIKEN - Arbetsresa"
 {
 #TRANS 5010 {} 293.60
 #TRANS 2641 {} 73.40
 #TRANS 2893 {} -367.00
 }
 
-#VER A 982 20251012 "M�LARDALSTRAFIKKEN - Arbetsresa"
+#VER A 982 20251012 "MALARDALSTRAFIKEN - Arbetsresa"
 {
 #TRANS 5010 {} 293.60
 #TRANS 2641 {} 73.40
 #TRANS 2893 {} -367.00
 }
 
-#VER A 983 20251127 "M�LARDALSTRAFIKKEN - Arbetsresa"
+#VER A 983 20251127 "MALARDALSTRAFIKEN - Arbetsresa"
 {
 #TRANS 5010 {} 587.20
 #TRANS 2641 {} 146.80
 #TRANS 2893 {} -734.00
 }
 
-#VER A 984 20251224 "Swish Auronis AB - F�retagsbetalning"
+#VER A 984 20251224 "Swish Auronis AB - Fretagsbetalning"
 {
 #TRANS 2893 {} -100.00
 #TRANS 2893 {} 100.00
 }
 
-#VER A 985 20251001 "TikTok Ads - Marknadsf�ring"
+#VER A 985 20251001 "TikTok Ads - Marknadsforing"
 {
 #TRANS 5900 {} 1070.11
 #TRANS 2893 {} -1070.11
 }
 
-#VER A 986 20251101 "Google GSUITE - F�retagstj�nst"
+#VER A 986 20251101 "Google GSUITE - Fretagstjanst"
 {
 #TRANS 6500 {} 63.12
 #TRANS 2893 {} -63.12
 }
 
-#VER A 987 20251201 "Google GSUITE - F�retagstj�nst"
+#VER A 987 20251201 "Google GSUITE - Fretagstjanst"
 {
 #TRANS 6500 {} 63.42
 #TRANS 2893 {} -63.42
 }
 
-#VER A 988 20251001 "Google GSUITE - F�retagstj�nst"
+#VER A 988 20251001 "Google GSUITE - Fretagstjanst"
 {
 #TRANS 6500 {} 63.77
 #TRANS 2893 {} -63.77
 }
 
-#VER A 989 20251201 "TikTok Ads - Marknadsf�ring"
+#VER A 989 20251201 "TikTok Ads - Marknadsforing"
 {
 #TRANS 5900 {} 29.03
 #TRANS 2893 {} -29.03
 }
 
-#VER A 990 20251203 "TikTok Ads - Marknadsf�ring"
+#VER A 990 20251203 "TikTok Ads - Marknadsforing"
 {
 #TRANS 5900 {} 2744.00
 #TRANS 2893 {} -2744.00
@@ -1806,105 +1807,105 @@
 #TRANS 2893 {} -500.61
 }
 
-#VER A 993 20251103 "VIMLA Telefonabonnemang - F�retag"
+#VER A 993 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 17.02
 #TRANS 2641 {} 4.26
 #TRANS 2893 {} -21.28
 }
 
-#VER A 994 20251103 "VIMLA Telefonabonnemang - F�retag"
+#VER A 994 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 83.61
 #TRANS 2641 {} 20.90
 #TRANS 2893 {} -104.51
 }
 
-#VER A 995 20251103 "VIMLA Telefonabonnemang - F�retag"
+#VER A 995 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 51.10
 #TRANS 2641 {} 12.77
 #TRANS 2893 {} -63.87
 }
 
-#VER A 996 20251103 "VIMLA Telefonabonnemang - F�retag"
+#VER A 996 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 51.10
 #TRANS 2641 {} 12.77
 #TRANS 2893 {} -63.87
 }
 
-#VER A 997 20251203 "VIMLA Telefonabonnemang - F�retag"
+#VER A 997 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 48.00
 #TRANS 2641 {} 12.00
 #TRANS 2893 {} -60.00
 }
 
-#VER A 998 20251203 "VIMLA Telefonabonnemang - F�retag"
+#VER A 998 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 48.00
 #TRANS 2641 {} 12.00
 #TRANS 2893 {} -60.00
 }
 
-#VER A 999 20251203 "VIMLA Telefonabonnemang - F�retag"
+#VER A 999 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 48.00
 #TRANS 2641 {} 12.00
 #TRANS 2893 {} -60.00
 }
 
-#VER A 1000 20251203 "VIMLA Telefonabonnemang - F�retag"
+#VER A 1000 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 16.00
 #TRANS 2641 {} 4.00
 #TRANS 2893 {} -20.00
 }
 
-#VER A 1001 20251110 "St1 Gillbergaplan - F�retagsbr�nsle"
+#VER A 1001 20251110 "St1 Gillbergaplan - Fretagsbrnsle"
 {
 #TRANS 5010 {} 757.14
 #TRANS 2641 {} 189.28
 #TRANS 2893 {} -946.42
 }
 
-#VER A 1002 20251125 "AIMO Parkering - F�retag"
+#VER A 1002 20251125 "AIMO Parkering - Fretag"
 {
 #TRANS 5010 {} 283.96
 #TRANS 2641 {} 70.99
 #TRANS 2893 {} -354.95
 }
 
-#VER A 1003 20251116 "Apple.com iCloud - F�retagstj�nst"
+#VER A 1003 20251116 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 13.60
 #TRANS 2641 {} 3.40
 #TRANS 2893 {} -17.00
 }
 
-#VER A 1004 20251211 "Apple.com iCloud - F�retagstj�nst"
+#VER A 1004 20251211 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 199.20
 #TRANS 2641 {} 49.80
 #TRANS 2893 {} -249.00
 }
 
-#VER A 1005 20251216 "Apple.com iCloud - F�retagstj�nst"
+#VER A 1005 20251216 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 14.40
 #TRANS 2641 {} 3.60
 #TRANS 2893 {} -18.00
 }
 
-#VER A 1006 20251016 "Apple.com iCloud - F�retagstj�nst"
+#VER A 1006 20251016 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 14.40
 #TRANS 2641 {} 3.60
 #TRANS 2893 {} -18.00
 }
 
-#VER A 1007 20251011 "Apple.com iCloud - F�retagstj�nst"
+#VER A 1007 20251011 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 199.20
 #TRANS 2641 {} 49.80
@@ -1918,14 +1919,14 @@
 #TRANS 2893 {} -1424.34
 }
 
-#VER A 1009 20251005 "Tubekick - Underh�llning/F�retag"
+#VER A 1009 20251005 "Tubekick - Underhllning/Fretag"
 {
 #TRANS 5900 {} 104.85
 #TRANS 2641 {} 26.21
 #TRANS 2893 {} -131.06
 }
 
-#VER A 1010 20251115 "TG JBC �rebro - Arbetsresa"
+#VER A 1010 20251115 "TG JBC Orebro - Arbetsresa"
 {
 #TRANS 5010 {} 1644.00
 #TRANS 2641 {} 411.00

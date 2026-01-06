@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -19,14 +20,14 @@
 // ========================================
 
 // 1. 2025-07-05 - Variable interest charge
-#VER "" "PREM-001" 20250705 "RÖRLIG RÄNTA - variable interest"
+#VER "" "PREM-001" 20250705 "R?RLIG R?NTA - variable interest"
 {
     #TRANS 6570 {} 857.97 "Credit card interest charge"
     #TRANS 2893 {} -857.97 "From shareholder card account"
 }
 
 // 2. 2025-08-05 - Annual fee
-#VER "" "PREM-002" 20250805 "ÅRSAVGIFT - annual card fee"
+#VER "" "PREM-002" 20250805 "?RSAVGIFT - annual card fee"
 {
     #TRANS 6570 {} 1200.00 "Nordea Premium annual fee"
     #TRANS 2893 {} -1200.00 "From shareholder card account"
@@ -43,7 +44,7 @@
 #VER "" "PREM-004" 20250816 "SHOPIFY 404278789 (EUR)"
 {
     #TRANS 5900 {} 409.08 "Shopify advertising/marketing NO VAT"
-    #TRANS 2893 {} -409.08 "Card charge EUR→SEK"
+    #TRANS 2893 {} -409.08 "Card charge EUR?SEK"
 }
 
 // 5. 2025-08-17 - Biltema supplies (BUSINESS)
@@ -58,18 +59,18 @@
 {
     #TRANS 5410 {} 51.27 "G Suite business software ex VAT"
     #TRANS 2641 {} 12.82 "VAT 25%"
-    #TRANS 2893 {} -64.09 "Card charge EUR→SEK"
+    #TRANS 2893 {} -64.09 "Card charge EUR?SEK"
 }
 
 // 7. 2025-09-02 - Shopify EUR transaction (BUSINESS ADVERTISING)
 #VER "" "PREM-007" 20250902 "SHOPIFY 412666599 (EUR)"
 {
     #TRANS 5900 {} 156.65 "Shopify advertising NO VAT"
-    #TRANS 2893 {} -156.65 "Card charge EUR→SEK"
+    #TRANS 2893 {} -156.65 "Card charge EUR?SEK"
 }
 
 // 8. 2025-09-05 - Variable interest charge
-#VER "" "PREM-008" 20250905 "RÖRLIG RÄNTA - variable interest"
+#VER "" "PREM-008" 20250905 "R?RLIG R?NTA - variable interest"
 {
     #TRANS 6570 {} 686.38 "Credit card interest charge"
     #TRANS 2893 {} -686.38 "From shareholder card account"
@@ -99,11 +100,11 @@
 
 // REMOVED TRANSACTIONS (PERSONAL - NOT INCLUDED):
 // PREM-003 (old): 2025-08-11 - Apple.com iTunes (personal subscription) - 249.00 SEK [PERSONAL]
-// PREM-004 (old): 2025-08-13 - Mälardalstrafik transport (personal transport) - 367.00 SEK [PERSONAL]
+// PREM-004 (old): 2025-08-13 - M?lardalstrafik transport (personal transport) - 367.00 SEK [PERSONAL]
 // PREM-005 (old): 2025-08-16 - Apple subscription (personal app) - 18.00 SEK [PERSONAL]
 // PREM-008 (old): 2025-08-17 - McDonald's meal (personal meal) - 28.00 SEK [PERSONAL]
 // PREM-009 (old): 2025-08-17 - Babylon grocery - 51.20 SEK [PERSONAL]
-// PREM-010 (old): 2025-08-17 - Hemköp grocery - 85.56 SEK [PERSONAL]
+// PREM-010 (old): 2025-08-17 - Hemk?p grocery - 85.56 SEK [PERSONAL]
 // PREM-012 (old): 2025-08-18 - Avand grocery - 6.40 SEK [PERSONAL]
 // PREM-013 (old): 2025-08-18 - Babylon grocery - 236.72 SEK [PERSONAL]
 // PREM-014 (old): 2025-08-24 - Aimo parking (personal parking) - 354.95 SEK [PERSONAL]

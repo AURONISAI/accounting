@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -23,14 +24,14 @@
 // - NO fabricated entries (NO Moneygram - doesn't exist in this CSV)
 //
 // CLASSIFICATION:
-// - Telecom (Hi3G, Tele2) → 5410 (Software/Telecom)
-// - Software (Fortnox) → 5410 (Software)
-// - Transport (Mälardalstrafik) → 5610 (Travel)
-// - Business supplies (Temu autogiro) → Business expenses
-// - Bank fees (interest) → 6570
+// - Telecom (Hi3G, Tele2) ? 5410 (Software/Telecom)
+// - Software (Fortnox) ? 5410 (Software)
+// - Transport (M?lardalstrafik) ? 5610 (Travel)
+// - Business supplies (Temu autogiro) ? Business expenses
+// - Bank fees (interest) ? 6570
 //
 // REMOVED TRANSACTIONS (Personal - NOT business):
-// - Government benefits (Studiestöd, Barnbidrag, Bostadsbidraget)
+// - Government benefits (Studiest?d, Barnbidrag, Bostadsbidraget)
 // - Personal card payments (Entercard, American Express, etc)
 // - Housing payments (Victoria housing)
 // - Personal Swish transfers
@@ -86,7 +87,7 @@
 // 2025-09-06 TRANSACTIONS
 // ========================================
 
-#VER "" "PERSO-005" 20250906 "Mälardalstrafik transport"
+#VER "" "PERSO-005" 20250906 "M?lardalstrafik transport"
 {
     #TRANS 5610 {} 367.00 "Business transport"
     #TRANS 2893 {} -367.00 "From PERSONKONTO"
@@ -110,7 +111,7 @@
 // Business only: 6 transactions (telecom, software, transport)
 // 
 // REMOVED (Personal):
-// - Studiestöd (education support)
+// - Studiest?d (education support)
 // - Barnbidrag (child benefits)
 // - Bostadsbidraget (housing support)
 // - Card advance payments (Entercard, American Express, Nordea)

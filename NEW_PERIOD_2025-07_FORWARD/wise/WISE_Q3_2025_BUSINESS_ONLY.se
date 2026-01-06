@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -15,7 +16,7 @@
 // Accounts: 1945 (SEK primary), 1943 (USD), 1942 (EUR)
 // Multi-currency digital bank accounts
 // Period: July 1 - September 30, 2025
-// REMOVED: Personal expenses (Hemköp grocery, Hallon streaming)
+// REMOVED: Personal expenses (Hemk?p grocery, Hallon streaming)
 // KEPT: Business advertising (TikTok, Facebook), business supplies (Temu), money transfers
 // ========================================
 
@@ -319,14 +320,14 @@
 }
 
 // REMOVED TRANSACTIONS (PERSONAL - NOT INCLUDED):
-// WISE-010 (old): 2025-08-29 - Hemköp grocery - 76.50 SEK [PERSONAL]
+// WISE-010 (old): 2025-08-29 - Hemk?p grocery - 76.50 SEK [PERSONAL]
 // WISE-032 (old): 2025-09-21 - Hallon Stockholm - 43.00 SEK [PERSONAL]
-// WISE-034 (old): 2025-09-22 - Hemköp grocery - 23.00 SEK [PERSONAL]
+// WISE-034 (old): 2025-09-22 - Hemk?p grocery - 23.00 SEK [PERSONAL]
 
 // AUDIT NOTES FOR WISE BUSINESS-ONLY:
 // - Original file: 39 SEK transactions (plus USD/EUR accounts)
 // - Business-only transactions: 36
-// - Removed personal transactions: 3 (Hemköp grocery x2 + Hallon streaming = 142.50 SEK)
+// - Removed personal transactions: 3 (Hemk?p grocery x2 + Hallon streaming = 142.50 SEK)
 // - Business total kept: ~16,900 SEK (including VAT)
 // - Categories kept:
 //   * Business advertising (5900): TikTok + Facebook = ~11,200 SEK (ex VAT)

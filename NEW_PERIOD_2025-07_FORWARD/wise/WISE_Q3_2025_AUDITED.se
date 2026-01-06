@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -93,8 +94,8 @@
     #TRANS 1945 {} -73.00 "Card charge Wise SEK"
 }
 
-// 10. 2025-08-29 - Personal expense (Hemköp)
-#VER "" "WISE-010" 20250829 "Card transaction Hemköp grocery"
+// 10. 2025-08-29 - Personal expense (Hemk?p)
+#VER "" "WISE-010" 20250829 "Card transaction Hemk?p grocery"
 {
     #TRANS 2893 {} 61.20 "Personal grocery ex VAT"
     #TRANS 2641 {} 15.30 "VAT 25%"
@@ -278,8 +279,8 @@
     #TRANS 1945 {} -100.00 "Card charge Wise"
 }
 
-// 34. 2025-09-22 - Hemköp transaction
-#VER "" "WISE-034" 20250922 "Card transaction Hemköp"
+// 34. 2025-09-22 - Hemk?p transaction
+#VER "" "WISE-034" 20250922 "Card transaction Hemk?p"
 {
     #TRANS 2893 {} 18.40 "Personal grocery"
     #TRANS 1945 {} -23.00 "Card charge"

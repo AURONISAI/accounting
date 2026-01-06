@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -103,8 +104,8 @@
     #TRANS 2893 {} -1250.00 "From shareholder account"
 }
 
-// 13. 2025-07-27 - Swish payment Region Sörmland
-#VER "" "PERSON-013" 20250727 "Swish Region Sörmland"
+// 13. 2025-07-27 - Swish payment Region S?rmland
+#VER "" "PERSON-013" 20250727 "Swish Region S?rmland"
 {
     #TRANS 5620 {} 280.00 "Regional services no VAT"
     #TRANS 2893 {} -280.00 "From shareholder account"
@@ -168,7 +169,7 @@
     #TRANS 2893 {} -200.00 "From shareholder account"
 }
 
-// 22. 2025-08-25 - Studiestöd (education support)
+// 22. 2025-08-25 - Studiest?d (education support)
 #VER "" "PERSON-022" 20250825 "Government education support"
 {
     #TRANS 2893 {} -15024.00 "Government grant received"
@@ -205,7 +206,7 @@
 }
 
 // 27. 2025-08-27 - Shareholder loan repayment (returning from company)
-#VER "" "PERSON-027" 20250827 "Shareholder loan repayment återbetalning"
+#VER "" "PERSON-027" 20250827 "Shareholder loan repayment ?terbetalning"
 {
     #TRANS 2893 {} -12000.00 "Loan repayment reduces company debt to shareholder"
     #TRANS 2893 {} 12000.00 "Shareholder receives personal transfer"
@@ -240,8 +241,8 @@
     #TRANS 2893 {} -149.00 "From shareholder account"
 }
 
-// 32. 2025-09-06 - Mälardalstrafik payment
-#VER "" "PERSON-032" 20250906 "Swish MÄLARDALSTRAFIK AKT"
+// 32. 2025-09-06 - M?lardalstrafik payment
+#VER "" "PERSON-032" 20250906 "Swish M?LARDALSTRAFIK AKT"
 {
     #TRANS 5610 {} 293.60 "Public transportation no VAT"
     #TRANS 2641 {} 73.40 "VAT 25% calculated"
@@ -319,7 +320,7 @@
     #TRANS 2893 {} 1000.00 "To shareholder account"
 }
 
-// 43. 2025-09-25 - Studiestöd (education support)
+// 43. 2025-09-25 - Studiest?d (education support)
 #VER "" "PERSON-043" 20250925 "Government education support"
 {
     #TRANS 2893 {} -15024.00 "Government grant received"
@@ -382,15 +383,15 @@
     #TRANS 2893 {} 1976.00 "To shareholder account"
 }
 
-// 52. 2025-09-30 - Studiestöd (education support)
+// 52. 2025-09-30 - Studiest?d (education support)
 #VER "" "PERSON-052" 20250930 "Government education support"
 {
     #TRANS 2893 {} -625.00 "Government grant received"
     #TRANS 2893 {} 625.00 "To shareholder account"
 }
 
-// 53. 2025-09-30 - Shareholder loan - ÅTERBETALNI from company
-#VER "" "PERSON-053" 20250930 "Shareholder loan repayment ÅTERBETALNI"
+// 53. 2025-09-30 - Shareholder loan - ?TERBETALNI from company
+#VER "" "PERSON-053" 20250930 "Shareholder loan repayment ?TERBETALNI"
 {
     #TRANS 2893 {} -27905.00 "Loan repayment - company returns debt"
     #TRANS 2893 {} 27905.00 "Shareholder receives"
@@ -406,9 +407,9 @@
 // AUDIT NOTES FOR PERSONKONTO:
 // - Account 3086 00 59626 is shareholder personal account
 // - All transactions route through account 2893 (shareholder personal debt)
-// - Government benefits (studiestöd, barnbidrag, bostadsbidraget) are grants received
+// - Government benefits (studiest?d, barnbidrag, bostadsbidraget) are grants received
 // - Card advances/payments (Nordea Premium, Gold, Entercard, AmEx) are personal
-// - Housing payments (Victoria, Mälardalstrafik) are personal expenses
+// - Housing payments (Victoria, M?lardalstrafik) are personal expenses
 // - Telecom (Hi3G, Tele2) with 25% VAT (business usage)
 // - Travel expenses (flights, Moneygram transfers)
 // - All 54 transactions from CSV included with professional accounting treatment

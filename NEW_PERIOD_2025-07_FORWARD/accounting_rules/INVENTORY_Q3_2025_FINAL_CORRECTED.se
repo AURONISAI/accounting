@@ -1,6 +1,7 @@
 #FLAGGA 0
-#FORMAT PC8
-#PROGRAM "Samis Jackets Inventory System" "1.0"
+
+#FORMAT ISO
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
 #GEN 20251019
 #SIETYP 4
 #ORGNR 559489-5301
@@ -9,8 +10,8 @@
 #KPTYP EUBAS97
 
 #KONTO 1460 "Lager av handelsvaror"
-#KONTO 1469 "FÃ¶rÃ¤ndring av lager av handelsvaror"
-#KONTO 4110 "Kostnader fÃ¶r sÃ¥lda varor"
+#KONTO 1469 "Förändring av lager av handelsvaror"
+#KONTO 4110 "Kostnad sålda varor"
 #KONTO 5900 "Reklam och PR"
 
 #VER "" "IB-CLEAN" 20250701 "Clear opening 1469 balance - previous period marketing gifts"

@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -92,8 +93,8 @@
     #TRANS 2893 {} -149.00 "From shareholder account"
 }
 
-// 11. 2025-09-06 - Mälardalstrafik payment (BUSINESS TRANSPORT)
-#VER "" "PERSON-011" 20250906 "Swish MÄLARDALSTRAFIK AKT"
+// 11. 2025-09-06 - M?lardalstrafik payment (BUSINESS TRANSPORT)
+#VER "" "PERSON-011" 20250906 "Swish M?LARDALSTRAFIK AKT"
 {
     #TRANS 5610 {} 293.60 "Business transportation no VAT"
     #TRANS 2641 {} 73.40 "VAT 25% calculated"
@@ -115,14 +116,14 @@
 // PERSON-010 (old): 2025-07-25 - Nordea Gold card payment - 3,315.00 SEK [PERSONAL]
 // PERSON-011 (old): 2025-07-25 - Nordea Premium card payment - 5,000.00 SEK [PERSONAL]
 // PERSON-012 (old): 2025-07-25 - Bank of Norway payment - 1,250.00 SEK [PERSONAL]
-// PERSON-013 (old): 2025-07-27 - Swish Region Sörmland (regional services) - 280.00 SEK [PERSONAL]
+// PERSON-013 (old): 2025-07-27 - Swish Region S?rmland (regional services) - 280.00 SEK [PERSONAL]
 // PERSON-014 (old): 2025-07-27 - Swish personal transfer - 400.00 SEK [PERSONAL]
 // PERSON-015 (old): 2025-08-02 - Swish personal inbetalning - -50.00 SEK [PERSONAL]
 // PERSON-016 (old): 2025-08-02 - Swish personal transfer - 1,000.00 SEK [PERSONAL]
 // PERSON-019 (old): 2025-08-08 - Swish personal inbetalning - -170.00 SEK [PERSONAL]
 // PERSON-020 (old): 2025-08-20 - Barnbidrag (child benefit) - -1,325.00 SEK [PERSONAL]
 // PERSON-021 (old): 2025-08-24 - Swish personal - 200.00 SEK [PERSONAL]
-// PERSON-022 (old): 2025-08-25 - Studiestöd (education support) - -15,024.00 SEK [PERSONAL]
+// PERSON-022 (old): 2025-08-25 - Studiest?d (education support) - -15,024.00 SEK [PERSONAL]
 // PERSON-023 (old): 2025-08-26 - Victoria payment (housing) - 14,766.00 SEK [PERSONAL]
 // PERSON-025 (old): 2025-08-27 - Bank of Norway payment - 750.00 SEK [PERSONAL]
 // PERSON-026 (old): 2025-08-27 - American Express payment - 1,250.00 SEK [PERSONAL]
@@ -140,7 +141,7 @@
 // PERSON-040 (old): 2025-09-24 - Open Banking Eskilstuna - 1,041.00 SEK [PERSONAL]
 // PERSON-041 (old): 2025-09-24 - Swish YAKOB,CHRISTIAN - 150.00 SEK [PERSONAL]
 // PERSON-042 (old): 2025-09-24 - Swish inbetalning ZEMO,WEINI - -1,000.00 SEK [PERSONAL]
-// PERSON-043 (old): 2025-09-25 - Studiestöd (education support) - -15,024.00 SEK [PERSONAL]
+// PERSON-043 (old): 2025-09-25 - Studiest?d (education support) - -15,024.00 SEK [PERSONAL]
 // PERSON-044 (old): 2025-09-26 - Victoria payment (housing) - 14,766.00 SEK [PERSONAL]
 // PERSON-045 (old): 2025-09-26 - Swish Entercard - 4,617.24 SEK [PERSONAL]
 // PERSON-046 (old): 2025-09-26 - Government housing support - -5,200.00 SEK [PERSONAL]
@@ -149,7 +150,7 @@
 // PERSON-049 (old): 2025-09-29 - American Express - 2,439.38 SEK [PERSONAL]
 // PERSON-050 (old): 2025-09-30 - Bank Norway payment - 30,250.00 SEK [PERSONAL]
 // PERSON-051 (old): 2025-09-30 - Swish personal - -1,976.00 SEK [PERSONAL]
-// PERSON-052 (old): 2025-09-30 - Studiestöd (education support) - -625.00 SEK [PERSONAL]
+// PERSON-052 (old): 2025-09-30 - Studiest?d (education support) - -625.00 SEK [PERSONAL]
 // PERSON-053 (old): 2025-09-30 - Shareholder loan repayment - -27,905.00 SEK [PERSONAL]
 // PERSON-054 (old): 2025-09-30 - Shareholder debt account - -17,000.00 SEK [PERSONAL]
 
@@ -165,7 +166,7 @@
 //   * Business travel (5610): Moneygram, flights, transport = 3,276.71 SEK ex VAT
 //   * Bank fees (6570): Interest = 62.68 SEK
 //   * VAT (2641): 456.37 SEK
-// - All personal government benefits (studiestöd, barnbidrag, bostadsbidraget) removed
+// - All personal government benefits (studiest?d, barnbidrag, bostadsbidraget) removed
 // - All personal card advance payments removed
 // - All personal Swish transfers removed
 // - Housing payments (Victoria) removed

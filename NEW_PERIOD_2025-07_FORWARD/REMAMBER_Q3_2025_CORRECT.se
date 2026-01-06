@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -22,10 +23,10 @@
 // - REMOVED: Personal food, personal app subscriptions, personal transfers
 //
 // CLASSIFICATION:
-// - Flight bookings (Aviavgift, Budgetair) → 5610 (Travel)
-// - Business travel (Resecentrum, Fatoora, National Express) → 5610 (Travel)
-// - Vehicle fuel (St1 Gillbergaplan) → 5900 (Vehicle)
-// - International business trip (Moneygram) → 5610 (Travel)
+// - Flight bookings (Aviavgift, Budgetair) ? 5610 (Travel)
+// - Business travel (Resecentrum, Fatoora, National Express) ? 5610 (Travel)
+// - Vehicle fuel (St1 Gillbergaplan) ? 5900 (Vehicle)
+// - International business trip (Moneygram) ? 5610 (Travel)
 //
 // REMOVED (Personal):
 // - Aran Food AB (grocery store)

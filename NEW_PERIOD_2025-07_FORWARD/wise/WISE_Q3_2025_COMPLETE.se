@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -324,8 +325,8 @@
     #TRANS 1945 {} -100.00 "Card charge Wise"
 }
 
-// 44. 2025-09-22 - Hemköp grocery (PERSONAL - REMOVED but documented)
-// NOT INCLUDED: 2025-09-22 - Hemköp Eskilstuna - 23.00 SEK [PERSONAL GROCERY]
+// 44. 2025-09-22 - Hemk?p grocery (PERSONAL - REMOVED but documented)
+// NOT INCLUDED: 2025-09-22 - Hemk?p Eskilstuna - 23.00 SEK [PERSONAL GROCERY]
 
 // 45. 2025-09-22 - Money transfer +12000 SEK
 #VER "" "WISE-043" 20250922 "Money transfer top-up SEK"
@@ -404,7 +405,7 @@
 //
 // Removed personal transactions (NOT in SE file):
 //   - Hallon Stockholm (streaming): 43 SEK
-//   - Hemköp grocery: 23 SEK
+//   - Hemk?p grocery: 23 SEK
 //   Total personal removed: 66 SEK
 //
 // NO duplicates found. All amounts from official CSV bank statements.

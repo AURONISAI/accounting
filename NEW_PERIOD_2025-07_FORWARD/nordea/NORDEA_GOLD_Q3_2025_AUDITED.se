@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -54,7 +55,7 @@
 }
 
 // 6. 2025-07-05 - Variable interest charge
-#VER "" "GOLD-006" 20250705 "RÖRLIG RÄNTA - variable interest"
+#VER "" "GOLD-006" 20250705 "R?RLIG R?NTA - variable interest"
 {
     #TRANS 6570 {} 312.52 "Credit card interest charge"
     #TRANS 2893 {} -312.52 "From shareholder card account"
@@ -112,7 +113,7 @@
 }
 
 // 14. 2025-08-05 - Variable interest charge
-#VER "" "GOLD-014" 20250805 "RÖRLIG RÄNTA - variable interest"
+#VER "" "GOLD-014" 20250805 "R?RLIG R?NTA - variable interest"
 {
     #TRANS 6570 {} 322.32 "Credit card interest charge"
     #TRANS 2893 {} -322.32 "From shareholder card account"
@@ -219,7 +220,7 @@
 }
 
 // 29. 2025-09-05 - Variable interest charge
-#VER "" "GOLD-029" 20250905 "RÖRLIG RÄNTA - variable interest"
+#VER "" "GOLD-029" 20250905 "R?RLIG R?NTA - variable interest"
 {
     #TRANS 6570 {} 339.43 "Credit card interest charge"
     #TRANS 2893 {} -339.43 "From shareholder card account"
@@ -230,7 +231,7 @@
 {
     #TRANS 5410 {} 96.72 "OpenAI software service ex VAT"
     #TRANS 2641 {} 24.18 "VAT 25%"
-    #TRANS 2893 {} -120.90 "Card charge USD→SEK"
+    #TRANS 2893 {} -120.90 "Card charge USD?SEK"
 }
 
 // 31. 2025-09-08 - Willys grocery

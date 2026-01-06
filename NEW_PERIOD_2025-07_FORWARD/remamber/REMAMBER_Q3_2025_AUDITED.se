@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -43,7 +44,7 @@
 // 4. 2025-07-14 - Fatoora Riyadh (travel SAR)
 #VER "" "REMAM-004" 20250714 "Fatoora Riyadh travel expense"
 {
-    #TRANS 5610 {} 906.03 "Travel expense - currency SAR → SEK"
+    #TRANS 5610 {} 906.03 "Travel expense - currency SAR ? SEK"
     #TRANS 2893 {} -906.03 "From shareholder card account"
 }
 
@@ -123,7 +124,7 @@
 // 14. 2025-08-11 - National Express transport (GBP)
 #VER "" "REMAM-014" 20250811 "National Express Limited Birmingham"
 {
-    #TRANS 5610 {} 223.99 "Travel expense GBP → SEK"
+    #TRANS 5610 {} 223.99 "Travel expense GBP ? SEK"
     #TRANS 2893 {} -279.99 "From shareholder card account"
 }
 
@@ -162,7 +163,7 @@
 // 19. 2025-08-26 - Budgetair.com flight (USD)
 #VER "" "REMAM-019" 20250826 "Budgetair.com flight booking"
 {
-    #TRANS 5610 {} 444.70 "Travel expense USD → SEK"
+    #TRANS 5610 {} 444.70 "Travel expense USD ? SEK"
     #TRANS 2893 {} -555.88 "From shareholder card account"
 }
 
@@ -190,7 +191,7 @@
 // - Travel expenses (5610): flights, transport, food when traveling
 // - Software (5410): Apple.com subscriptions with 25% VAT
 // - Fuel/vehicle (5900): St1 fuel with 25% VAT
-// - Currency conversions: EUR, USD, GBP, SAR → SEK rates applied
+// - Currency conversions: EUR, USD, GBP, SAR ? SEK rates applied
 // - Inbetalningar (Swish, Bankgiro) are transfers TO the card from shareholder
 // - Account 2641 used for VAT on eligible business services
 // - Total 21 transactions Q3 2025

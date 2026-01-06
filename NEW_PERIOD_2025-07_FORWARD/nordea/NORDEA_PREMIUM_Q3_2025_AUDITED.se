@@ -1,6 +1,7 @@
 #FLAGGA 0
-#PROGRAM "GitHub Copilot" "1.0"
-#FORMAT PC8
+
+#PROGRAM "Spiris Bokf?ring & Fakturering" 7.5.0.0
+#FORMAT ISO
 #GEN 20251024
 #SIETYP 4
 #FNAMN "Samis Jackets AB"
@@ -19,14 +20,14 @@
 // JULY TRANSACTIONS
 
 // 1. 2025-07-05 - Variable interest charge
-#VER "" "PREM-001" 20250705 "RÖRLIG RÄNTA - variable interest"
+#VER "" "PREM-001" 20250705 "R?RLIG R?NTA - variable interest"
 {
     #TRANS 6570 {} 857.97 "Credit card interest charge"
     #TRANS 2893 {} -857.97 "From shareholder card account"
 }
 
 // 2. 2025-08-05 - Annual fee
-#VER "" "PREM-002" 20250805 "ÅRSAVGIFT - annual card fee"
+#VER "" "PREM-002" 20250805 "?RSAVGIFT - annual card fee"
 {
     #TRANS 6570 {} 1200.00 "Nordea Premium annual fee"
     #TRANS 2893 {} -1200.00 "From shareholder card account"
@@ -40,7 +41,7 @@
     #TRANS 2893 {} -249.00 "Card charge"
 }
 
-// 4. 2025-08-13 - Mälardalstrafik transport
+// 4. 2025-08-13 - M?lardalstrafik transport
 #VER "" "PREM-004" 20250813 "Malardalstrafik AB transport"
 {
     #TRANS 5610 {} 293.60 "Public transportation ex VAT"
@@ -68,7 +69,7 @@
 {
     #TRANS 5900 {} 327.40 "Shopify advertising/marketing ex VAT"
     #TRANS 2641 {} 81.86 "VAT 25%"
-    #TRANS 2893 {} -409.08 "Card charge EUR→SEK"
+    #TRANS 2893 {} -409.08 "Card charge EUR?SEK"
 }
 
 // 8. 2025-08-17 - McDonald's meal
@@ -85,7 +86,7 @@
     #TRANS 2893 {} -51.20 "Card charge"
 }
 
-// 10. 2025-08-17 - Hemköp grocery
+// 10. 2025-08-17 - Hemk?p grocery
 #VER "" "PREM-010" 20250817 "HEMKOP ESKILSTUNA C"
 {
     #TRANS 2893 {} 85.56 "Personal grocery"
@@ -125,7 +126,7 @@
 #VER "" "PREM-015" 20250824 "GEIDEAE*MIMOCODES (EGP)"
 {
     #TRANS 2893 {} 91.78 "Digital services"
-    #TRANS 2893 {} -91.78 "Card charge EGP→SEK"
+    #TRANS 2893 {} -91.78 "Card charge EGP?SEK"
 }
 
 // 16. 2025-08-26 - G&S business expense 1
@@ -161,7 +162,7 @@
 {
     #TRANS 5410 {} 51.27 "G Suite business software ex VAT"
     #TRANS 2641 {} 12.82 "VAT 25%"
-    #TRANS 2893 {} -64.09 "Card charge EUR→SEK"
+    #TRANS 2893 {} -64.09 "Card charge EUR?SEK"
 }
 
 // 25. 2025-09-02 - Shopify EUR transaction
@@ -169,11 +170,11 @@
 {
     #TRANS 5900 {} 125.32 "Shopify advertising ex VAT"
     #TRANS 2641 {} 31.33 "VAT 25%"
-    #TRANS 2893 {} -156.65 "Card charge EUR→SEK"
+    #TRANS 2893 {} -156.65 "Card charge EUR?SEK"
 }
 
 // 27. 2025-09-05 - Variable interest charge
-#VER "" "PREM-027" 20250905 "RÖRLIG RÄNTA - variable interest"
+#VER "" "PREM-027" 20250905 "R?RLIG R?NTA - variable interest"
 {
     #TRANS 6570 {} 686.38 "Credit card interest charge"
     #TRANS 2893 {} -686.38 "From shareholder card account"
@@ -207,7 +208,7 @@
 {
     #TRANS 5900 {} 320.66 "Shopify advertising ex VAT"
     #TRANS 2641 {} 80.16 "VAT 25%"
-    #TRANS 2893 {} -400.82 "Card charge EUR→SEK"
+    #TRANS 2893 {} -400.82 "Card charge EUR?SEK"
 }
 
 // 33. 2025-09-16 - Apple subscription
@@ -256,7 +257,7 @@
 // - All transactions routed through account 2893 (shareholder account)
 // - Software/subscriptions (5410): Apple, Google Suite, One.com with 25% VAT
 // - Advertising (5900): TikTok, Shopify with 25% VAT
-// - Transport (5610): Parking, Mälardalstrafik with 25% VAT
+// - Transport (5610): Parking, M?lardalstrafik with 25% VAT
 // - Personal expenses: Groceries, meals (no VAT)
 // - Business supplies: Biltema, Clas Ohlson (no VAT applied)
 // - Currency conversions: EUR, EGP, USD with exchange rates
