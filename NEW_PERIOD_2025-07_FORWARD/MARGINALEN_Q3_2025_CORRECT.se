@@ -1,0 +1,658 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// MARGINALEN Q3 2025 - CORRECT FROM CSV ONLY
+// Account: 92356405879 (Business bank account - Account 1930)
+// Period: July 1 - September 30, 2025
+// ========================================
+// 
+// METHODOLOGY:
+// - Read CSV line by line
+// - EXACT amounts from CSV (including signs)
+// - NO calculations, NO guesses, NO fabrication
+// - Account mappings:
+//   * 92356405879 = Marginalen bank account 1930
+//   * 30860059626 = PERSONKONTO shareholder account 2893
+//   * Other account numbers = Payees (rent, vendors, etc)
+//   * Negative amounts = Payments OUT
+//   * Positive amounts = Deposits IN
+//
+// CLASSIFICATION LOGIC:
+// - Business rent (Hyra Butik, Lagar Hyra, Bankgiro to 4392007 with "Hyra") → 5010 (Rent)
+// - Car insurance (Bilförsäkring) → 5620 (Insurance)
+// - Software payments (Visma, Easy Cashier, etc) → 5410 (Software)
+// - Worldline deposits → 1947 (Card processor)
+// - Government subsidies (Arbetsförmedlingen) → 1630 (Grant)
+// - VAT payments → 2650 (VAT payable)
+// - Bank fees (Månadsavgift, Bankavgifter, Plusgiro) → 6570 (Bank fees)
+// - Shareholder loans → 2893
+// - WISE transfers → 1945 (WISE SEK account)
+// ========================================
+
+// ========================================
+// 2025-07-01 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-001" 20250701 "Monthlyfeemarginalen"
+{
+    #TRANS 6570 {} 70.00 "Bank fee"
+    #TRANS 1930 {} -70.00 "From Marginalen"
+}
+
+// ========================================
+// 2025-07-03 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-002" 20250703 "Lagar Hyra office rent"
+{
+    #TRANS 5010 {} 1956.00 "Office rent"
+    #TRANS 1930 {} -1956.00 "Payment to 4392007"
+}
+
+#VER "" "MAR-003" 20250703 "Visma software"
+{
+    #TRANS 5410 {} 1872.00 "Visma software"
+    #TRANS 1930 {} -1872.00 "Payment to 6494470"
+}
+
+#VER "" "MAR-004" 20250703 "Hyra Butik shop rent"
+{
+    #TRANS 5010 {} 20550.00 "Shop rent"
+    #TRANS 1930 {} -20550.00 "Payment to 4392007"
+}
+
+#VER "" "MAR-005" 20250703 "Worldline card sales"
+{
+    #TRANS 1930 {} 865.64 "Worldline deposit"
+    #TRANS 1947 {} -865.64 "From Worldline"
+}
+
+// ========================================
+// 2025-07-07 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-006" 20250707 "Bolagsverket registration"
+{
+    #TRANS 6250 {} 507.00 "Registration fee"
+    #TRANS 1930 {} -507.00 "Payment to 50435726"
+}
+
+#VER "" "MAR-007" 20250707 "VAT payment"
+{
+    #TRANS 2650 {} 20707.00 "VAT to tax authority"
+    #TRANS 1930 {} -20707.00 "Payment to 50501055"
+}
+
+#VER "" "MAR-008" 20250707 "Easy Cashier POS"
+{
+    #TRANS 5410 {} 3435.00 "POS system"
+    #TRANS 1930 {} -3435.00 "Payment to 2431492"
+}
+
+#VER "" "MAR-009" 20250707 "Worldline card sales"
+{
+    #TRANS 1930 {} 3806.83 "Worldline deposit"
+    #TRANS 1947 {} -3806.83 "From Worldline"
+}
+
+// ========================================
+// 2025-07-08 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-010" 20250708 "Worldline card sales"
+{
+    #TRANS 1930 {} 2221.81 "Worldline deposit"
+    #TRANS 1947 {} -2221.81 "From Worldline"
+}
+
+// ========================================
+// 2025-07-10 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-011" 20250710 "Worldline card sales"
+{
+    #TRANS 1930 {} 1343.23 "Worldline deposit"
+    #TRANS 1947 {} -1343.23 "From Worldline"
+}
+
+// ========================================
+// 2025-07-14 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-012" 20250714 "Worldline card sales"
+{
+    #TRANS 1930 {} 2837.70 "Worldline deposit"
+    #TRANS 1947 {} -2837.70 "From Worldline"
+}
+
+// ========================================
+// 2025-07-15 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-013" 20250715 "Worldline card sales"
+{
+    #TRANS 1930 {} 743.25 "Worldline deposit"
+    #TRANS 1947 {} -743.25 "From Worldline"
+}
+
+// ========================================
+// 2025-07-17 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-014" 20250717 "Worldline card sales"
+{
+    #TRANS 1930 {} 3845.66 "Worldline deposit"
+    #TRANS 1947 {} -3845.66 "From Worldline"
+}
+
+// ========================================
+// 2025-07-18 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-015" 20250718 "Arbetsförmedlingen subsidy"
+{
+    #TRANS 1930 {} 9119.00 "Employment subsidy"
+    #TRANS 1630 {} -9119.00 "Government grant"
+}
+
+#VER "" "MAR-016" 20250718 "Administrative fee"
+{
+    #TRANS 6250 {} 500.00 "Admin fee"
+    #TRANS 1930 {} -500.00 "Payment to 2027001"
+}
+
+// ========================================
+// 2025-07-21 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-017" 20250721 "Worldline card sales"
+{
+    #TRANS 1930 {} 198.00 "Worldline deposit"
+    #TRANS 1947 {} -198.00 "From Worldline"
+}
+
+#VER "" "MAR-018" 20250721 "Worldline card sales"
+{
+    #TRANS 1930 {} 493.50 "Worldline deposit"
+    #TRANS 1947 {} -493.50 "From Worldline"
+}
+
+// ========================================
+// 2025-07-22 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-019" 20250722 "Administrative fee"
+{
+    #TRANS 6250 {} 250.00 "Admin fee"
+    #TRANS 1930 {} -250.00 "Payment to 50530989"
+}
+
+// ========================================
+// 2025-07-24 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-020" 20250724 "Shareholder loan repayment"
+{
+    #TRANS 2893 {} 15274.28 "Loan repayment"
+    #TRANS 1930 {} -15274.28 "Payment to 30860059626"
+}
+
+#VER "" "MAR-021" 20250724 "Bredband internet"
+{
+    #TRANS 5410 {} 625.00 "Internet service"
+    #TRANS 1930 {} -625.00 "Payment to 1096361"
+}
+
+#VER "" "MAR-022" 20250724 "Worldline card sales"
+{
+    #TRANS 1930 {} 2528.26 "Worldline deposit"
+    #TRANS 1947 {} -2528.26 "From Worldline"
+}
+
+// ========================================
+// 2025-07-28 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-023" 20250728 "Worldline card sales"
+{
+    #TRANS 1930 {} 4848.61 "Worldline deposit"
+    #TRANS 1947 {} -4848.61 "From Worldline"
+}
+
+// ========================================
+// 2025-07-29 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-024" 20250729 "Worldline card sales"
+{
+    #TRANS 1930 {} 3619.76 "Worldline deposit"
+    #TRANS 1947 {} -3619.76 "From Worldline"
+}
+
+// ========================================
+// 2025-07-30 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-025" 20250730 "Card terminal fee"
+{
+    #TRANS 6570 {} 248.00 "Terminal maintenance"
+    #TRANS 1930 {} -248.00 "Payment to 3306016"
+}
+
+// ========================================
+// 2025-07-31 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-026" 20250731 "Worldline card sales"
+{
+    #TRANS 1930 {} 1865.60 "Worldline deposit"
+    #TRANS 1947 {} -1865.60 "From Worldline"
+}
+
+// ========================================
+// 2025-08-01 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-027" 20250801 "Bank fee August"
+{
+    #TRANS 6570 {} 70.00 "Bank fee"
+    #TRANS 1930 {} -70.00 "From Marginalen"
+}
+
+#VER "" "MAR-028" 20250801 "Hyra Butik shop rent"
+{
+    #TRANS 5010 {} 19983.00 "Shop rent"
+    #TRANS 1930 {} -19983.00 "Payment to 4392007"
+}
+
+#VER "" "MAR-029" 20250801 "Worldline card sales"
+{
+    #TRANS 1930 {} 6.14 "Worldline deposit"
+    #TRANS 1947 {} -6.14 "From Worldline"
+}
+
+// ========================================
+// 2025-08-04 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-030" 20250804 "Worldline card sales"
+{
+    #TRANS 1930 {} 6001.77 "Worldline deposit"
+    #TRANS 1947 {} -6001.77 "From Worldline"
+}
+
+#VER "" "MAR-031" 20250804 "Worldline card sales"
+{
+    #TRANS 1930 {} 2515.32 "Worldline deposit"
+    #TRANS 1947 {} -2515.32 "From Worldline"
+}
+
+// ========================================
+// 2025-08-06 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-032" 20250806 "Rent correction"
+{
+    #TRANS 5010 {} 1896.00 "Rent correction"
+    #TRANS 1930 {} -1896.00 "Payment to 4392007"
+}
+
+#VER "" "MAR-033" 20250806 "Worldline card sales"
+{
+    #TRANS 1930 {} 3370.02 "Worldline deposit"
+    #TRANS 1947 {} -3370.02 "From Worldline"
+}
+
+// ========================================
+// 2025-08-07 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-034" 20250807 "Worldline card sales"
+{
+    #TRANS 1930 {} 3370.02 "Worldline deposit"
+    #TRANS 1947 {} -3370.02 "From Worldline"
+}
+
+// ========================================
+// 2025-08-11 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-035" 20250811 "Customer payment"
+{
+    #TRANS 1930 {} 250.00 "Customer payment"
+    #TRANS 1947 {} -250.00 "From Bankgiro"
+}
+
+#VER "" "MAR-036" 20250811 "Worldline card sales"
+{
+    #TRANS 1930 {} 2418.89 "Worldline deposit"
+    #TRANS 1947 {} -2418.89 "From Worldline"
+}
+
+// ========================================
+// 2025-08-12 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-037" 20250812 "Worldline card sales"
+{
+    #TRANS 1930 {} 1757.15 "Worldline deposit"
+    #TRANS 1947 {} -1757.15 "From Worldline"
+}
+
+// ========================================
+// 2025-08-13 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-038" 20250813 "Worldline card sales"
+{
+    #TRANS 1930 {} 1.98 "Worldline deposit"
+    #TRANS 1947 {} -1.98 "From Worldline"
+}
+
+// ========================================
+// 2025-08-14 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-039" 20250814 "Worldline card sales"
+{
+    #TRANS 1930 {} 1879.51 "Worldline deposit"
+    #TRANS 1947 {} -1879.51 "From Worldline"
+}
+
+// ========================================
+// 2025-08-18 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-040" 20250818 "Worldline card sales"
+{
+    #TRANS 1930 {} 1359.16 "Worldline deposit"
+    #TRANS 1947 {} -1359.16 "From Worldline"
+}
+
+// ========================================
+// 2025-08-26 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-041" 20250826 "Car insurance"
+{
+    #TRANS 5620 {} 849.00 "Vehicle insurance"
+    #TRANS 1930 {} -849.00 "Payment to 7277536"
+}
+
+#VER "" "MAR-042" 20250826 "Worldline card sales"
+{
+    #TRANS 1930 {} 788.03 "Worldline deposit"
+    #TRANS 1947 {} -788.03 "From Worldline"
+}
+
+// ========================================
+// 2025-08-27 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-043" 20250827 "Shareholder loan repayment"
+{
+    #TRANS 2893 {} 12000.00 "Loan repayment"
+    #TRANS 1930 {} -12000.00 "Payment to 30860059626"
+}
+
+#VER "" "MAR-044" 20250827 "Administrative fee"
+{
+    #TRANS 6250 {} 500.00 "Admin fee"
+    #TRANS 1930 {} -500.00 "Payment to 2027001"
+}
+
+#VER "" "MAR-045" 20250827 "WISE transfer"
+{
+    #TRANS 1945 {} 2500.00 "Transfer to WISE"
+    #TRANS 1930 {} -2500.00 "From Marginalen"
+}
+
+#VER "" "MAR-046" 20250827 "Worldline card sales"
+{
+    #TRANS 1930 {} 198.99 "Worldline deposit"
+    #TRANS 1947 {} -198.99 "From Worldline"
+}
+
+// ========================================
+// 2025-08-28 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-047" 20250828 "Worldline card sales"
+{
+    #TRANS 1930 {} 6558.62 "Worldline deposit"
+    #TRANS 1947 {} -6558.62 "From Worldline"
+}
+
+// ========================================
+// 2025-09-01 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-048" 20250901 "Bank fee September"
+{
+    #TRANS 6570 {} 70.00 "Bank fee"
+    #TRANS 1930 {} -70.00 "From Marginalen"
+}
+
+#VER "" "MAR-049" 20250901 "Worldline card sales"
+{
+    #TRANS 1930 {} 4095.38 "Worldline deposit"
+    #TRANS 1947 {} -4095.38 "From Worldline"
+}
+
+#VER "" "MAR-050" 20250901 "Worldline card sales"
+{
+    #TRANS 1930 {} 1.50 "Worldline deposit"
+    #TRANS 1947 {} -1.50 "From Worldline"
+}
+
+// ========================================
+// 2025-09-02 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-051" 20250902 "Rent correction"
+{
+    #TRANS 5010 {} 1896.00 "Rent correction"
+    #TRANS 1930 {} -1896.00 "Payment to 4392007"
+}
+
+#VER "" "MAR-052" 20250902 "Worldline card sales"
+{
+    #TRANS 1930 {} 774.10 "Worldline deposit"
+    #TRANS 1947 {} -774.10 "From Worldline"
+}
+
+// ========================================
+// 2025-09-03 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-053" 20250903 "Bank fees"
+{
+    #TRANS 6570 {} 248.00 "Service fees"
+    #TRANS 1930 {} -248.00 "Payment to 47704044"
+}
+
+// ========================================
+// 2025-09-04 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-054" 20250904 "WISE transfer"
+{
+    #TRANS 1945 {} 5000.00 "Transfer to WISE"
+    #TRANS 1930 {} -5000.00 "From Marginalen"
+}
+
+#VER "" "MAR-055" 20250904 "Worldline card sales"
+{
+    #TRANS 1930 {} 11344.02 "Worldline deposit"
+    #TRANS 1947 {} -11344.02 "From Worldline"
+}
+
+// ========================================
+// 2025-09-05 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-056" 20250905 "Worldline card sales"
+{
+    #TRANS 1930 {} 4529.31 "Worldline deposit"
+    #TRANS 1947 {} -4529.31 "From Worldline"
+}
+
+// ========================================
+// 2025-09-06 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-057" 20250906 "Worldline card sales"
+{
+    #TRANS 1930 {} 3904.36 "Worldline deposit"
+    #TRANS 1947 {} -3904.36 "From Worldline"
+}
+
+// ========================================
+// 2025-09-08 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-058" 20250908 "Hyra Butik shop rent"
+{
+    #TRANS 5010 {} 19983.00 "Shop rent"
+    #TRANS 1930 {} -19983.00 "Payment to 4392007"
+}
+
+// ========================================
+// 2025-09-09 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-059" 20250909 "Worldline card sales"
+{
+    #TRANS 1930 {} 5495.34 "Worldline deposit"
+    #TRANS 1947 {} -5495.34 "From Worldline"
+}
+
+// ========================================
+// 2025-09-15 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-060" 20250915 "Worldline card sales"
+{
+    #TRANS 1930 {} 8216.41 "Worldline deposit"
+    #TRANS 1947 {} -8216.41 "From Worldline"
+}
+
+#VER "" "MAR-061" 20250915 "Worldline card sales"
+{
+    #TRANS 1930 {} 3500.37 "Worldline deposit"
+    #TRANS 1947 {} -3500.37 "From Worldline"
+}
+
+// ========================================
+// 2025-09-18 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-062" 20250918 "Worldline card sales"
+{
+    #TRANS 1930 {} 2649.66 "Worldline deposit"
+    #TRANS 1947 {} -2649.66 "From Worldline"
+}
+
+// ========================================
+// 2025-09-22 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-063" 20250922 "WISE transfer"
+{
+    #TRANS 1945 {} 12000.00 "Transfer to WISE"
+    #TRANS 1930 {} -12000.00 "From Marginalen"
+}
+
+#VER "" "MAR-064" 20250922 "Worldline card sales"
+{
+    #TRANS 1930 {} 6306.25 "Worldline deposit"
+    #TRANS 1947 {} -6306.25 "From Worldline"
+}
+
+#VER "" "MAR-065" 20250922 "Worldline card sales"
+{
+    #TRANS 1930 {} 5883.39 "Worldline deposit"
+    #TRANS 1947 {} -5883.39 "From Worldline"
+}
+
+// ========================================
+// 2025-09-25 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-066" 20250925 "Worldline card sales"
+{
+    #TRANS 1930 {} 10481.25 "Worldline deposit"
+    #TRANS 1947 {} -10481.25 "From Worldline"
+}
+
+// ========================================
+// 2025-09-26 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-067" 20250926 "Rent correction"
+{
+    #TRANS 5010 {} 2016.00 "Rent correction"
+    #TRANS 1930 {} -2016.00 "Payment to 4392007"
+}
+
+#VER "" "MAR-068" 20250926 "Additional rent"
+{
+    #TRANS 5010 {} 20159.00 "Additional rent"
+    #TRANS 1930 {} -20159.00 "Payment to 4392007"
+}
+
+#VER "" "MAR-069" 20250926 "Plusgiro fee"
+{
+    #TRANS 6570 {} 248.00 "Plusgiro fee"
+    #TRANS 1930 {} -248.00 "Payment to 47704044"
+}
+
+// ========================================
+// 2025-09-29 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-070" 20250929 "Worldline card sales"
+{
+    #TRANS 1930 {} 12047.34 "Worldline deposit"
+    #TRANS 1947 {} -12047.34 "From Worldline"
+}
+
+// ========================================
+// 2025-09-30 TRANSACTIONS
+// ========================================
+
+#VER "" "MAR-071" 20250930 "Shareholder loan repayment"
+{
+    #TRANS 2893 {} 27905.00 "Loan repayment"
+    #TRANS 1930 {} -27905.00 "Payment to 30860059626"
+}
+
+#VER "" "MAR-072" 20250930 "Worldline settlement"
+{
+    #TRANS 1930 {} 17122.87 "Worldline deposit"
+    #TRANS 1947 {} -17122.87 "From Worldline"
+}
+
+#VER "" "MAR-073" 20250930 "Shareholder loan repayment 2"
+{
+    #TRANS 2893 {} 17000.00 "Loan repayment"
+    #TRANS 1930 {} -17000.00 "Payment to 30860059626"
+}
+
+// ========================================
+// AUDIT NOTES
+// ========================================
+// TOTAL TRANSACTIONS: 73 VER entries
+// ALL amounts taken DIRECTLY from CSV
+// NO calculations, NO VAT guessing
+// NO transactions fabricated
+// DATES: July 1 - September 30, 2025
+// ========================================

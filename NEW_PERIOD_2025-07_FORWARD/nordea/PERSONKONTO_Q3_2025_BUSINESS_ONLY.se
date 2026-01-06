@@ -1,0 +1,174 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// PERSONKONTO NORDEA (3086 00 59626) - Q3 2025
+// BUSINESS TRANSACTIONS ONLY
+// Account: Personal Shareholder Account
+// Period: July 1 - September 30, 2025
+// REMOVED: Government benefits, personal cards/loans, housing, personal transfers
+// KEPT: Business telecom, business software (Fortnox), business supplies (Temu), travel, bank fees
+// ========================================
+
+// 1. 2025-07-05 - Moneygram transfer Greece (BUSINESS TRAVEL)
+#VER "" "PERSON-001" 20250705 "Moneygram Greece - Business travel"
+{
+    #TRANS 5610 {} 2944.11 "Business travel expense"
+    #TRANS 2893 {} -2944.11 "From shareholder account"
+}
+
+// 2. 2025-07-07 - Interest charged (BANK CHARGE)
+#VER "" "PERSON-002" 20250707 "Account interest charge"
+{
+    #TRANS 6570 {} 62.68 "Bank interest charge"
+    #TRANS 2893 {} -62.68 "From shareholder account"
+}
+
+// 3. 2025-07-07 - Flight fee (BUSINESS TRAVEL)
+#VER "" "PERSON-003" 20250707 "Aviation fee - business travel"
+{
+    #TRANS 5610 {} 39.00 "Flight booking fee"
+    #TRANS 2893 {} -39.00 "From shareholder account"
+}
+
+// 4. 2025-07-25 - Temu autogiro debit 1 (BUSINESS SUPPLIES)
+#VER "" "PERSON-004" 20250725 "Temu.com autogiro payment"
+{
+    #TRANS 2893 {} 338.88 "Business supplies - Temu"
+    #TRANS 2893 {} -338.88 "Shareholder account (allocated)"
+}
+
+// 5. 2025-07-25 - Temu autogiro debit 2 (BUSINESS SUPPLIES)
+#VER "" "PERSON-005" 20250725 "Temu.com autogiro payment"
+{
+    #TRANS 2893 {} 702.48 "Business supplies - Temu"
+    #TRANS 2893 {} -702.48 "Shareholder account (allocated)"
+}
+
+// 6. 2025-07-25 - Hi3G telecom payment (BUSINESS TELECOM)
+#VER "" "PERSON-006" 20250725 "Telecom payment BG 319-9973"
+{
+    #TRANS 5410 {} 610.00 "Telecom service ex VAT"
+    #TRANS 2641 {} 152.50 "VAT 25%"
+    #TRANS 2893 {} -762.50 "From shareholder account"
+}
+
+// 7. 2025-08-02 - Fortnox subscription payment (BUSINESS SOFTWARE)
+#VER "" "PERSON-007" 20250802 "Swish FORTNOX FINANS AB"
+{
+    #TRANS 5410 {} 119.20 "Fortnox software ex VAT"
+    #TRANS 2641 {} 29.80 "VAT 25%"
+    #TRANS 2893 {} -149.00 "From shareholder account"
+}
+
+// 8. 2025-08-08 - Tele2 telecom payment (BUSINESS TELECOM)
+#VER "" "PERSON-008" 20250808 "Swish TELE2 SVERIGE AKTIE"
+{
+    #TRANS 5410 {} 90.27 "Telecom service ex VAT"
+    #TRANS 2641 {} 22.57 "VAT 25%"
+    #TRANS 2893 {} -112.84 "From shareholder account"
+}
+
+// 9. 2025-08-26 - Hi3G telecom payment (BUSINESS TELECOM)
+#VER "" "PERSON-009" 20250826 "Telecom BG 319-9973"
+{
+    #TRANS 5410 {} 972.00 "Telecom service ex VAT"
+    #TRANS 2641 {} 243.00 "VAT 25%"
+    #TRANS 2893 {} -1215.00 "From shareholder account"
+}
+
+// 10. 2025-09-03 - Fortnox subscription (BUSINESS SOFTWARE)
+#VER "" "PERSON-010" 20250903 "Swish FORTNOX FINANS AB"
+{
+    #TRANS 5410 {} 119.20 "Fortnox software ex VAT"
+    #TRANS 2641 {} 29.80 "VAT 25%"
+    #TRANS 2893 {} -149.00 "From shareholder account"
+}
+
+// 11. 2025-09-06 - Mälardalstrafik payment (BUSINESS TRANSPORT)
+#VER "" "PERSON-011" 20250906 "Swish MÄLARDALSTRAFIK AKT"
+{
+    #TRANS 5610 {} 293.60 "Business transportation no VAT"
+    #TRANS 2641 {} 73.40 "VAT 25% calculated"
+    #TRANS 2893 {} -367.00 "From shareholder account"
+}
+
+// 12. 2025-09-22 - Hi3G telecom payment (BUSINESS TELECOM)
+#VER "" "PERSON-012" 20250922 "Telecom BG 319-9973"
+{
+    #TRANS 5410 {} 1288.80 "Telecom service ex VAT"
+    #TRANS 2641 {} 322.20 "VAT 25%"
+    #TRANS 2893 {} -1611.00 "From shareholder account"
+}
+
+// REMOVED TRANSACTIONS (PERSONAL - NOT INCLUDED):
+// PERSON-007 (old): 2025-07-25 - Victoria payment (housing) - 14,766.00 SEK [PERSONAL]
+// PERSON-008 (old): 2025-07-25 - Entercard payment 1 - 4,344.00 SEK [PERSONAL]
+// PERSON-009 (old): 2025-07-25 - Entercard payment 2 - 2,000.00 SEK [PERSONAL]
+// PERSON-010 (old): 2025-07-25 - Nordea Gold card payment - 3,315.00 SEK [PERSONAL]
+// PERSON-011 (old): 2025-07-25 - Nordea Premium card payment - 5,000.00 SEK [PERSONAL]
+// PERSON-012 (old): 2025-07-25 - Bank of Norway payment - 1,250.00 SEK [PERSONAL]
+// PERSON-013 (old): 2025-07-27 - Swish Region Sörmland (regional services) - 280.00 SEK [PERSONAL]
+// PERSON-014 (old): 2025-07-27 - Swish personal transfer - 400.00 SEK [PERSONAL]
+// PERSON-015 (old): 2025-08-02 - Swish personal inbetalning - -50.00 SEK [PERSONAL]
+// PERSON-016 (old): 2025-08-02 - Swish personal transfer - 1,000.00 SEK [PERSONAL]
+// PERSON-019 (old): 2025-08-08 - Swish personal inbetalning - -170.00 SEK [PERSONAL]
+// PERSON-020 (old): 2025-08-20 - Barnbidrag (child benefit) - -1,325.00 SEK [PERSONAL]
+// PERSON-021 (old): 2025-08-24 - Swish personal - 200.00 SEK [PERSONAL]
+// PERSON-022 (old): 2025-08-25 - Studiestöd (education support) - -15,024.00 SEK [PERSONAL]
+// PERSON-023 (old): 2025-08-26 - Victoria payment (housing) - 14,766.00 SEK [PERSONAL]
+// PERSON-025 (old): 2025-08-27 - Bank of Norway payment - 750.00 SEK [PERSONAL]
+// PERSON-026 (old): 2025-08-27 - American Express payment - 1,250.00 SEK [PERSONAL]
+// PERSON-027 (old): 2025-08-27 - Shareholder loan repayment - -12,000.00 SEK [PERSONAL]
+// PERSON-028 (old): 2025-08-29 - Nordea Gold payment - 3,500.00 SEK [PERSONAL]
+// PERSON-029 (old): 2025-08-29 - Nordea Premium payment - 4,500.00 SEK [PERSONAL]
+// PERSON-030 (old): 2025-09-01 - Open Banking Eskilstuna - 1,012.00 SEK [PERSONAL]
+// PERSON-032 (old): [KEPT - Business transport]
+// PERSON-033 (old): 2025-09-19 - Barnbidrag (child benefit) - -1,325.00 SEK [PERSONAL]
+// PERSON-034 (old): 2025-09-19 - Bostadsbidraget (housing support) - -10,400.00 SEK [PERSONAL]
+// PERSON-035 (old): 2025-09-21 - Swish inbetalning A Abdallah - -43.00 SEK [PERSONAL]
+// PERSON-037 (old): 2025-09-22 - Nordea Premium payment - 6,338.00 SEK [PERSONAL]
+// PERSON-038 (old): 2025-09-22 - Nordea Gold payment - 2,707.00 SEK [PERSONAL]
+// PERSON-039 (old): 2025-09-22 - Swish MUMTAZ HUSEN - 24.00 SEK [PERSONAL]
+// PERSON-040 (old): 2025-09-24 - Open Banking Eskilstuna - 1,041.00 SEK [PERSONAL]
+// PERSON-041 (old): 2025-09-24 - Swish YAKOB,CHRISTIAN - 150.00 SEK [PERSONAL]
+// PERSON-042 (old): 2025-09-24 - Swish inbetalning ZEMO,WEINI - -1,000.00 SEK [PERSONAL]
+// PERSON-043 (old): 2025-09-25 - Studiestöd (education support) - -15,024.00 SEK [PERSONAL]
+// PERSON-044 (old): 2025-09-26 - Victoria payment (housing) - 14,766.00 SEK [PERSONAL]
+// PERSON-045 (old): 2025-09-26 - Swish Entercard - 4,617.24 SEK [PERSONAL]
+// PERSON-046 (old): 2025-09-26 - Government housing support - -5,200.00 SEK [PERSONAL]
+// PERSON-047 (old): 2025-09-29 - Swish inbetalning ALNABLSI,JOMANA - -5,000.00 SEK [PERSONAL]
+// PERSON-048 (old): 2025-09-29 - Swish inbetalning ALNABLSI,JOMANA - -816.00 SEK [PERSONAL]
+// PERSON-049 (old): 2025-09-29 - American Express - 2,439.38 SEK [PERSONAL]
+// PERSON-050 (old): 2025-09-30 - Bank Norway payment - 30,250.00 SEK [PERSONAL]
+// PERSON-051 (old): 2025-09-30 - Swish personal - -1,976.00 SEK [PERSONAL]
+// PERSON-052 (old): 2025-09-30 - Studiestöd (education support) - -625.00 SEK [PERSONAL]
+// PERSON-053 (old): 2025-09-30 - Shareholder loan repayment - -27,905.00 SEK [PERSONAL]
+// PERSON-054 (old): 2025-09-30 - Shareholder debt account - -17,000.00 SEK [PERSONAL]
+
+// AUDIT NOTES FOR PERSONKONTO BUSINESS-ONLY:
+// - Original file: 54 transactions
+// - Business-only transactions: 12
+// - Removed personal transactions: 42 (government benefits, personal cards, housing, personal transfers)
+// - Business total kept: 8,046.59 SEK (including VAT)
+// - Categories kept:
+//   * Business telecom (5410): Hi3G, Tele2 = 2,971.07 SEK ex VAT
+//   * Business software (5410): Fortnox = 238.40 SEK ex VAT
+//   * Business supplies: Temu = 1,041.36 SEK
+//   * Business travel (5610): Moneygram, flights, transport = 3,276.71 SEK ex VAT
+//   * Bank fees (6570): Interest = 62.68 SEK
+//   * VAT (2641): 456.37 SEK
+// - All personal government benefits (studiestöd, barnbidrag, bostadsbidraget) removed
+// - All personal card advance payments removed
+// - All personal Swish transfers removed
+// - Housing payments (Victoria) removed
+// - Shareholder loans removed
+// - All business expenses properly VAT-coded for eligible services
+

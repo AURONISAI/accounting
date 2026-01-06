@@ -1,0 +1,437 @@
+#FLAGGA 0
+
+#PROGRAM "Spiris Bokfîring & Fakturering" 7.5.0.0
+#FORMAT PC8
+#GEN 20260106 "Mohammad Sami Alsharef"
+#SIETYP 4
+#ORGNR 559489-5301
+#FNAMN "Samis Jackets AB"
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+#VALUTA SEK
+
+#KONTO 1210 "Maskiner och andra tekniska anlÑggningar"
+#KONTO 1220 "Inventarier och verktyg"
+#KONTO 1229 "Ackumulerade avskrivningar pÜ inventarier och verktyg"
+#KONTO 1240 "Bilar och andra transportmedel"
+#KONTO 1337 "Ackumulerade nedskrivningar av andelar i îvriga fîretag som"
+#KONTO 1357 "Andelar i handelsbolag, andra fîretag"
+#KONTO 1382 "LÜngfristiga fordringar hos anstÑllda"
+#KONTO 1383 "LÑmnade depositioner, lÜngfristiga"
+#KONTO 1388 "LÜngfristiga kundfordringar"
+#KONTO 1460 "Lager av handelsvaror"
+#KONTO 1469 "FîrÑndring av lager av handelsvaror"
+#KONTO 1470 "PÜgÜende arbeten"
+#KONTO 1510 Kundfordringar
+#KONTO 1518 "Ej reskontrafîrda kundfordringar"
+#KONTO 1519 "Nedskrivning av kundfordringar"
+#KONTO 1549 "Nedskrivning av ej reskontrafîrda kundfordringar"
+#KONTO 1630 "AvrÑkning fîr skatter och avgifter (skattekonto)"
+#KONTO 1640 Skattefordringar
+#KONTO 1650 Momsfordran
+#KONTO 1700 "Fîrutbetalda kostnader/interimsfordringar"
+#KONTO 1790 "ôvriga fîrutbetalda kostnader och upplupna intÑkter"
+#KONTO 1910 Kassa
+#KONTO 1920 PlusGiro
+#KONTO 1930 Fîretagskonto/checkkonto/affÑrskonto
+#KONTO 1940 "ôvriga bankkonton"
+#KONTO 1941 "Annat bankkonto viva.com"
+#KONTO 1942 "Wise USD"
+#KONTO 1943 "Wise GBP"
+#KONTO 1944 "Wise EUR"
+#KONTO 1945 "Wise SEK"
+#KONTO 1947 Worldline
+#KONTO 1948 "Sales account"
+#KONTO 1980 Valutakonton
+#KONTO 2018 "ôvriga egna insÑttningar"
+#KONTO 2081 Aktiekapital
+#KONTO 2086 Reservfond
+#KONTO 2087 "Bunden îverkursfond"
+#KONTO 2091 "Balanserad vinst eller fîrlust"
+#KONTO 2093 "ErhÜllna aktieÑgartillskott"
+#KONTO 2098 "Vinst eller fîrlust frÜn fîregÜende Ür"
+#KONTO 2099 "èrets resultat"
+#KONTO 2110 Periodiseringsfonder
+#KONTO 2121 "Periodiseringsfond 2021"
+#KONTO 2122 "Periodiseringsfond 2022"
+#KONTO 2125 "Periodiseringsfond 2025"
+#KONTO 2126 "Periodiseringsfond 2026"
+#KONTO 2127 "Periodiseringsfond 2027"
+#KONTO 2128 "Periodiseringsfond 2028"
+#KONTO 2129 "Periodiseringsfond 2019"
+#KONTO 2130 "Periodiseringsfond 2020 - nr 2"
+#KONTO 2131 "Periodiseringsfond 2021 - nr 2"
+#KONTO 2132 "Periodiseringsfond 2022 - nr 2"
+#KONTO 2133 "Periodiseringsfond 2023 - nr 2"
+#KONTO 2134 "Periodiseringsfond 2024 - nr 2"
+#KONTO 2135 "Periodiseringsfond 2025 - nr 2"
+#KONTO 2136 "Periodiseringsfond 2026 - nr 2"
+#KONTO 2137 "Periodiseringsfond 2027 - nr 2"
+#KONTO 2138 "Periodiseringsfond 2028 - nr 2"
+#KONTO 2139 "Periodiseringsfond 2019 - nr 2"
+#KONTO 2150 "Ackumulerade îveravskrivningar"
+#KONTO 2390 "ôvriga lÜngfristiga skulder"
+#KONTO 2399 "ôvriga lÜngfristiga skulder"
+#KONTO 2420 "Fîrskott frÜn kunder"
+#KONTO 2440 Leverantîrsskulder
+#KONTO 2441 "Future World Tech"
+#KONTO 2448 "Ej reskontrafîrda leverantîrsskulder"
+#KONTO 2499 "Andra îvriga kortfristiga skulder"
+#KONTO 2510 Skatteskulder
+#KONTO 2518 "Betald F-skatt"
+#KONTO 2611 "UtgÜende moms pÜ fîrsÑljning inom Sverige, 25%"
+#KONTO 2612 "UtgÜende moms pÜ egna uttag, 25%"
+#KONTO 2614 "UtgÜende moms, omvÑnd betalningsskyldighet, 25 %"
+#KONTO 2615 "UtgÜende moms import av varor 25%"
+#KONTO 2619 "UtgÜende moms pÜ fîrsÑljning inom EU, OSS"
+#KONTO 2621 "UtgÜende moms pÜ fîrsÑljning inom Sverige, 12%"
+#KONTO 2624 "UtgÜende moms, omvÑnd betalningsskyldighet, 12 %"
+#KONTO 2631 "UtgÜende moms pÜ fîrsÑljning inom Sverige, 6%"
+#KONTO 2634 "UtgÜende moms, omvÑnd betalningsskyldighet, 6 %"
+#KONTO 2641 "Debiterad ingÜende moms"
+#KONTO 2645 "BerÑknad ingÜende moms pÜ fîrvÑrv frÜn utlandet"
+#KONTO 2647 "IngÜende moms, omvÑnd betalningsskyldighet varor och tjÑnst"
+#KONTO 2650 "Redovisningskonto fîr moms"
+#KONTO 2710 Personalskatt
+#KONTO 2730 "Lagstadgade sociala avgifter och sÑrskild lîneskatt"
+#KONTO 2731 "AvrÑkning lagstadgade sociala avgifter"
+#KONTO 2732 "AvrÑkning sÑrskild lîneskatt"
+#KONTO 2790 "ôvriga lîneavdrag"
+#KONTO 2794 Fackfîreningsavgifter
+#KONTO 2890 "ôvriga kortfristiga skulder"
+#KONTO 2893 "Skulder till nÑrstÜende personer, kortfristig del"
+#KONTO 2910 "Upplupna lîner"
+#KONTO 2920 "Upplupna semesterlîner"
+#KONTO 2940 "Upplupna lagstadgade sociala och andra avgifter"
+#KONTO 2941 "BerÑknade upplupna lagstadgade sociala avgifter"
+#KONTO 2950 "Upplupna avtalade sociala avgifter"
+#KONTO 2959 "Upplupna avtalade pensionsfîrsÑkringsavgifter, deklarations"
+#KONTO 2990 "ôvriga upplupna kostnader och fîrutbetalda intÑkter"
+#KONTO 2999 OBS-konto
+#KONTO 3041 "FîrsÑljn tjÑnst 25% sv"
+#KONTO 3042 "FîrsÑljn tjÑnst 12% sv"
+#KONTO 3043 "FîrsÑljn tjÑnst 6% sv"
+#KONTO 3044 "FîrsÑljn tjÑnst sv momsfri"
+#KONTO 3045 "FîrsÑljn tjÑnst utanfîr EG momsfri"
+#KONTO 3046 "FîrsÑljn tjÑnst till EG 25%"
+#KONTO 3048 "FîrsÑljn tjÑnst EG momsfri"
+#KONTO 3051 "FîrsÑljn varor 25% sv"
+#KONTO 3052 "FîrsÑljn varor 12% sv"
+#KONTO 3053 "FîrsÑljn varor 6% sv"
+#KONTO 3054 "FîrsÑljn varor sv momsfri"
+#KONTO 3055 "FîrsÑljn varor utanfîr EG momsfri"
+#KONTO 3056 "FîrsÑljn varor till EG 25% momspliktig"
+#KONTO 3057 "Treparts fîrsÑljn varor till EG 25%"
+#KONTO 3058 "FîrsÑljn varor EG momsfri"
+#KONTO 3109 "FîrsÑljning varor till annat EU-land, OSS"
+#KONTO 3231 "FîrsÑljning inom byggsektorn, omvÑnd skattskyldighet moms"
+#KONTO 3309 "FîrsÑljning tjÑnster till annat EU-land, OSS"
+#KONTO 3510 "Fakturerat emballage"
+#KONTO 3520 "Fakturerade frakter"
+#KONTO 3521 "Fakturerade frakter, EU-land"
+#KONTO 3522 "Fakturerade frakter, export"
+#KONTO 3530 "Fakturerade tull- och speditionskostnader m.m."
+#KONTO 3540 Faktureringsavgifter
+#KONTO 3541 "Faktureringsavgifter, EU-land"
+#KONTO 3542 "Faktureringsavgifter, export"
+#KONTO 3543 "Faktureringavgift 12%"
+#KONTO 3544 "Faktureringavgift 6%"
+#KONTO 3590 "ôvriga fakturerade kostnader"
+#KONTO 3596 PÜminnelseavgift
+#KONTO 3690 "ôvriga sidointÑkter"
+#KONTO 3740 "ôres- och kronutjÑmning"
+#KONTO 3950 "ètervunna, tidigare avskrivna kundfordringar"
+#KONTO 3960 "Valutakursvinster pÜ fordringar och skulder av rîrelsekarak"
+#KONTO 3970 "Vinst vid avyttring av immateriella och materiella anlÑggni"
+#KONTO 3971 "Vinst vid avyttring av immateriella anlÑggningstillgÜngar"
+#KONTO 3980 "ErhÜllna offentliga bidrag"
+#KONTO 4000 "Inkîp av varor frÜn Sverige"
+#KONTO 4001 "Inkop av tjanst"
+#KONTO 4056 "Inkîp varor 25% EU"
+#KONTO 4057 "Inkîp varor 12% EU"
+#KONTO 4058 "Inkîp varor 6% EU"
+#KONTO 4059 "Inkîp varor EU momsfri"
+#KONTO 4110 "Kostnad s•lda varor"
+#KONTO 4400 "Momspliktiga inkîp i Sverige"
+#KONTO 4415 "Inkîpta varor i Sverige, omvÑnd betalningsskyldighet, 25 %"
+#KONTO 4416 "Inkîpta varor i Sverige, omvÑnd betalningsskyldighet, 12 %"
+#KONTO 4417 "Inkîpta varor i Sverige, omvÑnd betalningsskyldighet, 6 %"
+#KONTO 4500 "ôvriga momspliktiga inkîp"
+#KONTO 4531 "Inkîp av tjÑnster frÜn ett land utanfîr EU, 25 % moms"
+#KONTO 4532 "Inkîp av tjÑnster frÜn ett land utanfîr EU, 12 % moms"
+#KONTO 4533 "Inkîp av tjÑnster frÜn ett land utanfîr EU, 6 % moms"
+#KONTO 4545 "Import av varor, 25 % moms"
+#KONTO 4546 "Import av varor, 12 % moms"
+#KONTO 4547 "Import av varor, 6 % moms"
+#KONTO 4549 "Motkonto beskattningsunderlag import"
+#KONTO 4700 "Reduktion av inkîpspriser (gruppkonto)"
+#KONTO 4900 "FîrÑndring av lager (gruppkonto)"
+#KONTO 5000 "Lokalkostnader (gruppkonto)"
+#KONTO 5010 Lokalhyra
+#KONTO 5070 "Reparation och underhÜll av lokaler"
+#KONTO 5200 "Hyra av anlÑggningstillgÜngar (gruppkonto)"
+#KONTO 5400 "Fîrbrukningsinventarier och fîrbrukningsmaterial (gruppkont"
+#KONTO 5410 Fîrbrukningsinventarier
+#KONTO 5420 Programvaror
+#KONTO 5460 Fîrbrukningsmaterial
+#KONTO 5480 "ArbetsklÑder och skyddsmaterial"
+#KONTO 5600 "Kostnader fîr transportmedel (gruppkonto)"
+#KONTO 5610 Personbilskostnader
+#KONTO 5611 "Drivmedel fîr personbilar"
+#KONTO 5612 "FîrsÑkring och skatt fîr personbilar"
+#KONTO 5613 "Reparation och underhÜll av personbilar"
+#KONTO 5615 "Leasing av personbilar"
+#KONTO 5616 "TrÑngselskatt, avdragsgill"
+#KONTO 5619 "ôvriga personbilskostnader"
+#KONTO 5620 Lastbilskostnader
+#KONTO 5630 Truckkostnader
+#KONTO 5640 "Kostnader fîr arbetsmaskiner"
+#KONTO 5650 Traktorkostnader
+#KONTO 5660 "Motorcykel-, moped- och skoterkostnader"
+#KONTO 5670 "BÜt-, flygplans- och helikopterkostnader"
+#KONTO 5690 "ôvriga kostnader fîr transportmedel"
+#KONTO 5700 "Frakter och transporter (gruppkonto)"
+#KONTO 5800 "Resekostnader (gruppkonto)"
+#KONTO 5810 Biljetter
+#KONTO 5830 "Kost och logi"
+#KONTO 5890 "ôvriga resekostnader"
+#KONTO 5900 "Reklam och PR (gruppkonto)"
+#KONTO 5910 Annonsering
+#KONTO 5911 AI-marknadsforingsverktyg
+#KONTO 5920 "Utomhus- och trafikreklam"
+#KONTO 6000 "ôvriga fîrsÑljningskostnader (gruppkonto)"
+#KONTO 6044 "Avgift kortbetalning Webshop"
+#KONTO 6071 "Representation, avdragsgill"
+#KONTO 6072 "Representation, ej avdragsgill"
+#KONTO 6100 "Kontorsmateriel och trycksaker (gruppkonto)"
+#KONTO 6110 Kontorsmateriel
+#KONTO 6200 "Tele och post (gruppkonto)"
+#KONTO 6212 Mobiltelefon
+#KONTO 6250 Postbefordran
+#KONTO 6300 "FîretagsfîrsÑkringar och îvriga riskkostnader (gruppkonto)"
+#KONTO 6310 FîretagsfîrsÑkringar
+#KONTO 6350 "Fîrluster pÜ kundfordringar"
+#KONTO 6351 "Konstaterade fîrluster pÜ kundfordringar"
+#KONTO 6352 "Befarade fîrluster pÜ kundfordringar"
+#KONTO 6358 "Befarade fîrluster pÜ kundfordringar, OSS"
+#KONTO 6359 "Konstaterade fîrluster pÜ kundfordringar, OSS"
+#KONTO 6420 "ErsÑttningar till revisor"
+#KONTO 6500 "ôvriga externa tjÑnster (gruppkonto)"
+#KONTO 6540 IT-tjÑnster
+#KONTO 6570 Bankkostnader
+#KONTO 6590 "ôvriga externa tjÑnster"
+#KONTO 6800 "Inhyrd personal (gruppkonto)"
+#KONTO 6810 "Inhyrd produktionspersonal"
+#KONTO 6820 "Inhyrd lagerpersonal"
+#KONTO 6830 "Inhyrd transportpersonal"
+#KONTO 6840 "Inhyrd kontors- och ekonomipersonal"
+#KONTO 6850 "Inhyrd IT-personal"
+#KONTO 6860 "Inhyrd marknads- och fîrsÑljningspersonal"
+#KONTO 6870 "Inhyrd restaurang- och butikspersonal"
+#KONTO 6880 "Inhyrda fîretagsledare"
+#KONTO 6890 "ôvrig inhyrd personal"
+#KONTO 6900 "ôvriga externa kostnader (gruppkonto)"
+#KONTO 6990 "ôvriga externa kostnader"
+#KONTO 6991 "ôvriga externa kostnader, avdragsgilla"
+#KONTO 6992 "ôvriga externa kostnader, ej avdragsgilla"
+#KONTO 7000 "Lîner till kollektivanstÑllda (gruppkonto)"
+#KONTO 7010 "Lîner till kollektivanstÑllda"
+#KONTO 7210 "Lîner till tjÑnstemÑn"
+#KONTO 7220 "Lîner till fîretagsledare"
+#KONTO 7300 "KostnadsersÑttningar och fîrmÜner (gruppkonto)"
+#KONTO 7321 "Skattefria traktamenten, Sverige"
+#KONTO 7322 "Skattepliktiga traktamenten, Sverige"
+#KONTO 7323 "Skattefria traktamenten, utlandet"
+#KONTO 7324 "Skattepliktiga traktamenten, utlandet"
+#KONTO 7331 "Skattefria bilersÑttningar"
+#KONTO 7332 "Skattepliktiga bilersÑttningar"
+#KONTO 7350 "ErsÑttningar fîr fîreskrivna arbetsklÑder"
+#KONTO 7380 "Kostnader fîr fîrmÜner till anstÑllda"
+#KONTO 7390 "ôvriga kostnadsersÑttningar och fîrmÜner"
+#KONTO 7399 "Motkontering fîrmÜner"
+#KONTO 7410 PensionsfîrsÑkringspremier
+#KONTO 7500 "Sociala och andra avgifter enligt lag och avtal (gruppkonto"
+#KONTO 7510 "Arbetsgivaravgifter 31,42 %"
+#KONTO 7513 "Arbetsgivaravgift avdrag forskning"
+#KONTO 7514 "Arbetsgivaravgift fîrsta anstÑlld"
+#KONTO 7533 "SÑrskild lîneskatt fîr pensionskostnader"
+#KONTO 7560 "Arbetsgivaravgifter 25,46 %"
+#KONTO 7600 "ôvriga personalkostnader (gruppkonto)"
+#KONTO 7831 "Avskrivningar pÜ maskiner och andra tekniska anlÑggningar"
+#KONTO 7832 "Avskrivningar pÜ inventarier och verktyg"
+#KONTO 7960 "Valutakursfîrluster pÜ fordringar och skulder av rîrelsekar"
+#KONTO 7973 "Fîrlust vid avyttring av maskiner och inventarier"
+#KONTO 8311 "RÑnteintÑkter frÜn bank"
+#KONTO 8314 "Skattefria rÑnteintÑkter"
+#KONTO 8330 "Valutakursdifferenser pÜ kortfristiga fordringar och placer"
+#KONTO 8400 "RÑntekostnader (gruppkonto)"
+#KONTO 8422 "DrîjsmÜlsrÑntor fîr leverantîrsskulder"
+#KONTO 8423 "RÑntekostnader fîr skatter och avgifter"
+#KONTO 8430 "Valutakursdifferenser pÜ skulder"
+#KONTO 8811 "AvsÑttning till periodiseringsfond"
+#KONTO 8819 "èterfîring frÜn periodiseringsfond"
+#KONTO 8850 "FîrÑndring av îveravskrivningar"
+#KONTO 8910 "Skatt som belastar Ürets resultat"
+#KONTO 8999 "èrets resultat"
+
+#UB 0 1220 49170.68
+#UB 0 1240 27500.00
+#UB 0 1460 829313.46
+#UB 0 1630 -6581.00
+#UB 0 1910 294.17
+#UB 0 1930 7672.82
+#UB 0 1941 -0.55
+#UB 0 1942 -2426.62
+#UB 0 1943 1847.99
+#UB 0 1944 235.69
+#UB 0 1945 8265.42
+#UB 0 1947 -1037.48
+#UB 0 1948 0.17
+#UB 0 2091 -2511.47
+#UB 0 2093 -1.00
+#UB 0 2441 278158.93
+#UB 0 2448 -0.92
+#UB 0 2650 -15714.00
+#UB 0 2893 -1509686.81
+
+#RES 0 3051 -418216.47
+#RES 0 3740 -1.29
+#RES 0 4001 9583.59
+#RES 0 4110 251363.48
+#RES 0 4545 -6.93
+#RES 0 5010 188687.80
+#RES 0 5070 807.62
+#RES 0 5410 10144.78
+#RES 0 5420 11016.60
+#RES 0 5460 14945.22
+#RES 0 5610 11907.86
+#RES 0 5611 5816.37
+#RES 0 5619 1625.24
+#RES 0 5620 849.00
+#RES 0 5700 0.93
+#RES 0 5800 12061.81
+#RES 0 5810 10159.82
+#RES 0 5830 7945.21
+#RES 0 5890 13003.76
+#RES 0 5900 56782.00
+#RES 0 5910 28375.86
+#RES 0 5911 2740.40
+#RES 0 5920 256.72
+#RES 0 6110 785.62
+#RES 0 6212 1539.27
+#RES 0 6250 1757.00
+#RES 0 6310 3960.00
+#RES 0 6540 325.29
+#RES 0 6570 5958.09
+#RES 0 6590 5404.46
+#RES 0 6990 14708.05
+#RES 0 6991 28403.77
+#RES 0 6992 28428.12
+#RES 0 7010 24528.00
+#RES 0 8311 -146.53
+
+
+#VER A 1 20251031 "Kortforsaljning Oktober Worldline" 20251212
+{
+    #TRANS 1947 {} 75685.21
+    #TRANS 3001 {} -60548.17
+    #TRANS 2610 {} -15137.04
+}
+
+#VER A 2 20251130 "Kortforsaljning November Worldline" 20251212
+{
+    #TRANS 1947 {} 153447.31
+    #TRANS 3001 {} -122757.85
+    #TRANS 2610 {} -30689.46
+}
+
+#VER A 3 20251231 "Kortforsaljning December Worldline" 20251212
+{
+    #TRANS 1947 {} 87156.66
+    #TRANS 3001 {} -69725.33
+    #TRANS 2610 {} -17431.33
+}
+
+#VER A 4 20251231 "Kontantforsaljning Q4" 20251212
+{
+    #TRANS 1910 {} 43087.75
+    #TRANS 3001 {} -34470.20
+    #TRANS 2610 {} -8617.55
+}
+
+#VER A 5 20251003 "Shopify EUR 103.75" 20251212
+{
+    #TRANS 1582 {} 1193.13
+    #TRANS 3001 {} -954.50
+    #TRANS 2610 {} -238.63
+}
+
+#VER A 6 20251010 "Shopify EUR 86.12" 20251212
+{
+    #TRANS 1582 {} 990.38
+    #TRANS 3001 {} -792.30
+    #TRANS 2610 {} -198.08
+}
+
+#VER A 7 20251017 "Shopify EUR 418.35" 20251212
+{
+    #TRANS 1582 {} 4811.03
+    #TRANS 3001 {} -3848.82
+    #TRANS 2610 {} -962.21
+}
+
+#VER A 8 20251024 "Shopify EUR 154.12" 20251212
+{
+    #TRANS 1582 {} 1772.38
+    #TRANS 3001 {} -1417.90
+    #TRANS 2610 {} -354.48
+}
+
+#VER A 9 20251107 "Shopify EUR 371.75" 20251212
+{
+    #TRANS 1582 {} 4275.13
+    #TRANS 3001 {} -3420.10
+    #TRANS 2610 {} -855.03
+}
+
+#VER A 10 20251114 "Shopify EUR 86.37" 20251212
+{
+    #TRANS 1582 {} 993.32
+    #TRANS 3001 {} -794.66
+    #TRANS 2610 {} -198.66
+}
+
+#VER A 11 20251121 "Shopify EUR 1398.29" 20251212
+{
+    #TRANS 1582 {} 16080.33
+    #TRANS 3001 {} -12864.27
+    #TRANS 2610 {} -3216.06
+}
+
+#VER A 12 20251128 "Shopify EUR 2199.39" 20251212
+{
+    #TRANS 1582 {} 25292.99
+    #TRANS 3001 {} -20234.39
+    #TRANS 2610 {} -5058.60
+}
+
+#VER A 13 20251205 "Shopify EUR 573.75" 20251212
+{
+    #TRANS 1582 {} 6598.13
+    #TRANS 3001 {} -5278.50
+    #TRANS 2610 {} -1319.63
+}
+
+#VER A 14 20251212 "Shopify EUR 58.31" 20251212
+{
+    #TRANS 1582 {} 670.55
+    #TRANS 3001 {} -536.44
+    #TRANS 2610 {} -134.11
+}
+
+#VER A 15 20251229 "Shopify EUR 86.77" 20251212
+{
+    #TRANS 1582 {} 997.85
+    #TRANS 3001 {} -798.28
+    #TRANS 2610 {} -199.57
+}

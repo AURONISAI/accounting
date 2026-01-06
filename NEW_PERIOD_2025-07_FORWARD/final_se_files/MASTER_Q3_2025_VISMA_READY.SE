@@ -1,0 +1,888 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot - Samis Jackets AB" "1.0"
+#FORMAT PC8
+#GEN 20251027 "Samis Jackets AB"
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20250701 20250930
+#KPTYP EUBAS97
+#VALUTA SEK
+
+#KONTO 1210 "Maskiner och andra tekniska anlaggningar"
+#KONTO 1220 "Inventarier och verktyg"
+#KONTO 1240 "Bilar och andra transportmedel"
+#KONTO 1460 "Lager av handelsvaror"
+#KONTO 1510 "Kundfordringar"
+#KONTO 1630 "Skattefordran"
+#KONTO 1910 "Kassa"
+#KONTO 1920 "PlusGiro"
+#KONTO 1930 "Foretagskonto"
+#KONTO 1940 "Ovriga bankkonton"
+#KONTO 1941 "Viva.com bankkonto"
+#KONTO 1942 "Wise USD"
+#KONTO 1943 "Wise GBP"
+#KONTO 1944 "Wise EUR"
+#KONTO 1945 "Wise SEK"
+#KONTO 1946 "Nordea Premium Gold Kreditkort"
+#KONTO 1947 "Worldline"
+#KONTO 1948 "Sales account"
+#KONTO 2018 "Ovriga egna insattningar"
+#KONTO 2081 "Aktiekapital"
+#KONTO 2091 "Balanserad vinst eller forlust"
+#KONTO 2093 "Erhallna aktieagartillskott"
+#KONTO 2098 "Vinst eller forlust fran foregaende ar"
+#KONTO 2099 "Arets resultat"
+#KONTO 2440 "Leverantorsskulder"
+#KONTO 2611 "Utgaende moms försäljning Sverige 25%"
+#KONTO 2641 "Debiterad ingaende moms"
+#KONTO 2650 "Redovisningskonto for moms"
+#KONTO 2710 "Personalskatt"
+#KONTO 2730 "Lagstadgade sociala avgifter"
+#KONTO 2893 "Skulder till narstande"
+#KONTO 3051 "Forsaljning av varer"
+#KONTO 4001 "Forsaljning av ovriga varor"
+#KONTO 4110 "Forsaljning av varer inom Sverige"
+#KONTO 5010 "Lokalhyra"
+#KONTO 5070 "Energi och bransle"
+#KONTO 5410 "Programvaror och IT-tjänster"
+#KONTO 5420 "Övriga maskinella anlaggningar"
+#KONTO 5460 "Förbrukningsmaterial"
+#KONTO 5610 "Resekostnader"
+#KONTO 5620 "Bilkostnader"
+#KONTO 5900 "Reklam och PR"
+#KONTO 6110 "Kontorsmateriel"
+#KONTO 6212 "Mobiltelefon"
+#KONTO 6310 "Foretagsforsakringar"
+#KONTO 6540 "IT-tjanster"
+#KONTO 6570 "Bankkostnader"
+#KONTO 6590 "Övriga externa tjanster"
+#KONTO 6990 "Övriga kostnader"
+#KONTO 6991 "Övriga kostnader kategori 1"
+#KONTO 6992 "Övriga kostnader kategori 2"
+
+#VER "" "FINAL-001" 20250701 "Google G Suite software"
+{
+    #TRANS 5410 {} 81.13 "G Suite software ex VAT"
+    #TRANS 2641 {} 20.28 "VAT 25%"
+    #TRANS 2893 {} -101.41 "From PREMIUM card"
+}
+
+#VER "" "FINAL-002" 20250701 "Fortnox software subscription"
+{
+    #TRANS 5410 {} 119.20 "Fortnox software"
+    #TRANS 2641 {} 29.80 "VAT 25%"
+    #TRANS 2893 {} -149.00 "From PERSONKONTO"
+}
+
+#VER "" "FINAL-003" 20250701 "TikTok advertising"
+{
+    #TRANS 5900 {} 55.77 "TikTok Ads NO VAT"
+    #TRANS 2893 {} -55.77 "From PREMIUM card"
+}
+
+#VER "" "FINAL-004" 20250701 "Bank fee - Marginalen monthly"
+{
+    #TRANS 6570 {} 70.00 "Monthly bank fee"
+    #TRANS 1930 {} -70.00 "From Marginalen"
+}
+
+#VER "" "FINAL-005" 20250703 "Lagar Hyra office rent"
+{
+    #TRANS 5010 {} 1564.80 "Lagar Hyra rent"
+    #TRANS 2641 {} 391.20 "VAT 25%"
+    #TRANS 1930 {} -1956.00 "Payment"
+}
+
+#VER "" "FINAL-006" 20250703 "Visma software"
+{
+    #TRANS 5410 {} 1497.60 "Visma software"
+    #TRANS 2641 {} 374.40 "VAT 25%"
+    #TRANS 1930 {} -1872.00 "Payment"
+}
+
+#VER "" "FINAL-007" 20250703 "Hyra Butik shop rent"
+{
+    #TRANS 5010 {} 16440.00 "Shop rent Hyra Butik"
+    #TRANS 2641 {} 4110.00 "VAT 25%"
+    #TRANS 1930 {} -20550.00 "Payment"
+}
+
+#VER "" "FINAL-008" 20250703 "Lagar Hyra office rent duplicate"
+{
+    #TRANS 5010 {} 1564.80 "Lagar Hyra rent"
+    #TRANS 2641 {} 391.20 "VAT 25%"
+    #TRANS 1930 {} -1956.00 "Payment"
+}
+
+#VER "" "FINAL-009" 20250703 "Worldline card sales"
+{
+    #TRANS 1930 {} 865.64 "Worldline deposit"
+    #TRANS 1947 {} -865.64 "From Worldline"
+}
+
+#VER "" "FINAL-010" 20250705 "Moneygram Greece - business travel"
+{
+    #TRANS 5610 {} 2944.11 "International business travel EUR"
+    #TRANS 2893 {} -2944.11 "From REMAMBER card"
+}
+
+#VER "" "FINAL-012" 20250706 "Sormland traffic business travel"
+{
+    #TRANS 5610 {} 18.40 "Business transport ex VAT"
+    #TRANS 2641 {} 4.60 "VAT 25%"
+    #TRANS 2893 {} -23.00 "From PREMIUM card"
+}
+
+#VER "" "FINAL-013" 20250703 "TEMU.COM - Business supplies"
+{
+    #TRANS 5460 {} 339.00 "Office supplies from TEMU"
+    #TRANS 2893 {} -339.00 "Paid via Klarna - personal advance"
+}
+
+#VER "" "FINAL-014" 20250708 "TEMU.COM - Business supplies"
+{
+    #TRANS 5460 {} 702.00 "Office supplies from TEMU"
+    #TRANS 2893 {} -702.00 "Paid via Klarna - personal advance"
+}
+
+#VER "" "FINAL-015" 20250719 "TikTok Ads - Marketing expense"
+{
+    #TRANS 5900 {} 2000.00 "TikTok advertising campaign NO VAT"
+    #TRANS 2893 {} -2000.00 "Paid via Klarna - personal advance"
+}
+
+#VER "" "FINAL-016" 20250707 "Aviation fee - flight booking"
+{
+    #TRANS 5610 {} 28.00 "Flight booking fee ex VAT"
+    #TRANS 2641 {} 7.00 "VAT 25%"
+    #TRANS 2893 {} -35.00 "From KLARNA account"
+}
+
+#VER "" "FINAL-018" 20250707 "Bolagsverket registration fee"
+{
+    #TRANS 6250 {} 507.00 "Registration fee"
+    #TRANS 1930 {} -507.00 "Payment"
+}
+
+#VER "" "FINAL-019" 20250707 "VAT payment to Skatteverket - Q2 balance"
+{
+    #TRANS 1930 {} -20707.00 "Payment from Marginalen"
+    #TRANS 2650 {} 20707.00 "VAT payment reduces liability"
+}
+
+#VER "" "FINAL-020" 20250707 "Easy Cashier POS system"
+{
+    #TRANS 5410 {} 2748.00 "Easy Cashier POS"
+    #TRANS 2641 {} 687.00 "VAT 25%"
+    #TRANS 1930 {} -3435.00 "Payment"
+}
+
+#VER "" "FINAL-021" 20250707 "Worldline card sales"
+{
+    #TRANS 1930 {} 3806.83 "Worldline deposit"
+    #TRANS 1947 {} -3806.83 "From Worldline"
+}
+
+#VER "" "FINAL-022" 20250708 "Worldline card sales"
+{
+    #TRANS 1930 {} 2221.81 "Worldline deposit"
+    #TRANS 1947 {} -2221.81 "From Worldline"
+}
+
+#VER "" "FINAL-023" 20250710 "Worldline card sales"
+{
+    #TRANS 1930 {} 1343.23 "Worldline deposit"
+    #TRANS 1947 {} -1343.23 "From Worldline"
+}
+
+#VER "" "FINAL-024" 20250714 "Fatoora Riyadh - business travel"
+{
+    #TRANS 5610 {} 906.03 "International business travel SAR"
+    #TRANS 2893 {} -906.03 "From REMAMBER card"
+}
+
+#VER "" "FINAL-025" 20250714 "Worldline card sales"
+{
+    #TRANS 1930 {} 2837.70 "Worldline deposit"
+    #TRANS 1947 {} -2837.70 "From Worldline"
+}
+
+#VER "" "FINAL-026" 20250715 "Worldline card sales"
+{
+    #TRANS 1930 {} 743.25 "Worldline deposit"
+    #TRANS 1947 {} -743.25 "From Worldline"
+}
+
+#VER "" "FINAL-027" 20250717 "Worldline card sales"
+{
+    #TRANS 1930 {} 3845.66 "Worldline deposit"
+    #TRANS 1947 {} -3845.66 "From Worldline"
+}
+
+#VER "" "FINAL-028" 20250718 "Arbetsformedlingen government subsidy"
+{
+    #TRANS 1930 {} 9119.00 "Employment subsidy SK5594895301"
+    #TRANS 1630 {} -9119.00 "Government grant"
+}
+
+#VER "" "FINAL-029" 20250718 "Administrative fee payment"
+{
+    #TRANS 6250 {} 500.00 "Admin fee"
+    #TRANS 1930 {} -500.00 "Payment"
+}
+
+#VER "" "FINAL-030" 20250721 "Worldline card sales"
+{
+    #TRANS 1930 {} 198.00 "Worldline deposit"
+    #TRANS 1947 {} -198.00 "From Worldline"
+}
+
+#VER "" "FINAL-031" 20250721 "Worldline card sales"
+{
+    #TRANS 1930 {} 493.50 "Worldline deposit"
+    #TRANS 1947 {} -493.50 "From Worldline"
+}
+
+#VER "" "FINAL-032" 20250722 "Administrative fee payment"
+{
+    #TRANS 6250 {} 250.00 "Admin fee"
+    #TRANS 1930 {} -250.00 "Payment"
+}
+
+#VER "" "FINAL-033" 20250724 "Shareholder loan repayment"
+{
+    #TRANS 2893 {} 15274.28 "Loan repayment to 2893 skuld"
+    #TRANS 1930 {} -15274.28 "From Marginalen"
+}
+
+#VER "" "FINAL-034" 20250724 "Bredband internet service"
+{
+    #TRANS 5410 {} 625.00 "Internet service Bredband"
+    #TRANS 1930 {} -625.00 "Payment"
+}
+
+#VER "" "FINAL-035" 20250724 "Worldline card sales"
+{
+    #TRANS 1930 {} 2528.26 "Worldline deposit"
+    #TRANS 1947 {} -2528.26 "From Worldline"
+}
+
+#VER "" "FINAL-036" 20250728 "Worldline card sales"
+{
+    #TRANS 1930 {} 4848.61 "Worldline deposit"
+    #TRANS 1947 {} -4848.61 "From Worldline"
+}
+
+#VER "" "FINAL-037" 20250729 "Worldline card sales"
+{
+    #TRANS 1930 {} 3619.76 "Worldline deposit"
+    #TRANS 1947 {} -3619.76 "From Worldline"
+}
+
+#VER "" "FINAL-038" 20250730 "Card terminal maintenance fee"
+{
+    #TRANS 6570 {} 248.00 "Terminal fee"
+    #TRANS 1930 {} -248.00 "Payment"
+}
+
+#VER "" "FINAL-039" 20250731 "Worldline card sales"
+{
+    #TRANS 1930 {} 1865.60 "Worldline deposit"
+    #TRANS 1947 {} -1865.60 "From Worldline"
+}
+
+#VER "" "FINAL-040" 20250731 "Anthropic AI software"
+{
+    #TRANS 5410 {} 900.60 "Anthropic software ex VAT"
+    #TRANS 2641 {} 225.15 "VAT 25%"
+    #TRANS 2893 {} -1125.75 "From GOLD card"
+}
+
+#VER "" "FINAL-041" 20250801 "Bank fee - August monthly"
+{
+    #TRANS 6570 {} 70.00 "Monthly bank fee"
+    #TRANS 1930 {} -70.00 "From Marginalen"
+}
+
+#VER "" "FINAL-042" 20250801 "Hyra Butik shop rent"
+{
+    #TRANS 5010 {} 15986.40 "Shop rent Hyra Butik August"
+    #TRANS 2641 {} 3996.60 "VAT 25%"
+    #TRANS 1930 {} -19983.00 "Payment"
+}
+
+#VER "" "FINAL-043" 20250801 "Worldline card sales"
+{
+    #TRANS 1930 {} 6.14 "Worldline deposit"
+    #TRANS 1947 {} -6.14 "From Worldline"
+}
+
+#VER "" "FINAL-044" 20250801 "Facebook advertising"
+{
+    #TRANS 5900 {} 125.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -125.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-045" 20250802 "Fortnox software subscription"
+{
+    #TRANS 5410 {} 119.20 "Fortnox software"
+    #TRANS 2641 {} 29.80 "VAT 25%"
+    #TRANS 2893 {} -149.00 "From PERSONKONTO"
+}
+
+#VER "" "FINAL-046" 20250804 "Worldline card sales"
+{
+    #TRANS 1930 {} 6001.77 "Worldline deposit"
+    #TRANS 1947 {} -6001.77 "From Worldline"
+}
+
+#VER "" "FINAL-047" 20250804 "Worldline card sales"
+{
+    #TRANS 1930 {} 2515.32 "Worldline deposit"
+    #TRANS 1947 {} -2515.32 "From Worldline"
+}
+
+#VER "" "FINAL-051" 20250806 "Rent correction August"
+{
+    #TRANS 5010 {} 1516.80 "Rent correction warehouse"
+    #TRANS 2641 {} 379.20 "VAT 25%"
+    #TRANS 1930 {} -1896.00 "Payment"
+}
+
+#VER "" "FINAL-052" 20250806 "Worldline card sales"
+{
+    #TRANS 1930 {} 3370.02 "Worldline deposit"
+    #TRANS 1947 {} -3370.02 "From Worldline"
+}
+
+#VER "" "FINAL-053" 20250807 "Worldline card sales - POSSIBLE DUPLICATE"
+{
+    #TRANS 1930 {} 3370.02 "Worldline deposit DUPLICATE AMOUNT"
+    #TRANS 1947 {} -3370.02 "From Worldline"
+}
+
+#VER "" "FINAL-054" 20250808 "Tele2 telecom service"
+{
+    #TRANS 5410 {} 90.27 "Tele2 telecom"
+    #TRANS 2641 {} 22.57 "VAT 25%"
+    #TRANS 2893 {} -112.84 "From PERSONKONTO"
+}
+
+#VER "" "FINAL-055" 20250811 "Customer payment via Bankgiro"
+{
+    #TRANS 1930 {} 250.00 "Customer payment 0006641229"
+    #TRANS 1947 {} -250.00 "From Bankgiro"
+}
+
+#VER "" "FINAL-056" 20250811 "Worldline card sales"
+{
+    #TRANS 1930 {} 2418.89 "Worldline deposit"
+    #TRANS 1947 {} -2418.89 "From Worldline"
+}
+
+#VER "" "FINAL-057" 20250812 "Worldline card sales"
+{
+    #TRANS 1930 {} 1757.15 "Worldline deposit"
+    #TRANS 1947 {} -1757.15 "From Worldline"
+}
+
+#VER "" "FINAL-058" 20250813 "Worldline card sales"
+{
+    #TRANS 1930 {} 1.98 "Worldline deposit"
+    #TRANS 1947 {} -1.98 "From Worldline"
+}
+
+#VER "" "FINAL-059" 20250814 "Worldline card sales"
+{
+    #TRANS 1930 {} 1879.51 "Worldline deposit"
+    #TRANS 1947 {} -1879.51 "From Worldline"
+}
+
+#VER "" "FINAL-060" 20250816 "Clas Ohlson business supplies"
+{
+    #TRANS 5920 {} 63.92 "Business supplies ex VAT"
+    #TRANS 2641 {} 15.98 "VAT 25%"
+    #TRANS 2893 {} -79.90 "From PREMIUM card"
+}
+
+#VER "" "FINAL-061" 20250816 "Shopify advertising EUR"
+{
+    #TRANS 5900 {} 409.08 "Shopify Ads NO VAT"
+    #TRANS 2893 {} -409.08 "From PREMIUM card"
+}
+
+#VER "" "FINAL-062" 20250816 "IN & FINN AB business supplies"
+{
+    #TRANS 5920 {} 192.80 "Business supplies ex VAT"
+    #TRANS 2641 {} 48.20 "VAT 25%"
+    #TRANS 2893 {} -241.00 "From GOLD card"
+}
+
+#VER "" "FINAL-063" 20250818 "Worldline card sales"
+{
+    #TRANS 1930 {} 1359.16 "Worldline deposit"
+    #TRANS 1947 {} -1359.16 "From Worldline"
+}
+
+#VER "" "FINAL-064" 20250826 "Car insurance Bilforsakring"
+{
+    #TRANS 5620 {} 849.00 "Vehicle insurance NO VAT"
+    #TRANS 1930 {} -849.00 "Payment"
+}
+
+#VER "" "FINAL-065" 20250826 "Worldline card sales"
+{
+    #TRANS 1930 {} 788.03 "Worldline deposit"
+    #TRANS 1947 {} -788.03 "From Worldline"
+}
+
+#VER "" "FINAL-066" 20250826 "Hi3G telecom service"
+{
+    #TRANS 5410 {} 972.00 "Hi3G telecom"
+    #TRANS 2641 {} 243.00 "VAT 25%"
+    #TRANS 2893 {} -1215.00 "From PERSONKONTO"
+}
+
+#VER "" "FINAL-067" 20250827 "Shareholder loan repayment 2"
+{
+    #TRANS 2893 {} 12000.00 "Loan repayment to 2893 skuld"
+    #TRANS 1930 {} -12000.00 "From Marginalen"
+}
+
+#VER "" "FINAL-068" 20250827 "Administrative fee payment"
+{
+    #TRANS 6250 {} 500.00 "Admin fee"
+    #TRANS 1930 {} -500.00 "Payment"
+}
+
+#VER "" "FINAL-069" 20250827 "WISE account transfer"
+{
+    #TRANS 1945 {} 2500.00 "Transfer to WISE SEK account"
+    #TRANS 1930 {} -2500.00 "From Marginalen"
+}
+
+#VER "" "FINAL-070" 20250827 "Worldline card sales"
+{
+    #TRANS 1930 {} 198.99 "Worldline deposit"
+    #TRANS 1947 {} -198.99 "From Worldline"
+}
+
+#VER "" "FINAL-071" 20250828 "Worldline card sales"
+{
+    #TRANS 1930 {} 6558.62 "Worldline deposit"
+    #TRANS 1947 {} -6558.62 "From Worldline"
+}
+
+#VER "" "FINAL-072" 20250828 "TikTok advertising"
+{
+    #TRANS 5900 {} 90.00 "TikTok ads NO VAT"
+    #TRANS 1945 {} -90.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-073" 20250829 "TikTok reversal credit"
+{
+    #TRANS 1945 {} 90.00 "TikTok reversal"
+    #TRANS 5900 {} -90.00 "Reversal"
+}
+
+#VER "" "FINAL-074" 20250829 "Facebook advertising"
+{
+    #TRANS 5900 {} 138.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -138.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-075" 20250829 "Facebook advertising"
+{
+    #TRANS 5900 {} 21.09 "Facebook ads NO VAT"
+    #TRANS 1945 {} -21.09 "From WISE SEK"
+}
+
+#VER "" "FINAL-076" 20250829 "Facebook advertising"
+{
+    #TRANS 5900 {} 152.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -152.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-077" 20250829 "Facebook advertising"
+{
+    #TRANS 5900 {} 14.55 "Facebook ads NO VAT"
+    #TRANS 1945 {} -14.55 "From WISE SEK"
+}
+
+#VER "" "FINAL-078" 20250830 "Facebook advertising"
+{
+    #TRANS 5900 {} 167.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -167.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-079" 20250830 "Facebook advertising"
+{
+    #TRANS 5900 {} 49.33 "Facebook ads NO VAT"
+    #TRANS 1945 {} -49.33 "From WISE SEK"
+}
+
+#VER "" "FINAL-080" 20250831 "Facebook advertising"
+{
+    #TRANS 5900 {} 184.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -184.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-081" 20250831 "Facebook advertising"
+{
+    #TRANS 5900 {} 45.23 "Facebook ads NO VAT"
+    #TRANS 1945 {} -45.23 "From WISE SEK"
+}
+
+#VER "" "FINAL-082" 20250901 "Bank fee - September monthly"
+{
+    #TRANS 6570 {} 70.00 "Monthly bank fee"
+    #TRANS 1930 {} -70.00 "From Marginalen"
+}
+
+#VER "" "FINAL-083" 20250901 "Worldline card sales"
+{
+    #TRANS 1930 {} 4095.38 "Worldline deposit"
+    #TRANS 1947 {} -4095.38 "From Worldline"
+}
+
+#VER "" "FINAL-084" 20250901 "Worldline card sales"
+{
+    #TRANS 1930 {} 1.50 "Worldline deposit"
+    #TRANS 1947 {} -1.50 "From Worldline"
+}
+
+#VER "" "FINAL-085" 20250901 "TikTok advertising"
+{
+    #TRANS 5900 {} 267.72 "TikTok ads NO VAT"
+    #TRANS 1945 {} -267.72 "From WISE SEK"
+}
+
+#VER "" "FINAL-086" 20250902 "Rent correction September"
+{
+    #TRANS 5010 {} 1516.80 "Rent correction warehouse"
+    #TRANS 2641 {} 379.20 "VAT 25%"
+    #TRANS 1930 {} -1896.00 "Payment"
+}
+
+#VER "" "FINAL-087" 20250902 "Worldline card sales"
+{
+    #TRANS 1930 {} 774.10 "Worldline deposit"
+    #TRANS 1947 {} -774.10 "From Worldline"
+}
+
+#VER "" "FINAL-088" 20250902 "Facebook ad credit reversal"
+{
+    #TRANS 1945 {} 184.00 "Facebook credit"
+    #TRANS 5900 {} -184.00 "Reversal"
+}
+
+#VER "" "FINAL-089" 20250903 "Bank service fees"
+{
+    #TRANS 6570 {} 248.00 "Service fees Bankavgifter"
+    #TRANS 1930 {} -248.00 "Payment"
+}
+
+#VER "" "FINAL-090" 20250903 "Fortnox software subscription"
+{
+    #TRANS 5410 {} 119.20 "Fortnox software"
+    #TRANS 2641 {} 29.80 "VAT 25%"
+    #TRANS 2893 {} -149.00 "From PERSONKONTO"
+}
+
+#VER "" "FINAL-091" 20250903 "Temu business supplies"
+{
+    #TRANS 2893 {} 281.19 "Business supplies Temu"
+    #TRANS 1945 {} -281.19 "From WISE card"
+}
+
+#VER "" "FINAL-092" 20250903 "Facebook advertising"
+{
+    #TRANS 5900 {} 65.77 "Facebook ads NO VAT"
+    #TRANS 1945 {} -65.77 "From WISE SEK"
+}
+
+#VER "" "FINAL-093" 20250904 "WISE account transfer"
+{
+    #TRANS 1945 {} 5000.00 "Transfer to WISE SEK account"
+    #TRANS 1930 {} -5000.00 "From Marginalen"
+}
+
+#VER "" "FINAL-094" 20250904 "Worldline card sales"
+{
+    #TRANS 1930 {} 11344.02 "Worldline deposit"
+    #TRANS 1947 {} -11344.02 "From Worldline"
+}
+
+#VER "" "FINAL-095" 20250904 "Facebook advertising"
+{
+    #TRANS 5900 {} 202.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -202.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-096" 20250904 "Facebook advertising"
+{
+    #TRANS 5900 {} 184.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -184.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-097" 20250904 "Facebook advertising"
+{
+    #TRANS 5900 {} 221.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -221.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-098" 20250904 "Facebook advertising"
+{
+    #TRANS 5900 {} 18.73 "Facebook ads NO VAT"
+    #TRANS 1945 {} -18.73 "From WISE SEK"
+}
+
+#VER "" "FINAL-099" 20250904 "Facebook advertising"
+{
+    #TRANS 5900 {} 241.00 "Facebook ads NO VAT"
+    #TRANS 1945 {} -241.00 "From WISE SEK"
+}
+
+#VER "" "FINAL-100" 20250905 "Worldline card sales"
+{
+    #TRANS 1930 {} 4529.31 "Worldline deposit"
+    #TRANS 1947 {} -4529.31 "From Worldline"
+}
+
+#VER "" "FINAL-102" 20250905 "OpenAI AI software"
+{
+    #TRANS 5410 {} 96.72 "OpenAI software ex VAT"
+    #TRANS 2641 {} 24.18 "VAT 25%"
+    #TRANS 2893 {} -120.90 "From GOLD card"
+}
+
+#VER "" "FINAL-104" 20250906 "Worldline card sales"
+{
+    #TRANS 1930 {} 3904.36 "Worldline deposit"
+    #TRANS 1947 {} -3904.36 "From Worldline"
+}
+
+#VER "" "FINAL-105" 20250906 "Malardalstrafik business transport"
+{
+    #TRANS 5610 {} 293.60 "Business transport"
+    #TRANS 2641 {} 73.40 "VAT 25%"
+    #TRANS 2893 {} -367.00 "From PERSONKONTO"
+}
+
+#VER "" "FINAL-106" 20250908 "Hyra Butik shop rent"
+{
+    #TRANS 5010 {} 15986.40 "Shop rent Hyra Butik September"
+    #TRANS 2641 {} 3996.60 "VAT 25%"
+    #TRANS 1930 {} -19983.00 "Payment"
+}
+
+#VER "" "FINAL-107" 20250909 "Worldline card sales"
+{
+    #TRANS 1930 {} 5495.34 "Worldline deposit"
+    #TRANS 1947 {} -5495.34 "From Worldline"
+}
+
+#VER "" "FINAL-108" 20250913 "Shopify advertising EUR"
+{
+    #TRANS 5900 {} 400.82 "Shopify Ads NO VAT"
+    #TRANS 2893 {} -400.82 "From PREMIUM card"
+}
+
+#VER "" "FINAL-109" 20250915 "Worldline card sales"
+{
+    #TRANS 1930 {} 8216.41 "Worldline deposit"
+    #TRANS 1947 {} -8216.41 "From Worldline"
+}
+
+#VER "" "FINAL-110" 20250915 "Worldline card sales"
+{
+    #TRANS 1930 {} 3500.37 "Worldline deposit"
+    #TRANS 1947 {} -3500.37 "From Worldline"
+}
+
+#VER "" "FINAL-111" 20250918 "Worldline card sales"
+{
+    #TRANS 1930 {} 2649.66 "Worldline deposit"
+    #TRANS 1947 {} -2649.66 "From Worldline"
+}
+
+#VER "" "FINAL-112" 20250922 "WISE account transfer"
+{
+    #TRANS 1945 {} 12000.00 "Transfer to WISE SEK account"
+    #TRANS 1930 {} -12000.00 "From Marginalen"
+}
+
+#VER "" "FINAL-113" 20250922 "Worldline card sales"
+{
+    #TRANS 1930 {} 6306.25 "Worldline deposit"
+    #TRANS 1947 {} -6306.25 "From Worldline"
+}
+
+#VER "" "FINAL-114" 20250922 "Worldline card sales"
+{
+    #TRANS 1930 {} 5883.39 "Worldline deposit"
+    #TRANS 1947 {} -5883.39 "From Worldline"
+}
+
+#VER "" "FINAL-115" 20250922 "Hi3G telecom service"
+{
+    #TRANS 5410 {} 1288.80 "Hi3G telecom"
+    #TRANS 2641 {} 322.20 "VAT 25%"
+    #TRANS 2893 {} -1611.00 "From PERSONKONTO"
+}
+
+#VER "" "FINAL-116" 20250924 "TikTok advertising"
+{
+    #TRANS 5900 {} 1588.00 "TikTok Ads NO VAT"
+    #TRANS 2893 {} -1588.00 "From PREMIUM card"
+}
+
+#VER "" "FINAL-117" 20250925 "Worldline card sales"
+{
+    #TRANS 1930 {} 10481.25 "Worldline deposit"
+    #TRANS 1947 {} -10481.25 "From Worldline"
+}
+
+#VER "" "FINAL-118" 20250926 "Rent correction September"
+{
+    #TRANS 5010 {} 1612.80 "Lagar Hyra rent correction"
+    #TRANS 2641 {} 403.20 "VAT 25%"
+    #TRANS 1930 {} -2016.00 "Payment"
+}
+
+#VER "" "FINAL-119" 20250926 "Additional rent September"
+{
+    #TRANS 5010 {} 16127.20 "Additional shop rent"
+    #TRANS 2641 {} 4031.80 "VAT 25%"
+    #TRANS 1930 {} -20159.00 "Payment"
+}
+
+#VER "" "FINAL-120" 20250926 "Plusgiro service fee"
+{
+    #TRANS 6570 {} 248.00 "Plusgiro service fee"
+    #TRANS 1930 {} -248.00 "Payment"
+}
+
+#VER "" "FINAL-121" 20250929 "Worldline card sales"
+{
+    #TRANS 1930 {} 12047.34 "Worldline deposit"
+    #TRANS 1947 {} -12047.34 "From Worldline"
+}
+
+#VER "" "FINAL-122" 20250930 "Shareholder loan repayment 3"
+{
+    #TRANS 2893 {} 27905.00 "Loan repayment aterbetalnin"
+    #TRANS 1930 {} -27905.00 "From Marginalen"
+}
+
+#VER "" "FINAL-123" 20250930 "Worldline settlement"
+{
+    #TRANS 1930 {} 17122.87 "Worldline final deposit"
+    #TRANS 1947 {} -17122.87 "From Worldline"
+}
+
+#VER "" "FINAL-124" 20250930 "Shareholder loan repayment 4"
+{
+    #TRANS 2893 {} 17000.00 "Loan repayment aterbetaling"
+    #TRANS 1930 {} -17000.00 "From Marginalen"
+}
+
+#VER "" "FINAL-125" 20250930 "St1 Gillbergaplan fuel"
+{
+    #TRANS 5900 {} 784.62 "Vehicle fuel ex VAT"
+    #TRANS 2641 {} 196.15 "VAT 25%"
+    #TRANS 2893 {} -980.77 "From REMAMBER card"
+}
+
+#VER "" "FINAL-126" 20250810 "Resecentrum travel booking"
+{
+    #TRANS 5610 {} 908.80 "Travel booking fee ex VAT"
+    #TRANS 2641 {} 227.20 "VAT 25%"
+    #TRANS 2893 {} -1136.00 "From REMAMBER card"
+}
+
+#VER "" "FINAL-127" 20250811 "National Express - business transport"
+{
+    #TRANS 5610 {} 279.99 "International business travel GBP at 1.25 rate"
+    #TRANS 2893 {} -279.99 "From REMAMBER card"
+}
+
+#VER "" "FINAL-128" 20250826 "Budgetair flight booking"
+{
+    #TRANS 5610 {} 555.88 "Business flight booking USD at 1.25 rate"
+    #TRANS 2893 {} -555.88 "From REMAMBER card"
+}
+
+#VER "" "FINAL-129" 20250905 "Aviation fee"
+{
+    #TRANS 5610 {} 31.20 "Flight booking fee"
+    #TRANS 2641 {} 7.80 "VAT 25%"
+    #TRANS 2893 {} -39.00 "From REMAMBER card"
+}
+
+#VER "" "FINAL-130" 20250801 "Google G Suite software"
+{
+    #TRANS 5410 {} 58.40 "G Suite software ex VAT"
+    #TRANS 2641 {} 14.61 "VAT 25%"
+    #TRANS 2893 {} -73.01 "From PREMIUM card"
+}
+
+#VER "" "FINAL-131" 20250901 "Google G Suite software"
+{
+    #TRANS 5410 {} 56.65 "G Suite software ex VAT"
+    #TRANS 2641 {} 14.18 "VAT 25%"
+    #TRANS 2893 {} -70.83 "From PREMIUM card"
+}
+
+#VER "" "FINAL-132" 20250902 "Shopify advertising EUR"
+{
+    #TRANS 5900 {} 156.65 "Shopify Ads NO VAT"
+    #TRANS 2893 {} -156.65 "From PREMIUM card"
+}
+
+#VER "" "SALES-Q3-001" 20250930 "Q3 2025 card sales via Worldline"
+{
+    #TRANS 1947 {} 155780.70 "Worldline card payments 85.6% of sales"
+    #TRANS 3051 {} -124624.56 "Card sales revenue ex VAT"
+    #TRANS 2611 {} -31156.14 "VAT 25% on card sales"
+}
+
+#VER "" "SALES-Q3-002" 20250930 "Q3 2025 cash sales"
+{
+    #TRANS 1910 {} 26271.17 "Cash sales 14.4% of sales"
+    #TRANS 3051 {} -21016.94 "Cash sales revenue ex VAT"
+    #TRANS 2611 {} -5254.23 "VAT 25% on cash sales"
+}
+
+#VER "" "SALES-Q3-003" 20250930 "Worldline transaction fees Q3 2025"
+{
+    #TRANS 6570 {} 772.36 "Worldline transaction fees"
+    #TRANS 1947 {} -772.36 "Reduce Worldline receivable"
+}
+
+#VER "" "WISE-USD-001" 20250715 "Shopify EUR card purchase - Wise USD"
+{
+    #TRANS 1942 {} -398.01 "USD 42.20 spent on Shopify EUR transaction"
+    #TRANS 5900 {} 398.01 "Shopify advertising EUR (USD 42.20 @ 9.42649)"
+}
+
+#VER "" "WISE-USD-002" 20250701 "Google Cloud SEK card purchase - Wise USD"
+{
+    #TRANS 1942 {} -172.81 "USD 18.33 spent on Google Cloud SEK transaction"
+    #TRANS 5410 {} 172.81 "Google Cloud software SEK (USD 18.33 @ 9.42649)"
+}
+
+#VER "" "WISE-USD-003" 20250922 "SEK to USD conversion - Wise platform"
+{
+    #TRANS 1942 {} 9602.44 "USD 1,018.80 received from conversion (@ 9.42649)"
+    #TRANS 1945 {} -9602.44 "SEK converted to USD (rate 0.10658)"
+}
+
+#VER "" "WISE-USD-004" 20250922 "Transfer payment from Wise USD account"
+{
+    #TRANS 1942 {} -9426.49 "USD 1,000.00 sent to ahmed gheyath al-sharif"
+    #TRANS 2893 {} 9426.49 "Related party payment (USD 1,000 @ 9.42649)"
+}
+
+#EOF

@@ -1,0 +1,21 @@
+#FLAGGA 0
+#PROGRAM "Samis Jackets Accounting" 1.0
+#FORMAT PC8
+#GEN 20260401
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559362-2498
+#RAR 0 20260101 20260331
+
+; Q1 2026 COMPLETE SE FILE
+; Period: January 1, 2026 - March 31, 2026
+; 
+; Instructions:
+; 1. Combine all standalone SE files into this file
+; 2. Renumber VER entries sequentially starting from 1
+; 3. Verify each VER balances (sum = 0)
+; 4. Verify total file balances
+; 5. Upload to Visma
+
+; === TRANSACTIONS START HERE ===
+

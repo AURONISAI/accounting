@@ -1,0 +1,197 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// REMAMBER MULTI-CURRENCY CARD - Q3 2025
+// AUDITED - ALL 23 TRANSACTIONS
+// Card Holder: Mohammad Sami Alsharef
+// Account: Personal shareholder card (2893 skuld)
+// Period: July 1 - September 30, 2025
+// Multi-currency travel/business card
+// ========================================
+
+// JULY TRANSACTIONS
+
+// 1. 2025-07-05 - Moneygram Greece (travel EUR)
+#VER "" "REMAM-001" 20250705 "Moneygram transfer Greece"
+{
+    #TRANS 5610 {} 2944.11 "Travel expense - currency conversion"
+    #TRANS 2893 {} -2944.11 "From shareholder card account"
+}
+
+// 2. 2025-07-07 - Aviation fee
+#VER "" "REMAM-002" 20250707 "Aviation fee/booking charge"
+{
+    #TRANS 5610 {} 39.00 "Flight booking fee - no VAT"
+    #TRANS 2893 {} -39.00 "From shareholder card account"
+}
+
+// 3. 2025-07-13 - Inbetalning Swish received
+#VER "" "REMAM-003" 20250713 "Swish inbetalning received"
+{
+    #TRANS 2893 {} -3033.23 "Shareholder receives transfer"
+    #TRANS 2893 {} 3033.23 "To card account"
+}
+
+// 4. 2025-07-14 - Fatoora Riyadh (travel SAR)
+#VER "" "REMAM-004" 20250714 "Fatoora Riyadh travel expense"
+{
+    #TRANS 5610 {} 906.03 "Travel expense - currency SAR → SEK"
+    #TRANS 2893 {} -906.03 "From shareholder card account"
+}
+
+// 5. 2025-07-14 - St1 fuel station
+#VER "" "REMAM-005" 20250714 "St1 Gillbergaplan fuel"
+{
+    #TRANS 5900 {} 784.62 "Fuel/vehicle expense ex VAT"
+    #TRANS 2641 {} 196.15 "VAT 25%"
+    #TRANS 2893 {} -980.77 "From shareholder card account"
+}
+
+// 6. 2025-07-17 - Aran Food AB restaurant
+#VER "" "REMAM-006" 20250717 "Aran Food AB Eskilstuna"
+{
+    #TRANS 5610 {} 1320.00 "Travel/food expense ex VAT"
+    #TRANS 2641 {} 330.00 "VAT 25%"
+    #TRANS 2893 {} -1650.00 "From shareholder card account"
+}
+
+// 7. 2025-07-17 - Mellanosterns Mejeri grocery
+#VER "" "REMAM-007" 20250717 "Mellanosterns Mejeri grocery"
+{
+    #TRANS 5610 {} 172.80 "Grocery/travel expense ex VAT"
+    #TRANS 2641 {} 43.20 "VAT 25%"
+    #TRANS 2893 {} -216.00 "From shareholder card account"
+}
+
+// 8. 2025-07-19 - Apple.com subscription
+#VER "" "REMAM-008" 20250719 "Apple.com iTunes subscription"
+{
+    #TRANS 5410 {} 31.20 "Software subscription ex VAT"
+    #TRANS 2641 {} 7.80 "VAT 25%"
+    #TRANS 2893 {} -39.00 "From shareholder card account"
+}
+
+// 9. 2025-07-19 - Aran Food AB restaurant
+#VER "" "REMAM-009" 20250719 "Aran Food AB Eskilstuna"
+{
+    #TRANS 5610 {} 432.80 "Travel/food expense ex VAT"
+    #TRANS 2641 {} 108.20 "VAT 25%"
+    #TRANS 2893 {} -541.00 "From shareholder card account"
+}
+
+// 10. 2025-07-25 - Bankgiro inbetalning received
+#VER "" "REMAM-010" 20250725 "Bankgiro inbetalning received"
+{
+    #TRANS 2893 {} -4344.00 "Shareholder receives transfer"
+    #TRANS 2893 {} 4344.00 "To card account"
+}
+
+// AUGUST TRANSACTIONS
+
+// 11. 2025-08-08 - Apple.com subscription (reversal)
+#VER "" "REMAM-011" 20250808 "Apple.com iTunes subscription reversal"
+{
+    #TRANS 5410 {} -31.20 "Software subscription reversal ex VAT"
+    #TRANS 2641 {} -7.80 "VAT reversal 25%"
+    #TRANS 2893 {} 39.00 "To shareholder card account"
+}
+
+// 12. 2025-08-09 - Apple.com subscription debit
+#VER "" "REMAM-012" 20250809 "Apple.com iTunes subscription"
+{
+    #TRANS 5410 {} 287.20 "Software subscription ex VAT"
+    #TRANS 2641 {} 71.80 "VAT 25%"
+    #TRANS 2893 {} -359.00 "From shareholder card account"
+}
+
+// 13. 2025-08-10 - Resecentrum travel booking
+#VER "" "REMAM-013" 20250810 "Resecentrum Stockholm travel booking"
+{
+    #TRANS 5610 {} 908.80 "Travel/transport ex VAT"
+    #TRANS 2641 {} 227.20 "VAT 25%"
+    #TRANS 2893 {} -1136.00 "From shareholder card account"
+}
+
+// 14. 2025-08-11 - National Express transport (GBP)
+#VER "" "REMAM-014" 20250811 "National Express Limited Birmingham"
+{
+    #TRANS 5610 {} 223.99 "Travel expense GBP → SEK"
+    #TRANS 2893 {} -279.99 "From shareholder card account"
+}
+
+// 15. 2025-08-13 - Apple.com subscription credit
+#VER "" "REMAM-015" 20250813 "Apple.com iTunes subscription credit"
+{
+    #TRANS 5410 {} -287.20 "Software subscription credit ex VAT"
+    #TRANS 2641 {} -71.80 "VAT credit 25%"
+    #TRANS 2893 {} 359.00 "To shareholder card account"
+}
+
+// 16. 2025-08-19 - Apple.com subscription
+#VER "" "REMAM-016" 20250819 "Apple.com iTunes subscription"
+{
+    #TRANS 5410 {} 31.20 "Software subscription ex VAT"
+    #TRANS 2641 {} 7.80 "VAT 25%"
+    #TRANS 2893 {} -39.00 "From shareholder card account"
+}
+
+// 17. 2025-08-24 - Aran Food AB restaurant
+#VER "" "REMAM-017" 20250824 "Aran Food AB Eskilstuna"
+{
+    #TRANS 5610 {} 876.81 "Travel/food expense ex VAT"
+    #TRANS 2641 {} 219.19 "VAT 25%"
+    #TRANS 2893 {} -1096.00 "From shareholder card account"
+}
+
+// 18. 2025-08-25 - Aran Food AB restaurant
+#VER "" "REMAM-018" 20250825 "Aran Food AB Eskilstuna"
+{
+    #TRANS 5610 {} 949.50 "Travel/food expense ex VAT"
+    #TRANS 2641 {} 237.50 "VAT 25%"
+    #TRANS 2893 {} -1186.87 "From shareholder card account"
+}
+
+// 19. 2025-08-26 - Budgetair.com flight (USD)
+#VER "" "REMAM-019" 20250826 "Budgetair.com flight booking"
+{
+    #TRANS 5610 {} 444.70 "Travel expense USD → SEK"
+    #TRANS 2893 {} -555.88 "From shareholder card account"
+}
+
+// SEPTEMBER TRANSACTIONS
+
+// 20. 2025-09-05 - Aviation fee
+#VER "" "REMAM-020" 20250905 "Aviation fee/booking charge"
+{
+    #TRANS 5610 {} 31.20 "Flight booking fee no VAT"
+    #TRANS 2641 {} 7.80 "VAT calculated"
+    #TRANS 2893 {} -39.00 "From shareholder card account"
+}
+
+// 21. 2025-09-26 - Inbetalning Swish received
+#VER "" "REMAM-021" 20250926 "Swish inbetalning received"
+{
+    #TRANS 2893 {} -4617.24 "Shareholder receives transfer"
+    #TRANS 2893 {} 4617.24 "To card account"
+}
+
+// AUDIT NOTES FOR REMAMBER:
+// - Remamber is multi-currency travel/business card
+// - Card holder: Mohammad Sami Alsharef (shareholder personal card)
+// - All transactions route through account 2893 (shareholder personal)
+// - Travel expenses (5610): flights, transport, food when traveling
+// - Software (5410): Apple.com subscriptions with 25% VAT
+// - Fuel/vehicle (5900): St1 fuel with 25% VAT
+// - Currency conversions: EUR, USD, GBP, SAR → SEK rates applied
+// - Inbetalningar (Swish, Bankgiro) are transfers TO the card from shareholder
+// - Account 2641 used for VAT on eligible business services
+// - Total 21 transactions Q3 2025
+

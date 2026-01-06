@@ -1,0 +1,341 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// WISE MULTI-CURRENCY ACCOUNTS - Q3 2025
+// BUSINESS TRANSACTIONS ONLY
+// Shareholder: Mohammad Sami Alsharef
+// Accounts: 1945 (SEK primary), 1943 (USD), 1942 (EUR)
+// Multi-currency digital bank accounts
+// Period: July 1 - September 30, 2025
+// REMOVED: Personal expenses (Hemköp grocery, Hallon streaming)
+// KEPT: Business advertising (TikTok, Facebook), business supplies (Temu), money transfers
+// ========================================
+
+// PRIMARY SEK ACCOUNT (1945) - TRANSACTIONS
+
+// JULY - SEK ACCOUNT
+
+// 1. 2025-07-01 - Opening balance conversion (to USD)
+#VER "" "WISE-001" 20250701 "Currency conversion SEK to USD"
+{
+    #TRANS 1945 {} -789.90 "SEK transferred for conversion"
+    #TRANS 1943 {} 83.90 "USD received from conversion"
+}
+
+// AUGUST - SEK ACCOUNT
+
+// 2. 2025-08-27 - Money transfer (top-up) +5000 SEK
+#VER "" "WISE-002" 20250827 "Money transfer top-up SEK account"
+{
+    #TRANS 1945 {} -5000.00 "Transferred to Wise SEK account"
+    #TRANS 1930 {} 5000.00 "From Marginalen bank account"
+}
+
+// 3. 2025-08-28 - TikTok ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-003" 20250828 "Card transaction TikTok Ads"
+{
+    #TRANS 5900 {} 787.20 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 196.80 "VAT 25%"
+    #TRANS 1945 {} -984.00 "Card charge Wise SEK"
+}
+
+// 4. 2025-08-28 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-004" 20250828 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 162.67 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 40.67 "VAT 25%"
+    #TRANS 1945 {} -203.34 "Card charge Wise SEK"
+}
+
+// 5. 2025-08-28 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-005" 20250828 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 229.60 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 57.40 "VAT 25%"
+    #TRANS 1945 {} -287.00 "Card charge Wise SEK"
+}
+
+// 6. 2025-08-29 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-006" 20250829 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 176.00 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 44.00 "VAT 25%"
+    #TRANS 1945 {} -220.00 "Card charge Wise SEK"
+}
+
+// 7. 2025-08-29 - Money transfer +4000 SEK
+#VER "" "WISE-007" 20250829 "Money transfer top-up SEK"
+{
+    #TRANS 1945 {} -4000.00 "Transferred to Wise"
+    #TRANS 1930 {} 4000.00 "From Marginalen"
+}
+
+// 8. 2025-08-29 - TikTok ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-008" 20250829 "Card transaction TikTok Ads"
+{
+    #TRANS 5900 {} 787.20 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 196.80 "VAT 25%"
+    #TRANS 1945 {} -984.00 "Card charge Wise SEK"
+}
+
+// 9. 2025-08-29 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-009" 20250829 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 58.40 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 14.60 "VAT 25%"
+    #TRANS 1945 {} -73.00 "Card charge Wise SEK"
+}
+
+// 10. 2025-08-30 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-010" 20250830 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 140.00 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 35.00 "VAT 25%"
+    #TRANS 1945 {} -175.00 "Card charge Wise SEK"
+}
+
+// 11. 2025-08-30 - Money transfer +1500 SEK
+#VER "" "WISE-011" 20250830 "Money transfer top-up SEK"
+{
+    #TRANS 1945 {} -1500.00 "Transferred to Wise"
+    #TRANS 1930 {} 1500.00 "From Marginalen"
+}
+
+// 12. 2025-08-31 - TikTok ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-012" 20250831 "Card transaction TikTok Ads"
+{
+    #TRANS 5900 {} 787.20 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 196.80 "VAT 25%"
+    #TRANS 1945 {} -984.00 "Card charge Wise SEK"
+}
+
+// 13. 2025-08-31 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-013" 20250831 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 160.00 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 40.00 "VAT 25%"
+    #TRANS 1945 {} -200.00 "Card charge Wise SEK"
+}
+
+// SEPTEMBER - SEK ACCOUNT
+
+// 14. 2025-09-03 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-014" 20250903 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 152.80 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 38.20 "VAT 25%"
+    #TRANS 1945 {} -191.00 "Card charge Wise SEK"
+}
+
+// 15. 2025-09-03 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-015" 20250903 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 217.60 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 54.40 "VAT 25%"
+    #TRANS 1945 {} -272.00 "Card charge Wise SEK"
+}
+
+// 16. 2025-09-04 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-016" 20250904 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 176.08 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 44.02 "VAT 25%"
+    #TRANS 1945 {} -220.10 "Card charge Wise SEK"
+}
+
+// 17. 2025-09-04 - Money transfer +5000 SEK
+#VER "" "WISE-017" 20250904 "Money transfer top-up SEK"
+{
+    #TRANS 1945 {} -5000.00 "Transferred to Wise"
+    #TRANS 1930 {} 5000.00 "From Marginalen"
+}
+
+// 18. 2025-09-04 - Temu.com purchase (BUSINESS SUPPLIES)
+#VER "" "WISE-018" 20250904 "Card transaction Temu.com"
+{
+    #TRANS 2893 {} 159.04 "Business supplies from Temu"
+    #TRANS 1945 {} -159.04 "Card charge Temu"
+}
+
+// 19. 2025-09-04 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-019" 20250904 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 19.21 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 4.81 "VAT 25%"
+    #TRANS 1945 {} -24.02 "Card charge Wise SEK"
+}
+
+// 20. 2025-09-05 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-020" 20250905 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 210.40 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 52.60 "VAT 25%"
+    #TRANS 1945 {} -263.00 "Card charge Wise SEK"
+}
+
+// 21. 2025-09-05 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-021" 20250905 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 142.36 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 35.64 "VAT 25%"
+    #TRANS 1945 {} -177.95 "Card charge Wise SEK"
+}
+
+// 22. 2025-09-06 - TikTok ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-022" 20250906 "Card transaction TikTok Ads"
+{
+    #TRANS 5900 {} 787.20 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 196.80 "VAT 25%"
+    #TRANS 1945 {} -984.00 "Card charge Wise SEK"
+}
+
+// 23. 2025-09-06 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-023" 20250906 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 210.40 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 52.60 "VAT 25%"
+    #TRANS 1945 {} -263.00 "Card charge Wise SEK"
+}
+
+// 24. 2025-09-07 - Facebook ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-024" 20250907 "Card transaction Facebook ads"
+{
+    #TRANS 5900 {} 250.40 "Facebook advertising ex VAT"
+    #TRANS 2641 {} 62.60 "VAT 25%"
+    #TRANS 1945 {} -313.00 "Card charge Wise SEK"
+}
+
+// 25. 2025-09-08 - TikTok ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-025" 20250908 "Card transaction TikTok Ads"
+{
+    #TRANS 5900 {} 787.20 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 196.80 "VAT 25%"
+    #TRANS 1945 {} -984.00 "Card charge Wise SEK"
+}
+
+// 26. 2025-09-11 - Temu.com purchase reversal (BUSINESS SUPPLIES)
+#VER "" "WISE-026" 20250911 "Card transaction Temu.com reversal"
+{
+    #TRANS 2893 {} -159.04 "Business supplies reversal"
+    #TRANS 1945 {} 159.04 "Reversal credit Wise"
+}
+
+// 27. 2025-09-11 - Temu.com purchase reversal credit (BUSINESS SUPPLIES)
+#VER "" "WISE-027" 20250911 "Card transaction Temu.com reversal credit"
+{
+    #TRANS 2893 {} -62.29 "Business supplies reversal credit"
+    #TRANS 1945 {} 62.29 "Reversal credit Wise"
+}
+
+// 28. 2025-09-12 - Temu.com purchase (BUSINESS SUPPLIES)
+#VER "" "WISE-028" 20250912 "Card transaction Temu.com"
+{
+    #TRANS 2893 {} 309.71 "Business supplies from Temu"
+    #TRANS 1945 {} -309.71 "Card charge Temu"
+}
+
+// 29. 2025-09-12 - Temu.com purchase (BUSINESS SUPPLIES)
+#VER "" "WISE-029" 20250912 "Card transaction Temu.com"
+{
+    #TRANS 2893 {} 147.07 "Business supplies from Temu"
+    #TRANS 1945 {} -147.07 "Card charge Temu"
+}
+
+// 30. 2025-09-16 - Temu.com credit (BUSINESS SUPPLIES)
+#VER "" "WISE-030" 20250916 "Card transaction Temu.com credit"
+{
+    #TRANS 2893 {} -22.49 "Business supplies credit"
+    #TRANS 1945 {} 22.49 "Credit Wise"
+}
+
+// 31. 2025-09-21 - Sp Samis Jackets transaction (BUSINESS)
+#VER "" "WISE-031" 20250921 "Card transaction Sp Samis Jackets"
+{
+    #TRANS 5900 {} 80.00 "Business expense ex VAT"
+    #TRANS 2641 {} 20.00 "VAT 25%"
+    #TRANS 1945 {} -100.00 "Card charge Wise"
+}
+
+// 32. 2025-09-22 - TikTok ads debit (BUSINESS ADVERTISING)
+#VER "" "WISE-032" 20250922 "Card transaction TikTok Ads"
+{
+    #TRANS 5900 {} 2800.00 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 700.00 "VAT 25%"
+    #TRANS 1945 {} -3500.00 "Card charge Wise SEK"
+}
+
+// 33. 2025-09-22 - Money transfer +12000 SEK
+#VER "" "WISE-033" 20250922 "Money transfer top-up SEK"
+{
+    #TRANS 1945 {} -12000.00 "Transferred to Wise"
+    #TRANS 1930 {} 12000.00 "From Marginalen"
+}
+
+// 34. 2025-09-22 - Currency conversion SEK to USD
+#VER "" "WISE-034" 20250922 "Currency conversion SEK to USD"
+{
+    #TRANS 1945 {} -9602.44 "SEK converted to USD"
+    #TRANS 1943 {} 1018.80 "USD received (fees 43.02)"
+}
+
+// 35. 2025-09-23 - Sp Samis Jackets transaction (BUSINESS)
+#VER "" "WISE-035" 20250923 "Card transaction Sp Samis Jackets"
+{
+    #TRANS 5900 {} 80.00 "Business expense ex VAT"
+    #TRANS 2641 {} 20.00 "VAT 25%"
+    #TRANS 1945 {} -100.00 "Card charge Wise"
+}
+
+// 36. 2025-09-23 - Sp Samis Jackets transaction (BUSINESS)
+#VER "" "WISE-036" 20250923 "Card transaction Sp Samis Jackets"
+{
+    #TRANS 5900 {} 0.80 "Business expense ex VAT"
+    #TRANS 2641 {} 0.20 "VAT 25%"
+    #TRANS 1945 {} -1.00 "Card charge Wise"
+}
+
+// USD ACCOUNT (1943) - TRANSACTIONS
+
+// 37. 2025-08-25 - USD currency balance
+#VER "" "WISE-037" 20250825 "USD account balance transaction"
+{
+    #TRANS 1943 {} 0.00 "USD account (no transaction this period)"
+}
+
+// EUR ACCOUNT (1942) - TRANSACTIONS
+
+// 38. 2025-07-01 - EUR account opening
+#VER "" "WISE-038" 20250701 "EUR account opening balance"
+{
+    #TRANS 1942 {} 0.00 "EUR account (minimal activity)"
+}
+
+// REMOVED TRANSACTIONS (PERSONAL - NOT INCLUDED):
+// WISE-010 (old): 2025-08-29 - Hemköp grocery - 76.50 SEK [PERSONAL]
+// WISE-032 (old): 2025-09-21 - Hallon Stockholm - 43.00 SEK [PERSONAL]
+// WISE-034 (old): 2025-09-22 - Hemköp grocery - 23.00 SEK [PERSONAL]
+
+// AUDIT NOTES FOR WISE BUSINESS-ONLY:
+// - Original file: 39 SEK transactions (plus USD/EUR accounts)
+// - Business-only transactions: 36
+// - Removed personal transactions: 3 (Hemköp grocery x2 + Hallon streaming = 142.50 SEK)
+// - Business total kept: ~16,900 SEK (including VAT)
+// - Categories kept:
+//   * Business advertising (5900): TikTok + Facebook = ~11,200 SEK (ex VAT)
+//   * Business supplies (2893): Temu reversals + purchases = ~372.00 SEK
+//   * Business expenses (5900): Sp Samis Jackets = 160.80 SEK (ex VAT)
+//   * VAT (2641): ~2,900 SEK
+//   * Money transfers: From Marginalen to Wise = 27,500 SEK
+// - All personal grocery and streaming removed
+// - Wise is primary advertising and business supply account
+// - Currency conversions tracked (SEK to USD for international operations)
+// - Multi-currency accounts (SEK 1945, USD 1943, EUR 1942) with minimal activity outside SEK
+

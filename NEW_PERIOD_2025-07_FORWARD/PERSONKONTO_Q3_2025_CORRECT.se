@@ -1,0 +1,127 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// PERSONKONTO Q3 2025 - BUSINESS ONLY - FROM CSV ONLY
+// Account: 3086 00 59626 (Shareholder personal account - Account 2893)
+// Account Holder: STUDENT nordea
+// Period: July 1 - September 30, 2025
+// ========================================
+// 
+// METHODOLOGY:
+// - Read CSV line by line
+// - EXACT amounts from CSV
+// - BUSINESS transactions ONLY (software, telecom, transport)
+// - REMOVED: Government benefits, personal cards, housing, personal transfers
+// - NO fabricated entries (NO Moneygram - doesn't exist in this CSV)
+//
+// CLASSIFICATION:
+// - Telecom (Hi3G, Tele2) → 5410 (Software/Telecom)
+// - Software (Fortnox) → 5410 (Software)
+// - Transport (Mälardalstrafik) → 5610 (Travel)
+// - Business supplies (Temu autogiro) → Business expenses
+// - Bank fees (interest) → 6570
+//
+// REMOVED TRANSACTIONS (Personal - NOT business):
+// - Government benefits (Studiestöd, Barnbidrag, Bostadsbidraget)
+// - Personal card payments (Entercard, American Express, etc)
+// - Housing payments (Victoria housing)
+// - Personal Swish transfers
+// - Shareholder loans
+// ========================================
+
+// NOTE: NO TRANSACTIONS ON 2025-07-05 FOR MONEYGRAM
+// The Moneygram 2944.11 entry does NOT exist in PERSONKONTO CSV
+// It was fabricated in the previous SE file
+// Moneygram ONLY exists in REMAMBER CSV for the same date
+
+// ========================================
+// 2025-08-02 TRANSACTIONS
+// ========================================
+
+#VER "" "PERSO-001" 20250802 "Fortnox software subscription"
+{
+    #TRANS 5410 {} 149.00 "Fortnox software"
+    #TRANS 2893 {} -149.00 "From PERSONKONTO"
+}
+
+// ========================================
+// 2025-08-08 TRANSACTIONS
+// ========================================
+
+#VER "" "PERSO-002" 20250808 "Tele2 telecom service"
+{
+    #TRANS 5410 {} 112.84 "Tele2 telecom"
+    #TRANS 2893 {} -112.84 "From PERSONKONTO"
+}
+
+// ========================================
+// 2025-08-26 TRANSACTIONS
+// ========================================
+
+#VER "" "PERSO-003" 20250826 "Hi3G telecom service"
+{
+    #TRANS 5410 {} 1215.00 "Hi3G telecom"
+    #TRANS 2893 {} -1215.00 "From PERSONKONTO"
+}
+
+// ========================================
+// 2025-09-03 TRANSACTIONS
+// ========================================
+
+#VER "" "PERSO-004" 20250903 "Fortnox software subscription"
+{
+    #TRANS 5410 {} 149.00 "Fortnox software"
+    #TRANS 2893 {} -149.00 "From PERSONKONTO"
+}
+
+// ========================================
+// 2025-09-06 TRANSACTIONS
+// ========================================
+
+#VER "" "PERSO-005" 20250906 "Mälardalstrafik transport"
+{
+    #TRANS 5610 {} 367.00 "Business transport"
+    #TRANS 2893 {} -367.00 "From PERSONKONTO"
+}
+
+// ========================================
+// 2025-09-22 TRANSACTIONS
+// ========================================
+
+#VER "" "PERSO-006" 20250922 "Hi3G telecom service"
+{
+    #TRANS 5410 {} 1611.00 "Hi3G telecom"
+    #TRANS 2893 {} -1611.00 "From PERSONKONTO"
+}
+
+// ========================================
+// AUDIT NOTES
+// ========================================
+// TOTAL TRANSACTIONS: 6 VER entries
+// Original CSV: 63 transactions
+// Business only: 6 transactions (telecom, software, transport)
+// 
+// REMOVED (Personal):
+// - Studiestöd (education support)
+// - Barnbidrag (child benefits)
+// - Bostadsbidraget (housing support)
+// - Card advance payments (Entercard, American Express, Nordea)
+// - Personal transfers
+// - Swish payments
+// - Housing payments (Victoria)
+// - Bank loans/payments
+//
+// KEY FINDING: Moneygram 2944.11 on 2025-07-05
+// - DOES NOT EXIST in PERSONKONTO CSV
+// - Was fabricated in previous SE file
+// - Only exists in REMAMBER CSV
+// - Removed from this file
+// ========================================

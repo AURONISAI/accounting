@@ -1,0 +1,29 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251019
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+#VER "" "SALES-Q3-001" 20250930 "Q3 2025 card sales via Worldline"
+{
+    #TRANS 1947 {} 155780.70 "Worldline card payments (incl VAT 25%) - 85.6% of total sales"
+    #TRANS 3051 {} -124624.56 "Card sales revenue ex VAT"
+    #TRANS 2611 {} -31156.14 "VAT 25% on card sales"
+}
+
+#VER "" "SALES-Q3-002" 20250930 "Q3 2025 cash sales"
+{
+    #TRANS 1910 {} 26271.17 "Cash sales (incl VAT 25%) - 14.4% of total sales"
+    #TRANS 3051 {} -21016.94 "Cash sales revenue ex VAT"
+    #TRANS 2611 {} -5254.23 "VAT 25% on cash sales"
+}
+
+#VER "" "SALES-Q3-003" 20250930 "Worldline transaction fees Q3 2025"
+{
+    #TRANS 6570 {} 772.36 "Worldline transaction fees (July 147.15 + Aug 155.92 + Sept 469.29)"
+    #TRANS 1947 {} -772.36 "Reduce Worldline receivable by fees charged"
+}

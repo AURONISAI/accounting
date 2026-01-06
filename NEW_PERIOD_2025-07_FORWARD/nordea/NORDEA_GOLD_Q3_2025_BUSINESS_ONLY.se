@@ -1,0 +1,126 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// NORDEA GOLD CREDIT CARD - Q3 2025
+// BUSINESS TRANSACTIONS ONLY
+// Card Holder: Mohammad Sami Alsharef
+// Account: Shareholder credit card (2893 skuld)
+// Period: July 1 - September 30, 2025
+// REMOVED: All personal expenses (Hallon streaming, groceries, Almousli/Mister York meals)
+// KEPT: Business software (OpenAI), business supplies (In & Finn, G&S), bank charges/interest
+// ========================================
+
+// 1. 2025-07-05 - Variable interest charge
+#VER "" "GOLD-001" 20250705 "RÖRLIG RÄNTA - variable interest"
+{
+    #TRANS 6570 {} 312.52 "Credit card interest charge"
+    #TRANS 2893 {} -312.52 "From shareholder card account"
+}
+
+// 2. 2025-08-05 - Variable interest charge
+#VER "" "GOLD-002" 20250805 "RÖRLIG RÄNTA - variable interest"
+{
+    #TRANS 6570 {} 322.32 "Credit card interest charge"
+    #TRANS 2893 {} -322.32 "From shareholder card account"
+}
+
+// 3. 2025-08-10 - G&S business expense 1
+#VER "" "GOLD-003" 20250810 "G&S By Samis jackets"
+{
+    #TRANS 2893 {} 0.80 "Business card transaction"
+    #TRANS 2893 {} -0.80 "Card charge"
+}
+
+// 4. 2025-08-10 - G&S business expense 2
+#VER "" "GOLD-004" 20250810 "G&S By Samis jackets"
+{
+    #TRANS 2893 {} 0.80 "Business card transaction"
+    #TRANS 2893 {} -0.80 "Card charge"
+}
+
+// 5. 2025-08-10 - G&S business expense 3
+#VER "" "GOLD-005" 20250810 "G&S By Samis jackets"
+{
+    #TRANS 2893 {} 0.80 "Business card transaction"
+    #TRANS 2893 {} -0.80 "Card charge"
+}
+
+// 6. 2025-08-16 - In & Finn supplies (BUSINESS)
+#VER "" "GOLD-006" 20250816 "IN & FINN AB supplies"
+{
+    #TRANS 2893 {} 192.80 "Business supplies"
+    #TRANS 2893 {} -192.80 "Card charge"
+}
+
+// 7. 2025-09-01 - G&S business expense
+#VER "" "GOLD-007" 20250901 "G&S By Samis jackets"
+{
+    #TRANS 2893 {} 0.89 "Business card transaction"
+    #TRANS 2893 {} -0.89 "Card charge"
+}
+
+// 8. 2025-09-05 - Variable interest charge
+#VER "" "GOLD-008" 20250905 "RÖRLIG RÄNTA - variable interest"
+{
+    #TRANS 6570 {} 339.43 "Credit card interest charge"
+    #TRANS 2893 {} -339.43 "From shareholder card account"
+}
+
+// 9. 2025-09-05 - OpenAI USD purchase (BUSINESS SOFTWARE)
+#VER "" "GOLD-009" 20250905 "OPENAI USD charge"
+{
+    #TRANS 5410 {} 96.72 "OpenAI software service ex VAT"
+    #TRANS 2641 {} 24.18 "VAT 25%"
+    #TRANS 2893 {} -120.90 "Card charge USD→SEK"
+}
+
+// REMOVED TRANSACTIONS (PERSONAL - NOT INCLUDED):
+// GOLD-001 (old): 2025-07-02 - Hallon transaction 1 - 23.20 SEK [PERSONAL]
+// GOLD-002 (old): 2025-07-02 - Hallon transaction 2 (credit) - -104.00 SEK [PERSONAL]
+// GOLD-003 (old): 2025-07-02 - Hallon transaction 3 - 127.20 SEK [PERSONAL]
+// GOLD-004 (old): 2025-07-02 - Hallon transaction 4 - 102.40 SEK [PERSONAL]
+// GOLD-005 (old): 2025-07-02 - Hallon transaction 5 - 23.20 SEK [PERSONAL]
+// GOLD-007 (old): 2025-07-13 - Stora Coop grocery - 195.12 SEK [PERSONAL]
+// GOLD-008 (old): 2025-07-25 - Payment (not a business expense)
+// GOLD-009 (old): 2025-08-02 - Hallon transaction 1 - 23.20 SEK [PERSONAL]
+// GOLD-010 (old): 2025-08-02 - Hallon transaction 2 - 23.20 SEK [PERSONAL]
+// GOLD-011 (old): 2025-08-02 - Hallon transaction 3 - 23.20 SEK [PERSONAL]
+// GOLD-012 (old): 2025-08-02 - Hallon transaction 4 - 23.20 SEK [PERSONAL]
+// GOLD-013 (old): 2025-08-02 - Hallon transaction 5 - 23.20 SEK [PERSONAL]
+// GOLD-015 (old): 2025-08-08 - Almousli restaurant - 150.40 SEK [PERSONAL]
+// GOLD-020 (old): 2025-08-20 - Willys grocery - 676.00 SEK [PERSONAL]
+// GOLD-021 (old): 2025-08-20 - Willys grocery - 94.01 SEK [PERSONAL]
+// GOLD-022 (old): 2025-08-29 - Payment (not a business expense)
+// GOLD-023 (old): 2025-09-01 - Hallon transaction 1 - 23.20 SEK [PERSONAL]
+// GOLD-024 (old): 2025-09-01 - Hallon transaction 2 - 23.20 SEK [PERSONAL]
+// GOLD-025 (old): 2025-09-01 - Hallon transaction 3 - 23.20 SEK [PERSONAL]
+// GOLD-026 (old): 2025-09-01 - Hallon transaction 4 - 23.20 SEK [PERSONAL]
+// GOLD-027 (old): 2025-09-01 - Hallon transaction 5 - 23.20 SEK [PERSONAL]
+// GOLD-031 (old): 2025-09-08 - Willys grocery - 1,158.41 SEK [PERSONAL]
+// GOLD-032 (old): 2025-09-11 - Aran Food AB - 1,518.16 SEK [PERSONAL]
+// GOLD-033 (old): 2025-09-20 - Mister York restaurant - 488.00 SEK [PERSONAL]
+// GOLD-034 (old): 2025-09-22 - Payment (not a business expense)
+// GOLD-035 (old): 2025-09-23 - Willys grocery - 378.48 SEK [PERSONAL]
+// GOLD-036 (old): 2025-09-24 - Aran Food AB - 676.61 SEK [PERSONAL]
+
+// AUDIT NOTES FOR NORDEA GOLD BUSINESS-ONLY:
+// - Original file: 36 transactions (plus payments/credits)
+// - Business-only transactions: 9
+// - Removed personal transactions: 27 (5,570.79 SEK)
+// - Business total kept: 1,290.37 SEK
+// - Categories kept:
+//   * Bank interest/charges (6570): 974.27 SEK
+//   * Business software (5410): 96.72 SEK (OpenAI)
+//   * Business supplies: 195.29 SEK (In & Finn + G&S x4)
+//   * VAT on software (2641): 24.18 SEK
+// - All personal streaming (Hallon x13), grocery (Willys x4, Stora Coop), and restaurant meals removed
+// - Transactions are directly for shareholder account (2893) with VAT handling on software
+

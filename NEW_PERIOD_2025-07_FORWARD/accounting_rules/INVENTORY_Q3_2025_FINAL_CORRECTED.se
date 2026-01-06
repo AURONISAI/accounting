@@ -1,0 +1,42 @@
+#FLAGGA 0
+#FORMAT PC8
+#PROGRAM "Samis Jackets Inventory System" "1.0"
+#GEN 20251019
+#SIETYP 4
+#ORGNR 559489-5301
+#FNAMN "Samis Jackets AB"
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+#KONTO 1460 "Lager av handelsvaror"
+#KONTO 1469 "Förändring av lager av handelsvaror"
+#KONTO 4110 "Kostnader för sålda varor"
+#KONTO 5900 "Reklam och PR"
+
+#VER "" "IB-CLEAN" 20250701 "Clear opening 1469 balance - previous period marketing gifts"
+{
+    #TRANS 1469 {} 18180.90
+    #TRANS 5900 {} -18180.90
+}
+
+#VER "" "INV-001" 20250930 "COGS - Q3 2025 sales (921 units)"
+{
+    #TRANS 4110 {} 45344.24
+    #TRANS 1460 {} -45344.24
+}
+
+#VER "" "INV-002" 20250930 "Allocate Q3 2025 marketing gifts to staging (231 units @ 25% policy)"
+{
+    #TRANS 1469 {} 11337.54
+    #TRANS 1460 {} -11337.54
+}
+
+#VER "" "INV-003" 20250930 "Expense Q3 2025 marketing gifts - clean 1469 to zero"
+{
+    #TRANS 5900 {} 11337.54
+    #TRANS 1469 {} -11337.54
+}
+
+
+#RES 0 4110 45344.24
+#RES 0 5900 29518.44

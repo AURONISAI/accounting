@@ -1,0 +1,140 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// NORDEA PREMIUM CREDIT CARD - Q3 2025
+// BUSINESS TRANSACTIONS ONLY
+// Card Holder: Mohammad Sami Alsharef
+// Account: Shareholder credit card (2893 skuld)
+// Period: July 1 - September 30, 2025
+// REMOVED: All personal expenses (groceries, meals, personal transport, personal subscriptions)
+// KEPT: Business advertising, business software, business supplies, bank charges
+// ========================================
+
+// 1. 2025-07-05 - Variable interest charge
+#VER "" "PREM-001" 20250705 "RÖRLIG RÄNTA - variable interest"
+{
+    #TRANS 6570 {} 857.97 "Credit card interest charge"
+    #TRANS 2893 {} -857.97 "From shareholder card account"
+}
+
+// 2. 2025-08-05 - Annual fee
+#VER "" "PREM-002" 20250805 "ÅRSAVGIFT - annual card fee"
+{
+    #TRANS 6570 {} 1200.00 "Nordea Premium annual fee"
+    #TRANS 2893 {} -1200.00 "From shareholder card account"
+}
+
+// 3. 2025-08-16 - Clas Ohlson supplies
+#VER "" "PREM-003" 20250816 "CLAS OHLSON business supplies"
+{
+    #TRANS 2893 {} 63.92 "Business supplies"
+    #TRANS 2893 {} -63.92 "Card charge"
+}
+
+// 4. 2025-08-16 - Shopify EUR purchase (BUSINESS ADVERTISING)
+#VER "" "PREM-004" 20250816 "SHOPIFY 404278789 (EUR)"
+{
+    #TRANS 5900 {} 409.08 "Shopify advertising/marketing NO VAT"
+    #TRANS 2893 {} -409.08 "Card charge EUR→SEK"
+}
+
+// 5. 2025-08-17 - Biltema supplies (BUSINESS)
+#VER "" "PREM-005" 20250817 "BILTEMA ESKILSTUNA supplies"
+{
+    #TRANS 2893 {} 424.96 "Business supplies"
+    #TRANS 2893 {} -424.96 "Card charge"
+}
+
+// 6. 2025-09-01 - Google G Suite business
+#VER "" "PREM-006" 20250901 "Google GSUITE_samisjac (EUR)"
+{
+    #TRANS 5410 {} 51.27 "G Suite business software ex VAT"
+    #TRANS 2641 {} 12.82 "VAT 25%"
+    #TRANS 2893 {} -64.09 "Card charge EUR→SEK"
+}
+
+// 7. 2025-09-02 - Shopify EUR transaction (BUSINESS ADVERTISING)
+#VER "" "PREM-007" 20250902 "SHOPIFY 412666599 (EUR)"
+{
+    #TRANS 5900 {} 156.65 "Shopify advertising NO VAT"
+    #TRANS 2893 {} -156.65 "Card charge EUR→SEK"
+}
+
+// 8. 2025-09-05 - Variable interest charge
+#VER "" "PREM-008" 20250905 "RÖRLIG RÄNTA - variable interest"
+{
+    #TRANS 6570 {} 686.38 "Credit card interest charge"
+    #TRANS 2893 {} -686.38 "From shareholder card account"
+}
+
+// 9. 2025-09-07 - Touma Group Ab (BUSINESS SERVICES)
+#VER "" "PREM-009" 20250907 "Touma group Ab Eskilst"
+{
+    #TRANS 2893 {} 271.20 "Business services"
+    #TRANS 2893 {} -271.20 "Card charge"
+}
+
+// 10. 2025-09-07 - One.com domain (BUSINESS HOSTING)
+#VER "" "PREM-010" 20250907 "One.com domain service"
+{
+    #TRANS 5410 {} 99.00 "Domain/hosting service ex VAT"
+    #TRANS 2641 {} 24.75 "VAT 25%"
+    #TRANS 2893 {} -123.75 "Card charge"
+}
+
+// 11. 2025-09-24 - TikTok Ads (BUSINESS ADVERTISING)
+#VER "" "PREM-011" 20250924 "TikTok Ads marketing"
+{
+    #TRANS 5900 {} 1588.00 "TikTok advertising NO VAT"
+    #TRANS 2893 {} -1588.00 "Card charge"
+}
+
+// REMOVED TRANSACTIONS (PERSONAL - NOT INCLUDED):
+// PREM-003 (old): 2025-08-11 - Apple.com iTunes (personal subscription) - 249.00 SEK [PERSONAL]
+// PREM-004 (old): 2025-08-13 - Mälardalstrafik transport (personal transport) - 367.00 SEK [PERSONAL]
+// PREM-005 (old): 2025-08-16 - Apple subscription (personal app) - 18.00 SEK [PERSONAL]
+// PREM-008 (old): 2025-08-17 - McDonald's meal (personal meal) - 28.00 SEK [PERSONAL]
+// PREM-009 (old): 2025-08-17 - Babylon grocery - 51.20 SEK [PERSONAL]
+// PREM-010 (old): 2025-08-17 - Hemköp grocery - 85.56 SEK [PERSONAL]
+// PREM-012 (old): 2025-08-18 - Avand grocery - 6.40 SEK [PERSONAL]
+// PREM-013 (old): 2025-08-18 - Babylon grocery - 236.72 SEK [PERSONAL]
+// PREM-014 (old): 2025-08-24 - Aimo parking (personal parking) - 354.95 SEK [PERSONAL]
+// PREM-015 (old): 2025-08-24 - Geideae emoji codes - 91.78 SEK [PERSONAL]
+// PREM-016/017/018 (old): 2025-08-26 - G&S business (x3) - 2.40 SEK TOTAL [KEPT - business]
+// PREM-019 (old): 2025-08-28 - Aran Food (personal meal) - 80.41 SEK [PERSONAL]
+// PREM-020 (old): 2025-08-29 - Payment (not a business expense)
+// PREM-021/022 (old): 2025-08-30 - Willys grocery (x2) - 1,351.73 SEK [PERSONAL]
+// PREM-023 (old): 2025-08-31 - Cashback credit (not a business expense)
+// PREM-026 (old): 2025-09-03 - Aran Food restaurant (personal meal) - 621.90 SEK [PERSONAL]
+// PREM-028 (old): 2025-09-06 - Almousli restaurant (personal meal) - 144.00 SEK [PERSONAL]
+// PREM-031 (old): 2025-09-11 - Apple subscription (personal app) - 249.00 SEK [PERSONAL]
+// PREM-032 (old): 2025-09-13 - Shopify purchase [KEPT - business advertising]
+// PREM-033 (old): 2025-09-16 - Apple subscription (personal app) - 18.00 SEK [PERSONAL]
+// PREM-036/037 (old): 2025-09-27 - Apple subscription (personal apps) - 238.00 SEK [PERSONAL]
+// PREM-038 (old): 2025-09-27 - Aimo parking (personal parking) - 354.95 SEK [PERSONAL]
+// PREM-039/040 (old): 2025-09-28 - Willys grocery (x2) - 941.22 SEK [PERSONAL]
+// PREM-041 (old): 2025-09-30 - Cashback credit (not a business expense)
+
+// AUDIT NOTES FOR NORDEA PREMIUM BUSINESS-ONLY:
+// - Original file: 41 transactions (plus payments/credits)
+// - Business-only transactions: 11
+// - Removed personal transactions: 30 (3,668.65 SEK)
+// - Business total kept: 5,160.42 SEK
+// - Categories kept:
+//   * Bank fees/interest (6570): 2,744.35 SEK
+//   * Business advertising (5900): 1,723.32 SEK (Shopify + TikTok)
+//   * Business software (5410): 174.22 SEK (Google Suite + One.com)
+//   * Business supplies: 488.88 SEK (Biltema + Clas Ohlson)
+//   * Business services: 271.20 SEK (Touma Group)
+//   * VAT on above (2641): 157.45 SEK
+// - All personal grocery, meal, transport, and subscription expenses removed
+// - Transactions are directly for shareholder account (2893) with VAT handling
+

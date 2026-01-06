@@ -1,0 +1,137 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// REMAMBER Q3 2025 - BUSINESS ONLY
+// Multi-currency card account
+// Account: MOHAMMAD SAMI ALSHAREF
+// Period: July 1 - September 30, 2025
+// ========================================
+// 
+// METHODOLOGY:
+// - Read CSV line by line
+// - EXACT amounts from CSV (Fakturabelopp in SEK)
+// - BUSINESS transactions ONLY (travel, fuel, flights)
+// - REMOVED: Personal food, personal app subscriptions, personal transfers
+//
+// CLASSIFICATION:
+// - Flight bookings (Aviavgift, Budgetair) → 5610 (Travel)
+// - Business travel (Resecentrum, Fatoora, National Express) → 5610 (Travel)
+// - Vehicle fuel (St1 Gillbergaplan) → 5900 (Vehicle)
+// - International business trip (Moneygram) → 5610 (Travel)
+//
+// REMOVED (Personal):
+// - Aran Food AB (grocery store)
+// - Apple.com subscriptions
+// - Mellanosterns Mejeri (food)
+// - Swish/Bankgiro personal transfers
+// ========================================
+
+// ========================================
+// 2025-07-05 TRANSACTIONS
+// ========================================
+
+#VER "" "REMAM-001" 20250705 "Moneygram Greece business travel"
+{
+    #TRANS 5610 {} 2944.11 "Business travel EUR"
+    #TRANS 2893 {} -2944.11 "From REMAMBER card"
+}
+
+// ========================================
+// 2025-07-07 TRANSACTIONS
+// ========================================
+
+#VER "" "REMAM-002" 20250707 "Aviation fee"
+{
+    #TRANS 5610 {} 39.00 "Flight booking fee"
+    #TRANS 2893 {} -39.00 "From REMAMBER card"
+}
+
+#VER "" "REMAM-003" 20250707 "Interest charge"
+{
+    #TRANS 6570 {} 62.68 "Card interest"
+    #TRANS 2893 {} -62.68 "From REMAMBER card"
+}
+
+// ========================================
+// 2025-07-14 TRANSACTIONS
+// ========================================
+
+#VER "" "REMAM-004" 20250714 "Fatoora Riyadh business travel"
+{
+    #TRANS 5610 {} 906.03 "Business travel SAR"
+    #TRANS 2893 {} -906.03 "From REMAMBER card"
+}
+
+#VER "" "REMAM-005" 20250714 "St1 Gillbergaplan fuel"
+{
+    #TRANS 5900 {} 980.77 "Vehicle fuel"
+    #TRANS 2893 {} -980.77 "From REMAMBER card"
+}
+
+// ========================================
+// 2025-08-10 TRANSACTIONS
+// ========================================
+
+#VER "" "REMAM-006" 20250810 "Resecentrum travel booking"
+{
+    #TRANS 5610 {} 1136.00 "Business travel"
+    #TRANS 2893 {} -1136.00 "From REMAMBER card"
+}
+
+// ========================================
+// 2025-08-11 TRANSACTIONS
+// ========================================
+
+#VER "" "REMAM-007" 20250811 "National Express transport"
+{
+    #TRANS 5610 {} 279.99 "Business travel GBP"
+    #TRANS 2893 {} -279.99 "From REMAMBER card"
+}
+
+// ========================================
+// 2025-08-26 TRANSACTIONS
+// ========================================
+
+#VER "" "REMAM-008" 20250826 "Budgetair flight booking"
+{
+    #TRANS 5610 {} 555.88 "Business travel USD"
+    #TRANS 2893 {} -555.88 "From REMAMBER card"
+}
+
+// ========================================
+// 2025-09-05 TRANSACTIONS
+// ========================================
+
+#VER "" "REMAM-009" 20250905 "Aviation fee"
+{
+    #TRANS 5610 {} 39.00 "Flight booking fee"
+    #TRANS 2893 {} -39.00 "From REMAMBER card"
+}
+
+// ========================================
+// AUDIT NOTES
+// ========================================
+// TOTAL TRANSACTIONS: 9 VER entries
+// Original CSV: 23 transactions
+// Business only: 9 transactions (travel, fuel, flights)
+//
+// REMOVED (Personal):
+// - Aran Food AB (3 transactions) = Grocery/food shopping
+// - Apple.com subscriptions (3 transactions) = Personal apps
+// - Mellanosterns Mejeri (1 transaction) = Food
+// - Inbetalning Swish/Bankgiro (2 transactions) = Personal transfers
+//
+// KEY FINDING: Moneygram 2944.11 on 2025-07-05
+// - EXISTS in REMAMBER CSV: "MONEYGRAM GREECE"
+// - Amount: -256.50 EUR = -2944.11 SEK
+// - Business travel expense
+// - Recorded once in master file
+// ========================================

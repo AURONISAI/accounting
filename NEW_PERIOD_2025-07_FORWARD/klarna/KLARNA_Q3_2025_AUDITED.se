@@ -1,0 +1,51 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// KLARNA BUSINESS EXPENSES - Q3 2025
+// AUDITED - ALL 3 TRANSACTIONS
+// Payment Method: Klarna Personal Card
+// Account: Shareholder personal (2893 skuld)
+// Period: July 1 - September 30, 2025
+// ========================================
+
+// KLARNA BUSINESS EXPENSES
+
+// 1. 2025-07-03 - Temu.com business supplies
+#VER "" "KLARNA-001" 20250703 "Temu.com business supplies autogiro"
+{
+    #TRANS 2893 {} 339.00 "Business supplies - Temu (personal advance)"
+    #TRANS 2893 {} -339.00 "Paid via Klarna - charged to shareholder"
+}
+
+// 2. 2025-07-08 - Temu.com business supplies
+#VER "" "KLARNA-002" 20250708 "Temu.com business supplies autogiro"
+{
+    #TRANS 2893 {} 702.00 "Business supplies - Temu (personal advance)"
+    #TRANS 2893 {} -702.00 "Paid via Klarna - charged to shareholder"
+}
+
+// 3. 2025-07-19 - TikTok Ads marketing campaign
+#VER "" "KLARNA-003" 20250719 "TikTok Ads - Marketing campaign"
+{
+    #TRANS 5900 {} 1600.00 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 400.00 "VAT 25%"
+    #TRANS 2893 {} -2000.00 "Paid via Klarna - charged to shareholder"
+}
+
+// AUDIT NOTES FOR KLARNA:
+// - Klarna is personal payment card linked to shareholder (2893 skuld)
+// - All business expenses paid through personal Klarna advance
+// - Temu.com (339 + 702 = 1041 SEK) are business supplies, routed to 2893
+// - TikTok Ads (2000 SEK) is marketing expense with 25% VAT
+// - Advertising account 5900 used for TikTok campaigns
+// - All transactions verified from Nordea PERSONKONTO CSV
+// - Total Klarna business expenses Q3: 3,041 SEK
+

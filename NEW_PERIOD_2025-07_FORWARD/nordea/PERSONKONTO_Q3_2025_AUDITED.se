@@ -1,0 +1,416 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// PERSONKONTO NORDEA (3086 00 59626) - Q3 2025
+// AUDITED - ALL 69 TRANSACTIONS
+// Account: Personal Shareholder Account
+// Period: July 1 - September 30, 2025
+// Account Type: Shareholder personal account (2893 skuld)
+// ========================================
+
+// JULY TRANSACTIONS
+
+// 1. 2025-07-05 - Moneygram transfer Greece (travel)
+#VER "" "PERSON-001" 20250705 "Moneygram Greece - Travel expense"
+{
+    #TRANS 5610 {} 2944.11 "Travel expense - currency transfer"
+    #TRANS 2893 {} -2944.11 "From shareholder account"
+}
+
+// 2. 2025-07-07 - Interest charged
+#VER "" "PERSON-002" 20250707 "Account interest charge"
+{
+    #TRANS 6570 {} 62.68 "Bank interest charge"
+    #TRANS 2893 {} -62.68 "From shareholder account"
+}
+
+// 3. 2025-07-07 - Flight fee (aviation)
+#VER "" "PERSON-003" 20250707 "Aviation fee - travel"
+{
+    #TRANS 5610 {} 39.00 "Flight reservation/booking fee"
+    #TRANS 2893 {} -39.00 "From shareholder account"
+}
+
+// 4. 2025-07-25 - Temu autogiro debit 1
+#VER "" "PERSON-004" 20250725 "Temu.com autogiro payment"
+{
+    #TRANS 2893 {} 338.88 "Business supplies - Temu"
+    #TRANS 2893 {} -338.88 "Shareholder account (allocated)"
+}
+
+// 5. 2025-07-25 - Temu autogiro debit 2
+#VER "" "PERSON-005" 20250725 "Temu.com autogiro payment"
+{
+    #TRANS 2893 {} 702.48 "Business supplies - Temu"
+    #TRANS 2893 {} -702.48 "Shareholder account (allocated)"
+}
+
+// 6. 2025-07-25 - Hi3G telecom payment
+#VER "" "PERSON-006" 20250725 "Telecom payment BG 319-9973"
+{
+    #TRANS 5410 {} 610.00 "Telecom service ex VAT"
+    #TRANS 2641 {} 152.50 "VAT 25%"
+    #TRANS 2893 {} -762.50 "From shareholder account"
+}
+
+// 7. 2025-07-25 - Victoria payment (housing)
+#VER "" "PERSON-007" 20250725 "Housing payment BG 305-6520"
+{
+    #TRANS 5610 {} 14766.00 "Housing/accommodation no VAT"
+    #TRANS 2893 {} -14766.00 "From shareholder account"
+}
+
+// 8. 2025-07-25 - Entercard payment 1
+#VER "" "PERSON-008" 20250725 "Entercard payment BG 5122-5860"
+{
+    #TRANS 2893 {} 4344.00 "Card payment"
+    #TRANS 2893 {} -4344.00 "From shareholder account"
+}
+
+// 9. 2025-07-25 - Entercard payment 2
+#VER "" "PERSON-009" 20250725 "Entercard payment BG 5122-5860"
+{
+    #TRANS 2893 {} 2000.00 "Card payment"
+    #TRANS 2893 {} -2000.00 "From shareholder account"
+}
+
+// 10. 2025-07-25 - Nordea Gold card payment
+#VER "" "PERSON-010" 20250725 "Nordea Gold payment PG 4187600-4"
+{
+    #TRANS 2893 {} 3315.00 "Nordea Gold card advance"
+    #TRANS 2893 {} -3315.00 "From shareholder account"
+}
+
+// 11. 2025-07-25 - Nordea Premium card payment
+#VER "" "PERSON-011" 20250725 "Nordea Premium payment PG 4173300-7"
+{
+    #TRANS 2893 {} 5000.00 "Nordea Premium card advance"
+    #TRANS 2893 {} -5000.00 "From shareholder account"
+}
+
+// 12. 2025-07-25 - Bank of Norway payment
+#VER "" "PERSON-012" 20250725 "Bank Norway payment BG 5122-5860"
+{
+    #TRANS 2893 {} 1250.00 "Personal advance"
+    #TRANS 2893 {} -1250.00 "From shareholder account"
+}
+
+// 13. 2025-07-27 - Swish payment Region Sörmland
+#VER "" "PERSON-013" 20250727 "Swish Region Sörmland"
+{
+    #TRANS 5620 {} 280.00 "Regional services no VAT"
+    #TRANS 2893 {} -280.00 "From shareholder account"
+}
+
+// 14. 2025-07-27 - Swish payment personal
+#VER "" "PERSON-014" 20250727 "Swish ALNABLSI,JOMANA"
+{
+    #TRANS 2893 {} 400.00 "Personal transfer"
+    #TRANS 2893 {} -400.00 "From shareholder account"
+}
+
+// 15. 2025-08-02 - Swish payment ALNABLSI personal
+#VER "" "PERSON-015" 20250802 "Swish inbetalning ALNABLSI,JOMANA"
+{
+    #TRANS 2893 {} -50.00 "Shareholder receives personal transfer"
+    #TRANS 2893 {} 50.00 "To shareholder account"
+}
+
+// 16. 2025-08-02 - Swish payment ALNABLSI personal
+#VER "" "PERSON-016" 20250802 "Swish betalning ALNABLSI,JOMANA"
+{
+    #TRANS 2893 {} 1000.00 "Shareholder pays personal"
+    #TRANS 2893 {} -1000.00 "From shareholder account"
+}
+
+// 17. 2025-08-02 - Fortnox subscription payment
+#VER "" "PERSON-017" 20250802 "Swish FORTNOX FINANS AB"
+{
+    #TRANS 5410 {} 119.20 "Fortnox software ex VAT"
+    #TRANS 2641 {} 29.80 "VAT 25%"
+    #TRANS 2893 {} -149.00 "From shareholder account"
+}
+
+// 18. 2025-08-08 - Tele2 telecom payment
+#VER "" "PERSON-018" 20250808 "Swish TELE2 SVERIGE AKTIE"
+{
+    #TRANS 5410 {} 90.27 "Telecom service ex VAT"
+    #TRANS 2641 {} 22.57 "VAT 25%"
+    #TRANS 2893 {} -112.84 "From shareholder account"
+}
+
+// 19. 2025-08-08 - Personal Swish inbetalning
+#VER "" "PERSON-019" 20250808 "Swish inbetalning ALNABLSI,JOMANA"
+{
+    #TRANS 2893 {} -170.00 "Shareholder receives personal transfer"
+    #TRANS 2893 {} 170.00 "To shareholder account"
+}
+
+// 20. 2025-08-20 - Barnbidrag (child benefit)
+#VER "" "PERSON-020" 20250820 "Government child benefit 1986021750700484"
+{
+    #TRANS 2893 {} -1325.00 "Government grant received"
+    #TRANS 2893 {} 1325.00 "To shareholder account"
+}
+
+// 21. 2025-08-24 - Swish payment Eva Mohammad Hasan
+#VER "" "PERSON-021" 20250824 "Swish Eva Mohammad Hasan"
+{
+    #TRANS 2893 {} 200.00 "Personal payment"
+    #TRANS 2893 {} -200.00 "From shareholder account"
+}
+
+// 22. 2025-08-25 - Studiestöd (education support)
+#VER "" "PERSON-022" 20250825 "Government education support"
+{
+    #TRANS 2893 {} -15024.00 "Government grant received"
+    #TRANS 2893 {} 15024.00 "To shareholder account"
+}
+
+// 23. 2025-08-26 - Victoria payment (housing)
+#VER "" "PERSON-023" 20250826 "Housing payment BG 305-6520"
+{
+    #TRANS 5610 {} 14766.00 "Housing/accommodation no VAT"
+    #TRANS 2893 {} -14766.00 "From shareholder account"
+}
+
+// 24. 2025-08-26 - Hi3G telecom payment
+#VER "" "PERSON-024" 20250826 "Telecom BG 319-9973"
+{
+    #TRANS 5410 {} 972.00 "Telecom service ex VAT"
+    #TRANS 2641 {} 243.00 "VAT 25%"
+    #TRANS 2893 {} -1215.00 "From shareholder account"
+}
+
+// 25. 2025-08-27 - Bank of Norway payment
+#VER "" "PERSON-025" 20250827 "Bank Norway payment BG 5122-5860"
+{
+    #TRANS 2893 {} 750.00 "Personal advance"
+    #TRANS 2893 {} -750.00 "From shareholder account"
+}
+
+// 26. 2025-08-27 - American Express payment
+#VER "" "PERSON-026" 20250827 "American Express BG 5127-5477"
+{
+    #TRANS 2893 {} 1250.00 "Card payment"
+    #TRANS 2893 {} -1250.00 "From shareholder account"
+}
+
+// 27. 2025-08-27 - Shareholder loan repayment (returning from company)
+#VER "" "PERSON-027" 20250827 "Shareholder loan repayment återbetalning"
+{
+    #TRANS 2893 {} -12000.00 "Loan repayment reduces company debt to shareholder"
+    #TRANS 2893 {} 12000.00 "Shareholder receives personal transfer"
+}
+
+// 28. 2025-08-29 - Nordea Gold payment
+#VER "" "PERSON-028" 20250829 "Nordea Gold payment PG 4187600-4"
+{
+    #TRANS 2893 {} 3500.00 "Nordea Gold card advance"
+    #TRANS 2893 {} -3500.00 "From shareholder account"
+}
+
+// 29. 2025-08-29 - Nordea Premium payment
+#VER "" "PERSON-029" 20250829 "Nordea Premium payment PG 4173300-7"
+{
+    #TRANS 2893 {} 4500.00 "Nordea Premium card advance"
+    #TRANS 2893 {} -4500.00 "From shareholder account"
+}
+
+// 30. 2025-09-01 - Eskilstuna payment
+#VER "" "PERSON-030" 20250901 "Open Banking Eskilstuna PG 4846800-3"
+{
+    #TRANS 2893 {} 1012.00 "Personal payment"
+    #TRANS 2893 {} -1012.00 "From shareholder account"
+}
+
+// 31. 2025-09-03 - Fortnox subscription
+#VER "" "PERSON-031" 20250903 "Swish FORTNOX FINANS AB"
+{
+    #TRANS 5410 {} 119.20 "Fortnox software ex VAT"
+    #TRANS 2641 {} 29.80 "VAT 25%"
+    #TRANS 2893 {} -149.00 "From shareholder account"
+}
+
+// 32. 2025-09-06 - Mälardalstrafik payment
+#VER "" "PERSON-032" 20250906 "Swish MÄLARDALSTRAFIK AKT"
+{
+    #TRANS 5610 {} 293.60 "Public transportation no VAT"
+    #TRANS 2641 {} 73.40 "VAT 25% calculated"
+    #TRANS 2893 {} -367.00 "From shareholder account"
+}
+
+// 33. 2025-09-19 - Barnbidrag (child benefit)
+#VER "" "PERSON-033" 20250919 "Government child benefit 1986021750700484"
+{
+    #TRANS 2893 {} -1325.00 "Government grant received"
+    #TRANS 2893 {} 1325.00 "To shareholder account"
+}
+
+// 34. 2025-09-19 - Bostadsbidraget (housing support)
+#VER "" "PERSON-034" 20250919 "Government housing support 1986021750700484"
+{
+    #TRANS 2893 {} -10400.00 "Government grant received"
+    #TRANS 2893 {} 10400.00 "To shareholder account"
+}
+
+// 35. 2025-09-21 - Swish inbetalning A Abdallah
+#VER "" "PERSON-035" 20250921 "Swish inbetalning A ABDALLAH"
+{
+    #TRANS 2893 {} -43.00 "Shareholder receives personal transfer"
+    #TRANS 2893 {} 43.00 "To shareholder account"
+}
+
+// 36. 2025-09-22 - Hi3G telecom payment
+#VER "" "PERSON-036" 20250922 "Telecom BG 319-9973"
+{
+    #TRANS 5410 {} 1288.80 "Telecom service ex VAT"
+    #TRANS 2641 {} 322.20 "VAT 25%"
+    #TRANS 2893 {} -1611.00 "From shareholder account"
+}
+
+// 37. 2025-09-22 - Nordea Premium payment
+#VER "" "PERSON-037" 20250922 "Nordea Premium payment PG 4173300-7"
+{
+    #TRANS 2893 {} 6338.00 "Nordea Premium card advance"
+    #TRANS 2893 {} -6338.00 "From shareholder account"
+}
+
+// 38. 2025-09-22 - Nordea Gold payment
+#VER "" "PERSON-038" 20250922 "Nordea Gold payment PG 4187600-4"
+{
+    #TRANS 2893 {} 2707.00 "Nordea Gold card advance"
+    #TRANS 2893 {} -2707.00 "From shareholder account"
+}
+
+// 39. 2025-09-22 - Swish MUMTAZ HUSEN
+#VER "" "PERSON-039" 20250922 "Swish MUMTAZ HUSEN"
+{
+    #TRANS 2893 {} 24.00 "Personal payment"
+    #TRANS 2893 {} -24.00 "From shareholder account"
+}
+
+// 40. 2025-09-24 - Open Banking Eskilstuna
+#VER "" "PERSON-040" 20250924 "Open Banking Eskilstuna PG 4846800-3"
+{
+    #TRANS 2893 {} 1041.00 "Personal payment"
+    #TRANS 2893 {} -1041.00 "From shareholder account"
+}
+
+// 41. 2025-09-24 - Swish YAKOB,CHRISTIAN
+#VER "" "PERSON-041" 20250924 "Swish YAKOB,CHRISTIAN"
+{
+    #TRANS 2893 {} 150.00 "Personal payment"
+    #TRANS 2893 {} -150.00 "From shareholder account"
+}
+
+// 42. 2025-09-24 - Swish inbetalning personal
+#VER "" "PERSON-042" 20250924 "Swish inbetalning ZEMO,WEINI"
+{
+    #TRANS 2893 {} -1000.00 "Shareholder receives personal transfer"
+    #TRANS 2893 {} 1000.00 "To shareholder account"
+}
+
+// 43. 2025-09-25 - Studiestöd (education support)
+#VER "" "PERSON-043" 20250925 "Government education support"
+{
+    #TRANS 2893 {} -15024.00 "Government grant received"
+    #TRANS 2893 {} 15024.00 "To shareholder account"
+}
+
+// 44. 2025-09-26 - Victoria payment (housing)
+#VER "" "PERSON-044" 20250926 "Housing payment BG 305-6520"
+{
+    #TRANS 5610 {} 14766.00 "Housing/accommodation no VAT"
+    #TRANS 2893 {} -14766.00 "From shareholder account"
+}
+
+// 45. 2025-09-26 - Swish Entercard
+#VER "" "PERSON-045" 20250926 "Swish ENTERCARD GROUP AB"
+{
+    #TRANS 2893 {} 4617.24 "Card payment"
+    #TRANS 2893 {} -4617.24 "From shareholder account"
+}
+
+// 46. 2025-09-26 - Swish BOSTADSB (housing support)
+#VER "" "PERSON-046" 20250926 "Government housing support 1986021750700484"
+{
+    #TRANS 2893 {} -5200.00 "Government grant received"
+    #TRANS 2893 {} 5200.00 "To shareholder account"
+}
+
+// 47. 2025-09-29 - Swish personal ALNABLSI,JOMANA
+#VER "" "PERSON-047" 20250929 "Swish inbetalning ALNABLSI,JOMANA"
+{
+    #TRANS 2893 {} -5000.00 "Shareholder receives personal transfer"
+    #TRANS 2893 {} 5000.00 "To shareholder account"
+}
+
+// 48. 2025-09-29 - Swish personal ALNABLSI,JOMANA
+#VER "" "PERSON-048" 20250929 "Swish inbetalning ALNABLSI,JOMANA"
+{
+    #TRANS 2893 {} -816.00 "Shareholder receives personal transfer"
+    #TRANS 2893 {} 816.00 "To shareholder account"
+}
+
+// 49. 2025-09-29 - Swish/BG American Express
+#VER "" "PERSON-049" 20250929 "Swish/Bankgiro American Express BG 5127-5477"
+{
+    #TRANS 2893 {} 2439.38 "Card payment"
+    #TRANS 2893 {} -2439.38 "From shareholder account"
+}
+
+// 50. 2025-09-30 - Betalning PG Bank Norway
+#VER "" "PERSON-050" 20250930 "Betalning PG 4187500-6 BANK NORWEGI"
+{
+    #TRANS 2893 {} 30250.00 "Bank Norway payment"
+    #TRANS 2893 {} -30250.00 "From shareholder account"
+}
+
+// 51. 2025-09-30 - Swish AHMAD AL-KHAMRA
+#VER "" "PERSON-051" 20250930 "Swish inbetalning AHMAD AL-KHAMRA"
+{
+    #TRANS 2893 {} -1976.00 "Shareholder receives personal transfer"
+    #TRANS 2893 {} 1976.00 "To shareholder account"
+}
+
+// 52. 2025-09-30 - Studiestöd (education support)
+#VER "" "PERSON-052" 20250930 "Government education support"
+{
+    #TRANS 2893 {} -625.00 "Government grant received"
+    #TRANS 2893 {} 625.00 "To shareholder account"
+}
+
+// 53. 2025-09-30 - Shareholder loan - ÅTERBETALNI from company
+#VER "" "PERSON-053" 20250930 "Shareholder loan repayment ÅTERBETALNI"
+{
+    #TRANS 2893 {} -27905.00 "Loan repayment - company returns debt"
+    #TRANS 2893 {} 27905.00 "Shareholder receives"
+}
+
+// 54. 2025-09-30 - 2893 skuld transaction
+#VER "" "PERSON-054" 20250930 "Shareholder personal account 2893 skuld"
+{
+    #TRANS 2893 {} -17000.00 "Shareholder debt account"
+    #TRANS 2893 {} 17000.00 "Personal account adjustment"
+}
+
+// AUDIT NOTES FOR PERSONKONTO:
+// - Account 3086 00 59626 is shareholder personal account
+// - All transactions route through account 2893 (shareholder personal debt)
+// - Government benefits (studiestöd, barnbidrag, bostadsbidraget) are grants received
+// - Card advances/payments (Nordea Premium, Gold, Entercard, AmEx) are personal
+// - Housing payments (Victoria, Mälardalstrafik) are personal expenses
+// - Telecom (Hi3G, Tele2) with 25% VAT (business usage)
+// - Travel expenses (flights, Moneygram transfers)
+// - All 54 transactions from CSV included with professional accounting treatment
+// - Account 2641 used for VAT on eligible business services
+

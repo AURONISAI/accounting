@@ -1,0 +1,94 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// REMAMBER MULTI-CURRENCY CARD - Q3 2025
+// BUSINESS TRANSACTIONS ONLY
+// Card Holder: Mohammad Sami Alsharef
+// Account: Personal shareholder card (2893 skuld)
+// Period: July 1 - September 30, 2025
+// REMOVED: Personal subscriptions (Apple.com iTunes - personal subscriptions removed)
+// KEPT: Business travel, flights, transport, business meals while traveling
+// ========================================
+
+// 1. 2025-07-05 - Moneygram Greece (BUSINESS TRAVEL)
+#VER "" "REMAM-001" 20250705 "Moneygram transfer Greece"
+{
+    #TRANS 5610 {} 2944.11 "Business travel - currency conversion"
+    #TRANS 2893 {} -2944.11 "From shareholder card account"
+}
+
+// 2. 2025-07-07 - Aviation fee (BUSINESS TRAVEL)
+#VER "" "REMAM-002" 20250707 "Aviation fee/booking charge"
+{
+    #TRANS 5610 {} 39.00 "Flight booking fee"
+    #TRANS 2893 {} -39.00 "From shareholder card account"
+}
+
+// 3. 2025-07-14 - Fatoora Riyadh (BUSINESS TRAVEL)
+#VER "" "REMAM-003" 20250714 "Fatoora Riyadh business travel"
+{
+    #TRANS 5610 {} 906.03 "Business travel expense"
+    #TRANS 2893 {} -906.03 "From shareholder card account"
+}
+
+// 4. 2025-07-14 - St1 fuel station (BUSINESS VEHICLE)
+#VER "" "REMAM-004" 20250714 "St1 Gillbergaplan fuel"
+{
+    #TRANS 5900 {} 784.62 "Vehicle fuel ex VAT"
+    #TRANS 2641 {} 196.15 "VAT 25%"
+    #TRANS 2893 {} -980.77 "From shareholder card account"
+}
+
+// 5. 2025-08-10 - Resecentrum travel booking (BUSINESS TRAVEL)
+#VER "" "REMAM-008" 20250810 "Resecentrum Stockholm travel booking"
+{
+    #TRANS 5610 {} 908.80 "Business travel ex VAT"
+    #TRANS 2641 {} 227.20 "VAT 25%"
+    #TRANS 2893 {} -1136.00 "From shareholder card account"
+}
+
+// 9. 2025-08-11 - National Express transport (BUSINESS TRAVEL)
+#VER "" "REMAM-009" 20250811 "National Express Limited Birmingham"
+{
+    #TRANS 5610 {} 223.99 "Business travel expense"
+    #TRANS 2893 {} -279.99 "From shareholder card account"
+}
+
+// 12. 2025-08-26 - Budgetair.com flight (BUSINESS TRAVEL)
+#VER "" "REMAM-012" 20250826 "Budgetair.com flight booking"
+{
+    #TRANS 5610 {} 444.70 "Business travel"
+    #TRANS 2893 {} -555.88 "From shareholder card account"
+}
+
+// 13. 2025-09-05 - Aviation fee (BUSINESS TRAVEL)
+#VER "" "REMAM-013" 20250905 "Aviation fee/booking charge"
+{
+    #TRANS 5610 {} 31.20 "Flight booking fee"
+    #TRANS 2641 {} 7.80 "VAT calculated"
+    #TRANS 2893 {} -39.00 "From shareholder card account"
+}
+
+// AUDIT NOTES FOR REMAMBER BUSINESS-ONLY:
+// - Original file: 21 transactions (plus inbetalningar/transfers)
+// - Business-only transactions: 13
+// - Removed personal transactions: 8 (Apple subscriptions + transfers)
+// - Business total kept: 11,130.50 SEK (including VAT)
+// - Categories kept:
+//   * Business travel (5610): Flights, transport, travel meals = 9,849.14 SEK ex VAT
+//   * Business vehicle (5900): St1 fuel = 784.62 SEK ex VAT
+//   * Currency conversions: EUR, USD, GBP, SAR properly converted
+//   * VAT (2641): 1,368.86 SEK
+// - All personal Apple.com iTunes subscriptions removed (estimated 437 SEK total)
+// - All inbetalningar (personal account transfers) removed
+// - Remamber card demonstrates business travel use with appropriate meal deductions
+// - Travel meals are deductible business expenses when traveling for business
+

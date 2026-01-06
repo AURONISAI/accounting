@@ -1,0 +1,3 @@
+provider,location,transaction_type,booking_date,payment_plan,base_amount_sek,interest_sek,total_amount_sek,monthly_payment_sek,last_payment_sek,autopay_status,payment_reference,klarna_order_reference,category,currency_original,notes,original_amount_cny,exchange_rate,exchange_fee
+Booking.com,"Liuhua Hotel, Guangzhou",Installment,2025-11-24 23:55,6 months,6786.0,392.53,7178.53,1197.78,1189.63,On,1934853009009268,M8G316X1,Travel Other,SEK,China work visit accommodation,,,
+Booking.com,"Liuhua Hotel, Guangzhou",Pay later,2025-11-29 06:06,30 days,4387.38,0.0,4486.38,4486.38,4486.38,Off,1461943104009262,V6SM55SX,Travel Other,CNY,China work visit accommodation,3263.64,1.3444,0.0

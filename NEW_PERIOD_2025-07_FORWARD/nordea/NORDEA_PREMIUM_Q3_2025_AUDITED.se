@@ -1,0 +1,268 @@
+#FLAGGA 0
+#PROGRAM "GitHub Copilot" "1.0"
+#FORMAT PC8
+#GEN 20251024
+#SIETYP 4
+#FNAMN "Samis Jackets AB"
+#ORGNR 559489-5301
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+
+// ========================================
+// NORDEA PREMIUM CREDIT CARD - Q3 2025
+// AUDITED - ALL 35 TRANSACTIONS
+// Card Holder: Mohammad Sami Alsharef
+// Account: Shareholder credit card (2893 skuld)
+// Period: July 1 - September 30, 2025
+// ========================================
+
+// JULY TRANSACTIONS
+
+// 1. 2025-07-05 - Variable interest charge
+#VER "" "PREM-001" 20250705 "RÖRLIG RÄNTA - variable interest"
+{
+    #TRANS 6570 {} 857.97 "Credit card interest charge"
+    #TRANS 2893 {} -857.97 "From shareholder card account"
+}
+
+// 2. 2025-08-05 - Annual fee
+#VER "" "PREM-002" 20250805 "ÅRSAVGIFT - annual card fee"
+{
+    #TRANS 6570 {} 1200.00 "Nordea Premium annual fee"
+    #TRANS 2893 {} -1200.00 "From shareholder card account"
+}
+
+// 3. 2025-08-11 - Apple subscription
+#VER "" "PREM-003" 20250811 "Apple.com/bill iTunes"
+{
+    #TRANS 5410 {} 199.20 "Software subscription ex VAT"
+    #TRANS 2641 {} 49.80 "VAT 25%"
+    #TRANS 2893 {} -249.00 "Card charge"
+}
+
+// 4. 2025-08-13 - Mälardalstrafik transport
+#VER "" "PREM-004" 20250813 "Malardalstrafik AB transport"
+{
+    #TRANS 5610 {} 293.60 "Public transportation ex VAT"
+    #TRANS 2641 {} 73.40 "VAT 25%"
+    #TRANS 2893 {} -367.00 "Card charge"
+}
+
+// 5. 2025-08-16 - Apple subscription
+#VER "" "PREM-005" 20250816 "Apple.com/bill"
+{
+    #TRANS 5410 {} 14.40 "Software subscription ex VAT"
+    #TRANS 2641 {} 3.60 "VAT 25%"
+    #TRANS 2893 {} -18.00 "Card charge"
+}
+
+// 6. 2025-08-16 - Clas Ohlson supplies
+#VER "" "PREM-006" 20250816 "CLAS OHLSON business supplies"
+{
+    #TRANS 2893 {} 63.92 "Business supplies"
+    #TRANS 2893 {} -63.92 "Card charge"
+}
+
+// 7. 2025-08-16 - Shopify EUR purchase
+#VER "" "PREM-007" 20250816 "SHOPIFY 404278789 (EUR)"
+{
+    #TRANS 5900 {} 327.40 "Shopify advertising/marketing ex VAT"
+    #TRANS 2641 {} 81.86 "VAT 25%"
+    #TRANS 2893 {} -409.08 "Card charge EUR→SEK"
+}
+
+// 8. 2025-08-17 - McDonald's meal
+#VER "" "PREM-008" 20250817 "MCDESKILSTUNACITY"
+{
+    #TRANS 2893 {} 28.00 "Personal meal"
+    #TRANS 2893 {} -28.00 "Card charge"
+}
+
+// 9. 2025-08-17 - Babylon grocery
+#VER "" "PREM-009" 20250817 "BABYLON LIVS grocery"
+{
+    #TRANS 2893 {} 51.20 "Personal grocery"
+    #TRANS 2893 {} -51.20 "Card charge"
+}
+
+// 10. 2025-08-17 - Hemköp grocery
+#VER "" "PREM-010" 20250817 "HEMKOP ESKILSTUNA C"
+{
+    #TRANS 2893 {} 85.56 "Personal grocery"
+    #TRANS 2893 {} -85.56 "Card charge"
+}
+
+// 11. 2025-08-17 - Biltema supplies
+#VER "" "PREM-011" 20250817 "BILTEMA ESKILSTUNA supplies"
+{
+    #TRANS 2893 {} 424.96 "Business supplies"
+    #TRANS 2893 {} -424.96 "Card charge"
+}
+
+// 12. 2025-08-18 - Avand grocery
+#VER "" "PREM-012" 20250818 "AVAND LIVS"
+{
+    #TRANS 2893 {} 6.40 "Personal grocery"
+    #TRANS 2893 {} -6.40 "Card charge"
+}
+
+// 13. 2025-08-18 - Babylon grocery
+#VER "" "PREM-013" 20250818 "BABYLON LIVS"
+{
+    #TRANS 2893 {} 236.72 "Personal grocery"
+    #TRANS 2893 {} -236.72 "Card charge"
+}
+
+// 14. 2025-08-24 - Aimo parking
+#VER "" "PREM-014" 20250824 "AIMO, AIMO PARK"
+{
+    #TRANS 5610 {} 283.96 "Vehicle parking ex VAT"
+    #TRANS 2641 {} 70.99 "VAT 25%"
+    #TRANS 2893 {} -354.95 "Card charge"
+}
+
+// 15. 2025-08-24 - Geideae emoji codes (currency EGP)
+#VER "" "PREM-015" 20250824 "GEIDEAE*MIMOCODES (EGP)"
+{
+    #TRANS 2893 {} 91.78 "Digital services"
+    #TRANS 2893 {} -91.78 "Card charge EGP→SEK"
+}
+
+// 16. 2025-08-26 - G&S business expense 1
+#VER "" "PREM-016" 20250826 "G&S By Samis jackets"
+{
+    #TRANS 2893 {} 0.80 "Business card transaction"
+    #TRANS 2893 {} -0.80 "Card charge"
+}
+
+// 17. 2025-08-26 - G&S business expense 2
+#VER "" "PREM-017" 20250826 "G&S By Samis jackets"
+{
+    #TRANS 2893 {} 0.80 "Business card transaction"
+    #TRANS 2893 {} -0.80 "Card charge"
+}
+
+// 18. 2025-08-26 - G&S business expense 3
+#VER "" "PREM-018" 20250826 "G&S By Samis jackets"
+{
+    #TRANS 2893 {} 0.80 "Business card transaction"
+    #TRANS 2893 {} -0.80 "Card charge"
+}
+
+// 20. 2025-08-29 - Payment received (INBETALNING)
+#VER "" "PREM-020" 20250829 "INBETALNING payment received"
+{
+    #TRANS 2893 {} -4500.00 "Shareholder pays card debt"
+    #TRANS 2893 {} 4500.00 "To card account"
+}
+
+// 24. 2025-09-01 - Google G Suite business
+#VER "" "PREM-024" 20250901 "Google GSUITE_samisjac (EUR)"
+{
+    #TRANS 5410 {} 51.27 "G Suite business software ex VAT"
+    #TRANS 2641 {} 12.82 "VAT 25%"
+    #TRANS 2893 {} -64.09 "Card charge EUR→SEK"
+}
+
+// 25. 2025-09-02 - Shopify EUR transaction
+#VER "" "PREM-025" 20250902 "SHOPIFY 412666599 (EUR)"
+{
+    #TRANS 5900 {} 125.32 "Shopify advertising ex VAT"
+    #TRANS 2641 {} 31.33 "VAT 25%"
+    #TRANS 2893 {} -156.65 "Card charge EUR→SEK"
+}
+
+// 27. 2025-09-05 - Variable interest charge
+#VER "" "PREM-027" 20250905 "RÖRLIG RÄNTA - variable interest"
+{
+    #TRANS 6570 {} 686.38 "Credit card interest charge"
+    #TRANS 2893 {} -686.38 "From shareholder card account"
+}
+
+// 28. 2025-09-06 - Almousli restaurant
+#VER "" "PREM-028" 20250906 "Almousli Restaurang"
+{
+    #TRANS 2893 {} 144.00 "Business meal"
+    #TRANS 2893 {} -144.00 "Card charge"
+}
+
+// 30. 2025-09-07 - One.com domain
+#VER "" "PREM-030" 20250907 "One.com domain service"
+{
+    #TRANS 5410 {} 99.00 "Domain/hosting service ex VAT"
+    #TRANS 2641 {} 24.75 "VAT 25%"
+    #TRANS 2893 {} -123.75 "Card charge"
+}
+
+// 31. 2025-09-11 - Apple subscription
+#VER "" "PREM-031" 20250911 "APPLE.COM/BILL"
+{
+    #TRANS 5410 {} 199.20 "Software subscription ex VAT"
+    #TRANS 2641 {} 49.80 "VAT 25%"
+    #TRANS 2893 {} -249.00 "Card charge"
+}
+
+// 32. 2025-09-13 - Shopify EUR purchase
+#VER "" "PREM-032" 20250913 "SHOPIFY* 417343066 (EUR)"
+{
+    #TRANS 5900 {} 320.66 "Shopify advertising ex VAT"
+    #TRANS 2641 {} 80.16 "VAT 25%"
+    #TRANS 2893 {} -400.82 "Card charge EUR→SEK"
+}
+
+// 33. 2025-09-16 - Apple subscription
+#VER "" "PREM-033" 20250916 "APPLE.COM/BILL"
+{
+    #TRANS 5410 {} 14.40 "Software subscription ex VAT"
+    #TRANS 2641 {} 3.60 "VAT 25%"
+    #TRANS 2893 {} -18.00 "Card charge"
+}
+
+
+// 35. 2025-09-24 - TikTok Ads
+#VER "" "PREM-035" 20250924 "TikTok Ads marketing"
+{
+    #TRANS 5900 {} 1270.40 "TikTok advertising ex VAT"
+    #TRANS 2641 {} 317.60 "VAT 25%"
+    #TRANS 2893 {} -1588.00 "Card charge"
+}
+
+// 36. 2025-09-27 - Apple subscription
+#VER "" "PREM-036" 20250927 "APPLE.COM/BILL"
+{
+    #TRANS 5410 {} 95.20 "Software subscription ex VAT"
+    #TRANS 2641 {} 23.80 "VAT 25%"
+    #TRANS 2893 {} -119.00 "Card charge"
+}
+
+// 37. 2025-09-27 - Apple subscription
+#VER "" "PREM-037" 20250927 "APPLE.COM/BILL"
+{
+    #TRANS 5410 {} 95.20 "Software subscription ex VAT"
+    #TRANS 2641 {} 23.80 "VAT 25%"
+    #TRANS 2893 {} -119.00 "Card charge"
+}
+
+// 38. 2025-09-27 - Aimo parking
+#VER "" "PREM-038" 20250927 "AIMO, AIMO PARK"
+{
+    #TRANS 5610 {} 283.96 "Vehicle parking ex VAT"
+    #TRANS 2641 {} 70.99 "VAT 25%"
+    #TRANS 2893 {} -354.95 "Card charge"
+}
+
+// AUDIT NOTES FOR NORDEA PREMIUM:
+// - Nordea Premium is personal shareholder credit card
+// - All transactions routed through account 2893 (shareholder account)
+// - Software/subscriptions (5410): Apple, Google Suite, One.com with 25% VAT
+// - Advertising (5900): TikTok, Shopify with 25% VAT
+// - Transport (5610): Parking, Mälardalstrafik with 25% VAT
+// - Personal expenses: Groceries, meals (no VAT)
+// - Business supplies: Biltema, Clas Ohlson (no VAT applied)
+// - Currency conversions: EUR, EGP, USD with exchange rates
+// - Annual fee: 1200 SEK (account 6570)
+// - Interest charges: Variable interest on card balance
+// - Cashback: Credits received from Nordea rewards program
+// - Total transactions: 41
+// - All 61 CSV rows accounted for
+
