@@ -220,6 +220,7 @@
 #KONTO 6359 "Konstaterade forluster pa kundfordringar, OSS"
 #KONTO 6420 "Ersattningar till revisor"
 #KONTO 6500 "Ovriga externa tjanster"
+#KONTO 6530 "Forseningsavgifter"
 #KONTO 6540 "IT-tjanster"
 #KONTO 6570 "Bankkostnader"
 #KONTO 6590 "Ovriga externa tjanster"
@@ -334,1396 +335,1650 @@
 #RES 0 8311 -146.53
 
 
-#VER V 1 20251006 "St1 Gillbergaplan - Company fuel"
+#VER A 765 20251006 "St1 Gillbergaplan - Company fuel"
 {
 #TRANS 5611 {} 725.18
 #TRANS 2641 {} 181.29
 #TRANS 2893 {} -906.47
 }
-#VER A 1 20251007 "TEMU.COM - Company purchase"
+
+#VER A 766 20251007 "TEMU.COM - Company purchase"
 {
 #TRANS 4000 {} 893.82
 #TRANS 2641 {} 223.46
 #TRANS 2893 {} -1117.28
 }
-#VER A 2 20251009 "AMAZONMKTPLC - Company purchase"
+
+#VER A 767 20251009 "AMAZONMKTPLC - Company purchase"
 {
 #TRANS 4000 {} 1035.10
 #TRANS 2641 {} 258.77
 #TRANS 2893 {} -1293.87
 }
-#VER R 1 20251010 "PEGASUS Turkey flight - Company travel"
+
+#VER A 768 20251010 "PEGASUS Turkey flight - Company travel"
 {
 #TRANS 5810 {} 867.14
 #TRANS 2893 {} -867.14
 }
-#VER A 3 20251016 "TEMU.COM refund"
+
+#VER A 769 20251016 "TEMU.COM refund"
 {
 #TRANS 4000 {} -101.30
 #TRANS 2641 {} -25.32
 #TRANS 2893 {} 126.62
 }
-#VER A 4 20251016 "TEMU.COM refund"
+
+#VER A 770 20251016 "TEMU.COM refund"
 {
 #TRANS 4000 {} -19.71
 #TRANS 2641 {} -4.93
 #TRANS 2893 {} 24.64
 }
-#VER P 1 20251124 "APPLE.COM/BILL - iCloud company"
+
+#VER A 771 20251124 "APPLE.COM/BILL - iCloud company"
 {
 #TRANS 5420 {} 199.20
 #TRANS 2641 {} 49.80
 #TRANS 2893 {} -249.00
 }
-#VER Y 1 20251127 "FOREX 861 Arlanda - Future World Tech loan"
+
+#VER A 772 20251127 "FOREX 861 Arlanda - Future World Tech loan"
 {
 #TRANS 2893 {} -6500.00
 #TRANS 2441 {} 6500.00
 }
-#VER Y 2 20251127 "FOREX 861 Arlanda - Future World Tech loan"
+
+#VER A 773 20251127 "FOREX 861 Arlanda - Future World Tech loan"
 {
 #TRANS 2893 {} -10000.00
 #TRANS 2441 {} 10000.00
 }
-#VER Y 3 20251127 "FOREX 861 Arlanda - Future World Tech loan"
+
+#VER A 774 20251127 "FOREX 861 Arlanda - Future World Tech loan"
 {
 #TRANS 2893 {} -10000.00
 #TRANS 2441 {} 10000.00
 }
-#VER C 1 20251002 "Hallon SEK 100.00 SEK"
+
+#VER A 775 20251002 "Hallon SEK 100.00 SEK"
 {
 #TRANS 6212 {} 80.00
 #TRANS 2641 {} 20.00
 #TRANS 1945 {} -100.00
 }
-#VER C 2 20251002 "Hallon USD 9.40 USD kurs 9.35988"
+
+#VER A 776 20251002 "Hallon USD 9.40 USD kurs 9.35988"
 {
 #TRANS 6212 {} 70.40
 #TRANS 2641 {} 17.60
 #TRANS 1942 {} -88.00
 }
-#VER X 1 20251003 "Shopify EUR inbetalning 103.75 EUR"
+
+#VER A 777 20251003 "Shopify EUR inbetalning 103.75 EUR"
 {
 #TRANS 1944 {} 1193.13
 #TRANS 1580 {} -1193.13
 }
-#VER X 2 20251006 "Wise avgift SEK 26.20 SEK"
+
+#VER A 778 20251006 "Wise avgift SEK 26.20 SEK"
 {
 #TRANS 6570 {} 26.20
 #TRANS 1945 {} -26.20
 }
-#VER X 3 20251006 "SEK till TRY 12486 SEK kurs 4.43116"
+
+#VER A 779 20251006 "SEK till TRY 12486 SEK kurs 4.43116"
 {
 #TRANS 1945 {} -12486.00
 #TRANS 1940 {} 12432.54
 #TRANS 6570 {} 53.46
 }
-#VER X 4 20251006 "EUR till TRY 124.81 EUR kurs 48.6857"
+
+#VER A 780 20251006 "EUR till TRY 124.81 EUR kurs 48.6857"
 {
 #TRANS 1944 {} -1436.55
 #TRANS 1940 {} 1430.21
 #TRANS 6570 {} 6.34
 }
-#VER A 5 20251006 "Loan repayment TRY 61066.41 TRY kurs 4.43"
+
+#VER A 781 20251006 "Loan repayment TRY 61066.41 TRY kurs 4.43"
 {
 #TRANS 2893 {} 13862.75
 #TRANS 1940 {} -13862.75
 }
-#VER X 5 20251010 "Shopify EUR inbetalning 86.12 EUR"
+
+#VER A 782 20251010 "Shopify EUR inbetalning 86.12 EUR"
 {
 #TRANS 1944 {} 990.38
 #TRANS 1580 {} -990.38
 }
-#VER X 6 20251010 "SEK till USD 2870 SEK kurs 0.105"
+
+#VER A 783 20251010 "SEK till USD 2870 SEK kurs 0.105"
 {
 #TRANS 1945 {} -2870.00
 #TRANS 1942 {} 2857.14
 #TRANS 6570 {} 12.86
 }
-#VER A 6 20251010 "Loan repayment USD 320.00 USD"
+
+#VER A 784 20251010 "Loan repayment USD 320.00 USD"
 {
 #TRANS 2893 {} 2944.00
 #TRANS 1942 {} -2944.00
 }
-#VER X 7 20251017 "Shopify EUR inbetalning 418.35 EUR"
+
+#VER A 785 20251017 "Shopify EUR inbetalning 418.35 EUR"
 {
 #TRANS 1944 {} 4811.03
 #TRANS 1580 {} -4811.03
 }
-#VER O 1 20251017 "Temu forpackning SEK 548.87 SEK"
+
+#VER A 786 20251017 "Temu forpackning SEK 548.87 SEK"
 {
 #TRANS 5460 {} 548.87
 #TRANS 1945 {} -548.87
 }
-#VER X 8 20251024 "Shopify EUR inbetalning 154.12 EUR"
+
+#VER A 787 20251024 "Shopify EUR inbetalning 154.12 EUR"
 {
 #TRANS 1944 {} 1772.38
 #TRANS 1580 {} -1772.38
 }
-#VER P 2 20251024 "One.com SEK 11.25 SEK"
+
+#VER A 788 20251024 "One.com SEK 11.25 SEK"
 {
 #TRANS 5420 {} 9.00
 #TRANS 2641 {} 2.25
 #TRANS 1945 {} -11.25
 }
-#VER P 3 20251027 "Google Play app SEK 176.40 SEK"
+
+#VER A 789 20251027 "Google Play app SEK 176.40 SEK"
 {
 #TRANS 5420 {} 176.40
 #TRANS 1945 {} -176.40
 }
-#VER P 4 20251027 "Google Play app SEK 176.40 SEK"
+
+#VER A 790 20251027 "Google Play app SEK 176.40 SEK"
 {
 #TRANS 5420 {} 176.40
 #TRANS 1945 {} -176.40
 }
-#VER P 5 20251031 "YouTube Premium SEK 10.00 SEK"
+
+#VER A 791 20251031 "YouTube Premium SEK 10.00 SEK"
 {
 #TRANS 5420 {} 10.00
 #TRANS 1945 {} -10.00
 }
-#VER N 1 20251101 "TikTok Ads SEK 748.05 SEK"
+
+#VER A 792 20251101 "TikTok Ads SEK 748.05 SEK"
 {
 #TRANS 5900 {} 748.05
 #TRANS 1945 {} -748.05
 }
-#VER O 2 20251101 "Temu refund SEK 30.97 SEK"
+
+#VER A 793 20251101 "Temu refund SEK 30.97 SEK"
 {
 #TRANS 1945 {} 30.97
 #TRANS 5460 {} -30.97
 }
-#VER N 2 20251101 "TikTok Ads EUR 23.45 EUR kurs 10.9513"
+
+#VER A 794 20251101 "TikTok Ads EUR 23.45 EUR kurs 10.9513"
 {
 #TRANS 5900 {} 256.81
 #TRANS 1944 {} -259.10
 #TRANS 6570 {} 2.29
 }
-#VER C 3 20251102 "Hallon EUR 11.78 EUR kurs 10.9513"
+
+#VER A 795 20251102 "Hallon EUR 11.78 EUR kurs 10.9513"
 {
 #TRANS 6212 {} 103.20
 #TRANS 2641 {} 25.80
 #TRANS 1944 {} -129.88
 #TRANS 6570 {} 0.88
 }
-#VER X 9 20251106 "Cashback EUR 0.15 EUR"
+
+#VER A 796 20251106 "Cashback EUR 0.15 EUR"
 {
 #TRANS 1944 {} 1.73
 #TRANS 8311 {} -1.73
 }
-#VER X 10 20251107 "Shopify EUR inbetalning 371.75 EUR"
+
+#VER A 797 20251107 "Shopify EUR inbetalning 371.75 EUR"
 {
 #TRANS 1944 {} 4275.13
 #TRANS 1580 {} -4275.13
 }
-#VER X 11 20251114 "Shopify EUR inbetalning 86.37 EUR"
+
+#VER A 798 20251114 "Shopify EUR inbetalning 86.37 EUR"
 {
 #TRANS 1944 {} 993.32
 #TRANS 1580 {} -993.32
 }
-#VER B 1 20251114 "Shipit.se frakt EUR 91.08 EUR kurs 10.9795"
+
+#VER A 799 20251114 "Shipit.se frakt EUR 91.08 EUR kurs 10.9795"
 {
 #TRANS 5700 {} 800.00
 #TRANS 2641 {} 200.00
 #TRANS 1944 {} -1004.63
 #TRANS 6570 {} 4.63
 }
-#VER N 3 20251119 "TikTok Ads EUR 178.32 EUR kurs 11.0027"
+
+#VER A 800 20251119 "TikTok Ads EUR 178.32 EUR kurs 11.0027"
 {
 #TRANS 5900 {} 1962.00
 #TRANS 1944 {} -1974.10
 #TRANS 6570 {} 12.10
 }
-#VER X 12 20251121 "Shopify EUR inbetalning 1398.29 EUR"
+
+#VER A 801 20251121 "Shopify EUR inbetalning 1398.29 EUR"
 {
 #TRANS 1944 {} 16080.33
 #TRANS 1580 {} -16080.33
 }
-#VER V 2 20251123 "St1 drivmedel EUR 37.82 EUR kurs 10.999"
+
+#VER A 802 20251123 "St1 drivmedel EUR 37.82 EUR kurs 10.999"
 {
 #TRANS 5610 {} 332.76
 #TRANS 2641 {} 83.18
 #TRANS 1944 {} -415.94
 }
-#VER B 2 20251125 "Booking.com flight EUR 624.99 EUR kurs 1.15685"
+
+#VER A 803 20251125 "Booking.com flight EUR 624.99 EUR kurs 1.15685"
 {
 #TRANS 5810 {} 7187.39
 #TRANS 1944 {} -7220.46
 #TRANS 6570 {} 33.07
 }
-#VER R 2 20251125 "Booking.com USD 0.98 USD"
+
+#VER A 804 20251125 "Booking.com USD 0.98 USD"
 {
 #TRANS 5810 {} 9.02
 #TRANS 1942 {} -9.02
 }
-#VER R 3 20251127 "Forex EUR 2.91 EUR kurs 10.9894"
+
+#VER A 805 20251127 "Forex EUR 2.91 EUR kurs 10.9894"
 {
 #TRANS 5810 {} 25.61
 #TRANS 2641 {} 6.40
 #TRANS 1944 {} -32.13
 #TRANS 6570 {} 0.12
 }
-#VER R 4 20251127 "Arlanda Walk Through EUR 32.00 EUR kurs 10.9989"
+
+#VER A 806 20251127 "Arlanda Walk Through EUR 32.00 EUR kurs 10.9989"
 {
 #TRANS 5810 {} 281.60
 #TRANS 2641 {} 70.40
 #TRANS 1944 {} -353.55
 #TRANS 6570 {} 1.55
 }
-#VER R 5 20251127 "Jureskog mat EUR 52.65 EUR kurs 10.9975"
+
+#VER A 807 20251127 "Jureskog mat EUR 52.65 EUR kurs 10.9975"
 {
 #TRANS 5810 {} 516.96
 #TRANS 2641 {} 62.04
 #TRANS 1944 {} -582.18
 #TRANS 6570 {} 3.18
 }
-#VER R 6 20251127 "Take Away Mart EUR 4.46 EUR kurs 10.9952"
+
+#VER A 808 20251127 "Take Away Mart EUR 4.46 EUR kurs 10.9952"
 {
 #TRANS 5810 {} 43.75
 #TRANS 2641 {} 5.25
 #TRANS 1944 {} -49.28
 #TRANS 6570 {} 0.28
 }
-#VER B 3 20251128 "Beijing Airport mat EUR 0.98 EUR kurs 8.19996 CNY"
+
+#VER A 809 20251128 "Beijing Airport mat EUR 0.98 EUR kurs 8.19996 CNY"
 {
 #TRANS 5810 {} 10.90
 #TRANS 1944 {} -11.00
 #TRANS 6570 {} 0.10
 }
-#VER X 13 20251128 "Shopify EUR inbetalning 2199.39 EUR"
+
+#VER A 810 20251128 "Shopify EUR inbetalning 2199.39 EUR"
 {
 #TRANS 1944 {} 25292.99
 #TRANS 1580 {} -25292.99
 }
-#VER X 14 20251128 "EUR till SEK 3633.31 EUR kurs 10.9945"
+
+#VER A 811 20251128 "EUR till SEK 3633.31 EUR kurs 10.9945"
 {
 #TRANS 1944 {} -40174.82
 #TRANS 1945 {} 39946.43
 #TRANS 6570 {} 228.39
 }
-#VER A 7 20251128 "Overforing till Marginalen SEK 39934.97 SEK"
+
+#VER A 812 20251128 "Overforing till Marginalen SEK 39934.97 SEK"
 {
 #TRANS 1930 {} 39934.97
 #TRANS 1945 {} -39934.97
 }
-#VER X 15 20251203 "Cashback EUR 0.47 EUR"
+
+#VER A 813 20251203 "Cashback EUR 0.47 EUR"
 {
 #TRANS 1944 {} 5.41
 #TRANS 8311 {} -5.41
 }
-#VER Y 4 20251204 "Future World Tech Kina 31472.19 USD kurs 0.10645"
+
+#VER A 814 20251204 "Future World Tech Kina 31472.19 USD kurs 0.10645"
 {
 #TRANS 2441 {} 295641.24
 #TRANS 6570 {} 1358.76
 #TRANS 1945 {} -297000.00
 }
-#VER X 16 20251205 "Shopify EUR inbetalning 573.75 EUR"
+
+#VER A 815 20251205 "Shopify EUR inbetalning 573.75 EUR"
 {
 #TRANS 1944 {} 6598.13
 #TRANS 1580 {} -6598.13
 }
-#VER X 17 20251208 "Shopify avgift EUR 106.61 EUR"
+
+#VER A 816 20251208 "Shopify avgift EUR 106.61 EUR"
 {
 #TRANS 6570 {} 1226.58
 #TRANS 1944 {} -1226.58
 }
-#VER X 18 20251208 "EUR till USD 465.94 EUR kurs 1.1651"
+
+#VER A 817 20251208 "EUR till USD 465.94 EUR kurs 1.1651"
 {
 #TRANS 1944 {} -5374.86
 #TRANS 1942 {} 5355.62
 #TRANS 6570 {} 19.24
 }
-#VER X 19 20251209 "SEK till USD 15546 SEK kurs 0.10707"
+
+#VER A 818 20251209 "SEK till USD 15546 SEK kurs 0.10707"
 {
 #TRANS 1945 {} -15546.00
 #TRANS 1942 {} 15437.54
 #TRANS 6570 {} 108.46
 }
-#VER B 4 20251211 "Beijing mat USD 75.61 USD kurs 7.0621 CNY"
+
+#VER A 819 20251211 "Beijing mat USD 75.61 USD kurs 7.0621 CNY"
 {
 #TRANS 5810 {} 700.65
 #TRANS 1942 {} -702.23
 #TRANS 6570 {} 1.58
 }
-#VER B 5 20251211 "Malardalstrafik USD 79.49 USD kurs 9.23423"
+
+#VER A 820 20251211 "Malardalstrafik USD 79.49 USD kurs 9.23423"
 {
 #TRANS 5810 {} 692.45
 #TRANS 2641 {} 41.55
 #TRANS 1942 {} -735.49
 #TRANS 6570 {} 1.49
 }
-#VER X 20 20251212 "Shopify EUR inbetalning 58.31 EUR"
+
+#VER A 821 20251212 "Shopify EUR inbetalning 58.31 EUR"
 {
 #TRANS 1944 {} 670.55
 #TRANS 1580 {} -670.55
 }
-#VER V 3 20251212 "Circle K drivmedel USD 67.13 USD kurs 9.28897"
+
+#VER A 822 20251212 "Circle K drivmedel USD 67.13 USD kurs 9.28897"
 {
 #TRANS 5610 {} 498.82
 #TRANS 2641 {} 124.71
 #TRANS 1942 {} -624.65
 #TRANS 6570 {} 1.12
 }
-#VER B 6 20251212 "Fadushka mat USD 2.16 USD kurs 9.27977"
+
+#VER A 823 20251212 "Fadushka mat USD 2.16 USD kurs 9.27977"
 {
 #TRANS 5810 {} 17.86
 #TRANS 2641 {} 2.14
 #TRANS 1942 {} -20.07
 #TRANS 6570 {} 0.07
 }
-#VER X 21 20251214 "Shopify abonnemang EUR 36.00 EUR"
+
+#VER A 824 20251214 "Shopify abonnemang EUR 36.00 EUR"
 {
 #TRANS 5420 {} 414.00
 #TRANS 1944 {} -414.00
 }
-#VER X 22 20251215 "Shopify avgift EUR 2.88 EUR"
+
+#VER A 825 20251215 "Shopify avgift EUR 2.88 EUR"
 {
 #TRANS 6570 {} 33.12
 #TRANS 1944 {} -33.12
 }
-#VER X 23 20251217 "Shopify avgift EUR 19.43 EUR"
+
+#VER A 826 20251217 "Shopify avgift EUR 19.43 EUR"
 {
 #TRANS 6570 {} 223.44
 #TRANS 1944 {} -223.44
 }
-#VER X 24 20251217 "Shopify avgift USD 32.95 USD kurs 0.85346"
+
+#VER A 827 20251217 "Shopify avgift USD 32.95 USD kurs 0.85346"
 {
 #TRANS 6570 {} 303.60
 #TRANS 1942 {} -303.60
 }
-#VER B 7 20251217 "Loan repayment USD 225.96 USD kurs 9.33791"
+
+#VER A 828 20251217 "Loan repayment USD 225.96 USD kurs 9.33791"
 {
 #TRANS 2893 {} 2110.00
 #TRANS 1942 {} -2114.00
 #TRANS 6570 {} 4.00
 }
-#VER B 8 20251219 "One.com USD 13.75 USD kurs 9.31722"
+
+#VER A 829 20251219 "One.com USD 13.75 USD kurs 9.31722"
 {
 #TRANS 5420 {} 102.50
 #TRANS 2641 {} 25.63
 #TRANS 1942 {} -128.48
 #TRANS 6570 {} 0.35
 }
-#VER B 9 20251224 "Bolagsverket USD 240.06 USD kurs 9.16446"
+
+#VER A 830 20251224 "Bolagsverket USD 240.06 USD kurs 9.16446"
 {
 #TRANS 6991 {} 2200.00
 #TRANS 1942 {} -2204.70
 #TRANS 6570 {} 4.70
 }
-#VER B 10 20251224 "PRV registrering USD 294.43 USD kurs 9.17034"
+
+#VER A 831 20251224 "PRV registrering USD 294.43 USD kurs 9.17034"
 {
 #TRANS 6991 {} 2700.00
 #TRANS 1942 {} -2705.72
 #TRANS 6570 {} 5.72
 }
-#VER N 4 20251225 "TikTok Ads USD 179.76 USD kurs 9.17929"
+
+#VER A 832 20251225 "TikTok Ads USD 179.76 USD kurs 9.17929"
 {
 #TRANS 5900 {} 1650.10
 #TRANS 1942 {} -1653.36
 #TRANS 6570 {} 3.26
 }
-#VER B 11 20251225 "Loan repayment USD 205.02 USD kurs 9.17442"
+
+#VER A 833 20251225 "Loan repayment USD 205.02 USD kurs 9.17442"
 {
 #TRANS 2893 {} 1880.94
 #TRANS 1942 {} -1884.80
 #TRANS 6570 {} 3.86
 }
-#VER B 12 20251225 "Loan repayment USD 7.49 USD kurs 9.17442"
+
+#VER A 834 20251225 "Loan repayment USD 7.49 USD kurs 9.17442"
 {
 #TRANS 2893 {} 68.70
 #TRANS 1942 {} -68.82
 #TRANS 6570 {} 0.12
 }
-#VER B 13 20251225 "Loan repayment USD 63.11 USD kurs 9.17442"
+
+#VER A 835 20251225 "Loan repayment USD 63.11 USD kurs 9.17442"
 {
 #TRANS 2893 {} 579.00
 #TRANS 1942 {} -580.23
 #TRANS 6570 {} 1.23
 }
-#VER X 25 20251229 "Shopify EUR inbetalning 86.77 EUR"
+
+#VER A 836 20251229 "Shopify EUR inbetalning 86.77 EUR"
 {
 #TRANS 1944 {} 997.85
 #TRANS 1580 {} -997.85
 }
-#VER X 26 20251229 "EUR till USD 86.47 EUR kurs 1.1762"
+
+#VER A 837 20251229 "EUR till USD 86.47 EUR kurs 1.1762"
 {
 #TRANS 1944 {} -997.85
 #TRANS 1942 {} 994.40
 #TRANS 6570 {} 3.45
 }
-#VER V 4 20251229 "St1 drivmedel USD 96.07 USD kurs 9.17915"
+
+#VER A 838 20251229 "St1 drivmedel USD 96.07 USD kurs 9.17915"
 {
 #TRANS 5610 {} 705.48
 #TRANS 2641 {} 176.36
 #TRANS 1942 {} -883.49
 #TRANS 6570 {} 1.65
 }
-#VER N 5 20251230 "TikTok Ads USD 152.94 USD kurs 9.19322"
+
+#VER A 839 20251230 "TikTok Ads USD 152.94 USD kurs 9.19322"
 {
 #TRANS 5900 {} 1406.00
 #TRANS 1942 {} -1408.98
 #TRANS 6570 {} 2.98
 }
-#VER N 6 20251231 "TikTok Ads USD 152.46 USD kurs 9.22201"
+
+#VER A 840 20251231 "TikTok Ads USD 152.46 USD kurs 9.22201"
 {
 #TRANS 5900 {} 1406.00
 #TRANS 1942 {} -1408.54
 #TRANS 6570 {} 2.54
 }
-#VER B 14 20251001 "Manadsavgift Foretagskonto okt"
+
+#VER A 841 20251001 "Manadsavgift Foretagskonto okt"
 {
 #TRANS 6570 {} 70.00
 #TRANS 1930 {} -70.00
 }
-#VER T 1 20251003 "Worldline deposit B10037527853"
+
+#VER A 842 20251003 "Worldline deposit B10037527853"
 {
 #TRANS 1930 {} 6744.05
 #TRANS 1947 {} -6744.05
 }
-#VER T 2 20251006 "Worldline deposit B10047556132"
+
+#VER A 843 20251006 "Worldline deposit B10047556132"
 {
 #TRANS 1930 {} 3689.41
 #TRANS 1947 {} -3689.41
 }
-#VER X 27 20251006 "Overforing till Wise"
+
+#VER A 844 20251006 "Overforing till Wise"
 {
 #TRANS 1945 {} 10486.00
 #TRANS 1930 {} -10486.00
 }
-#VER T 3 20251006 "Worldline deposit B10067605445"
+
+#VER A 845 20251006 "Worldline deposit B10067605445"
 {
 #TRANS 1930 {} 3336.21
 #TRANS 1947 {} -3336.21
 }
-#VER T 4 20251007 "Worldline deposit B10077622879"
+
+#VER A 846 20251007 "Worldline deposit B10077622879"
 {
 #TRANS 1930 {} 2555.13
 #TRANS 1947 {} -2555.13
 }
-#VER K 1 20251009 "Inbetalning till Skattekonto"
+
+#VER A 847 20251009 "Inbetalning till Skattekonto"
 {
 #TRANS 1630 {} 625.00
 #TRANS 1930 {} -625.00
 }
-#VER B 15 20251008 "Bankgiro betalning 2027001"
+
+#VER A 848 20251008 "Bankgiro betalning 2027001"
 {
 #TRANS 6570 {} 400.00
 #TRANS 2641 {} 100.00
 #TRANS 1930 {} -500.00
 }
-#VER X 28 20251009 "Overforing till Wise"
+
+#VER A 849 20251009 "Overforing till Wise"
 {
 #TRANS 1945 {} 4500.00
 #TRANS 1930 {} -4500.00
 }
-#VER T 5 20251009 "Worldline deposit B10097674111"
+
+#VER A 850 20251009 "Worldline deposit B10097674111"
 {
 #TRANS 1930 {} 0.99
 #TRANS 1947 {} -0.99
 }
-#VER T 6 20251010 "Worldline deposit B10107702101"
+
+#VER A 851 20251010 "Worldline deposit B10107702101"
 {
 #TRANS 1930 {} 1701.91
 #TRANS 1947 {} -1701.91
 }
-#VER T 7 20251013 "Worldline deposit B10127760785"
+
+#VER A 852 20251013 "Worldline deposit B10127760785"
 {
 #TRANS 1930 {} 5491.37
 #TRANS 1947 {} -5491.37
 }
-#VER R 7 20251014 "Frakt PostNord 50207042"
+
+#VER A 853 20251014 "Frakt PostNord 50207042"
 {
 #TRANS 5700 {} 339.20
 #TRANS 2641 {} 84.80
 #TRANS 1930 {} -424.00
 }
-#VER T 8 20251014 "Worldline deposit B10147798619"
+
+#VER A 854 20251014 "Worldline deposit B10147798619"
 {
 #TRANS 1930 {} 2972.53
 #TRANS 1947 {} -2972.53
 }
-#VER B 16 20251017 "Svea Ekonomi kortterminal"
+
+#VER A 855 20251017 "Svea Ekonomi kortterminal"
 {
 #TRANS 6570 {} 198.40
 #TRANS 2641 {} 49.60
 #TRANS 1930 {} -248.00
 }
-#VER G 1 20251017 "Forsakring 53020525"
+
+#VER A 856 20251017 "Forsakring 53020525"
 {
 #TRANS 6310 {} 3763.00
 #TRANS 1930 {} -3763.00
 }
-#VER T 9 20251017 "Worldline deposit B10177881088"
+
+#VER A 857 20251017 "Worldline deposit B10177881088"
 {
 #TRANS 1930 {} 6687.36
 #TRANS 1947 {} -6687.36
 }
-#VER T 10 20251020 "Worldline deposit B10197936186"
+
+#VER A 858 20251020 "Worldline deposit B10197936186"
 {
 #TRANS 1930 {} 5266.50
 #TRANS 1947 {} -5266.50
 }
-#VER T 11 20251022 "Worldline deposit B10228000236"
+
+#VER A 859 20251022 "Worldline deposit B10228000236"
 {
 #TRANS 1930 {} 7578.34
 #TRANS 1947 {} -7578.34
 }
-#VER T 12 20251024 "Worldline deposit B10248056799"
+
+#VER A 860 20251024 "Worldline deposit B10248056799"
 {
 #TRANS 1930 {} 4268.50
 #TRANS 1947 {} -4268.50
 }
-#VER T 13 20251027 "Worldline deposit B10258085288"
+
+#VER A 861 20251027 "Worldline deposit B10258085288"
 {
 #TRANS 1930 {} 2928.26
 #TRANS 1947 {} -2928.26
 }
-#VER T 14 20251027 "Worldline deposit B10278133717"
+
+#VER A 862 20251027 "Worldline deposit B10278133717"
 {
 #TRANS 1930 {} 5268.49
 #TRANS 1947 {} -5268.49
 }
-#VER H 1 20251028 "Hyra oktober butik/lager 4392007"
+
+#VER A 863 20251028 "Hyra oktober butik/lager 4392007"
 {
 #TRANS 5010 {} 15986.40
 #TRANS 2641 {} 3996.60
 #TRANS 1930 {} -19983.00
 }
-#VER H 2 20251028 "Hyra lagar 4392007"
+
+#VER A 864 20251028 "Hyra lagar 4392007"
 {
 #TRANS 5010 {} 1516.80
 #TRANS 2641 {} 379.20
 #TRANS 1930 {} -1896.00
 }
-#VER K 2 20251028 "Inbetalning till Skattekonto"
+
+#VER A 865 20251028 "Inbetalning till Skattekonto"
 {
 #TRANS 1630 {} 15714.00
 #TRANS 1930 {} -15714.00
 }
-#VER T 15 20251028 "Worldline deposit B10288150305"
+
+#VER A 866 20251028 "Worldline deposit B10288150305"
 {
 #TRANS 1930 {} 4349.13
 #TRANS 1947 {} -4349.13
 }
-#VER T 16 20251029 "Worldline deposit B10298175527"
+
+#VER A 867 20251029 "Worldline deposit B10298175527"
 {
 #TRANS 1930 {} 5560.94
 #TRANS 1947 {} -5560.94
 }
-#VER T 17 20251030 "Worldline deposit B10308203309"
+
+#VER A 868 20251030 "Worldline deposit B10308203309"
 {
 #TRANS 1930 {} 2750.16
 #TRANS 1947 {} -2750.16
 }
-#VER T 18 20251031 "Worldline deposit B10318231769"
+
+#VER A 869 20251031 "Worldline deposit B10318231769"
 {
 #TRANS 1930 {} 4535.93
 #TRANS 1947 {} -4535.93
 }
-#VER B 17 20251101 "Manadsavgift Foretagskonto nov"
+
+#VER A 870 20251101 "Manadsavgift Foretagskonto nov"
 {
 #TRANS 6570 {} 70.00
 #TRANS 1930 {} -70.00
 }
-#VER T 19 20251103 "Worldline deposit B11018260572"
+
+#VER A 871 20251103 "Worldline deposit B11018260572"
 {
 #TRANS 1930 {} 6164.00
 #TRANS 1947 {} -6164.00
 }
-#VER T 20 20251103 "Worldline deposit B11028288982"
+
+#VER A 872 20251103 "Worldline deposit B11028288982"
 {
 #TRANS 1930 {} 1191.00
 #TRANS 1947 {} -1191.00
 }
-#VER T 21 20251104 "Worldline deposit B11048324588"
+
+#VER A 873 20251104 "Worldline deposit B11048324588"
 {
 #TRANS 1930 {} 2243.70
 #TRANS 1947 {} -2243.70
 }
-#VER B 18 20251107 "Bank avgift enskildfirma samis"
+
+#VER A 874 20251107 "Bank avgift enskildfirma samis"
 {
 #TRANS 6570 {} 1000.00
 #TRANS 1930 {} -1000.00
 }
-#VER T 22 20251107 "Worldline deposit B11078404621"
+
+#VER A 875 20251107 "Worldline deposit B11078404621"
 {
 #TRANS 1930 {} 4180.96
 #TRANS 1947 {} -4180.96
 }
-#VER T 23 20251110 "Worldline deposit B11088433471"
+
+#VER A 876 20251110 "Worldline deposit B11088433471"
 {
 #TRANS 1930 {} 3324.26
 #TRANS 1947 {} -3324.26
 }
-#VER T 24 20251110 "Worldline deposit B11108482009"
+
+#VER A 877 20251110 "Worldline deposit B11108482009"
 {
 #TRANS 1930 {} 1188.01
 #TRANS 1947 {} -1188.01
 }
-#VER T 25 20251111 "Worldline deposit B11118498315"
+
+#VER A 878 20251111 "Worldline deposit B11118498315"
 {
 #TRANS 1930 {} 2482.51
 #TRANS 1947 {} -2482.51
 }
-#VER T 26 20251112 "Worldline deposit B11128524941"
+
+#VER A 879 20251112 "Worldline deposit B11128524941"
 {
 #TRANS 1930 {} 1141.26
 #TRANS 1947 {} -1141.26
 }
-#VER T 27 20251113 "Worldline deposit B11138552310"
+
+#VER A 880 20251113 "Worldline deposit B11138552310"
 {
 #TRANS 1930 {} 892.51
 #TRANS 1947 {} -892.51
 }
-#VER T 28 20251114 "Worldline deposit B11148578818"
+
+#VER A 881 20251114 "Worldline deposit B11148578818"
 {
 #TRANS 1930 {} 1941.22
 #TRANS 1947 {} -1941.22
 }
-#VER B 19 20251117 "Svea Ekonomi kortterminal"
+
+#VER A 882 20251117 "Svea Ekonomi kortterminal"
 {
 #TRANS 6570 {} 198.40
 #TRANS 2641 {} 49.60
 #TRANS 1930 {} -248.00
 }
-#VER T 29 20251117 "Worldline deposit B11178656600"
+
+#VER A 883 20251117 "Worldline deposit B11178656600"
 {
 #TRANS 1930 {} 1981.02
 #TRANS 1947 {} -1981.02
 }
-#VER L 1 20251117 "Skuld 2893 inbetalning 6641229"
+
+#VER A 884 20251117 "Skuld 2893 inbetalning 6641229"
 {
 #TRANS 1930 {} 284.00
 #TRANS 2893 {} -284.00
 }
-#VER T 30 20251118 "Worldline deposit B11188674426"
+
+#VER A 885 20251118 "Worldline deposit B11188674426"
 {
 #TRANS 1930 {} 3048.64
 #TRANS 1947 {} -3048.64
 }
-#VER T 31 20251119 "Worldline deposit B11198697754"
+
+#VER A 886 20251119 "Worldline deposit B11198697754"
 {
 #TRANS 1930 {} 16205.47
 #TRANS 1947 {} -16205.47
 }
-#VER B 20 20251120 "Svea Ekonomi kortterminal"
+
+#VER A 887 20251120 "Svea Ekonomi kortterminal"
 {
 #TRANS 6570 {} 198.40
 #TRANS 2641 {} 49.60
 #TRANS 1930 {} -248.00
 }
-#VER T 32 20251120 "Worldline deposit B11208725080"
+
+#VER A 888 20251120 "Worldline deposit B11208725080"
 {
 #TRANS 1930 {} 8057.42
 #TRANS 1947 {} -8057.42
 }
-#VER T 33 20251121 "Worldline deposit B11218753235"
+
+#VER A 889 20251121 "Worldline deposit B11218753235"
 {
 #TRANS 1930 {} 14373.20
 #TRANS 1947 {} -14373.20
 }
-#VER T 34 20251124 "Worldline deposit B11228781865"
+
+#VER A 890 20251124 "Worldline deposit B11228781865"
 {
 #TRANS 1930 {} 7070.42
 #TRANS 1947 {} -7070.42
 }
-#VER R 8 20251124 "Frakt PostNord 52494309"
+
+#VER A 891 20251124 "Frakt PostNord 52494309"
 {
 #TRANS 5700 {} 734.96
 #TRANS 2641 {} 183.74
 #TRANS 1930 {} -918.70
 }
-#VER R 9 20251124 "Frakt PostNord 52494309"
+
+#VER A 892 20251124 "Frakt PostNord 52494309"
 {
 #TRANS 5700 {} 1548.69
 #TRANS 2641 {} 387.17
 #TRANS 1930 {} -1935.86
 }
-#VER T 35 20251124 "Worldline deposit B11248831366"
+
+#VER A 893 20251124 "Worldline deposit B11248831366"
 {
 #TRANS 1930 {} 29356.25
 #TRANS 1947 {} -29356.25
 }
-#VER R 10 20251125 "Frakt DB Schenker 9423047"
+
+#VER A 894 20251125 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 1726.40
 #TRANS 2641 {} 431.60
 #TRANS 1930 {} -2158.00
 }
-#VER L 2 20251126 "Skuld 2893 inbetalning"
+
+#VER A 895 20251126 "Skuld 2893 inbetalning"
 {
 #TRANS 1930 {} 19000.00
 #TRANS 2893 {} -19000.00
 }
-#VER L 3 20251126 "SAMIS1 Skuld 2893 inbetalning"
+
+#VER A 896 20251126 "SAMIS1 Skuld 2893 inbetalning"
 {
 #TRANS 1930 {} 20000.00
 #TRANS 2893 {} -20000.00
 }
-#VER T 36 20251126 "Worldline deposit B11268872500"
+
+#VER A 897 20251126 "Worldline deposit B11268872500"
 {
 #TRANS 1930 {} 14641.45
 #TRANS 1947 {} -14641.45
 }
-#VER L 4 20251126 "Skuld 2893 inbetalning 6641229"
+
+#VER A 898 20251126 "Skuld 2893 inbetalning 6641229"
 {
 #TRANS 1930 {} 778.00
 #TRANS 2893 {} -778.00
 }
-#VER L 5 20251126 "Skuld 2893 inbetalning SKULDRA"
+
+#VER A 899 20251126 "Skuld 2893 inbetalning SKULDRA"
 {
 #TRANS 1930 {} 38800.00
 #TRANS 2893 {} -38800.00
 }
-#VER T 37 20251127 "Worldline deposit B11278900577"
+
+#VER A 900 20251127 "Worldline deposit B11278900577"
 {
 #TRANS 1930 {} 4219.76
 #TRANS 1947 {} -4219.76
 }
-#VER L 6 20251127 "Inbetalning 07306298220"
+
+#VER A 901 20251127 "Inbetalning 07306298220"
 {
 #TRANS 1930 {} 7856.00
 #TRANS 2893 {} -7856.00
 }
-#VER B 21 20251201 "Manadsavgift Foretagskonto dec"
+
+#VER A 903 20251201 "Manadsavgift Foretagskonto dec"
 {
 #TRANS 6570 {} 70.00
 #TRANS 1930 {} -70.00
 }
-#VER T 38 20251201 "Worldline deposit B11298957172"
+
+#VER A 904 20251201 "Worldline deposit B11298957172"
 {
 #TRANS 1930 {} 21737.55
 #TRANS 1947 {} -21737.55
 }
-#VER T 39 20251201 "Worldline deposit B12019008327"
+
+#VER A 905 20251201 "Worldline deposit B12019008327"
 {
 #TRANS 1930 {} 7.49
 #TRANS 1947 {} -7.49
 }
-#VER T 40 20251201 "Worldline deposit B11308985634"
+
+#VER A 906 20251201 "Worldline deposit B11308985634"
 {
 #TRANS 1930 {} 8006.70
 #TRANS 1947 {} -8006.70
 }
-#VER T 41 20251202 "Worldline deposit B12029026954"
+
+#VER A 907 20251202 "Worldline deposit B12029026954"
 {
 #TRANS 1930 {} 4400.82
 #TRANS 1947 {} -4400.82
 }
-#VER T 42 20251203 "Worldline deposit B12039050289"
+
+#VER A 908 20251203 "Worldline deposit B12039050289"
 {
 #TRANS 1930 {} 1617.86
 #TRANS 1947 {} -1617.86
 }
-#VER X 29 20251204 "China invoice payment till Wise"
+
+#VER A 909 20251204 "China invoice payment till Wise"
 {
 #TRANS 1945 {} 297000.00
 #TRANS 1930 {} -297000.00
 }
-#VER T 43 20251208 "Worldline deposit B12069136385"
+
+#VER A 910 20251208 "Worldline deposit B12069136385"
 {
 #TRANS 1930 {} 10857.31
 #TRANS 1947 {} -10857.31
 }
-#VER T 44 20251208 "Worldline deposit B12089184747"
+
+#VER A 911 20251208 "Worldline deposit B12089184747"
 {
 #TRANS 1930 {} 4611.77
 #TRANS 1947 {} -4611.77
 }
-#VER X 30 20251209 "Wise transfer 55250500"
+
+#VER A 912 20251209 "Wise transfer 55250500"
 {
 #TRANS 1945 {} 15546.00
 #TRANS 1930 {} -15546.00
 }
-#VER T 45 20251209 "Worldline deposit B12099203466"
+
+#VER A 913 20251209 "Worldline deposit B12099203466"
 {
 #TRANS 1930 {} 1710.39
 #TRANS 1947 {} -1710.39
 }
-#VER T 46 20251210 "Worldline deposit B12109227020"
+
+#VER A 914 20251210 "Worldline deposit B12109227020"
 {
 #TRANS 1930 {} 2889.45
 #TRANS 1947 {} -2889.45
 }
-#VER T 47 20251211 "Worldline deposit B12119255696"
+
+#VER A 915 20251211 "Worldline deposit B12119255696"
 {
 #TRANS 1930 {} 2136.02
 #TRANS 1947 {} -2136.02
 }
-#VER T 48 20251212 "Worldline deposit B12129284073"
+
+#VER A 916 20251212 "Worldline deposit B12129284073"
 {
 #TRANS 1930 {} 5373.35
 #TRANS 1947 {} -5373.35
 }
-#VER R 11 20251215 "Frakt 50516822"
+
+#VER A 917 20251215 "Frakt 50516822"
 {
 #TRANS 5700 {} 2332.00
 #TRANS 2641 {} 583.00
 #TRANS 1930 {} -2915.00
 }
-#VER R 12 20251215 "Frakt DB Schenker 9423047"
+
+#VER A 918 20251215 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 101.60
 #TRANS 2641 {} 25.40
 #TRANS 1930 {} -127.00
 }
-#VER R 13 20251215 "Frakt DB Schenker 9423047"
+
+#VER A 919 20251215 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 189.60
 #TRANS 2641 {} 47.40
 #TRANS 1930 {} -237.00
 }
-#VER R 14 20251215 "Frakt DB Schenker 9423047"
+
+#VER A 920 20251215 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 790.40
 #TRANS 2641 {} 197.60
 #TRANS 1930 {} -988.00
 }
-#VER R 15 20251215 "Frakt DB Schenker 9423047"
+
+#VER A 921 20251215 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 2490.40
 #TRANS 2641 {} 622.60
 #TRANS 1930 {} -3113.00
 }
-#VER R 16 20251215 "Frakt DB Schenker 9423047"
+
+#VER A 922 20251215 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 116.00
 #TRANS 2641 {} 29.00
 #TRANS 1930 {} -145.00
 }
-#VER R 17 20251215 "Frakt PostNord 52494309"
+
+#VER A 923 20251215 "Frakt PostNord 52494309"
 {
 #TRANS 5700 {} 311.20
 #TRANS 2641 {} 77.80
 #TRANS 1930 {} -389.00
 }
-#VER C 4 20251215 "Fretag mobil Telia 47460035"
+
+#VER A 924 20251215 "Fretag mobil Telia 47460035"
 {
 #TRANS 6212 {} 455.20
 #TRANS 2641 {} 113.80
 #TRANS 1930 {} -569.00
 }
-#VER B 22 20251215 "Plusgiro betalning 47704044"
+
+#VER A 925 20251215 "Plusgiro betalning 47704044"
 {
 #TRANS 6570 {} 198.40
 #TRANS 2641 {} 49.60
 #TRANS 1930 {} -248.00
 }
-#VER T 49 20251215 "Worldline deposit B12159361494"
+
+#VER A 926 20251215 "Worldline deposit B12159361494"
 {
 #TRANS 1930 {} 4866.82
 #TRANS 1947 {} -4866.82
 }
-#VER R 18 20251217 "Frakt DB Schenker 9423047"
+
+#VER A 927 20251217 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 95.20
 #TRANS 2641 {} 23.80
 #TRANS 1930 {} -119.00
 }
-#VER R 19 20251217 "Frakt DB Schenker 9423047"
+
+#VER A 928 20251217 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 61.44
 #TRANS 2641 {} 15.36
 #TRANS 1930 {} -76.80
 }
-#VER T 50 20251217 "Worldline deposit B12179405561"
+
+#VER A 929 20251217 "Worldline deposit B12179405561"
 {
 #TRANS 1930 {} 4422.83
 #TRANS 1947 {} -4422.83
 }
-#VER T 51 20251219 "Worldline deposit B12199460221"
+
+#VER A 930 20251219 "Worldline deposit B12199460221"
 {
 #TRANS 1930 {} 6409.08
 #TRANS 1947 {} -6409.08
 }
-#VER B 23 20251222 "Svea Ekonomi kortterminal"
+
+#VER A 931 20251222 "Svea Ekonomi kortterminal"
 {
 #TRANS 6570 {} 198.40
 #TRANS 2641 {} 49.60
 #TRANS 1930 {} -248.00
 }
-#VER T 52 20251222 "Worldline deposit B12219518994"
+
+#VER A 932 20251222 "Worldline deposit B12219518994"
 {
 #TRANS 1930 {} 8512.45
 #TRANS 1947 {} -8512.45
 }
-#VER R 20 20251229 "Frakt DB Schenker 9423047"
+
+#VER A 933 20251229 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 199.50
 #TRANS 2641 {} 49.88
 #TRANS 1930 {} -249.38
 }
-#VER R 21 20251229 "Frakt DB Schenker 9423047"
+
+#VER A 934 20251229 "Frakt DB Schenker 9423047"
 {
 #TRANS 5700 {} 84.00
 #TRANS 2641 {} 21.00
 #TRANS 1930 {} -105.00
 }
-#VER T 53 20251229 "Worldline deposit B12269613247"
+
+#VER A 935 20251229 "Worldline deposit B12269613247"
 {
 #TRANS 1930 {} 6894.90
 #TRANS 1947 {} -6894.90
 }
-#VER T 54 20251229 "Worldline deposit B12299649730"
+
+#VER A 936 20251229 "Worldline deposit B12299649730"
 {
 #TRANS 1930 {} 3644.67
 #TRANS 1947 {} -3644.67
 }
-#VER T 55 20251229 "Worldline deposit B12249582328"
+
+#VER A 937 20251229 "Worldline deposit B12249582328"
 {
 #TRANS 1930 {} 4899.72
 #TRANS 1947 {} -4899.72
 }
-#VER T 56 20251230 "Worldline deposit B12309664541"
+
+#VER A 938 20251230 "Worldline deposit B12309664541"
 {
 #TRANS 1930 {} 137.10
 #TRANS 1947 {} -137.10
 }
-#VER A 8 20251231 "Ranta Marginalen"
+
+#VER A 939 20251231 "Ranta Marginalen"
 {
 #TRANS 1930 {} 122.38
 #TRANS 8400 {} -122.38
 }
-#VER A 9 20251231 "Ranta Marginalen"
+
+#VER A 940 20251231 "Ranta Marginalen"
 {
 #TRANS 1930 {} 0.23
 #TRANS 8400 {} -0.23
 }
-#VER B 24 20251031 "Worldline avgift oktober"
+
+#VER A 941 20251031 "Worldline avgift oktober"
 {
 #TRANS 6570 {} 400.67
 #TRANS 1947 {} -400.67
 }
-#VER B 25 20251130 "Worldline avgift november"
+
+#VER A 942 20251130 "Worldline avgift november"
 {
 #TRANS 6570 {} 811.68
 #TRANS 1947 {} -811.68
 }
-#VER B 26 20251231 "Worldline avgift december"
+
+#VER A 943 20251231 "Worldline avgift december"
 {
 #TRANS 6570 {} 542.83
 #TRANS 1947 {} -542.83
 }
-#VER S 1 20251031 "Kortforsaljning Oktober Worldline"
+
+#VER A 944 20251031 "Kortforsaljning Oktober Worldline"
 {
 #TRANS 1947 {} 75685.21
 #TRANS 3051 {} -60548.17
 #TRANS 2611 {} -15137.04
 }
-#VER S 2 20251130 "Kortforsaljning November Worldline"
+
+#VER A 945 20251130 "Kortforsaljning November Worldline"
 {
 #TRANS 1947 {} 153447.31
 #TRANS 3051 {} -122757.85
 #TRANS 2611 {} -30689.46
 }
-#VER S 3 20251231 "Kortforsaljning December Worldline"
+
+#VER A 946 20251231 "Kortforsaljning December Worldline"
 {
 #TRANS 1947 {} 87156.66
 #TRANS 3051 {} -69725.33
 #TRANS 2611 {} -17431.33
 }
-#VER S 4 20251231 "Kontantforsaljning Q4"
+
+#VER A 947 20251231 "Kontantforsaljning Q4"
 {
 #TRANS 1910 {} 43087.75
 #TRANS 3051 {} -34470.20
 #TRANS 2611 {} -8617.55
 }
-#VER S 5 20251003 "Shopify EUR 103.75"
+
+#VER A 948 20251003 "Shopify EUR 103.75"
 {
 #TRANS 1580 {} 1193.13
 #TRANS 3051 {} -954.50
 #TRANS 2611 {} -238.63
 }
-#VER S 6 20251010 "Shopify EUR 86.12"
+
+#VER A 949 20251010 "Shopify EUR 86.12"
 {
 #TRANS 1580 {} 990.38
 #TRANS 3051 {} -792.30
 #TRANS 2611 {} -198.08
 }
-#VER S 7 20251017 "Shopify EUR 418.35"
+
+#VER A 950 20251017 "Shopify EUR 418.35"
 {
 #TRANS 1580 {} 4811.03
 #TRANS 3051 {} -3848.82
 #TRANS 2611 {} -962.21
 }
-#VER S 8 20251024 "Shopify EUR 154.12"
+
+#VER A 951 20251024 "Shopify EUR 154.12"
 {
 #TRANS 1580 {} 1772.38
 #TRANS 3051 {} -1417.90
 #TRANS 2611 {} -354.48
 }
-#VER S 9 20251107 "Shopify EUR 371.75"
+
+#VER A 952 20251107 "Shopify EUR 371.75"
 {
 #TRANS 1580 {} 4275.13
 #TRANS 3051 {} -3420.10
 #TRANS 2611 {} -855.03
 }
-#VER S 10 20251114 "Shopify EUR 86.37"
+
+#VER A 953 20251114 "Shopify EUR 86.37"
 {
 #TRANS 1580 {} 993.32
 #TRANS 3051 {} -794.66
 #TRANS 2611 {} -198.66
 }
-#VER S 11 20251121 "Shopify EUR 1398.29"
+
+#VER A 954 20251121 "Shopify EUR 1398.29"
 {
 #TRANS 1580 {} 16080.33
 #TRANS 3051 {} -12864.27
 #TRANS 2611 {} -3216.06
 }
-#VER S 12 20251128 "Shopify EUR 2199.39"
+
+#VER A 955 20251128 "Shopify EUR 2199.39"
 {
 #TRANS 1580 {} 25292.99
 #TRANS 3051 {} -20234.39
 #TRANS 2611 {} -5058.60
 }
-#VER S 13 20251205 "Shopify EUR 573.75"
+
+#VER A 956 20251205 "Shopify EUR 573.75"
 {
 #TRANS 1580 {} 6598.13
 #TRANS 3051 {} -5278.50
 #TRANS 2611 {} -1319.63
 }
-#VER S 14 20251212 "Shopify EUR 58.31"
+
+#VER A 957 20251212 "Shopify EUR 58.31"
 {
 #TRANS 1580 {} 670.55
 #TRANS 3051 {} -536.44
 #TRANS 2611 {} -134.11
 }
-#VER S 15 20251229 "Shopify EUR 86.77"
+
+#VER A 958 20251229 "Shopify EUR 86.77"
 {
 #TRANS 1580 {} 997.85
 #TRANS 3051 {} -798.28
 #TRANS 2611 {} -199.57
 }
-#VER I 1 20251231 "Varuforbrukning Q4 2025"
+
+#VER A 959 20251231 "Varuforbrukning Q4 2025"
 {
 #TRANS 4110 {} 225647.19 "Kostnad salda varor"
 #TRANS 1460 {} -225647.19 "Lageruttag"
 }
-#VER I 2 20251231 "Reklamgavor till kunder Q4 2025"
+
+#VER A 960 20251231 "Reklamgavor till kunder Q4 2025"
 {
 #TRANS 5900 {} 26238.05 "Varuprover och presentartiklar"
 #TRANS 1460 {} -26238.05 "Lageruttag"
 }
-#VER I 3 20251231 "Kassation och svinn Q4 2025"
+
+#VER A 961 20251231 "Kassation och svinn Q4 2025"
 {
 #TRANS 4530 {} 10495.22 "Kasserade varor"
 #TRANS 1460 {} -10495.22 "Lageruttag"
 }
-#VER H 3 20251124 "Liuhua Hotel Guangzhou - Kinaresa arbetsresa"
+
+#VER A 962 20251124 "Liuhua Hotel Guangzhou - Kinaresa arbetsresa"
 {
 #TRANS 5010 {} 7178.53
 #TRANS 2893 {} -7178.53
 }
-#VER H 4 20251129 "Liuhua Hotel Guangzhou - Kinaresa arbetsresa"
+
+#VER A 963 20251129 "Liuhua Hotel Guangzhou - Kinaresa arbetsresa"
 {
 #TRANS 5010 {} 4486.38
 #TRANS 2893 {} -4486.38
 }
-#VER Y 5 20251127 "FOREX Arlanda - Lneavans till Future World Tech"
+
+#VER A 964 20251127 "FOREX Arlanda - Lneavans till Future World Tech"
 {
 #TRANS 2441 {} 10000.00
 #TRANS 2893 {} -10000.00
 }
-#VER N 7 20251128 "Kontantuttagsavgift - Remamber kort avgift"
+
+#VER A 965 20251128 "Kontantuttagsavgift - Remamber kort avgift"
 {
 #TRANS 5900 {} 240.00
 #TRANS 2893 {} -240.00
 }
-#VER N 8 20251205 "Aviavgift - Remamber kortavgift"
+
+#VER A 966 20251205 "Aviavgift - Remamber kortavgift"
 {
 #TRANS 5900 {} 31.20
 #TRANS 2893 {} -31.20
 }
-#VER N 9 20251205 "vertrasseringsavgift - Remamber"
+
+#VER A 967 20251205 "vertrasseringsavgift - Remamber"
 {
 #TRANS 5900 {} 76.00
 #TRANS 2893 {} -76.00
 }
-#VER X 31 20251006 "Wise Enterprise transfer"
+
+#VER A 968 20251006 "Wise Enterprise transfer"
 {
 #TRANS 1945 {} 2026.20
 #TRANS 2893 {} -2026.20
 }
-#VER A 10 20251103 "G&S By Samis jackets test transaktion"
+
+#VER A 969 20251103 "G&S By Samis jackets test transaktion"
 {
 #TRANS 2893 {} -1.00
 #TRANS 2893 {} 1.00
 }
-#VER A 11 20251020 "G&S By Samis jackets test transaktion"
+
+#VER A 970 20251020 "G&S By Samis jackets test transaktion"
 {
 #TRANS 2893 {} -1.00
 #TRANS 2893 {} 1.00
 }
-#VER A 12 20251006 "G&S By Samis jackets test transaktion"
+
+#VER A 971 20251006 "G&S By Samis jackets test transaktion"
 {
 #TRANS 2893 {} -1.00
 #TRANS 2893 {} 1.00
 }
-#VER A 13 20251006 "G&S By Samis jackets test transaktion"
+
+#VER A 972 20251006 "G&S By Samis jackets test transaktion"
 {
 #TRANS 2893 {} -1.00
 #TRANS 2893 {} 1.00
 }
-#VER E 1 20251209 "YESIM Roaming - Kinaresa"
+
+#VER A 973 20251209 "YESIM Roaming - Kinaresa"
 {
 #TRANS 6990 {} 167.17
 #TRANS 2893 {} -167.17
 }
-#VER F 1 20251023 "Fortnox Bokforingsprogram"
+
+#VER A 974 20251023 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 119.20
 #TRANS 2641 {} 29.80
 #TRANS 2893 {} -149.00
 }
-#VER F 2 20251101 "Fortnox Bokforingsprogram"
+
+#VER A 975 20251101 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 119.20
 #TRANS 2641 {} 29.80
 #TRANS 2893 {} -149.00
 }
-#VER F 3 20251114 "Fortnox Bokforingsprogram"
+
+#VER A 976 20251114 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 19.20
 #TRANS 2641 {} 4.80
 #TRANS 2893 {} -24.00
 }
-#VER F 4 20251212 "Fortnox Bokforingsprogram"
+
+#VER A 977 20251212 "Fortnox Bokforingsprogram"
 {
 #TRANS 6500 {} 119.20
 #TRANS 2641 {} 29.80
 #TRANS 2893 {} -149.00
 }
-#VER K 3 20251117 "Skatteverket Betalning"
+
+#VER A 978 20251117 "Skatteverket Betalning"
 {
 #TRANS 1630 {} 400.00
 #TRANS 2893 {} -400.00
 }
-#VER H 5 20251026 "SJ AB Tag - Arbetsresa"
+
+#VER A 979 20251026 "SJ AB Tag - Arbetsresa"
 {
 #TRANS 5010 {} 76.80
 #TRANS 2641 {} 19.20
 #TRANS 2893 {} -96.00
 }
-#VER H 6 20251026 "SJ AB Tag - Arbetsresa"
+
+#VER A 980 20251026 "SJ AB Tag - Arbetsresa"
 {
 #TRANS 5010 {} 76.80
 #TRANS 2641 {} 19.20
 #TRANS 2893 {} -96.00
 }
-#VER H 7 20251014 "MALARDALSTRAFIKEN - Arbetsresa"
+
+#VER A 981 20251014 "MALARDALSTRAFIKEN - Arbetsresa"
 {
 #TRANS 5010 {} 293.60
 #TRANS 2641 {} 73.40
 #TRANS 2893 {} -367.00
 }
-#VER H 8 20251012 "MALARDALSTRAFIKEN - Arbetsresa"
+
+#VER A 982 20251012 "MALARDALSTRAFIKEN - Arbetsresa"
 {
 #TRANS 5010 {} 293.60
 #TRANS 2641 {} 73.40
 #TRANS 2893 {} -367.00
 }
-#VER H 9 20251127 "MALARDALSTRAFIKEN - Arbetsresa"
+
+#VER A 983 20251127 "MALARDALSTRAFIKEN - Arbetsresa"
 {
 #TRANS 5010 {} 587.20
 #TRANS 2641 {} 146.80
 #TRANS 2893 {} -734.00
 }
-#VER A 14 20251224 "Swish Auronis AB - Fretagsbetalning"
+
+#VER A 984 20251224 "Swish Auronis AB - Fretagsbetalning"
 {
 #TRANS 2893 {} -100.00
 #TRANS 2893 {} 100.00
 }
-#VER N 10 20251001 "TikTok Ads - Marknadsforing"
+
+#VER A 985 20251001 "TikTok Ads - Marknadsforing"
 {
 #TRANS 5900 {} 1070.11
 #TRANS 2893 {} -1070.11
 }
-#VER F 5 20251101 "Google GSUITE - Fretagstjanst"
+
+#VER A 986 20251101 "Google GSUITE - Fretagstjanst"
 {
 #TRANS 6500 {} 63.12
 #TRANS 2893 {} -63.12
 }
-#VER F 6 20251201 "Google GSUITE - Fretagstjanst"
+
+#VER A 987 20251201 "Google GSUITE - Fretagstjanst"
 {
 #TRANS 6500 {} 63.42
 #TRANS 2893 {} -63.42
 }
-#VER F 7 20251001 "Google GSUITE - Fretagstjanst"
+
+#VER A 988 20251001 "Google GSUITE - Fretagstjanst"
 {
 #TRANS 6500 {} 63.77
 #TRANS 2893 {} -63.77
 }
-#VER N 11 20251201 "TikTok Ads - Marknadsforing"
+
+#VER A 989 20251201 "TikTok Ads - Marknadsforing"
 {
 #TRANS 5900 {} 29.03
 #TRANS 2893 {} -29.03
 }
-#VER N 12 20251203 "TikTok Ads - Marknadsforing"
+
+#VER A 990 20251203 "TikTok Ads - Marknadsforing"
 {
 #TRANS 5900 {} 2744.00
 #TRANS 2893 {} -2744.00
 }
-#VER F 8 20251013 "Shopify Platform - E-handel"
+
+#VER A 991 20251013 "Shopify Platform - E-handel"
 {
 #TRANS 6500 {} 323.67
 #TRANS 2641 {} 80.92
 #TRANS 2893 {} -404.59
 }
-#VER F 9 20251112 "Shopify Platform - E-handel"
+
+#VER A 992 20251112 "Shopify Platform - E-handel"
 {
 #TRANS 6500 {} 400.49
 #TRANS 2641 {} 100.12
 #TRANS 2893 {} -500.61
 }
-#VER E 2 20251103 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 993 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 17.02
 #TRANS 2641 {} 4.26
 #TRANS 2893 {} -21.28
 }
-#VER E 3 20251103 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 994 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 83.61
 #TRANS 2641 {} 20.90
 #TRANS 2893 {} -104.51
 }
-#VER E 4 20251103 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 995 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 51.10
 #TRANS 2641 {} 12.77
 #TRANS 2893 {} -63.87
 }
-#VER E 5 20251103 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 996 20251103 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 51.10
 #TRANS 2641 {} 12.77
 #TRANS 2893 {} -63.87
 }
-#VER E 6 20251203 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 997 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 48.00
 #TRANS 2641 {} 12.00
 #TRANS 2893 {} -60.00
 }
-#VER E 7 20251203 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 998 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 48.00
 #TRANS 2641 {} 12.00
 #TRANS 2893 {} -60.00
 }
-#VER E 8 20251203 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 999 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 48.00
 #TRANS 2641 {} 12.00
 #TRANS 2893 {} -60.00
 }
-#VER E 9 20251203 "VIMLA Telefonabonnemang - Fretag"
+
+#VER A 1000 20251203 "VIMLA Telefonabonnemang - Fretag"
 {
 #TRANS 6990 {} 16.00
 #TRANS 2641 {} 4.00
 #TRANS 2893 {} -20.00
 }
-#VER H 10 20251110 "St1 Gillbergaplan - Fretagsbrnsle"
+
+#VER A 1001 20251110 "St1 Gillbergaplan - Fretagsbrnsle"
 {
 #TRANS 5010 {} 757.14
 #TRANS 2641 {} 189.28
 #TRANS 2893 {} -946.42
 }
-#VER H 11 20251125 "AIMO Parkering - Fretag"
+
+#VER A 1002 20251125 "AIMO Parkering - Fretag"
 {
 #TRANS 5010 {} 283.96
 #TRANS 2641 {} 70.99
 #TRANS 2893 {} -354.95
 }
-#VER F 10 20251116 "Apple.com iCloud - Fretagstjanst"
+
+#VER A 1003 20251116 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 13.60
 #TRANS 2641 {} 3.40
 #TRANS 2893 {} -17.00
 }
-#VER F 11 20251211 "Apple.com iCloud - Fretagstjanst"
+
+#VER A 1004 20251211 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 199.20
 #TRANS 2641 {} 49.80
 #TRANS 2893 {} -249.00
 }
-#VER F 12 20251216 "Apple.com iCloud - Fretagstjanst"
+
+#VER A 1005 20251216 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 14.40
 #TRANS 2641 {} 3.60
 #TRANS 2893 {} -18.00
 }
-#VER F 13 20251016 "Apple.com iCloud - Fretagstjanst"
+
+#VER A 1006 20251016 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 14.40
 #TRANS 2641 {} 3.60
 #TRANS 2893 {} -18.00
 }
-#VER F 14 20251011 "Apple.com iCloud - Fretagstjanst"
+
+#VER A 1007 20251011 "Apple.com iCloud - Fretagstjanst"
 {
 #TRANS 6500 {} 199.20
 #TRANS 2641 {} 49.80
 #TRANS 2893 {} -249.00
 }
-#VER H 12 20251202 "Partners on Booking BV - Resekostnader Arlanda"
+
+#VER A 1008 20251202 "Partners on Booking BV - Resekostnader Arlanda"
 {
 #TRANS 5010 {} 1139.47
 #TRANS 2641 {} 284.87
 #TRANS 2893 {} -1424.34
 }
-#VER N 13 20251005 "Tubekick - Underhllning/Fretag"
+
+#VER A 1009 20251005 "Tubekick - Underhllning/Fretag"
 {
 #TRANS 5900 {} 104.85
 #TRANS 2641 {} 26.21
 #TRANS 2893 {} -131.06
 }
-#VER H 13 20251115 "TG JBC Orebro - Arbetsresa"
+
+#VER A 1010 20251115 "TG JBC Orebro - Arbetsresa"
 {
 #TRANS 5010 {} 1644.00
 #TRANS 2641 {} 411.00
 #TRANS 2893 {} -2055.00
 }
-#VER S 16 20251128 "Shopify Sale for Wise payout"
+
+#VER A 1011 20251128 "Shopify Sale for Wise payout"
 {
 #TRANS 1580 {} 39934.97
 #TRANS 3051 {} -31947.98
 #TRANS 2611 {} -7986.99
 }
-#VER K 4 20251101 "Intäktsränta Skattekonto nov"
+
+#VER A 1013 20251101 "Intäktsränta Skattekonto nov"
 {
 #TRANS 1630 {} 3.00
 #TRANS 8314 {} -3.00
 }
-#VER K 5 20251112 "Förseningsavgift Skattekonto"
+
+#VER A 1014 20251112 "Förseningsavgift Skattekonto"
 {
 #TRANS 6530 {} 625.00
 #TRANS 1630 {} -625.00
 }
-#VER K 6 20251112 "Moms juli-sept 2025 debiterad Skattekonto"
+
+#VER A 1015 20251112 "Moms juli-sept 2025 debiterad Skattekonto"
 {
 #TRANS 2650 {} 15714.00
 #TRANS 1630 {} -15714.00
 }
-#VER K 7 20251206 "Intäktsränta Skattekonto dec"
+
+#VER A 1016 20251206 "Intäktsränta Skattekonto dec"
 {
 #TRANS 1630 {} 5.00
 #TRANS 8314 {} -5.00
 }
-#VER Z 1 20251231 "Valutakursjustering EUR 1944 - Bokslut"
+
+#VER A 1017 20251231 "Valutakursjustering EUR 1944 - Bokslut"
 {
 #TRANS 1944 {} -2017.41
 #TRANS 7960 {} 2017.41
 }
-#VER Z 2 20251231 "Valutakursjustering USD 1942 - Bokslut"
+
+#VER A 1018 20251231 "Valutakursjustering USD 1942 - Bokslut"
 {
 #TRANS 1942 {} -364.01
 #TRANS 7960 {} 364.01
 }
-#VER S 17 20251231 "Momsavstämning Q4 2025 - Utgående moms till momsredovisning"
+
+#VER A 1019 20251231 "Momsavstämning Q4 2025 - Utgående moms till momsredovisning"
 {
 #TRANS 2611 {} 92597.43
 #TRANS 2650 {} -92597.43
 }
-#VER K 8 20251231 "Momsavstämning Q4 2025 - Ingående moms till momsredovisning"
+
+#VER A 1020 20251231 "Momsavstämning Q4 2025 - Ingående moms till momsredovisning"
 {
 #TRANS 2641 {} -10954.62
 #TRANS 2650 {} 10954.62
 }
+

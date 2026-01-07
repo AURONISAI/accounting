@@ -1,0 +1,24 @@
+#FLAGGA 0
+#PROGRAM "Wise Corrections Import" 1.0
+#FORMAT PC8
+#GEN 20260107
+#SIETYP 4
+#ORGNR 559489-5301
+#FNAMN "Samis Jackets AB"
+#RAR 0 20240701 20251231
+#KPTYP BAS2014
+
+#KONTO 1942 "Wise USD"
+#KONTO 1943 "Wise GBP"
+#KONTO 1944 "Wise EUR"
+#KONTO 1945 "Wise SEK"
+#KONTO 6570 "Bankkostnader"
+
+#VER A 1030 20251231 "Wise avstämning SEK, USD, GBP, EUR"
+{
+#TRANS 1945 {} -7569.80 20251231 "Korrigering Wise SEK till 0"
+#TRANS 1942 {} 3117.52 20251231 "Korrigering Wise USD till 411.27 USD"
+#TRANS 1943 {} -1847.99 20251231 "Korrigering Wise GBP till 0"
+#TRANS 1944 {} 12.83 20251231 "Korrigering Wise EUR till 0"
+#TRANS 6570 {} 6287.44 20251231 "Wise bankavgifter och kursdifferenser"
+}

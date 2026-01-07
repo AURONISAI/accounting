@@ -1,0 +1,39 @@
+Category,Item,Sale_Price_SEK,Quantity,Cost_Per_Unit_SEK,Total_Value_SEK,Note
+KAPPOR,Kappor 1200kr,1200,22,600,13200,Real in stock
+KAPPOR,Kappor 999kr,999,183,500,91500,Real in stock
+KAPPOR,Kappor 799kr,799,597,500,298500,Real in stock
+KAPPOR,Kappor 499kr,499,117,500,58500,Real in stock
+KAPPOR,Kappor 299kr,299,26,400,10400,Real in stock
+VINTERJACKOR KVINNA,Kort 299kr,299,115,120,13800,Real in stock
+VINTERJACKOR KVINNA,Lang 499kr,499,314,140,43960,Real in stock
+VINTERJACKOR MAN,Vinter jackor Man,,361,120,43320,Real in stock
+VINTERJACKOR BARN,Vinter jackor Barn,,234,135,31590,Real in stock
+VASKOR,Vaska,,197,43,8471,Real in stock
+TROJOR,LL trojor,,417,45,18765,Real in stock
+TJOCKTROJOR,CF5,,23,80,1840,Real in stock
+TJOCKTROJOR,Ac 891,,73,90,6570,Real in stock
+PALS,Pals Vast,,23,90,2070,Real in stock
+PALS,Pals kort jacka,,27,90,2430,Real in stock
+TROJOR,CF 179kr,179,161,82,13202,Real in stock
+MAN KLADER,Man trojor,,43,50,2150,Real in stock
+MAN KLADER,Man Tracksuit,,52,150,7800,Real in stock
+MAN KLADER,Man tracksuit sommar,,305,150,45750,Real in stock
+KVINNOR KLADER,Tracksuit 399kr,399,101,140,14140,Real in stock
+KVINNOR KLADER,Tracksuit 199kr,199,144,100,14400,Real in stock
+KVINNOR KLADER,Klanning,,35,65,2275,Real in stock
+BARN KLADER,Barn tracksuit,,133,65,8645,Real in stock
+SKOR 199kr,Hela skor,199,1757,80,140560,Real in stock
+SKOR 199kr,Bara en,199,12,65,780,Real in stock
+SKOR 99kr,Hela skor,99,502,25,12550,Real in stock
+SKOR 99kr,Bara en,99,6,25,150,Real in stock
+TOFFLOR,Hela tofflor,,790,35,27650,Real in stock
+TOFFLOR,Bara en,,9,35,315,Real in stock
+OVRIGT,Leggings,,537,38,20406,Real in stock
+OVRIGT,Alex trojor,,503,20,10060,Real in stock
+OVRIGT,Overall,,85,200,17000,Real in stock
+
+FWT_NOT_ARRIVED,Future World Tech - NOT IN STOCK,,0,0,-415815.45,Removed - arrives Feb 2026
+
+SUMMARY_ORIGINAL,,,,TOTAL (Original):,982749,From Johan file
+SUMMARY_FWT_REMOVED,,,,LESS FWT:,-415815.45,Not arrived
+SUMMARY_CORRECTED,,,,CORRECTED TOTAL:,566933.55,Real inventory

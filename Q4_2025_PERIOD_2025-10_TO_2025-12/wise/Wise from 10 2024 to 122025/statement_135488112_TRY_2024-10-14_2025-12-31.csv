@@ -1,0 +1,5 @@
+"TransferWise ID",Date,"Date Time",Amount,Currency,Description,"Payment Reference","Running Balance","Exchange From","Exchange To","Exchange Rate","Payer Name","Payee Name","Payee Account Number",Merchant,"Card Last Four Digits","Card Holder Full Name",Attachment,Note,"Total fees","Exchange To Amount","Transaction Type","Transaction Details Type"
+TRANSFER-1756952220,06-10-2025,"06-10-2025 13:40:13.414",-61066.41,TRY,"Sent money to ahmed Gheyath alsharif","loan repayment",0.00,,,,,"ahmed Gheyath alsharif","TR60 0020 5000 0966 1735 9000 01",,,,,,100.62,,DEBIT,TRANSFER
+FEE-TRANSFER-1756952220,06-10-2025,"06-10-2025 13:40:13.413",-100.62,TRY,"Wise Charges for: TRANSFER-1756952220","loan repayment",61066.41,,,,,Wise,,,,,,,0,,DEBIT,TRANSFER
+BALANCE-4124444950,06-10-2025,"06-10-2025 13:36:27.964",6076.46,TRY,"Converted EUR to TRY",,61167.03,EUR,TRY,48.68570,,,,,,,,,0.00,6076.46,CREDIT,CONVERSION
+BALANCE-4124442422,06-10-2025,"06-10-2025 13:36:05.618",55090.57,TRY,"Converted SEK to TRY",,55090.57,SEK,TRY,4.43116,,,,,,,,,0.00,55090.57,CREDIT,CONVERSION

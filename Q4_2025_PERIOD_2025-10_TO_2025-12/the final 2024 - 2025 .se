@@ -1,0 +1,6882 @@
+#FLAGGA 0
+
+#PROGRAM "Spiris Bokfîring & Fakturering" 7.5.0.0
+#FORMAT PC8
+#GEN 20260107 "Mohammad Sami Alsharef"
+#SIETYP 4
+#ORGNR 559489-5301
+#FNAMN "Samis Jackets AB"
+#RAR 0 20240701 20251231
+#KPTYP EUBAS97
+#VALUTA SEK
+
+#KONTO 1210 "Maskiner och andra tekniska anlÑggningar"
+#KONTO 1220 "Inventarier och verktyg"
+#KONTO 1229 "Ackumulerade avskrivningar pÜ inventarier och verktyg"
+#KONTO 1240 "Bilar och andra transportmedel"
+#KONTO 1337 "Ackumulerade nedskrivningar av andelar i îvriga fîretag som"
+#KONTO 1357 "Andelar i handelsbolag, andra fîretag"
+#KONTO 1382 "LÜngfristiga fordringar hos anstÑllda"
+#KONTO 1383 "LÑmnade depositioner, lÜngfristiga"
+#KONTO 1388 "LÜngfristiga kundfordringar"
+#KONTO 1460 "Lager av handelsvaror"
+#KONTO 1469 "FîrÑndring av lager av handelsvaror"
+#KONTO 1470 "PÜgÜende arbeten"
+#KONTO 1510 Kundfordringar
+#KONTO 1518 "Ej reskontrafîrda kundfordringar"
+#KONTO 1519 "Nedskrivning av kundfordringar"
+#KONTO 1549 "Nedskrivning av ej reskontrafîrda kundfordringar"
+#KONTO 1580 "Fordringar fîr kontokort och kuponger"
+#KONTO 1630 "AvrÑkning fîr skatter och avgifter (skattekonto)"
+#KONTO 1640 Skattefordringar
+#KONTO 1650 Momsfordran
+#KONTO 1700 "Fîrutbetalda kostnader/interimsfordringar"
+#KONTO 1790 "ôvriga fîrutbetalda kostnader och upplupna intÑkter"
+#KONTO 1910 Kassa
+#KONTO 1920 PlusGiro
+#KONTO 1930 Fîretagskonto/checkkonto/affÑrskonto
+#KONTO 1940 "ôvriga bankkonton"
+#KONTO 1941 "Annat bankkonto viva.com"
+#KONTO 1942 "Wise USD"
+#KONTO 1943 "Wise GBP"
+#KONTO 1944 "Wise EUR"
+#KONTO 1945 "Wise SEK"
+#KONTO 1947 Worldline
+#KONTO 1948 "Sales account"
+#KONTO 1980 Valutakonton
+#KONTO 2018 "ôvriga egna insÑttningar"
+#KONTO 2081 Aktiekapital
+#KONTO 2086 Reservfond
+#KONTO 2087 "Bunden îverkursfond"
+#KONTO 2091 "Balanserad vinst eller fîrlust"
+#KONTO 2093 "ErhÜllna aktieÑgartillskott"
+#KONTO 2098 "Vinst eller fîrlust frÜn fîregÜende Ür"
+#KONTO 2099 "èrets resultat"
+#KONTO 2110 Periodiseringsfonder
+#KONTO 2121 "Periodiseringsfond 2021"
+#KONTO 2122 "Periodiseringsfond 2022"
+#KONTO 2125 "Periodiseringsfond 2025"
+#KONTO 2126 "Periodiseringsfond 2026"
+#KONTO 2127 "Periodiseringsfond 2027"
+#KONTO 2128 "Periodiseringsfond 2028"
+#KONTO 2129 "Periodiseringsfond 2019"
+#KONTO 2130 "Periodiseringsfond 2020 - nr 2"
+#KONTO 2131 "Periodiseringsfond 2021 - nr 2"
+#KONTO 2132 "Periodiseringsfond 2022 - nr 2"
+#KONTO 2133 "Periodiseringsfond 2023 - nr 2"
+#KONTO 2134 "Periodiseringsfond 2024 - nr 2"
+#KONTO 2135 "Periodiseringsfond 2025 - nr 2"
+#KONTO 2136 "Periodiseringsfond 2026 - nr 2"
+#KONTO 2137 "Periodiseringsfond 2027 - nr 2"
+#KONTO 2138 "Periodiseringsfond 2028 - nr 2"
+#KONTO 2139 "Periodiseringsfond 2019 - nr 2"
+#KONTO 2150 "Ackumulerade îveravskrivningar"
+#KONTO 2390 "ôvriga lÜngfristiga skulder"
+#KONTO 2399 "ôvriga lÜngfristiga skulder"
+#KONTO 2420 "Fîrskott frÜn kunder"
+#KONTO 2440 Leverantîrsskulder
+#KONTO 2441 "Future World Tech"
+#KONTO 2448 "Ej reskontrafîrda leverantîrsskulder"
+#KONTO 2499 "Andra îvriga kortfristiga skulder"
+#KONTO 2510 Skatteskulder
+#KONTO 2518 "Betald F-skatt"
+#KONTO 2611 "UtgÜende moms pÜ fîrsÑljning inom Sverige, 25%"
+#KONTO 2612 "UtgÜende moms pÜ egna uttag, 25%"
+#KONTO 2614 "UtgÜende moms, omvÑnd betalningsskyldighet, 25 %"
+#KONTO 2615 "UtgÜende moms import av varor 25%"
+#KONTO 2619 "UtgÜende moms pÜ fîrsÑljning inom EU, OSS"
+#KONTO 2621 "UtgÜende moms pÜ fîrsÑljning inom Sverige, 12%"
+#KONTO 2624 "UtgÜende moms, omvÑnd betalningsskyldighet, 12 %"
+#KONTO 2631 "UtgÜende moms pÜ fîrsÑljning inom Sverige, 6%"
+#KONTO 2634 "UtgÜende moms, omvÑnd betalningsskyldighet, 6 %"
+#KONTO 2641 "Debiterad ingÜende moms"
+#KONTO 2645 "BerÑknad ingÜende moms pÜ fîrvÑrv frÜn utlandet"
+#KONTO 2647 "IngÜende moms, omvÑnd betalningsskyldighet varor och tjÑnst"
+#KONTO 2650 "Redovisningskonto fîr moms"
+#KONTO 2710 Personalskatt
+#KONTO 2730 "Lagstadgade sociala avgifter och sÑrskild lîneskatt"
+#KONTO 2731 "AvrÑkning lagstadgade sociala avgifter"
+#KONTO 2732 "AvrÑkning sÑrskild lîneskatt"
+#KONTO 2790 "ôvriga lîneavdrag"
+#KONTO 2794 Fackfîreningsavgifter
+#KONTO 2890 "ôvriga kortfristiga skulder"
+#KONTO 2893 "Skulder till nÑrstÜende personer, kortfristig del"
+#KONTO 2910 "Upplupna lîner"
+#KONTO 2920 "Upplupna semesterlîner"
+#KONTO 2940 "Upplupna lagstadgade sociala och andra avgifter"
+#KONTO 2941 "BerÑknade upplupna lagstadgade sociala avgifter"
+#KONTO 2950 "Upplupna avtalade sociala avgifter"
+#KONTO 2959 "Upplupna avtalade pensionsfîrsÑkringsavgifter, deklarations"
+#KONTO 2990 "ôvriga upplupna kostnader och fîrutbetalda intÑkter"
+#KONTO 2999 OBS-konto
+#KONTO 3041 "FîrsÑljn tjÑnst 25% sv"
+#KONTO 3042 "FîrsÑljn tjÑnst 12% sv"
+#KONTO 3043 "FîrsÑljn tjÑnst 6% sv"
+#KONTO 3044 "FîrsÑljn tjÑnst sv momsfri"
+#KONTO 3045 "FîrsÑljn tjÑnst utanfîr EG momsfri"
+#KONTO 3046 "FîrsÑljn tjÑnst till EG 25%"
+#KONTO 3048 "FîrsÑljn tjÑnst EG momsfri"
+#KONTO 3051 "FîrsÑljn varor 25% sv"
+#KONTO 3052 "FîrsÑljn varor 12% sv"
+#KONTO 3053 "FîrsÑljn varor 6% sv"
+#KONTO 3054 "FîrsÑljn varor sv momsfri"
+#KONTO 3055 "FîrsÑljn varor utanfîr EG momsfri"
+#KONTO 3056 "FîrsÑljn varor till EG 25% momspliktig"
+#KONTO 3057 "Treparts fîrsÑljn varor till EG 25%"
+#KONTO 3058 "FîrsÑljn varor EG momsfri"
+#KONTO 3109 "FîrsÑljning varor till annat EU-land, OSS"
+#KONTO 3231 "FîrsÑljning inom byggsektorn, omvÑnd skattskyldighet moms"
+#KONTO 3309 "FîrsÑljning tjÑnster till annat EU-land, OSS"
+#KONTO 3510 "Fakturerat emballage"
+#KONTO 3520 "Fakturerade frakter"
+#KONTO 3521 "Fakturerade frakter, EU-land"
+#KONTO 3522 "Fakturerade frakter, export"
+#KONTO 3530 "Fakturerade tull- och speditionskostnader m.m."
+#KONTO 3540 Faktureringsavgifter
+#KONTO 3541 "Faktureringsavgifter, EU-land"
+#KONTO 3542 "Faktureringsavgifter, export"
+#KONTO 3543 "Faktureringavgift 12%"
+#KONTO 3544 "Faktureringavgift 6%"
+#KONTO 3590 "ôvriga fakturerade kostnader"
+#KONTO 3596 PÜminnelseavgift
+#KONTO 3690 "ôvriga sidointÑkter"
+#KONTO 3740 "ôres- och kronutjÑmning"
+#KONTO 3950 "ètervunna, tidigare avskrivna kundfordringar"
+#KONTO 3960 "Valutakursvinster pÜ fordringar och skulder av rîrelsekarak"
+#KONTO 3970 "Vinst vid avyttring av immateriella och materiella anlÑggni"
+#KONTO 3971 "Vinst vid avyttring av immateriella anlÑggningstillgÜngar"
+#KONTO 3980 "ErhÜllna offentliga bidrag"
+#KONTO 4000 "Inkîp av varor frÜn Sverige"
+#KONTO 4001 "Inkop av tjanst"
+#KONTO 4056 "Inkîp varor 25% EU"
+#KONTO 4057 "Inkîp varor 12% EU"
+#KONTO 4058 "Inkîp varor 6% EU"
+#KONTO 4059 "Inkîp varor EU momsfri"
+#KONTO 4110 "Kostnad slda varor"
+#KONTO 4400 "Momspliktiga inkîp i Sverige"
+#KONTO 4415 "Inkîpta varor i Sverige, omvÑnd betalningsskyldighet, 25 %"
+#KONTO 4416 "Inkîpta varor i Sverige, omvÑnd betalningsskyldighet, 12 %"
+#KONTO 4417 "Inkîpta varor i Sverige, omvÑnd betalningsskyldighet, 6 %"
+#KONTO 4500 "ôvriga momspliktiga inkîp"
+#KONTO 4530 "Kassation och svinn"
+#KONTO 4531 "Inkîp av tjÑnster frÜn ett land utanfîr EU, 25 % moms"
+#KONTO 4532 "Inkîp av tjÑnster frÜn ett land utanfîr EU, 12 % moms"
+#KONTO 4533 "Inkîp av tjÑnster frÜn ett land utanfîr EU, 6 % moms"
+#KONTO 4545 "Import av varor, 25 % moms"
+#KONTO 4546 "Import av varor, 12 % moms"
+#KONTO 4547 "Import av varor, 6 % moms"
+#KONTO 4549 "Motkonto beskattningsunderlag import"
+#KONTO 4700 "Reduktion av inkîpspriser (gruppkonto)"
+#KONTO 4900 "FîrÑndring av lager (gruppkonto)"
+#KONTO 5000 "Lokalkostnader (gruppkonto)"
+#KONTO 5010 Lokalhyra
+#KONTO 5070 "Reparation och underhÜll av lokaler"
+#KONTO 5200 "Hyra av anlÑggningstillgÜngar (gruppkonto)"
+#KONTO 5400 "Fîrbrukningsinventarier och fîrbrukningsmaterial (gruppkont"
+#KONTO 5410 Fîrbrukningsinventarier
+#KONTO 5420 Programvaror
+#KONTO 5460 Fîrbrukningsmaterial
+#KONTO 5480 "ArbetsklÑder och skyddsmaterial"
+#KONTO 5600 "Kostnader fîr transportmedel (gruppkonto)"
+#KONTO 5610 Personbilskostnader
+#KONTO 5611 "Drivmedel fîr personbilar"
+#KONTO 5612 "FîrsÑkring och skatt fîr personbilar"
+#KONTO 5613 "Reparation och underhÜll av personbilar"
+#KONTO 5615 "Leasing av personbilar"
+#KONTO 5616 "TrÑngselskatt, avdragsgill"
+#KONTO 5619 "ôvriga personbilskostnader"
+#KONTO 5620 Lastbilskostnader
+#KONTO 5630 Truckkostnader
+#KONTO 5640 "Kostnader fîr arbetsmaskiner"
+#KONTO 5650 Traktorkostnader
+#KONTO 5660 "Motorcykel-, moped- och skoterkostnader"
+#KONTO 5670 "BÜt-, flygplans- och helikopterkostnader"
+#KONTO 5690 "ôvriga kostnader fîr transportmedel"
+#KONTO 5700 "Frakter och transporter (gruppkonto)"
+#KONTO 5800 "Resekostnader (gruppkonto)"
+#KONTO 5810 Biljetter
+#KONTO 5830 "Kost och logi"
+#KONTO 5890 "ôvriga resekostnader"
+#KONTO 5900 "Reklam och PR (gruppkonto)"
+#KONTO 5910 Annonsering
+#KONTO 5911 AI-marknadsforingsverktyg
+#KONTO 5920 "Utomhus- och trafikreklam"
+#KONTO 6000 "ôvriga fîrsÑljningskostnader (gruppkonto)"
+#KONTO 6044 "Avgift kortbetalning Webshop"
+#KONTO 6071 "Representation, avdragsgill"
+#KONTO 6072 "Representation, ej avdragsgill"
+#KONTO 6100 "Kontorsmateriel och trycksaker (gruppkonto)"
+#KONTO 6110 Kontorsmateriel
+#KONTO 6200 "Tele och post (gruppkonto)"
+#KONTO 6212 Mobiltelefon
+#KONTO 6250 Postbefordran
+#KONTO 6300 "FîretagsfîrsÑkringar och îvriga riskkostnader (gruppkonto)"
+#KONTO 6310 FîretagsfîrsÑkringar
+#KONTO 6350 "Fîrluster pÜ kundfordringar"
+#KONTO 6351 "Konstaterade fîrluster pÜ kundfordringar"
+#KONTO 6352 "Befarade fîrluster pÜ kundfordringar"
+#KONTO 6358 "Befarade fîrluster pÜ kundfordringar, OSS"
+#KONTO 6359 "Konstaterade fîrluster pÜ kundfordringar, OSS"
+#KONTO 6420 "ErsÑttningar till revisor"
+#KONTO 6500 "ôvriga externa tjÑnster (gruppkonto)"
+#KONTO 6530 RedovisningstjÑnster
+#KONTO 6540 IT-tjÑnster
+#KONTO 6570 Bankkostnader
+#KONTO 6590 "ôvriga externa tjÑnster"
+#KONTO 6800 "Inhyrd personal (gruppkonto)"
+#KONTO 6810 "Inhyrd produktionspersonal"
+#KONTO 6820 "Inhyrd lagerpersonal"
+#KONTO 6830 "Inhyrd transportpersonal"
+#KONTO 6840 "Inhyrd kontors- och ekonomipersonal"
+#KONTO 6850 "Inhyrd IT-personal"
+#KONTO 6860 "Inhyrd marknads- och fîrsÑljningspersonal"
+#KONTO 6870 "Inhyrd restaurang- och butikspersonal"
+#KONTO 6880 "Inhyrda fîretagsledare"
+#KONTO 6890 "ôvrig inhyrd personal"
+#KONTO 6900 "ôvriga externa kostnader (gruppkonto)"
+#KONTO 6990 "ôvriga externa kostnader"
+#KONTO 6991 "ôvriga externa kostnader, avdragsgilla"
+#KONTO 6992 "ôvriga externa kostnader, ej avdragsgilla"
+#KONTO 7000 "Lîner till kollektivanstÑllda (gruppkonto)"
+#KONTO 7010 "Lîner till kollektivanstÑllda"
+#KONTO 7210 "Lîner till tjÑnstemÑn"
+#KONTO 7220 "Lîner till fîretagsledare"
+#KONTO 7300 "KostnadsersÑttningar och fîrmÜner (gruppkonto)"
+#KONTO 7321 "Skattefria traktamenten, Sverige"
+#KONTO 7322 "Skattepliktiga traktamenten, Sverige"
+#KONTO 7323 "Skattefria traktamenten, utlandet"
+#KONTO 7324 "Skattepliktiga traktamenten, utlandet"
+#KONTO 7331 "Skattefria bilersÑttningar"
+#KONTO 7332 "Skattepliktiga bilersÑttningar"
+#KONTO 7350 "ErsÑttningar fîr fîreskrivna arbetsklÑder"
+#KONTO 7380 "Kostnader fîr fîrmÜner till anstÑllda"
+#KONTO 7390 "ôvriga kostnadsersÑttningar och fîrmÜner"
+#KONTO 7399 "Motkontering fîrmÜner"
+#KONTO 7410 PensionsfîrsÑkringspremier
+#KONTO 7500 "Sociala och andra avgifter enligt lag och avtal (gruppkonto"
+#KONTO 7510 "Arbetsgivaravgifter 31,42 %"
+#KONTO 7513 "Arbetsgivaravgift avdrag forskning"
+#KONTO 7514 "Arbetsgivaravgift fîrsta anstÑlld"
+#KONTO 7533 "SÑrskild lîneskatt fîr pensionskostnader"
+#KONTO 7560 "Arbetsgivaravgifter 25,46 %"
+#KONTO 7600 "ôvriga personalkostnader (gruppkonto)"
+#KONTO 7831 "Avskrivningar pÜ maskiner och andra tekniska anlÑggningar"
+#KONTO 7832 "Avskrivningar pÜ inventarier och verktyg"
+#KONTO 7960 "Valutakursfîrluster pÜ fordringar och skulder av rîrelsekar"
+#KONTO 7973 "Fîrlust vid avyttring av maskiner och inventarier"
+#KONTO 8311 "RÑnteintÑkter frÜn bank"
+#KONTO 8314 "Skattefria rÑnteintÑkter"
+#KONTO 8330 "Valutakursdifferenser pÜ kortfristiga fordringar och placer"
+#KONTO 8400 "RÑntekostnader (gruppkonto)"
+#KONTO 8422 "DrîjsmÜlsrÑntor fîr leverantîrsskulder"
+#KONTO 8423 "RÑntekostnader fîr skatter och avgifter"
+#KONTO 8430 "Valutakursdifferenser pÜ skulder"
+#KONTO 8811 "AvsÑttning till periodiseringsfond"
+#KONTO 8819 "èterfîring frÜn periodiseringsfond"
+#KONTO 8850 "FîrÑndring av îveravskrivningar"
+#KONTO 8910 "Skatt som belastar Ürets resultat"
+#KONTO 8999 "èrets resultat"
+
+#UB 0 1220 49170.68
+#UB 0 1240 27500.00
+#UB 0 1460 566933.00
+#UB 0 1580 39934.97
+#UB 0 1630 103.00
+#UB 0 1910 0.92
+#UB 0 1930 42490.75
+#UB 0 1941 -0.55
+#UB 0 1942 4503.41
+#UB 0 1947 14591.99
+#UB 0 1948 0.17
+#UB 0 2091 -2511.47
+#UB 0 2093 -1.00
+#UB 0 2441 610300.17
+#UB 0 2448 -0.92
+#UB 0 2510 22940.00
+#UB 0 2641 1053.60
+#UB 0 2650 -81643.00
+#UB 0 2893 -1598927.35
+
+#RES 0 3051 -788856.16
+#RES 0 3740 -1.10
+#RES 0 3980 -30139.00
+#RES 0 4000 1807.91
+#RES 0 4001 9583.59
+#RES 0 4110 477010.67
+#RES 0 4530 10495.22
+#RES 0 4545 -6.93
+#RES 0 5010 224525.28
+#RES 0 5070 807.62
+#RES 0 5410 10144.78
+#RES 0 5420 12104.10
+#RES 0 5460 15463.12
+#RES 0 5610 13444.92
+#RES 0 5611 7326.17
+#RES 0 5619 1625.24
+#RES 0 5620 849.00
+#RES 0 5700 11921.52
+#RES 0 5800 12061.81
+#RES 0 5810 20513.15
+#RES 0 5830 7945.21
+#RES 0 5890 13003.76
+#RES 0 5900 93959.58
+#RES 0 5910 28375.86
+#RES 0 5911 2740.40
+#RES 0 5920 256.72
+#RES 0 6110 785.62
+#RES 0 6212 2248.07
+#RES 0 6250 1757.00
+#RES 0 6310 7723.00
+#RES 0 6500 1732.07
+#RES 0 6530 625.00
+#RES 0 6540 325.29
+#RES 0 6570 19949.48
+#RES 0 6590 5404.46
+#RES 0 6990 15238.05
+#RES 0 6991 36001.37
+#RES 0 6992 28428.12
+#RES 0 7010 24528.00
+#RES 0 7960 2381.42
+#RES 0 8311 -431.15
+#RES 0 8314 -3.00
+#RES 0 8400 -122.61
+#RES 0 8423 29.00
+
+#VER A 1 20240716 "utgift/kostnad (vatan caddesi i istanbul TR)" 20260107
+{
+#TRANS 2893 {} -983.41
+#TRANS 6992 {} 983.41
+}
+
+#VER A 2 20240720 "utgift/kostnad ( AKBANK/PENDIK ISANBUL TR)" 20260107
+{
+#TRANS 2893 {} -664.26
+#TRANS 6992 {} 664.26
+}
+
+#VER A 3 20240710 "LAGERBOLAGET F.102576" 20260107
+{
+#TRANS 2893 {} -9075.00
+#TRANS 2641 {} 1485.00
+#TRANS 6991 {} 7590.00
+}
+
+#VER A 4 20240801 "Business Travel: Airfare for M.S. Alsharef, supplier sourcing" 20260107
+{
+#TRANS 2893 {} -1306.49 20240801 "Business Travel: Airfare for M.S. Alsharef, supplier sourci"
+#TRANS 5890 {} 1306.49 20240801 "Business Travel: Airfare for M.S. Alsharef, supplier sourci"
+}
+
+#VER A 5 20240827 "utgift/kostnad (AKBANK/IMC ISTANBUL)" 20260107
+{
+#TRANS 2893 {} -987.25
+#TRANS 6992 {} 987.25
+}
+
+#VER A 6 20240826 "(PEGASUS ISTANBUL)Business Travel: Airfare for M.S. Alsharef, supplier sourcing" 20260107
+{
+#TRANS 2893 {} -1039.99 20240826 "(PEGASUS ISTANBUL)Business Travel: Airfare for M.S. Alshare"
+#TRANS 5890 {} 1039.99 20240826 "(PEGASUS ISTANBUL)Business Travel: Airfare for M.S. Alshare"
+}
+
+#VER A 7 20240827 "utgift/kostnad (ZAYAROGLU GIDA SAANAYI VE )" 20260107
+{
+#TRANS 2893 {} -250.96
+#TRANS 6992 {} 250.96
+}
+
+#VER A 8 20240826 "(THE GREEN OTEL)Business Travel: Airfare for M.S. Alsharef, supplier sourcing" 20260107
+{
+#TRANS 2893 {} -2484.60 20240826 "(THE GREEN OTEL)Business Travel: Airfare for M.S. Alsharef,"
+#TRANS 5830 {} 2484.60 20240826 "(THE GREEN OTEL)Business Travel: Airfare for M.S. Alsharef,"
+}
+
+#VER A 9 20240914 "(RECOMPUTE IT NORDIC )" 20260107
+{
+#TRANS 2893 {} -400.00
+#TRANS 6991 {} 400.00
+}
+
+#VER A 10 20240906 "(AJET.COM ISTANBUL)" 20260107
+{
+#TRANS 2893 {} -291.57
+#TRANS 5890 {} 291.57
+}
+
+#VER A 11 20240906 "(ST1 ESKILSTUNA)" 20260107
+{
+#TRANS 2893 {} -667.63
+#TRANS 5611 {} 667.63
+}
+
+#VER A 12 20240910 "utgift/kostnad ( DARA ENERGI A.S) DRIVMEDEL" 20260107
+{
+#TRANS 2893 {} -652.06
+#TRANS 5611 {} 652.06
+}
+
+#VER A 13 20240911 "(ISTANBUL SABINA GOKCEN) TAKE AWAY" 20260107
+{
+#TRANS 2893 {} -192.97
+#TRANS 6992 {} 192.97
+}
+
+#VER A 14 20241029 "TEMU PO-191-15837295250472515" 20260107
+{
+#TRANS 2641 {} 105.30
+#TRANS 2893 {} -476.40
+#TRANS 5460 {} 371.10
+}
+
+#VER A 15 20241010 "TEMU PO-191-055293649567125515" 20260107
+{
+#TRANS 2641 {} 406.07
+#TRANS 2893 {} -2030.55
+#TRANS 5460 {} 1624.48
+}
+
+#VER A 16 20241018 "TEMU PO-191-06903722854952515" 20260107
+{
+#TRANS 2641 {} 243.14
+#TRANS 2893 {} -1215.68
+#TRANS 5460 {} 972.54
+}
+
+#VER A 17 20241031 "AIMO PARK - HYRESAVI F.41986401814" 20260107
+{
+#TRANS 2641 {} 372.58
+#TRANS 2893 {} -1862.90
+#TRANS 5610 {} 1490.32
+}
+
+#VER A 18 20241030 "LF SRMLAND FRSKRINGSPREMIE F: 69006*00 (korrigerad med verifikation A241 av Mohammad Sami Alsharef, 2025-06-27)" 20260107
+{
+#TRANS 2893 {} -3960.00
+#TRANS 6310 {} 3960.00
+}
+
+#VER A 19 20241028 "CARGO CENTER KONTANTF. 202407034 FLYterminalavgift" 20260107
+{
+#TRANS 2641 {} 767.48
+#TRANS 2893 {} -3837.38
+#TRANS 6991 {} 3069.90
+}
+
+#VER A 20 20241001 "CARGO CENTER KONTANTF, 202406312 FLYterminalavgift" 20260107
+{
+#TRANS 2641 {} 656.18
+#TRANS 2893 {} -3280.88
+#TRANS 6991 {} 2624.70
+}
+
+#VER A 21 20241030 "FASTIGHETS AB AKVARIUM F. 5002146107" 20260107
+{
+#TRANS 1930 {} -18750.00
+#TRANS 2641 {} 3750.00
+#TRANS 1460 {} 15000.00 20241030 "FASTIGHETS AB AKVARIUM F. 5002146107"
+}
+
+#VER A 22 20241028 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 49.80
+#TRANS 2893 {} -249.00
+#TRANS 5460 {} 199.20
+}
+
+#VER A 23 20241009 Dollarstore 20260107
+{
+#TRANS 2641 {} 35.14
+#TRANS 2641 {} 12.00
+#TRANS 2893 {} -388.00
+#TRANS 6991 {} 340.86
+}
+
+#VER A 24 20241008 Rusta 20260107
+{
+#TRANS 2641 {} 236.66
+#TRANS 2893 {} -1183.30
+#TRANS 5460 {} 946.64
+}
+
+#VER A 25 20241009 Biltema 20260107
+{
+#TRANS 2641 {} 386.88
+#TRANS 2893 {} -1934.40
+#TRANS 5460 {} 1547.52
+}
+
+#VER A 26 20241008 Biltema 20260107
+{
+#TRANS 2641 {} 73.00
+#TRANS 2893 {} -365.00
+#TRANS 5460 {} 292.00
+}
+
+#VER A 27 20241012 Biltema 20260107
+{
+#TRANS 2641 {} 99.80
+#TRANS 2893 {} -499.00
+#TRANS 5460 {} 399.20
+}
+
+#VER A 28 20241010 biltema 20260107
+{
+#TRANS 2641 {} 240.20
+#TRANS 2893 {} -1201.00
+#TRANS 5460 {} 960.80
+}
+
+#VER A 29 20241028 Biltema 20260107
+{
+#TRANS 2641 {} 79.80
+#TRANS 2893 {} -399.00
+#TRANS 5460 {} 319.20
+}
+
+#VER A 30 20241015 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 47.92
+#TRANS 2893 {} -240.00
+#TRANS 5460 {} 192.08
+}
+
+#VER A 31 20241028 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 7.98
+#TRANS 2893 {} -40.00
+#TRANS 5460 {} 32.02
+}
+
+#VER A 32 20241012 LIDL 20260107
+{
+#TRANS 2893 {} -504.54
+#TRANS 6992 {} 504.54
+}
+
+#VER A 33 20241025 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 299.80
+#TRANS 2893 {} -1499.00
+#TRANS 5410 {} 1199.20
+}
+
+#VER A 34 20241011 biltema 20260107
+{
+#TRANS 2641 {} 160.40
+#TRANS 2893 {} -802.00
+#TRANS 6110 {} 641.60
+}
+
+#VER A 35 20241010 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 20.00
+#TRANS 2893 {} -80.00
+#TRANS 5460 {} 60.00
+}
+
+#VER A 36 20241030 WILLYS 20260107
+{
+#TRANS 2893 {} -1053.40
+#TRANS 6992 {} 1053.40
+}
+
+#VER A 37 20241016 "Aimo Park Sweden" 20260107
+{
+#TRANS 2641 {} 62.00
+#TRANS 2893 {} -314.95
+#TRANS 5610 {} 252.95
+}
+
+#VER A 38 20241028 "utgift/kostnad (shell drivmedel )" 20260107
+{
+#TRANS 2893 {} -672.45
+#TRANS 5611 {} 672.45
+}
+
+#VER A 39 20241002 "utgift/kostnad (okq8 drivmedel )" 20260107
+{
+#TRANS 2893 {} -745.39
+#TRANS 5611 {} 745.39
+}
+
+#VER A 40 20241001 "utgift/kostnad (okq8 drivmedel )" 20260107
+{
+#TRANS 2893 {} -550.29
+#TRANS 5611 {} 550.29
+}
+
+#VER A 41 20241026 "max burgers" 20260107
+{
+#TRANS 2893 {} -490.00
+#TRANS 6992 {} 490.00
+}
+
+#VER A 42 20241026 "max burgers" 20260107
+{
+#TRANS 2893 {} -25.00
+#TRANS 6992 {} 25.00
+}
+
+#VER A 43 20241029 "max burgers" 20260107
+{
+#TRANS 2893 {} -590.00
+#TRANS 6992 {} 590.00
+}
+
+#VER A 44 20241011 "max burgers" 20260107
+{
+#TRANS 2893 {} -422.00
+#TRANS 6992 {} 422.00
+}
+
+#VER A 45 20241011 "max burgers" 20260107
+{
+#TRANS 2893 {} -91.00
+#TRANS 6992 {} 91.00
+}
+
+#VER A 46 20241018 "shopify avgift f. 285551379" 20260107
+{
+#TRANS 2893 {} -1222.65
+#TRANS 6590 {} 1222.65
+}
+
+#VER A 47 20241029 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -29.99
+#TRANS 5619 {} 29.99
+}
+
+#VER A 48 20241021 "(Fastighets AB Akvarium ) Lokaldeposition" 20260107
+{
+#TRANS 1383 {} 120000.00
+#TRANS 1930 {} -120000.00
+}
+
+#VER A 49 20241107 Biltema 20260107
+{
+#TRANS 2641 {} 32.94
+#TRANS 2893 {} -164.70
+#TRANS 5460 {} 131.76
+}
+
+#VER A 50 20241107 RUSTA 20260107
+{
+#TRANS 2641 {} 9.98
+#TRANS 2893 {} -49.90
+#TRANS 5460 {} 39.92
+}
+
+#VER A 51 20241104 WILLYS 20260107
+{
+#TRANS 2893 {} -1726.09
+#TRANS 6992 {} 1726.09
+}
+
+#VER A 52 20241106 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 3.98
+#TRANS 2893 {} -20.00
+#TRANS 5070 {} 16.02
+}
+
+#VER A 53 20241102 Biltema 20260107
+{
+#TRANS 2641 {} 154.10
+#TRANS 2893 {} -770.50
+#TRANS 5070 {} 616.40
+}
+
+#VER A 54 20241107 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 35.98
+#TRANS 2893 {} -180.00
+#TRANS 6110 {} 144.02
+}
+
+#VER A 55 20241114 WILLYS 20260107
+{
+#TRANS 2893 {} -3210.24
+#TRANS 6992 {} 3210.24
+}
+
+#VER A 56 20241111 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 79.80
+#TRANS 2893 {} -399.00
+#TRANS 5460 {} 319.20
+}
+
+#VER A 57 20241107 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 129.88
+#TRANS 2893 {} -649.00
+#TRANS 5460 {} 519.12
+}
+
+#VER A 58 20241112 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} -109.82
+#TRANS 2893 {} 549.00
+#TRANS 5460 {} -439.18
+}
+
+#VER A 59 20241107 "Clas Ohlson" 20260107
+{
+#TRANS 2641 {} 43.80
+#TRANS 2893 {} -219.00
+#TRANS 5070 {} 175.20
+}
+
+#VER A 60 20241130 "Assemblin EL AB (korrigerad med verifikation A243 av Mohammad Sami Alsharef, 2025-06-27) (korrigerad med verifikation A2" 20260107
+{
+#TRANS 2641 {} 901.41
+#TRANS 2893 {} -4507.00
+#TRANS 4001 {} 3605.59
+}
+
+#VER A 61 20241115 "Aimo Park Sweden" 20260107
+{
+#TRANS 2641 {} 62.00
+#TRANS 2893 {} -314.95
+#TRANS 5610 {} 252.95
+}
+
+#VER A 62 20241008 "utgift/kostnad (okq8)" 20260107
+{
+#TRANS 2893 {} -687.59
+#TRANS 5611 {} 687.59
+}
+
+#VER A 63 20241101 "google GSUITE SAMISJAC" 20260107
+{
+#TRANS 2893 {} -163.15
+#TRANS 6540 {} 163.15
+}
+
+#VER A 64 20241107 "utgift/kostnad (ST1)" 20260107
+{
+#TRANS 2893 {} -676.93
+#TRANS 5611 {} 676.93
+}
+
+#VER A 65 20241109 "max burgers" 20260107
+{
+#TRANS 2893 {} -890.00
+#TRANS 6992 {} 890.00
+}
+
+#VER A 66 20241129 WILLYS 20260107
+{
+#TRANS 2893 {} -1773.13
+#TRANS 6992 {} 1773.13
+}
+
+#VER A 67 20241128 "utgift/kostnad (eparkera )" 20260107
+{
+#TRANS 2893 {} -64.85
+#TRANS 5619 {} 64.85
+}
+
+#VER A 68 20241128 "(CVS CENTER )" 20260107
+{
+#TRANS 2893 {} -1085.00
+#TRANS 4001 {} 1085.00
+}
+
+#VER A 69 20241104 "utgift/kostnad (willys )" 20260107
+{
+#TRANS 2893 {} -1726.09
+#TRANS 6992 {} 1726.09
+}
+
+#VER A 70 20241203 "Bolagsverket avgift" 20260107
+{
+#TRANS 1930 {} -1400.00
+#TRANS 6991 {} 1400.00
+}
+
+#VER A 71 20241113 "(google ads 5215017274)" 20260107
+{
+#TRANS 2893 {} -100.00
+#TRANS 5910 {} 100.00
+}
+
+#VER A 72 20241121 "utgift/kostnad (google ads 5215017274)" 20260107
+{
+#TRANS 2893 {} -2000.00
+#TRANS 5910 {} 2000.00
+}
+
+#VER A 73 20241123 "utgift/kostnad (google ads 5215017274)" 20260107
+{
+#TRANS 2893 {} -3500.00
+#TRANS 5910 {} 3500.00
+}
+
+#VER A 74 20241129 "utgift/kostnad ( circle K)" 20260107
+{
+#TRANS 2893 {} -691.81
+#TRANS 5611 {} 691.81
+}
+
+#VER A 75 20241116 "Aimo Park Sweden" 20260107
+{
+#TRANS 2641 {} 62.00
+#TRANS 2893 {} -314.95
+#TRANS 5610 {} 252.95
+}
+
+#VER A 76 20241216 "Aimo Park Sweden" 20260107
+{
+#TRANS 2641 {} 62.00
+#TRANS 2893 {} -314.95
+#TRANS 5610 {} 252.95
+}
+
+#VER A 77 20241221 "utgift/kostnad (willys )" 20260107
+{
+#TRANS 2893 {} -1937.17
+#TRANS 6992 {} 1937.17
+}
+
+#VER A 78 20241203 (okq8) 20260107
+{
+#TRANS 2893 {} -419.52
+#TRANS 5611 {} 419.52
+}
+
+#VER A 79 20241219 "Aimo Park Sweden" 20260107
+{
+#TRANS 2641 {} 62.00
+#TRANS 2893 {} -314.95
+#TRANS 5610 {} 252.95
+}
+
+#VER A 80 20241206 "utgift/kostnad (hotel Booking.com )" 20260107
+{
+#TRANS 2893 {} -1971.52
+#TRANS 5890 {} 1971.52
+}
+
+#VER A 81 20241201 "(google ads 5215017274)" 20260107
+{
+#TRANS 2893 {} -2708.96
+#TRANS 5910 {} 2708.96
+}
+
+#VER A 82 20241221 "utgift/kostnad (hotel Booking.com )" 20260107
+{
+#TRANS 2893 {} -3475.58
+#TRANS 5830 {} 3475.58
+}
+
+#VER A 83 20241217 "GOOGLE Google Workspace" 20260107
+{
+#TRANS 2893 {} -162.14
+#TRANS 6540 {} 162.14
+}
+
+#VER A 84 20241203 "utgift/kostnad (shell e4 norr)" 20260107
+{
+#TRANS 2893 {} -159.00
+#TRANS 5611 {} 159.00
+}
+
+#VER A 85 20241204 "utgift/kostnad (hotel Booking.com )" 20260107
+{
+#TRANS 2893 {} -1985.03
+#TRANS 5830 {} 1985.03
+}
+
+#VER A 86 20241204 "(yesim) simkort" 20260107
+{
+#TRANS 2893 {} -235.82
+#TRANS 6212 {} 235.82
+}
+
+#VER A 87 20241205 "(yesim) simkort" 20260107
+{
+#TRANS 2893 {} -560.39
+#TRANS 6212 {} 560.39
+}
+
+#VER A 88 20241203 "utgift/kostnad (HMS Host Arlanda)" 20260107
+{
+#TRANS 2893 {} -171.00
+#TRANS 6992 {} 171.00
+}
+
+#VER A 89 20241230 "AIMO PARK - HYRESAVI F.41986486320" 20260107
+{
+#TRANS 2641 {} 371.08
+#TRANS 2893 {} -1484.34
+#TRANS 5610 {} 1113.26
+}
+
+#VER A 90 20241230 "Crona kassasystem" 20260107
+{
+#TRANS 2641 {} 44.00
+#TRANS 2893 {} -220.00
+#TRANS 6991 {} 176.00
+}
+
+#VER A 91 20240926 "Invoice (USD 40008) FIK20240000000042 vx enl. kurs 10,2296" 20260107
+{
+#TRANS 2448 {} -409265.84
+#TRANS 4545 {} 409265.84
+#TRANS 2645 {} -102316.25
+#TRANS 2615 {} 102316.25
+}
+
+#VER A 92 20241016 "Invoice #906 (USD 30700 enl. vxelkurs 10,4144)" 20260107
+{
+#TRANS 2448 {} -319722.08
+#TRANS 4545 {} 319722.08
+#TRANS 2645 {} -79930.50
+#TRANS 2615 {} 79930.50
+}
+
+#VER A 93 20241117 "shopify avgift f. 296203582" 20260107
+{
+#TRANS 2893 {} -1779.28
+#TRANS 6590 {} 1779.28
+}
+
+#VER A 94 20241217 "shopify avgift f. 307497458" 20260107
+{
+#TRANS 2893 {} -2221.25
+#TRANS 6590 {} 2221.25
+}
+
+#VER A 95 20241204 flygbiljett 20260107
+{
+#TRANS 1941 {} -9945.82
+#TRANS 5810 {} 9945.82
+}
+
+#VER A 96 20241205 "Viva bankavgift retur" 20260107
+{
+#TRANS 1941 {} 45.83
+#TRANS 6570 {} -45.83
+}
+
+#VER A 97 20241205 BANKKOSTNADER 20260107
+{
+#TRANS 1941 {} -298.37
+#TRANS 6570 {} 298.37
+}
+
+#VER A 98 20241222 "Viva bankavgift retur" 20260107
+{
+#TRANS 1941 {} 0.81
+#TRANS 6570 {} -0.81
+}
+
+#VER A 99 20241231 "banktjnster avgift" 20260107
+{
+#TRANS 1941 {} -58.00
+#TRANS 6570 {} 58.00
+}
+
+#VER A 100 20241123 "tiktok ads" 20260107
+{
+#TRANS 2893 {} -450.00
+#TRANS 5910 {} 450.00
+}
+
+#VER A 101 20241118 "Tiktok Ads*tiktok Ads Dublin" 20260107
+{
+#TRANS 2893 {} -90.00
+#TRANS 5910 {} 90.00
+}
+
+#VER A 102 20241118 "Tiktok Ads* tiktok Ads Dublin" 20260107
+{
+#TRANS 2893 {} -90.00
+#TRANS 5910 {} 90.00
+}
+
+#VER A 103 20241118 "Tiktok Ads*tiktok Ads Dublin" 20260107
+{
+#TRANS 2893 {} -40.00
+#TRANS 5910 {} 40.00
+}
+
+#VER A 104 20241119 "Tiktok Ads*tiktok Ads Dublin" 20260107
+{
+#TRANS 2893 {} -180.00
+#TRANS 5910 {} 180.00
+}
+
+#VER A 105 20241120 "Tiktok Ads*tiktok Ads Dublin" 20260107
+{
+#TRANS 2893 {} -450.00
+#TRANS 5910 {} 450.00
+}
+
+#VER A 106 20241125 "Tiktok Ads*tiktok Ads London" 20260107
+{
+#TRANS 2893 {} -450.00
+#TRANS 5910 {} 450.00
+}
+
+#VER A 107 20241126 "Facebook Ads /Dublin" 20260107
+{
+#TRANS 2893 {} -22.00
+#TRANS 2893 {} -22.00
+#TRANS 2893 {} -22.00
+#TRANS 2893 {} -25.00
+#TRANS 2893 {} -22.00
+#TRANS 2893 {} -22.00
+#TRANS 2893 {} -22.00
+#TRANS 2893 {} -25.00
+#TRANS 2893 {} -25.00
+#TRANS 2893 {} -28.00
+#TRANS 2893 {} -40.00
+#TRANS 2893 {} -40.00
+#TRANS 5910 {} 315.00
+}
+
+#VER A 108 20241127 "Facebook Ads /Dublin" 20260107
+{
+#TRANS 2893 {} -61.00
+#TRANS 2893 {} -92.00
+#TRANS 2893 {} -61.00
+#TRANS 2893 {} -61.00
+#TRANS 2893 {} -92.00
+#TRANS 2893 {} -125.00
+#TRANS 5910 {} 492.00
+}
+
+#VER A 109 20241128 "Facebook Ads /Dublin" 20260107
+{
+#TRANS 2893 {} -188.00
+#TRANS 2893 {} -283.00
+#TRANS 2893 {} -312.00
+#TRANS 5910 {} 783.00
+}
+
+#VER A 110 20241129 "Facebook Ads /Dublin" 20260107
+{
+#TRANS 2893 {} -344.00
+#TRANS 5910 {} 344.00
+}
+
+#VER A 111 20241130 "Facebook Ads /Dublin" 20260107
+{
+#TRANS 2893 {} -379.00
+#TRANS 5910 {} 379.00
+}
+
+#VER A 112 20241201 "Tiktok Ads*tiktok Ads London" 20260107
+{
+#TRANS 2893 {} -66.41
+#TRANS 5910 {} 66.41
+}
+
+#VER A 113 20241201 "Facebook Ads /Dublin" 20260107
+{
+#TRANS 2893 {} -417.00
+#TRANS 5910 {} 417.00
+}
+
+#VER A 114 20241202 "Facebook Ads /Dublin" 20260107
+{
+#TRANS 2893 {} -459.00
+#TRANS 5910 {} 459.00
+}
+
+#VER A 115 20241008 JULA 20260107
+{
+#TRANS 2641 {} -73.00
+#TRANS 2893 {} -365.00
+#TRANS 5460 {} 438.00
+}
+
+#VER A 116 20241130 "utgift/kostnad (google ads)" 20260107
+{
+#TRANS 2893 {} -7100.00
+#TRANS 5910 {} 7100.00
+}
+
+#VER A 117 20241010 "patent och regverket" 20260107
+{
+#TRANS 2893 {} -2400.00
+#TRANS 6991 {} 2400.00
+}
+
+#VER A 118 20241203 "meta facebook ads" 20260107
+{
+#TRANS 2893 {} -505.00
+#TRANS 5910 {} 505.00
+}
+
+#VER A 119 20241204 "meta facebook ads" 20260107
+{
+#TRANS 2893 {} -556.00
+#TRANS 5910 {} 556.00
+}
+
+#VER A 120 20241208 "meta facebook ads" 20260107
+{
+#TRANS 2893 {} -556.63
+#TRANS 5910 {} 556.63
+}
+
+#VER A 121 20241225 "meta facebook ads" 20260107
+{
+#TRANS 2893 {} -464.60
+#TRANS 5910 {} 464.60
+}
+
+#VER A 122 20241228 "meta facebook ads" 20260107
+{
+#TRANS 2893 {} -556.00
+#TRANS 5910 {} 556.00
+}
+
+#VER A 123 20241228 "meta facebook ads" 20260107
+{
+#TRANS 2893 {} -612.00
+#TRANS 5910 {} 612.00
+}
+
+#VER A 124 20241201 "hallon tele" 20260107
+{
+#TRANS 2893 {} -19.00
+#TRANS 2893 {} -19.00
+#TRANS 2893 {} -19.00
+#TRANS 2893 {} -19.00
+#TRANS 2893 {} -19.00
+#TRANS 6212 {} 95.00
+}
+
+#VER A 125 20241216 "apple.com bill" 20260107
+{
+#TRANS 2893 {} -18.00
+#TRANS 6212 {} 18.00
+}
+
+#VER A 126 20241203 "(eparkera session 252)" 20260107
+{
+#TRANS 2893 {} -36.90
+#TRANS 5619 {} 36.90
+}
+
+#VER A 127 20241203 "Google GSUITE-samisjack (google workspace)" 20260107
+{
+#TRANS 2893 {} -162.14
+#TRANS 5910 {} 162.14
+}
+
+#VER A 128 20241120 "Google GSUITE-samisjack (google workspace)" 20260107
+{
+#TRANS 2893 {} -1000.00
+#TRANS 5910 {} 1000.00
+}
+
+#VER A 129 20241121 "SNAP *snap ads" 20260107
+{
+#TRANS 2893 {} -112.24
+#TRANS 2893 {} -18.98
+#TRANS 2893 {} -16.01
+#TRANS 2893 {} -10.57
+#TRANS 5910 {} 157.80
+}
+
+#VER A 130 20241120 "SNAP *snap ads" 20260107
+{
+#TRANS 2893 {} -63.65
+#TRANS 2893 {} -55.46
+#TRANS 2893 {} -29.84
+#TRANS 2893 {} -25.91
+#TRANS 2893 {} -25.21
+#TRANS 2893 {} -23.09
+#TRANS 5910 {} 223.16
+}
+
+#VER A 131 20241119 "SNAP *snap ads" 20260107
+{
+#TRANS 2893 {} -63.39
+#TRANS 2893 {} -57.08
+#TRANS 2893 {} -43.48
+#TRANS 2893 {} -29.51
+#TRANS 2893 {} -27.97
+#TRANS 2893 {} -23.30
+#TRANS 2893 {} -17.79
+#TRANS 5910 {} 262.52
+}
+
+#VER A 132 20241117 "(google ads5215017274)" 20260107
+{
+#TRANS 2893 {} -500.00
+#TRANS 5910 {} 500.00
+}
+
+#VER A 133 20241116 "apple.com bill" 20260107
+{
+#TRANS 2893 {} -18.00
+#TRANS 6212 {} 18.00
+}
+
+#VER A 134 20241029 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -29.95
+#TRANS 5619 {} 29.95
+}
+
+#VER A 135 20241027 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -29.95
+#TRANS 5619 {} 29.95
+}
+
+#VER A 136 20241012 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -128.95
+#TRANS 2893 {} -29.95
+#TRANS 5619 {} 158.90
+}
+
+#VER A 137 20241009 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -29.95
+#TRANS 5619 {} 29.95
+}
+
+#VER A 138 20241007 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -29.95
+#TRANS 2893 {} -29.95
+#TRANS 2893 {} -29.95
+#TRANS 5619 {} 89.85
+}
+
+#VER A 139 20241007 "sj app" 20260107
+{
+#TRANS 2893 {} -214.00
+#TRANS 5810 {} 214.00
+}
+
+#VER A 140 20241003 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -84.95
+#TRANS 2893 {} -69.95
+#TRANS 5619 {} 154.90
+}
+
+#VER A 141 20241001 "Google GSUITE-samisjack (google workspace)" 20260107
+{
+#TRANS 2893 {} -10.64
+#TRANS 5910 {} 10.64
+}
+
+#VER A 142 20240918 "Shopify * 274917290" 20260107
+{
+#TRANS 2893 {} -11.53
+#TRANS 6590 {} 11.53
+}
+
+#VER A 143 20240914 "Shopify * 273667915" 20260107
+{
+#TRANS 2893 {} -169.75
+#TRANS 6590 {} 169.75
+}
+
+#VER A 144 20240912 "Pegasus hava tasimacilik" 20260107
+{
+#TRANS 2893 {} -118.97
+#TRANS 2893 {} -35.69
+#TRANS 5890 {} 154.66
+}
+
+#VER A 145 20240827 "uber *trip" 20260107
+{
+#TRANS 2893 {} -40.06
+#TRANS 5890 {} 40.06
+}
+
+#VER A 146 20240826 "sipay/taksi yonetim" 20260107
+{
+#TRANS 2893 {} -440.65
+#TRANS 5890 {} 440.65
+}
+
+#VER A 147 20241227 "apple.com bill" 20260107
+{
+#TRANS 2893 {} -39.00
+#TRANS 6212 {} 39.00
+}
+
+#VER A 148 20241227 AI-marknadsfring 20260107
+{
+#TRANS 2893 {} -11.30
+#TRANS 5911 {} 11.30
+}
+
+#VER A 149 20241118 "apple.com bill" 20260107
+{
+#TRANS 2893 {} -39.00
+#TRANS 6212 {} 39.00
+}
+
+#VER A 150 20241128 "(605272 CVS)" 20260107
+{
+#TRANS 2893 {} -1085.00
+#TRANS 4001 {} 1085.00
+}
+
+#VER A 151 20241130 "apple.com bill" 20260107
+{
+#TRANS 2893 {} -249.00
+#TRANS 6212 {} 249.00
+}
+
+#VER A 152 20241024 "apple.com bill" 20260107
+{
+#TRANS 2893 {} -250.00
+#TRANS 6212 {} 250.00
+}
+
+#VER A 153 20241030 "Aimo Park Sweden" 20260107
+{
+#TRANS 2893 {} -500.00
+#TRANS 2893 {} -500.00
+#TRANS 5619 {} 1000.00
+}
+
+#VER A 154 20241022 "n26 top-up" 20260107
+{
+#TRANS 2893 {} -233.10
+#TRANS 6991 {} 233.10
+}
+
+#VER A 155 20241227 "apple.com bill" 20260107
+{
+#TRANS 2893 {} -35.06
+#TRANS 6212 {} 35.06
+}
+
+#VER A 156 20241114 "AI-marknadsfring OPENAI" 20260107
+{
+#TRANS 2893 {} -112.11
+#TRANS 5911 {} 112.11
+}
+
+#VER A 157 20241129 "AI-marknadsfring PictoryAI" 20260107
+{
+#TRANS 2893 {} -1274.94
+#TRANS 2893 {} -1342.05
+#TRANS 5911 {} 2616.99
+}
+
+#VER A 158 20241003 "Ryanair Ltd. Dublin" 20260107
+{
+#TRANS 2893 {} -192.08
+#TRANS 5890 {} 192.08
+}
+
+#VER A 159 20240911 "Preem Rosersberg" 20260107
+{
+#TRANS 2893 {} 618.30
+#TRANS 5611 {} -618.30
+}
+
+#VER A 160 20240825 "(EDREAMS 348577891 MADRID)" 20260107
+{
+#TRANS 2893 {} -1251.06
+#TRANS 5890 {} 1251.06
+}
+
+#VER A 161 20240906 "( mlartg)" 20260107
+{
+#TRANS 2893 {} -348.00
+#TRANS 5890 {} 348.00
+}
+
+#VER A 162 20241003 "OPODO internet transaktion" 20260107
+{
+#TRANS 2893 {} -5967.68
+#TRANS 5890 {} 5967.68
+}
+
+#VER A 163 20241231 "Kapitaliserad ranta Marginalen" 20260107
+{
+#TRANS 1930 {} 70.74
+#TRANS 8311 {} -70.74
+}
+
+#VER A 164 20241205 "Loan from Director to Company - Cash Flow Support" 20260107
+{
+#TRANS 1930 {} 120000.00 20241205 "Loan from Director to Company - Cash Flow Support"
+#TRANS 2893 {} -120000.00 20241205 "Loan from Director to Company - Cash Flow Support"
+}
+
+#VER A 165 20241201 BANKKOSTNADER 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 166 20241129 "Betalning till Skatteverket - NOT IN 2025 CSV" 20260107
+{
+#TRANS 2893 {} 625.00
+#TRANS 1930 {} -625.00
+}
+
+#VER A 167 20241101 BANKKOSTNADER 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 168 20241001 BANKKOSTNADER 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 169 20241016 "Loan from Director to Company - Cash Flow Support" 20260107
+{
+#TRANS 1930 {} 120000.00 20241016 "Loan from Director to Company - Cash Flow Support"
+#TRANS 2893 {} -120000.00 20241016 "Loan from Director to Company - Cash Flow Support"
+}
+
+#VER A 170 20240908 "avgift bankintyg" 20260107
+{
+#TRANS 1930 {} -995.00
+#TRANS 6991 {} 995.00
+}
+
+#VER A 171 20240917 "Loan from Director to Company - Cash Flow Support" 20260107
+{
+#TRANS 1930 {} 35000.00 20240917 "Loan from Director to Company - Cash Flow Support"
+#TRANS 2893 {} -35000.00 20240917 "Loan from Director to Company - Cash Flow Support"
+}
+
+#VER A 172 20241030 "Korrigering av ver.nr. A21, LF SRMLAND FRSKRINGSPREMIE F: 69006*00 (av Mohammad Sami Alsharef, 2025-06-27)" 20260107
+{
+#TRANS 2893 {} 3960.00 20241030 "Korrigering av ver.nr. A21, LF SRMLAND FRSKRINGSPREMIE F: 6"
+#TRANS 6310 {} -3960.00 20241030 "Korrigering av ver.nr. A21, LF SRMLAND FRSKRINGSPREMIE F: 6"
+}
+
+#VER A 173 20241113 frskring 20260107
+{
+#TRANS 1930 {} -3960.00 20241113 "frskring"
+#TRANS 6310 {} 3960.00 20241113 "frskring"
+}
+
+#VER A 174 20241120 "Elmontering till str§ckning" 20260107
+{
+#TRANS 1930 {} -4507.00 20241120 "Elmontering till str§ckning"
+#TRANS 2641 {} 901.40 20241120 "Elmontering till str§ckning"
+#TRANS 4001 {} 3605.60
+}
+
+#VER A 175 20250101 "M•nadsavgift fretagskonto" 20260107
+{
+#TRANS 1930 {} -70.00 20250101 "M•nadsavgift fretagskonto"
+#TRANS 8311 {} 70.00 20250101 "M•nadsavgift fretagskonto"
+}
+
+#VER A 176 20250113 "Crona Software AB" 20260107
+{
+#TRANS 1930 {} -61.00 20250113 "Crona Software AB"
+#TRANS 4001 {} 48.80
+#TRANS 2641 {} 12.20 20250113 "Crona Software AB"
+}
+
+#VER A 177 20250113 "Fortnox Finans AB" 20260107
+{
+#TRANS 1930 {} -96.00 20250113 "Fortnox Finans AB"
+#TRANS 4001 {} 76.80
+#TRANS 2641 {} 19.20 20250113 "Fortnox Finans AB"
+}
+
+#VER A 178 20250114 "Fortnox Finans AB" 20260107
+{
+#TRANS 1930 {} -96.00 20250114 "Fortnox Finans AB"
+#TRANS 4001 {} 76.80
+#TRANS 2641 {} 19.20 20250114 "Fortnox Finans AB"
+}
+
+#VER A 179 20250301 "Viva Wallet Card Purchase - TikTok Ads" 20260107
+{
+#TRANS 1941 {} -58.00
+#TRANS 5910 {} 58.00
+}
+
+#VER A 180 20250228 "Billing Fee - In-Person Default (2025-01-31 - 2025-02-27)" 20260107
+{
+#TRANS 1941 {} -58.00
+#TRANS 6570 {} 58.00
+}
+
+#VER A 181 20250221 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 5.00
+#TRANS 8311 {} -5.00
+}
+
+#VER A 182 20250220 "Viva Wallet Card Purchase - ARAN FOOD AB" 20260107
+{
+#TRANS 1941 {} -1145.00
+#TRANS 2893 {} 1145.00
+}
+
+#VER A 183 20250219 "Billing Fee - Foreign Currency Fee for Transaction Amount 41.72 EUR (2025-02-18)" 20260107
+{
+#TRANS 1941 {} -14.00
+#TRANS 6570 {} 14.00
+}
+
+#VER A 184 20250219 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 2.00
+#TRANS 8311 {} -2.00
+}
+
+#VER A 185 20250218 "Viva Wallet Card Purchase - CLAS OHLSON" 20260107
+{
+#TRANS 1941 {} -69.00
+#TRANS 2641 {} 14.00
+#TRANS 5460 {} 55.00
+}
+
+#VER A 186 20250218 "Viva Wallet Card Purchase - SHOPIFY* 330742565" 20260107
+{
+#TRANS 1941 {} -470.00
+#TRANS 2641 {} 94.00
+#TRANS 5420 {} 376.00
+}
+
+#VER A 187 20250218 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 7.00
+#TRANS 8311 {} -7.00
+}
+
+#VER A 188 20250217 "Viva Wallet Card Purchase - WILLYS ESKILSTUNA C" 20260107
+{
+#TRANS 1941 {} -1573.00
+#TRANS 2893 {} 1573.00
+}
+
+#VER A 189 20250217 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 4.00
+#TRANS 8311 {} -4.00
+}
+
+#VER A 190 20250216 "Viva Wallet Card Purchase - BILTEMA ESKILSTUNA" 20260107
+{
+#TRANS 1941 {} -891.00
+#TRANS 2641 {} 178.00
+#TRANS 5460 {} 713.00
+}
+
+#VER A 191 20250216 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 2.00
+#TRANS 8311 {} -2.00
+}
+
+#VER A 192 20250215 "Viva Wallet Card Purchase - St1 Gillbergaplan" 20260107
+{
+#TRANS 1941 {} -640.00
+#TRANS 2641 {} 128.00
+#TRANS 5611 {} 512.00
+}
+
+#VER A 193 20250213 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 1.00
+#TRANS 8311 {} -1.00
+}
+
+#VER A 194 20250212 "Viva Wallet Card Purchase - Freightseeker AB" 20260107
+{
+#TRANS 1941 {} -86.00
+#TRANS 2641 {} 17.00
+#TRANS 6991 {} 69.00
+}
+
+#VER A 195 20250212 "Viva Wallet Card Purchase - Freightseeker AB" 20260107
+{
+#TRANS 1941 {} -157.00
+#TRANS 2641 {} 31.00
+#TRANS 6991 {} 126.00
+}
+
+#VER A 196 20250211 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 5.00
+#TRANS 8311 {} -5.00
+}
+
+#VER A 197 20250210 "Viva Wallet Card Purchase - TikTok Ads" 20260107
+{
+#TRANS 1941 {} -728.00
+#TRANS 5910 {} 728.00
+}
+
+#VER A 198 20250210 "Viva Wallet Card Purchase - FACEBK *3L4QAGYC72" 20260107
+{
+#TRANS 1941 {} -417.00
+#TRANS 5910 {} 417.00
+}
+
+#VER A 199 20250210 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 11.00
+#TRANS 8311 {} -11.00
+}
+
+#VER A 200 20250209 "Viva Wallet Card Purchase - ARAN FOOD AB" 20260107
+{
+#TRANS 1941 {} -2597.00
+#TRANS 2893 {} 2597.00
+}
+
+#VER A 201 20250209 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 9.00
+#TRANS 8311 {} -9.00
+}
+
+#VER A 202 20250209 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -20.00
+#TRANS 6570 {} 20.00
+}
+
+#VER A 203 20250208 "Viva Wallet Card Purchase - TikTok Ads" 20260107
+{
+#TRANS 1941 {} -728.00
+#TRANS 5910 {} 728.00
+}
+
+#VER A 204 20250208 "Viva Wallet Card Purchase - Freightseeker AB" 20260107
+{
+#TRANS 1941 {} -131.00
+#TRANS 2641 {} 26.00
+#TRANS 6991 {} 105.00
+}
+
+#VER A 205 20250208 "Viva Wallet Card Purchase - WILLYS ESKILSTUNA C" 20260107
+{
+#TRANS 1941 {} -1253.00
+#TRANS 2893 {} 1253.00
+}
+
+#VER A 206 20250207 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 1.00
+#TRANS 8311 {} -1.00
+}
+
+#VER A 207 20250207 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -16.00
+#TRANS 6570 {} 16.00
+}
+
+#VER A 208 20250206 "Viva Wallet Card Refund - CLAS OHLSON" 20260107
+{
+#TRANS 1941 {} 199.00
+#TRANS 2641 {} -40.00
+#TRANS 5460 {} -159.00
+}
+
+#VER A 209 20250206 "Viva Wallet Card Purchase - CLAS OHLSON" 20260107
+{
+#TRANS 1941 {} -618.00
+#TRANS 2641 {} 124.00
+#TRANS 5460 {} 494.00
+}
+
+#VER A 210 20250205 "Viva Wallet Card Purchase - Freightseeker AB" 20260107
+{
+#TRANS 1941 {} -90.00
+#TRANS 2641 {} 18.00
+#TRANS 6991 {} 72.00
+}
+
+#VER A 211 20250205 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -11.00
+#TRANS 6570 {} 11.00
+}
+
+#VER A 212 20250204 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -8.00
+#TRANS 6570 {} 8.00
+}
+
+#VER A 213 20250204 "Viva Wallet Card Purchase - Freightseeker AB" 20260107
+{
+#TRANS 1941 {} -86.00
+#TRANS 2641 {} 17.00
+#TRANS 6991 {} 69.00
+}
+
+#VER A 214 20250204 "Viva Wallet Card Purchase - Freightseeker AB" 20260107
+{
+#TRANS 1941 {} -98.00
+#TRANS 2641 {} 20.00
+#TRANS 6991 {} 78.00
+}
+
+#VER A 215 20250204 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -3.00
+#TRANS 6570 {} 3.00
+}
+
+#VER A 216 20250203 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -3.00
+#TRANS 6570 {} 3.00
+}
+
+#VER A 217 20250203 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -42.00
+#TRANS 6570 {} 42.00
+}
+
+#VER A 218 20250203 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -8.00
+#TRANS 6570 {} 8.00
+}
+
+#VER A 219 20250202 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -25.00
+#TRANS 6570 {} 25.00
+}
+
+#VER A 220 20250201 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -13.00
+#TRANS 6570 {} 13.00
+}
+
+#VER A 221 20250201 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -16.00
+#TRANS 6570 {} 16.00
+}
+
+#VER A 222 20250201 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 1.00
+#TRANS 8311 {} -1.00
+}
+
+#VER A 223 20250131 "Billing Fee - Account Default Plan (2024-12-31 - 2025-01-30)" 20260107
+{
+#TRANS 1941 {} -58.00
+#TRANS 6570 {} 58.00
+}
+
+#VER A 224 20250131 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 6570 {} 22.00
+}
+
+#VER A 225 20250131 "Viva Wallet Card Purchase - Temu.com" 20260107
+{
+#TRANS 1941 {} -283.00
+#TRANS 2641 {} 57.00
+#TRANS 5460 {} 226.00
+}
+
+#VER A 226 20250131 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 7.00
+#TRANS 8311 {} -7.00
+}
+
+#VER A 227 20250131 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -7.00
+#TRANS 6570 {} 7.00
+}
+
+#VER A 228 20250130 "Viva Wallet Card Purchase - Temu.com" 20260107
+{
+#TRANS 1941 {} -1750.00
+#TRANS 2641 {} 350.00
+#TRANS 5460 {} 1400.00
+}
+
+#VER A 229 20250129 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 1.00
+#TRANS 8311 {} -1.00
+}
+
+#VER A 230 20250129 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -45.00
+#TRANS 6570 {} 45.00
+}
+
+#VER A 231 20250128 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 232 20250128 "Viva Wallet Card Purchase - CHILIMOBIL.SE" 20260107
+{
+#TRANS 1941 {} -624.00
+#TRANS 2641 {} 125.00
+#TRANS 5420 {} 499.00
+}
+
+#VER A 233 20250128 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -13.00
+#TRANS 6570 {} 13.00
+}
+
+#VER A 234 20250128 "Repayment of Director's Loan  bil " 20260107
+{
+#TRANS 1941 {} -12000.00 20250128 "Repayment of Director's Loan  bil "
+#TRANS 2893 {} 12000.00 20250128 "Repayment of Director's Loan  bil "
+}
+
+#VER A 235 20250128 "Money out to IBAN - SE7680000890116948003766 - 1088488604 - Hyra med moms" 20260107
+{
+#TRANS 1941 {} -20566.00
+#TRANS 2641 {} 5141.50
+#TRANS 5010 {} 15424.50
+}
+
+#VER A 236 20250128 "Money out to IBAN - SE7680000890116948003766 - 1088975006 - Hyra med moms" 20260107
+{
+#TRANS 1941 {} -1896.00
+#TRANS 2641 {} 474.00
+#TRANS 5010 {} 1422.00
+}
+
+#VER A 237 20250127 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -3.00
+#TRANS 6570 {} 3.00
+}
+
+#VER A 238 20250127 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -75.00
+#TRANS 6570 {} 75.00
+}
+
+#VER A 239 20250127 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -15.00
+#TRANS 6570 {} 15.00
+}
+
+#VER A 240 20250127 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -13.00
+#TRANS 6570 {} 13.00
+}
+
+#VER A 241 20250126 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -5.00
+#TRANS 6570 {} 5.00
+}
+
+#VER A 242 20250125 "Viva Wallet Card Purchase - ARAN FOOD AB" 20260107
+{
+#TRANS 1941 {} -1099.00
+#TRANS 2893 {} 1099.00
+}
+
+#VER A 243 20250125 "Viva Wallet Card Purchase - FACEBK *F9GBGG8Q52" 20260107
+{
+#TRANS 1941 {} -16.00
+#TRANS 5910 {} 16.00
+}
+
+#VER A 244 20250124 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -69.00
+#TRANS 6570 {} 69.00
+}
+
+#VER A 245 20250124 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -30.00
+#TRANS 6570 {} 30.00
+}
+
+#VER A 246 20250124 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -42.00
+#TRANS 6570 {} 42.00
+}
+
+#VER A 247 20250124 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -12.00
+#TRANS 6570 {} 12.00
+}
+
+#VER A 248 20250123 "Viva Wallet Card Refund - BOLAGSVERKET" 20260107
+{
+#TRANS 1941 {} 1400.00
+#TRANS 6991 {} -1400.00
+}
+
+#VER A 249 20250123 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 3.00
+#TRANS 8311 {} -3.00
+}
+
+#VER A 250 20250122 "Viva Wallet Card Purchase - WILLYS ESKILSTUNA C" 20260107
+{
+#TRANS 1941 {} -708.00
+#TRANS 2893 {} 708.00
+}
+
+#VER A 251 20250121 "Viva Wallet Card Purchase - FACEBK *E4QVEFYP52" 20260107
+{
+#TRANS 1941 {} -50.00
+#TRANS 5910 {} 50.00
+}
+
+#VER A 252 20250121 "Viva Wallet Card Purchase - FACEBK *PBLRLFLQ52" 20260107
+{
+#TRANS 1941 {} -50.00
+#TRANS 5910 {} 50.00
+}
+
+#VER A 253 20250121 "Viva Wallet Card Purchase - FACEBK *NDBXCG4Q52" 20260107
+{
+#TRANS 1941 {} -27.00
+#TRANS 5910 {} 27.00
+}
+
+#VER A 254 20250121 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 1.00
+#TRANS 8311 {} -1.00
+}
+
+#VER A 255 20250121 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -16.00
+#TRANS 6570 {} 16.00
+}
+
+#VER A 256 20250121 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -25.00
+#TRANS 6570 {} 25.00
+}
+
+#VER A 257 20250120 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -11.00
+#TRANS 6570 {} 11.00
+}
+
+#VER A 258 20250120 "Viva Wallet Card Purchase - FACEBK *4SMPEFYP52" 20260107
+{
+#TRANS 1941 {} -50.00
+#TRANS 5910 {} 50.00
+}
+
+#VER A 259 20250120 "Viva Wallet Card Purchase - FACEBK *9R5X8G8Q52" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 5910 {} 22.00
+}
+
+#VER A 260 20250120 "Viva Wallet Card Purchase - FACEBK *73Q8KHUQ52" 20260107
+{
+#TRANS 1941 {} -18.00
+#TRANS 5910 {} 18.00
+}
+
+#VER A 261 20250120 "Viva Wallet Card Purchase - FACEBK *26JAVGGQ52" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 5910 {} 22.00
+}
+
+#VER A 262 20250120 "Viva Wallet Card Purchase - FACEBK *Y3Y8EFYP52" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 5910 {} 22.00
+}
+
+#VER A 263 20250120 "Viva Wallet Card Purchase - FACEBK *XV4LEFYP52" 20260107
+{
+#TRANS 1941 {} -15.00
+#TRANS 5910 {} 15.00
+}
+
+#VER A 264 20250120 "Viva Wallet Card Purchase - FACEBK *SZTWUGGQ52" 20260107
+{
+#TRANS 1941 {} -21.00
+#TRANS 5910 {} 21.00
+}
+
+#VER A 265 20250120 "Viva Wallet Card Purchase - FACEBK *GY53QFUP52" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 5910 {} 22.00
+}
+
+#VER A 266 20250120 "Viva Wallet Card Purchase - FACEBK *F95NHGQQ52" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 5910 {} 22.00
+}
+
+#VER A 267 20250120 "Viva Wallet Card Purchase - FACEBK *AE7DEFYP52" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 5910 {} 22.00
+}
+
+#VER A 268 20250120 "Viva Wallet Card Purchase - FACEBK *8RHZBG4Q52" 20260107
+{
+#TRANS 1941 {} -33.00
+#TRANS 5910 {} 33.00
+}
+
+#VER A 269 20250120 "Viva Wallet Card Purchase - FACEBK *Z2VMEFYP52" 20260107
+{
+#TRANS 1941 {} -33.00
+#TRANS 5910 {} 33.00
+}
+
+#VER A 270 20250120 "Viva Wallet Card Purchase - FACEBK *ZHKQEFYP52" 20260107
+{
+#TRANS 1941 {} -19.00
+#TRANS 5910 {} 19.00
+}
+
+#VER A 271 20250120 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -13.00
+#TRANS 6570 {} 13.00
+}
+
+#VER A 272 20250120 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -13.00
+#TRANS 6570 {} 13.00
+}
+
+#VER A 273 20250119 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -11.00
+#TRANS 6570 {} 11.00
+}
+
+#VER A 274 20250119 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -25.00
+#TRANS 6570 {} 25.00
+}
+
+#VER A 275 20250117 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -11.00
+#TRANS 6570 {} 11.00
+}
+
+#VER A 276 20250116 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -13.00
+#TRANS 6570 {} 13.00
+}
+
+#VER A 277 20250116 "Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com" 20260107
+{
+#TRANS 1941 {} 1928.00
+#TRANS 1940 {} -1928.00
+}
+
+#VER A 278 20250115 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -20.00
+#TRANS 6570 {} 20.00
+}
+
+#VER A 279 20250114 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -23.00
+#TRANS 6570 {} 23.00
+}
+
+#VER A 280 20250113 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -22.00
+#TRANS 6570 {} 22.00
+}
+
+#VER A 281 20250112 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 6.00
+#TRANS 8311 {} -6.00
+}
+
+#VER A 282 20250111 "Viva Wallet Card Purchase - BOLAGSVERKET" 20260107
+{
+#TRANS 1941 {} -1400.00
+#TRANS 6991 {} 1400.00
+}
+
+#VER A 283 20250110 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -30.00
+#TRANS 6570 {} 30.00
+}
+
+#VER A 284 20250109 "Money out to IBAN - SE2150000000057461042734 - ZSE104000077549" 20260107
+{
+#TRANS 1941 {} -12000.00
+#TRANS 2893 {} 12000.00
+}
+
+#VER A 285 20250107 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 286 20250107 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -35.00
+#TRANS 6570 {} 35.00
+}
+
+#VER A 287 20250107 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 288 20250106 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -43.00
+#TRANS 6570 {} 43.00
+}
+
+#VER A 289 20250106 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -46.00
+#TRANS 6570 {} 46.00
+}
+
+#VER A 290 20250102 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -14.00
+#TRANS 6570 {} 14.00
+}
+
+#VER A 291 20250102 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -12.00
+#TRANS 6570 {} 12.00
+}
+
+#VER A 292 20241231 "Billing Fee - Account Default Plan (2024-11-30 - 2024-12-30)" 20260107
+{
+#TRANS 1941 {} -58.00
+#TRANS 6570 {} 58.00
+}
+
+#VER A 293 20241231 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -14.00
+#TRANS 6570 {} 14.00
+}
+
+#VER A 294 20241230 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -14.00
+#TRANS 6570 {} 14.00
+}
+
+#VER A 295 20241230 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -37.00
+#TRANS 6570 {} 37.00
+}
+
+#VER A 296 20241228 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -24.00
+#TRANS 6570 {} 24.00
+}
+
+#VER A 297 20241228 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -37.00
+#TRANS 6570 {} 37.00
+}
+
+#VER A 298 20241227 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -7.00
+#TRANS 6570 {} 7.00
+}
+
+#VER A 299 20241226 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -14.00
+#TRANS 6570 {} 14.00
+}
+
+#VER A 300 20241223 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -23.00
+#TRANS 6570 {} 23.00
+}
+
+#VER A 301 20241223 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -46.00
+#TRANS 6570 {} 46.00
+}
+
+#VER A 302 20241223 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 303 20241223 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -8.00
+#TRANS 6570 {} 8.00
+}
+
+#VER A 304 20241223 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -8.00
+#TRANS 6570 {} 8.00
+}
+
+#VER A 305 20241221 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -28.00
+#TRANS 6570 {} 28.00
+}
+
+#VER A 306 20241221 "Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com" 20260107
+{
+#TRANS 1941 {} -14000.00
+#TRANS 1940 {} 14000.00
+}
+
+#VER A 307 20241220 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 308 20241220 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 309 20241220 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 310 20241216 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -5.00
+#TRANS 6570 {} 5.00
+}
+
+#VER A 311 20241214 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -28.00
+#TRANS 6570 {} 28.00
+}
+
+#VER A 312 20241213 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 313 20241211 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 314 20241211 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -23.00
+#TRANS 6570 {} 23.00
+}
+
+#VER A 315 20241207 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -23.00
+#TRANS 6570 {} 23.00
+}
+
+#VER A 316 20241206 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -46.00
+#TRANS 6570 {} 46.00
+}
+
+#VER A 317 20241205 "Billing Fee - Foreign Currency Fee for Transaction Amount 900.49 USD (2024-12-04)" 20260107
+{
+#TRANS 1941 {} -298.00
+#TRANS 6570 {} 298.00
+}
+
+#VER A 318 20241205 "Viva Cashback" 20260107
+{
+#TRANS 1941 {} 45.00
+#TRANS 8311 {} -45.00
+}
+
+#VER A 319 20241205 "Wallet2Wallet Transfer - Samis Jackets - Sent from Viva.com" 20260107
+{
+#TRANS 1941 {} -8500.00
+#TRANS 1940 {} 8500.00
+}
+
+#VER A 320 20241204 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 321 20241204 "Viva Wallet Card Purchase - mytrip_1045449237" 20260107
+{
+#TRANS 1941 {} -9945.00
+#TRANS 5800 {} 9945.00
+}
+
+#VER A 322 20241204 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 323 20241202 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -3.00
+#TRANS 6570 {} 3.00
+}
+
+#VER A 324 20241130 "Billing Fee - Account Default Plan (2024-10-31 - 2024-11-29)" 20260107
+{
+#TRANS 1941 {} -58.00
+#TRANS 6570 {} 58.00
+}
+
+#VER A 325 20241129 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 326 20241129 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -26.00
+#TRANS 6570 {} 26.00
+}
+
+#VER A 327 20241127 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -26.00
+#TRANS 6570 {} 26.00
+}
+
+#VER A 328 20241127 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -30.00
+#TRANS 6570 {} 30.00
+}
+
+#VER A 329 20241126 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 330 20241126 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 331 20241126 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -19.00
+#TRANS 6570 {} 19.00
+}
+
+#VER A 332 20241123 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -29.00
+#TRANS 6570 {} 29.00
+}
+
+#VER A 333 20241123 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -3.00
+#TRANS 6570 {} 3.00
+}
+
+#VER A 334 20241122 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -34.00
+#TRANS 6570 {} 34.00
+}
+
+#VER A 335 20241118 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -30.00
+#TRANS 6570 {} 30.00
+}
+
+#VER A 336 20241117 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 337 20241115 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -34.00
+#TRANS 6570 {} 34.00
+}
+
+#VER A 338 20241114 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -32.00
+#TRANS 6570 {} 32.00
+}
+
+#VER A 339 20241111 "Sales Clearance Commission Cards" 20260107
+{
+#TRANS 1941 {} -17.00
+#TRANS 6570 {} 17.00
+}
+
+#VER A 340 20241230 "Viva Wallet - Money out to IBAN fee" 20260107
+{
+#TRANS 1940 {} -6.00
+#TRANS 6570 {} 6.00
+}
+
+#VER A 341 20241230 "Money out to IBAN - SE7680000890116948003766 - 1088488505 - Hyra med moms" 20260107
+{
+#TRANS 1940 {} -20566.00
+#TRANS 2641 {} 5141.50
+#TRANS 5010 {} 15424.50
+}
+
+#VER A 342 20250329 "Money out to IBAN - SE6230000000030860059626" 20260107
+{
+#TRANS 1941 {} -68.00
+#TRANS 2893 {} 68.00
+}
+
+#VER A 343 20240701 "Opening balance SEK" 20260107
+{
+#TRANS 1945 {} 561.47 20240701 "Opening balance"
+#TRANS 2091 {} -561.47 20240701 "Opening balance equity"
+}
+
+#VER A 344 20250616 "Converted 1,635.80 SEK to 172.13 USD" 20260107
+{
+#TRANS 1945 {} -1635.80 20250616 "Converted to USD"
+#TRANS 1942 {} 1635.80 20250616 "172.13 USD"
+}
+
+#VER A 345 20250616 "Converted 1,925.67 SEK to 175.00 EUR" 20260107
+{
+#TRANS 1945 {} -1925.67 20250616 "Converted to EUR"
+#TRANS 1944 {} 1925.67 20250616 "175.00 EUR"
+}
+
+#VER A 346 20250616 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 3000.00 20250616 "Transfer in"
+#TRANS 1930 {} -3000.00 20250616 "From Marginalen"
+}
+
+#VER A 347 20250615 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -493.72 20250615 "Card transaction of 44.87 EUR issued by Shopify* 378751858 DUBLIN"
+#TRANS 5420 {} 493.72 20250615 "Shopify subscription fees"
+}
+
+#VER A 348 20250609 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 1000.00 20250609 "Transfer in"
+#TRANS 1930 {} -1000.00 20250609 "From Marginalen"
+}
+
+#VER A 349 20250527 "Card transaction 2co.com imobie" 20260107
+{
+#TRANS 1945 {} -475.85 20250527 "Card transaction of 475.85 SEK issued by 2co.comimobie Inc AMSTERDAM"
+#TRANS 5420 {} 475.85 20250527 "Software purchase"
+}
+
+#VER A 350 20250520 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -968.96 20250520 "Card transaction of 88.63 EUR issued by Shopify* 366614525 DUBLIN"
+#TRANS 5420 {} 968.96 20250520 "Shopify subscription fees"
+}
+
+#VER A 351 20250519 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 1500.00 20250519 "Transfer in"
+#TRANS 1930 {} -1500.00 20250519 "From Marginalen"
+}
+
+#VER A 352 20250513 "Converted 10,492.27 SEK to 811.05 GBP" 20260107
+{
+#TRANS 1945 {} -10492.27 20250513 "Converted to GBP"
+#TRANS 1943 {} 10492.27 20250513 "811.05 GBP"
+}
+
+#VER A 353 20250513 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 10000.00 20250513 "Transfer in"
+#TRANS 1930 {} -10000.00 20250513 "From Marginalen"
+}
+
+#VER A 354 20250428 "Card transaction Freightseeker" 20260107
+{
+#TRANS 1945 {} -90.00 20250428 "Card transaction of 90.00 SEK issued by Freightseeker Ab Boras"
+#TRANS 6991 {} 90.00 20250428 "Freight service"
+}
+
+#VER A 355 20250423 "Card transaction Ant Ifoto.ai" 20260107
+{
+#TRANS 1945 {} -95.69 20250423 "Card transaction of 9.90 USD issued by Ant*Ifoto.ai HongKongChina"
+#TRANS 5420 {} 95.69 20250423 "Software purchase"
+}
+
+#VER A 356 20250417 "Card transaction Norton" 20260107
+{
+#TRANS 1945 {} -191.00 20250417 "Card transaction of 191.00 SEK issued by Norton *Np1599897571 Amersfoort"
+#TRANS 5420 {} 191.00 20250417 "Software purchase"
+}
+
+#VER A 357 20250416 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -1425.18 20250416 "Card transaction of 127.56 EUR issued by Shopify* 354832046 DUBLIN"
+#TRANS 5420 {} 1425.18 20250416 "Shopify subscription fees"
+}
+
+#VER A 358 20250414 "Card transaction Dohop" 20260107
+{
+#TRANS 1945 {} -810.61 20250414 "Card transaction of 72.75 EUR issued by Dohop Ehf. Reykjavik"
+#TRANS 5800 {} 810.61 20250414 "Travel expenses"
+}
+
+#VER A 359 20250414 "Card refund Dohop" 20260107
+{
+#TRANS 1945 {} 802.37 20250414 "Card transaction of 71.97 EUR issued by Dohop Ehf. Reykjavik"
+#TRANS 5800 {} -802.37 20250414 "Travel refund"
+}
+
+#VER A 360 20250414 "Card transaction Dohop" 20260107
+{
+#TRANS 1945 {} -802.37 20250414 "Card transaction of 71.97 EUR issued by Dohop Ehf. Reykjavik"
+#TRANS 5800 {} 802.37 20250414 "Travel expenses"
+}
+
+#VER A 361 20250414 "Card transaction Willys" 20260107
+{
+#TRANS 1945 {} -199.90 20250414 "Card transaction of 199.90 SEK issued by Willys Eskilstuna C ESKILSTUNA"
+#TRANS 2893 {} 199.90 20250414 "Food/groceries"
+}
+
+#VER A 362 20250414 "Card refund St1" 20260107
+{
+#TRANS 1945 {} 1160.88 20250414 "Card transaction of 839.12 SEK issued by St1 Gillbergaplan ESKILSTUNA"
+#TRANS 5610 {} -1160.88 20250414 "Fuel refund"
+}
+
+#VER A 363 20250414 "Card transaction St1" 20260107
+{
+#TRANS 1945 {} -2000.00 20250414 "Card transaction of 839.12 SEK issued by St1 Gillbergaplan ESKILSTUNA"
+#TRANS 5610 {} 2000.00 20250414 "Fuel"
+}
+
+#VER A 364 20250413 "Card transaction Willys" 20260107
+{
+#TRANS 1945 {} -856.23 20250413 "Card transaction of 856.23 SEK issued by Willys Eskilstuna C ESKILSTUNA"
+#TRANS 2893 {} 856.23 20250413 "Food/groceries"
+}
+
+#VER A 365 20250407 "Converted 2,000.00 SEK to 196.96 USD" 20260107
+{
+#TRANS 1945 {} -2000.00 20250407 "Converted to USD"
+#TRANS 1942 {} 2000.00 20250407 "196.96 USD"
+}
+
+#VER A 366 20250410 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 5000.00 20250410 "Transfer in"
+#TRANS 1930 {} -5000.00 20250410 "From Marginalen"
+}
+
+#VER A 367 20250407 "Converted 484.42 SEK to 47.79 USD" 20260107
+{
+#TRANS 1945 {} -484.42 20250407 "Converted to USD"
+#TRANS 1942 {} 484.42 20250407 "47.79 USD"
+}
+
+#VER A 368 20250407 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 2000.00 20250407 "Transfer in"
+#TRANS 1930 {} -2000.00 20250407 "From Marginalen"
+}
+
+#VER A 369 20250406 "Card transaction Freightseeker" 20260107
+{
+#TRANS 1945 {} -90.00 20250406 "Card transaction of 90.00 SEK issued by Freightseeker Ab Boras"
+#TRANS 6991 {} 90.00 20250406 "Freight service"
+}
+
+#VER A 370 20250404 "Card transaction Willys" 20260107
+{
+#TRANS 1945 {} -838.90 20250404 "Card transaction of 838.90 SEK issued by Willys Eskilstuna C ESKILSTUNA"
+#TRANS 2893 {} 838.90 20250404 "Food/groceries"
+}
+
+#VER A 371 20250404 "Card transaction Willys" 20260107
+{
+#TRANS 1945 {} -1064.63 20250404 "Card transaction of 1,064.63 SEK issued by Willys Eskilstuna C ESKILSTUNA"
+#TRANS 2893 {} 1064.63 20250404 "Food/groceries"
+}
+
+#VER A 372 20250402 "Card transaction Freightseeker" 20260107
+{
+#TRANS 1945 {} -108.75 20250402 "Card transaction of 108.75 SEK issued by Freightseeker Ab Boras"
+#TRANS 6991 {} 108.75 20250402 "Freight service"
+}
+
+#VER A 373 20250402 "Card transaction OpenAI ChatGPT" 20260107
+{
+#TRANS 1945 {} -198.97 20250402 "Card transaction of 18.40 EUR issued by Openai *Chatgpt Subscr DUBLIN"
+#TRANS 5420 {} 198.97 20250402 "Software subscription"
+}
+
+#VER A 374 20250401 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 2500.00 20250401 "Transfer in"
+#TRANS 1930 {} -2500.00 20250401 "From Marginalen"
+}
+
+#VER A 375 20250331 "Card transaction Freightseeker" 20260107
+{
+#TRANS 1945 {} -127.50 20250331 "Card transaction of 127.50 SEK issued by Freightseeker Ab Boras"
+#TRANS 6991 {} 127.50 20250331 "Freight service"
+}
+
+#VER A 376 20250325 "Card transaction Apple" 20260107
+{
+#TRANS 1945 {} -999.00 20250325 "Card transaction of 999.00 SEK issued by Apple.com/se 077-140-04-84"
+#TRANS 5420 {} 999.00 20250325 "Software purchase"
+}
+
+#VER A 377 20250324 "Card transaction Google Play" 20260107
+{
+#TRANS 1945 {} -254.47 20250324 "Card transaction of 25.00 USD issued by Google *Play g.co/helppay#"
+#TRANS 5420 {} 254.47 20250324 "App purchase"
+}
+
+#VER A 378 20250323 "Card transaction Ant Ifoto.ai" 20260107
+{
+#TRANS 1945 {} -100.87 20250323 "Card transaction of 9.90 USD issued by Ant*Ifoto.ai ANT"
+#TRANS 5420 {} 100.87 20250323 "Software purchase"
+}
+
+#VER A 379 20250322 "Card transaction Aran Food" 20260107
+{
+#TRANS 1945 {} -686.75 20250322 "Card transaction of 686.75 SEK issued by Aran Food Ab ESKILSTUNA"
+#TRANS 2893 {} 686.75 20250322 "Food/groceries"
+}
+
+#VER A 380 20250317 "Card transaction In & Finn" 20260107
+{
+#TRANS 1945 {} -12.00 20250317 "Card transaction of 12.00 SEK issued by In & Finn Ab ESKILSTUNA"
+#TRANS 2893 {} 12.00 20250317 "Food/groceries"
+}
+
+#VER A 381 20250317 "Card transaction Normal" 20260107
+{
+#TRANS 1945 {} -8.00 20250317 "Card transaction of 8.00 SEK issued by Normal Eskilstuna Cityhus ESKILSTUNA"
+#TRANS 6991 {} 8.00 20250317 "Store purchase"
+}
+
+#VER A 382 20250317 "Card transaction ICA" 20260107
+{
+#TRANS 1945 {} -166.00 20250317 "Card transaction of 166.00 SEK issued by Ica Supermarket Tunafors ESKILSTUNA"
+#TRANS 2893 {} 166.00 20250317 "Food/groceries"
+}
+
+#VER A 383 20250317 "Card transaction Aran Food" 20260107
+{
+#TRANS 1945 {} -29.99 20250317 "Card transaction of 29.99 SEK issued by Aran Food Ab ESKILSTUNA"
+#TRANS 2893 {} 29.99 20250317 "Food/groceries"
+}
+
+#VER A 384 20250317 "Card transaction Apple" 20260107
+{
+#TRANS 1945 {} -249.00 20250317 "Card transaction of 249.00 SEK issued by Apple.com/bill ITUNES.COM"
+#TRANS 5420 {} 249.00 20250317 "Software purchase"
+}
+
+#VER A 385 20250317 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -1436.59 20250317 "Card transaction of 129.78 EUR issued by Shopify* 342569450 DUBLIN"
+#TRANS 5420 {} 1436.59 20250317 "Shopify subscription fees"
+}
+
+#VER A 386 20250316 "Card transaction OKQ8" 20260107
+{
+#TRANS 1945 {} -99.00 20250316 "Card transaction of 99.00 SEK issued by Okq8 ESKILSTUNA"
+#TRANS 5610 {} 99.00 20250316 "Fuel"
+}
+
+#VER A 387 20250315 "Card transaction Ma Livs" 20260107
+{
+#TRANS 1945 {} -16.98 20250315 "Card transaction of 16.98 SEK issued by Ma Livs Handelsbolag Eskilstuna"
+#TRANS 2893 {} 16.98 20250315 "Food/groceries"
+}
+
+#VER A 388 20250315 "Card transaction Ma Livs" 20260107
+{
+#TRANS 1945 {} -26.96 20250315 "Card transaction of 26.96 SEK issued by Ma Livs Handelsbolag Eskilstuna"
+#TRANS 2893 {} 26.96 20250315 "Food/groceries"
+}
+
+#VER A 389 20250315 "Card transaction Lidl" 20260107
+{
+#TRANS 1945 {} -60.70 20250315 "Card transaction of 60.70 SEK issued by Lidl 166 E-Tuna Rabergsto ESKILSTUNA"
+#TRANS 2893 {} 60.70 20250315 "Food/groceries"
+}
+
+#VER A 390 20250314 "Card transaction Normal" 20260107
+{
+#TRANS 1945 {} -20.00 20250314 "Card transaction of 20.00 SEK issued by Normal Eskilstuna Cityhus ESKILSTUNA"
+#TRANS 6991 {} 20.00 20250314 "Store purchase"
+}
+
+#VER A 391 20250313 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -103.62 20250313 "Card transaction of 103.62 SEK issued by Shopify* 341047123 DUBLIN"
+#TRANS 5420 {} 103.62 20250313 "Shopify subscription fees"
+}
+
+#VER A 392 20250313 "Card transaction Normal" 20260107
+{
+#TRANS 1945 {} -281.00 20250313 "Card transaction of 281.00 SEK issued by Normal Eskilstuna Cityhus ESKILSTUNA"
+#TRANS 6991 {} 281.00 20250313 "Store purchase"
+}
+
+#VER A 393 20250313 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -515.22 20250313 "Card transaction of 46.50 EUR issued by Shopify* 341035837 DUBLIN"
+#TRANS 5420 {} 515.22 20250313 "Shopify subscription fees"
+}
+
+#VER A 394 20250313 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -515.07 20250313 "Card transaction of 46.50 EUR issued by Shopify* 341035526 DUBLIN"
+#TRANS 5420 {} 515.07 20250313 "Shopify subscription fees"
+}
+
+#VER A 395 20250312 "Card transaction Shopify" 20260107
+{
+#TRANS 1945 {} -472.61 20250312 "Card transaction of 46.50 EUR issued by Shopify* 340699641 DUBLIN"
+#TRANS 5420 {} 472.61 20250312 "Shopify subscription fees"
+}
+
+#VER A 396 20250312 "Card transaction Babylon Livs" 20260107
+{
+#TRANS 1945 {} -32.00 20250312 "Card transaction of 32.00 SEK issued by Babylon Livs ESKILSTUNA"
+#TRANS 2893 {} 32.00 20250312 "Food/groceries"
+}
+
+#VER A 397 20250212 "Converted 551.46 EUR to 6,203.22 SEK" 20260107
+{
+#TRANS 1945 {} 6203.22 20250212 "Converted from EUR"
+#TRANS 1944 {} -6203.22 20250212 "551.46 EUR"
+}
+
+#VER A 398 20250212 "Converted 1,801.68 GBP to 24,302.42 SEK" 20260107
+{
+#TRANS 1945 {} 24302.42 20250212 "Converted from GBP"
+#TRANS 1943 {} -24302.42 20250212 "1,801.68 GBP"
+}
+
+#VER A 399 20250311 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 6499.00 20250311 "Transfer in"
+#TRANS 1930 {} -6499.00 20250311 "From Marginalen"
+}
+
+#VER A 400 20250212 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1945 {} -30505.64 20250212 "Repayment of Director's Loan"
+#TRANS 2893 {} 30505.64 20250212 "Repayment of Director's Loan"
+}
+
+#VER A 401 20250212 "Card transaction Clas Ohlson" 20260107
+{
+#TRANS 1945 {} -45.85 20250212 "Card transaction of 199.60 SEK issued by Clas Ohlson ESKILSTUNA"
+#TRANS 6991 {} 45.85 20250212 "Store purchase"
+}
+
+#VER A 402 20250211 "Card transaction Kontanten" 20260107
+{
+#TRANS 1945 {} -1300.00 20250211 "Card transaction of 1,300.00 SEK issued by 4167 Kontanten Cityhuset ESKILSTUNA"
+#TRANS 2893 {} 1300.00 20250211 "Cash withdrawal"
+}
+
+#VER A 403 20250211 "Converted 100.00 GBP to 1,345.85 SEK" 20260107
+{
+#TRANS 1945 {} 1345.85 20250211 "Converted from GBP"
+#TRANS 1943 {} -1345.85 20250211 "100.00 GBP"
+}
+
+#VER A 404 20250211 "Sent money to Samis Jackets AB" 20260107
+{
+#TRANS 1945 {} -47054.41 20250211 "Sent money to Samis Jackets AB"
+#TRANS 1930 {} 47054.41 20250211 "To company account"
+}
+
+#VER A 405 20250211 "Converted 3,500.00 GBP to 47,065.87 SEK" 20260107
+{
+#TRANS 1945 {} 47065.87 20250211 "Converted from GBP"
+#TRANS 1943 {} -47065.87 20250211 "3,500.00 GBP"
+}
+
+#VER A 406 20250127 "Sent money to Samis Jackets AB" 20260107
+{
+#TRANS 1945 {} -13628.42 20250127 "Sent money to Samis Jackets AB"
+#TRANS 1930 {} 13628.42 20250127 "To company account"
+}
+
+#VER A 407 20250127 "Converted 1,000.00 GBP to 13,639.88 SEK" 20260107
+{
+#TRANS 1945 {} 13639.88 20250127 "Converted from GBP"
+#TRANS 1943 {} -13639.88 20250127 "1,000.00 GBP"
+}
+
+#VER A 408 20250104 "Converted 100.00 SEK to 8.69 EUR" 20260107
+{
+#TRANS 1945 {} -100.00 20250104 "Converted to EUR"
+#TRANS 1944 {} 100.00 20250104 "8.69 EUR"
+}
+
+#VER A 409 20241210 "Converted 124,000.00 SEK to 11,241.24 USD" 20260107
+{
+#TRANS 1945 {} -124000.00 20241210 "Converted to USD"
+#TRANS 1942 {} 124000.00 20241210 "11,241.24 USD"
+}
+
+#VER A 410 20241209 "Topped up balance" 20260107
+{
+#TRANS 1945 {} 124000.00 20241209 "Transfer in"
+#TRANS 1930 {} -124000.00 20241209 "From Marginalen"
+}
+
+#VER A 411 20241025 "Bank details order checkout" 20260107
+{
+#TRANS 1945 {} -520.00 20241025 "No information"
+#TRANS 6570 {} 520.00 20241025 "Bank fee"
+}
+
+#VER A 412 20250616 "Sent money to ahmed gheyath al-sharif" 20260107
+{
+#TRANS 1942 {} -1106.70 20250616 "Sent money to ahmed gheyath al-sharif"
+#TRANS 2893 {} 1106.70 20250616 "Personal transfer"
+}
+
+#VER A 413 20250407 "Sent money to ahmed gheyath al-sharif" 20260107
+{
+#TRANS 1942 {} -2180.35 20250407 "Sent money to ahmed gheyath al-sharif"
+#TRANS 2893 {} 2180.35 20250407 "Personal transfer"
+}
+
+#VER A 414 20250407 "Converted 34.20 EUR to 37.28 USD" 20260107
+{
+#TRANS 1944 {} -410.40 20250407 "Converted 34.20 EUR to 37.28 USD"
+#TRANS 1942 {} 410.40 20250407 "37.28 USD"
+}
+
+#VER A 415 20250407 "Sent money to ahmed gheyath al-sharif" 20260107
+{
+#TRANS 1942 {} -941.72 20250407 "Sent money to ahmed gheyath al-sharif"
+#TRANS 2893 {} 941.72 20250407 "Personal transfer"
+}
+
+#VER A 416 20250212 "Card transaction Clas Ohlson" 20260107
+{
+#TRANS 1942 {} -61.10 20250212 "Card transaction of 199.60 SEK issued by Clas Ohlson ESKILSTUNA"
+#TRANS 6991 {} 61.10 20250212 "Store purchase"
+}
+
+#VER A 417 20250114 "Sent money to FUTURE WORLD TECH" 20260107
+{
+#TRANS 1942 {} -110859.71 20250114 "Sent money to FUTURE WORLD TECH INTERNATIONAL LIMITED"
+#TRANS 2441 {} 110859.71 20250114 "Supplier payment"
+}
+
+#VER A 418 20250114 "Converted 8,234.00 GBP to 10,015.78 USD" 20260107
+{
+#TRANS 1943 {} -114452.60 20250114 "Converted 8,234.00 GBP to 10,015.78 USD"
+#TRANS 1942 {} 114452.60 20250114 "10,015.78 USD"
+}
+
+#VER A 419 20250107 "Balance cashback" 20260107
+{
+#TRANS 1942 {} 45.83 20250107 "Balance cashback"
+#TRANS 8311 {} -45.83 20250107 "Interest income"
+}
+
+#VER A 420 20241217 "Sent money to FUTURE WORLD TECH" 20260107
+{
+#TRANS 1942 {} -134600.68 20241217 "Sent money to FUTURE WORLD TECH INTERNATIONAL LIMITED"
+#TRANS 2441 {} 134600.68 20241217 "Supplier payment"
+}
+
+#VER A 421 20241212 "Sent money to FUTURE WORLD TECH" 20260107
+{
+#TRANS 1942 {} -276750.00 20241212 "Sent money to FUTURE WORLD TECH INTERNATIONAL LIMITED"
+#TRANS 2441 {} 276750.00 20241212 "Supplier payment"
+}
+
+#VER A 422 20241212 "Converted 16,400.00 GBP to 20,888.12 USD" 20260107
+{
+#TRANS 1943 {} -227960.00 20241212 "Converted 16,400.00 GBP to 20,888.12 USD"
+#TRANS 1942 {} 227960.00 20241212 "20,888.12 USD"
+}
+
+#VER A 423 20241211 "Converted 12,800.00 GBP to 16,270.93 USD" 20260107
+{
+#TRANS 1943 {} -177920.00 20241211 "Converted 12,800.00 GBP to 16,270.93 USD"
+#TRANS 1942 {} 177920.00 20241211 "16,270.93 USD"
+}
+
+#VER A 424 20241210 "Sent money to FUTURE WORLD TECH" 20260107
+{
+#TRANS 1942 {} -124440.54 20241210 "Sent money to FUTURE WORLD TECH INTERNATIONAL LIMITED"
+#TRANS 2441 {} 124440.54 20241210 "Supplier payment"
+}
+
+#VER A 425 20250616 "Sent money to Mohammad Alsharef" 20260107
+{
+#TRANS 1944 {} -2100.00 20250616 "Sent money to Mohammad Alsharef"
+#TRANS 2893 {} 2100.00 20250616 "Personal transfer"
+}
+
+#VER A 426 20250405 "Card transaction Ryanair" 20260107
+{
+#TRANS 1944 {} -813.84 20250405 "Card transaction of 67.82 EUR issued by Ryanair Cv4y5x0 ESSEX"
+#TRANS 5800 {} 813.84 20250405 "Travel expenses"
+}
+
+#VER A 427 20250405 "Card transaction Pegasus" 20260107
+{
+#TRANS 1944 {} -492.36 20250405 "Card transaction of 41.03 EUR issued by Pegasus Hava Tasimacili FRANKFURT"
+#TRANS 5800 {} 492.36 20250405 "Travel expenses"
+}
+
+#VER A 428 20250404 "Received money from STRIPE" 20260107
+{
+#TRANS 1944 {} 1716.60 20250404 "Received money from STRIPE with reference SHOPIFY/SHOPIFY-U8CHQQBPE5NNYTILAIL2VESGFGA"
+#TRANS 3051 {} -1373.28 20250404 "Shopify sales"
+#TRANS 2611 {} -343.32 20250404 "VAT 25%"
+}
+
+#VER A 429 20250312 "Card transaction Shopify" 20260107
+{
+#TRANS 1944 {} -1.32 20250312 "Card transaction of 46.50 EUR issued by Shopify* 340699641 DUBLIN"
+#TRANS 5420 {} 1.32 20250312 "Shopify subscription fees"
+}
+
+#VER A 430 20250305 "Balance cashback" 20260107
+{
+#TRANS 1944 {} 1.32 20250305 "Balance cashback"
+#TRANS 8311 {} -1.32 20250305 "Interest income"
+}
+
+#VER A 431 20250207 "Received money from STRIPE" 20260107
+{
+#TRANS 1944 {} 3915.84 20250207 "Received money from STRIPE with reference SHOPIFY/SHOPIFY-DLJCFDRFTLCMIAUHR5AF7LPNT6L"
+#TRANS 3051 {} -3132.67 20250207 "Shopify sales"
+#TRANS 2611 {} -783.17 20250207 "VAT 25%"
+}
+
+#VER A 432 20250206 "Balance cashback" 20260107
+{
+#TRANS 1944 {} 1.80 20250206 "Balance cashback"
+#TRANS 8311 {} -1.80 20250206 "Interest income"
+}
+
+#VER A 433 20250124 "Received money from STRIPE" 20260107
+{
+#TRANS 1944 {} 637.68 20250124 "Received money from STRIPE with reference SHOPIFY/SHOPIFY-V3IURBULGDCLJPXTRPJZHUF1OSQ"
+#TRANS 3051 {} -510.14 20250124 "Shopify sales"
+#TRANS 2611 {} -127.54 20250124 "VAT 25%"
+}
+
+#VER A 434 20250113 "Paid to Shopify" 20260107
+{
+#TRANS 1944 {} -1043.04 20250113 "Paid to Shopify"
+#TRANS 5420 {} 1043.04 20250113 "Shopify subscription fees"
+}
+
+#VER A 435 20250110 "Received money from STRIPE" 20260107
+{
+#TRANS 1944 {} 1951.92 20250110 "Received money from STRIPE with reference SHOPIFY/SHOPIFY-WE6LUYRCVDASBSBJWS5I8MTR3NN"
+#TRANS 3051 {} -1561.54 20250110 "Shopify sales"
+#TRANS 2611 {} -390.38 20250110 "VAT 25%"
+}
+
+#VER A 436 20250107 "Received money from STRIPE" 20260107
+{
+#TRANS 1944 {} 1049.04 20250107 "Received money from STRIPE with reference SHOPIFY/SHOPIFY-KGPCJARJGNG7JA73ATLHM8A8NDZ"
+#TRANS 3051 {} -839.23 20250107 "Shopify sales"
+#TRANS 2611 {} -209.81 20250107 "VAT 25%"
+}
+
+#VER A 437 20250513 "Sent money to ahmed gheyath al-sharif" 20260107
+{
+#TRANS 1943 {} -11273.60 20250513 "Sent money to ahmed gheyath al-sharif"
+#TRANS 2893 {} 11273.60 20250513 "Personal transfer"
+}
+
+#VER A 438 20250312 "Card transaction Shopify" 20260107
+{
+#TRANS 1943 {} -41.42 20250312 "Card transaction of 46.50 EUR issued by Shopify* 340699641 DUBLIN"
+#TRANS 5420 {} 41.42 20250312 "Shopify subscription fees"
+}
+
+#VER A 439 20250305 "Balance cashback" 20260107
+{
+#TRANS 1943 {} 41.42 20250305 "Balance cashback"
+#TRANS 8311 {} -41.42 20250305 "Interest income"
+}
+
+#VER A 440 20250212 "Card transaction Clas Ohlson" 20260107
+{
+#TRANS 1943 {} -96.61 20250212 "Card transaction of 199.60 SEK issued by Clas Ohlson ESKILSTUNA"
+#TRANS 6991 {} 96.61 20250212 "Store purchase"
+}
+
+#VER A 441 20250206 "Balance cashback" 20260107
+{
+#TRANS 1943 {} 85.90 20250206 "Balance cashback"
+#TRANS 8311 {} -85.90 20250206 "Interest income"
+}
+
+#VER A 442 20250203 "Card refund Back Market" 20260107
+{
+#TRANS 1943 {} 2679.64 20250203 "Card transaction of 2,624.11 SEK issued by Back Market Paris"
+#TRANS 6991 {} -2679.64 20250203 "Purchase refund"
+}
+
+#VER A 443 20250127 "Card transaction Back Market" 20260107
+{
+#TRANS 1943 {} -2679.64 20250127 "Card transaction of 2,624.11 SEK issued by Back Market Paris"
+#TRANS 6991 {} 2679.64 20250127 "Store purchase"
+}
+
+#VER A 444 20250121 "Received money from ahmed gheyath" 20260107
+{
+#TRANS 1943 {} 27841.70 20250121 "Received money from ahmed gheyath al-sharif with reference"
+#TRANS 2893 {} -27841.70 20250121 "Personal loan"
+}
+
+#VER A 445 20250117 "Received money from ahmed gheyath" 20260107
+{
+#TRANS 1943 {} 57101.20 20250117 "Received money from ahmed gheyath al-sharif with reference"
+#TRANS 2893 {} -57101.20 20250117 "Personal loan"
+}
+
+#VER A 446 20250114 "Received money from MOHAMMAD SAMI" 20260107
+{
+#TRANS 1943 {} 139.83 20250114 "Received money from MOHAMMAD SAMI ALSHAREF with reference"
+#TRANS 2893 {} -139.83 20250114 "Personal transfer"
+}
+
+#VER A 447 20250114 "Received money from MOHAMMAD SAMI" 20260107
+{
+#TRANS 1943 {} 50253.92 20250114 "Received money from MOHAMMAD SAMI ALSHAREF with reference"
+#TRANS 2893 {} -50253.92 20250114 "Personal transfer"
+}
+
+#VER A 448 20250109 "Received money from ahmed gheyath" 20260107
+{
+#TRANS 1943 {} 68110.00 20250109 "Received money from ahmed gheyath al-sharif with reference"
+#TRANS 2893 {} -68110.00 20250109 "Personal loan"
+}
+
+#VER A 449 20241212 "Received money from MOHAMMAD SAMI" 20260107
+{
+#TRANS 1943 {} 133440.00 20241212 "Received money from MOHAMMAD SAMI ALSHAREF with reference Loan"
+#TRANS 2893 {} -133440.00 20241212 "Personal loan"
+}
+
+#VER A 450 20241212 "Received money from MOHAMMAD SAMI" 20260107
+{
+#TRANS 1943 {} 94520.00 20241212 "Received money from MOHAMMAD SAMI ALSHAREF with reference Loan"
+#TRANS 2893 {} -94520.00 20241212 "Personal loan"
+}
+
+#VER A 451 20241211 "Received money from ahmed gheyath" 20260107
+{
+#TRANS 1943 {} 177920.00 20241211 "Received money from ahmed gheyath al-sharif with reference"
+#TRANS 2893 {} -177920.00 20241211 "Personal loan"
+}
+
+#VER A 452 20250328 "Crona Kassa Sales Period 1 Oct-Mar 28" 20260107
+{
+#TRANS 1948 {} 110544.00
+#TRANS 3051 {} -88436.00
+#TRANS 2611 {} -22108.00
+}
+
+#VER A 453 20250528 "Shopify POS Sales Period Mar 29-May 28" 20260107
+{
+#TRANS 1948 {} 173825.17
+#TRANS 3051 {} -139060.11
+#TRANS 2611 {} -34765.06
+}
+
+#VER A 454 20250630 "Easy Cashier Sales Period May 29-Jun 30" 20260107
+{
+#TRANS 1948 {} 47077.00
+#TRANS 3051 {} -37662.00
+#TRANS 2611 {} -9415.00
+}
+
+#VER A 455 20250626 "Viva Wallet Card Payments" 20260107
+{
+#TRANS 1941 {} 106241.00
+#TRANS 1948 {} -106241.00
+}
+
+#VER A 456 20250626 "World Line Sales Card" 20260107
+{
+#TRANS 1947 {} 201182.00
+#TRANS 1948 {} -201182.00
+}
+
+#VER A 457 20250226 "Purchase of co. vehicle; part-financed by Director's Loan bil GLS947" 20260107
+{
+#TRANS 1240 {} 27500.00 20250226 "Purchase of co. vehicle; part-financed by Director's Loan b"
+#TRANS 1910 {} -15000.00 20250226 "Purchase of co. vehicle; part-financed by Director's Loan b"
+#TRANS 2893 {} -12500.00 20250226 "Purchase of co. vehicle; part-financed by Director's Loan b"
+}
+
+#VER A 458 20250108 "Swish betalning EASYPARK AB - Business parking" 20260107
+{
+#TRANS 5610 {} 19.00
+#TRANS 2893 {} -19.00
+}
+
+#VER A 459 20250303 "Kortkp ST1 GILLBERGAPLAN - Business fuel" 20260107
+{
+#TRANS 5610 {} 757.40
+#TRANS 2893 {} -757.40
+}
+
+#VER A 460 20250626 "Kortkp Besikta Eskilstuna - Business vehicle inspection" 20260107
+{
+#TRANS 5610 {} 359.00
+#TRANS 2893 {} -359.00
+}
+
+#VER A 461 20250626 "Kontant frsljning" 20260107
+{
+#TRANS 1910 {} 24023.00
+#TRANS 1948 {} -24023.00
+}
+
+#VER A 462 20250626 "Repayment of documented loan from related party (Alsharif)" 20260107
+{
+#TRANS 2448 {} 728987.00 20250626 "Repayment of documented loan from related party (Alsharif)"
+#TRANS 2893 {} -728987.00 20250626 "Repayment of documented loan from related party (Alsharif)"
+}
+
+#VER A 463 20250630 "B06305111839 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1892.47
+#TRANS 1947 {} -1892.47
+}
+
+#VER A 464 20250630 "B06285059190 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 6280.39
+#TRANS 1947 {} -6280.39
+}
+
+#VER A 465 20250630 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -248.00
+#TRANS 6991 {} 198.40
+#TRANS 2641 {} 49.60
+}
+
+#VER A 466 20250627 "skatt och arbetsgivare abdi" 20260107
+{
+#TRANS 1930 {} -6707.00
+#TRANS 1630 {} 6707.00
+}
+
+#VER A 467 20250627 "ln abdi 13dag" 20260107
+{
+#TRANS 1930 {} -7644.00
+#TRANS 7010 {} 7644.00
+}
+
+#VER A 468 20250627 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -45000.00 20250627 "Repayment of Director's Loan"
+#TRANS 2893 {} 45000.00 20250627 "Repayment of Director's Loan"
+}
+
+#VER A 469 20250627 "SK5594895301 - Government Support (Two-step)" 20260107
+{
+#TRANS 1930 {} 21027.00
+#TRANS 1630 {} -21027.00
+}
+
+#VER A 470 20250625 "B06254970813 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1625.80
+#TRANS 1947 {} -1625.80
+}
+
+#VER A 471 20250625 "Ntet - El/internet med moms" 20260107
+{
+#TRANS 1930 {} -624.00
+#TRANS 6991 {} 499.20
+#TRANS 2611 {} 124.80
+}
+
+#VER A 472 20250624 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -20000.00 20250624 "Repayment of Director's Loan"
+#TRANS 2893 {} 20000.00 20250624 "Repayment of Director's Loan"
+}
+
+#VER A 473 20250624 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -12713.12 20250624 "Repayment of Director's Loan"
+#TRANS 2893 {} 12713.12 20250624 "Repayment of Director's Loan"
+}
+
+#VER A 474 20250624 "Auronis Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -11000.00 20250624 "Auronis Repayment of Director's Loan"
+#TRANS 2893 {} 11000.00 20250624 "Auronis Repayment of Director's Loan"
+}
+
+#VER A 475 20250624 "ABET.DEPOSIT - terbetalning" 20260107
+{
+#TRANS 1930 {} 120000.00
+#TRANS 1383 {} -120000.00
+}
+
+#VER A 476 20250623 "B06214886452 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2546.18
+#TRANS 1947 {} -2546.18
+}
+
+#VER A 477 20250619 "B06194827606 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 602.96
+#TRANS 1947 {} -602.96
+}
+
+#VER A 478 20250618 "Lokalhyra - med moms" 20260107
+{
+#TRANS 1930 {} -19983.00
+#TRANS 5010 {} 15986.40
+#TRANS 2641 {} 3996.60
+}
+
+#VER A 479 20250618 "Loan from Director to Company - Cash Flow Support" 20260107
+{
+#TRANS 1930 {} 11000.00 20250618 "Loan from Director to Company - Cash Flow Support"
+#TRANS 2893 {} -11000.00 20250618 "Loan from Director to Company - Cash Flow Support"
+}
+
+#VER A 480 20250618 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -250.00
+#TRANS 6991 {} 200.00
+#TRANS 2641 {} 50.00
+}
+
+#VER A 481 20250616 "B06154731299 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2244.68
+#TRANS 1947 {} -2244.68
+}
+
+#VER A 482 20250613 "B06134669729 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 6105.27
+#TRANS 1947 {} -6105.27
+}
+
+#VER A 483 20250611 "B06114611917 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3121.28
+#TRANS 1947 {} -3121.28
+}
+
+#VER A 484 20250611 "abdi skatt" 20260107
+{
+#TRANS 1930 {} -16233.00
+#TRANS 1630 {} 16233.00
+}
+
+#VER A 485 20250609 "B06094571959 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1426.23
+#TRANS 1947 {} -1426.23
+}
+
+#VER A 486 20250609 "B06074525843 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4910.27
+#TRANS 1947 {} -4910.27
+}
+
+#VER A 487 20250605 "B06054467666 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3145.16
+#TRANS 1947 {} -3145.16
+}
+
+#VER A 488 20250605 "Bolag verket" 20260107
+{
+#TRANS 1930 {} -1900.00
+#TRANS 6992 {} 1900.00
+}
+
+#VER A 489 20250604 "Fora Abdirabi" 20260107
+{
+#TRANS 1930 {} -1171.61
+#TRANS 6992 {} 1171.61
+}
+
+#VER A 490 20250603 "B06034410431 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2463.08
+#TRANS 1947 {} -2463.08
+}
+
+#VER A 491 20250603 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -248.00
+#TRANS 6991 {} 198.40
+#TRANS 2641 {} 49.60
+}
+
+#VER A 492 20250603 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -25000.00 20250603 "Repayment of Director's Loan"
+#TRANS 2893 {} 25000.00 20250603 "Repayment of Director's Loan"
+}
+
+#VER A 493 20250602 "51500954163 - Insttning" 20260107
+{
+#TRANS 1930 {} 8985.00
+#TRANS 2893 {} -8985.00
+}
+
+#VER A 494 20250602 "51500997244 - Insttning" 20260107
+{
+#TRANS 1930 {} 5098.00
+#TRANS 2893 {} -5098.00
+}
+
+#VER A 495 20250602 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -684.00
+#TRANS 6991 {} 547.20
+#TRANS 2641 {} 136.80
+}
+
+#VER A 496 20250602 "B05314341919 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4914.25
+#TRANS 1947 {} -4914.25
+}
+
+#VER A 497 20250602 "B06014371231 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2.49
+#TRANS 1947 {} -2.49
+}
+
+#VER A 498 20250530 "B05294294981 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4690.26
+#TRANS 1947 {} -4690.26
+}
+
+#VER A 499 20250527 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -1000.00 20250527 "Repayment of Director's Loan"
+#TRANS 2893 {} 1000.00 20250527 "Repayment of Director's Loan"
+}
+
+#VER A 500 20250527 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -6000.00 20250527 "Repayment of Director's Loan"
+#TRANS 2893 {} 6000.00 20250527 "Repayment of Director's Loan"
+}
+
+#VER A 501 20250527 "abdi ln maj" 20260107
+{
+#TRANS 1930 {} -16884.00
+#TRANS 7010 {} 16884.00
+}
+
+#VER A 502 20250526 "B05264219988 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2397.90
+#TRANS 1947 {} -2397.90
+}
+
+#VER A 503 20250526 "B05254196636 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4299.35
+#TRANS 1947 {} -4299.35
+}
+
+#VER A 504 20250526 "El i butiken - med moms" 20260107
+{
+#TRANS 1930 {} -816.00
+#TRANS 6991 {} 652.80
+#TRANS 2611 {} 163.20
+}
+
+#VER A 505 20250526 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -12906.00 20250526 "Repayment of Director's Loan"
+#TRANS 2893 {} 12906.00 20250526 "Repayment of Director's Loan"
+}
+
+#VER A 506 20250523 "B05234137836 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2371.07
+#TRANS 1947 {} -2371.07
+}
+
+#VER A 507 20250521 "B05214076902 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3238.64
+#TRANS 1947 {} -3238.64
+}
+
+#VER A 508 20250520 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} 10000.00 20250520 "Repayment of Director's Loan"
+#TRANS 2893 {} -10000.00 20250520 "Repayment of Director's Loan"
+}
+
+#VER A 509 20250519 "B05194034090 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2443.71
+#TRANS 1947 {} -2443.71
+}
+
+#VER A 510 20250519 "B05184011681 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3537.99
+#TRANS 1947 {} -3537.99
+}
+
+#VER A 511 20250519 "B05173983976 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 9459.46
+#TRANS 1947 {} -9459.46
+}
+
+#VER A 512 20250516 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -248.00
+#TRANS 6991 {} 198.40
+#TRANS 2641 {} 49.60
+}
+
+#VER A 513 20250514 "B05143893340 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1773.07
+#TRANS 1947 {} -1773.07
+}
+
+#VER A 514 20250513 "B05133868910 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1893.46
+#TRANS 1947 {} -1893.46
+}
+
+#VER A 515 20250512 "B05123850534 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2702.41
+#TRANS 1947 {} -2702.41
+}
+
+#VER A 516 20250512 "B05113826980 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3077.51
+#TRANS 1947 {} -3077.51
+}
+
+#VER A 517 20250512 "B05103798167 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2723.27
+#TRANS 1947 {} -2723.27
+}
+
+#VER A 518 20250509 "B05093766218 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 6013.72
+#TRANS 1947 {} -6013.72
+}
+
+#VER A 519 20250507 "B05073707835 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1963.10
+#TRANS 1947 {} -1963.10
+}
+
+#VER A 520 20250507 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -198.00
+#TRANS 6991 {} 158.40
+#TRANS 2641 {} 39.60
+}
+
+#VER A 521 20250505 "B05053663933 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3009.60
+#TRANS 1947 {} -3009.60
+}
+
+#VER A 522 20250505 "Lokalhyra - med moms" 20260107
+{
+#TRANS 1930 {} -19983.00
+#TRANS 5010 {} 15986.40
+#TRANS 2641 {} 3996.60
+}
+
+#VER A 523 20250505 "Lokalhyra - med moms" 20260107
+{
+#TRANS 1930 {} -1896.00
+#TRANS 5010 {} 1516.80
+#TRANS 2641 {} 379.20
+}
+
+#VER A 524 20250505 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -125.00
+#TRANS 6991 {} 100.00
+#TRANS 2641 {} 25.00
+}
+
+#VER A 525 20250502 "B05023592847 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 729.33
+#TRANS 1947 {} -729.33
+}
+
+#VER A 526 20250502 "B05013562069 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 5770.76
+#TRANS 1947 {} -5770.76
+}
+
+#VER A 527 20250430 "B04303534914 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 5729.07
+#TRANS 1947 {} -5729.07
+}
+
+#VER A 528 20250429 "B04293507506 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 5078.43
+#TRANS 1947 {} -5078.43
+}
+
+#VER A 529 20250429 "Lokalhyra - med moms" 20260107
+{
+#TRANS 1930 {} -1896.00
+#TRANS 5010 {} 1516.80
+#TRANS 2641 {} 379.20
+}
+
+#VER A 530 20250429 "Lokalhyra - med moms" 20260107
+{
+#TRANS 1930 {} -20042.00
+#TRANS 5010 {} 16033.60
+#TRANS 2641 {} 4008.40
+}
+
+#VER A 531 20250428 "B04263436358 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2565.08
+#TRANS 1947 {} -2565.08
+}
+
+#VER A 532 20250428 "B04273467432 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1613.87
+#TRANS 1947 {} -1613.87
+}
+
+#VER A 533 20250428 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -624.00
+#TRANS 6991 {} 499.20
+#TRANS 2641 {} 124.80
+}
+
+#VER A 534 20250428 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -5000.00 20250428 "Repayment of Director's Loan"
+#TRANS 2893 {} 5000.00 20250428 "Repayment of Director's Loan"
+}
+
+#VER A 535 20250425 "B04253406484 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3844.65
+#TRANS 1947 {} -3844.65
+}
+
+#VER A 536 20250424 "B04243377627 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3597.89
+#TRANS 1947 {} -3597.89
+}
+
+#VER A 537 20250423 "B04233349233 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4695.37
+#TRANS 1947 {} -4695.37
+}
+
+#VER A 538 20250422 "B04183262982 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4002.17
+#TRANS 1947 {} -4002.17
+}
+
+#VER A 539 20250422 "B04193286201 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2605.29
+#TRANS 1947 {} -2605.29
+}
+
+#VER A 540 20250422 "B04203301238 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 401.98
+#TRANS 1947 {} -401.98
+}
+
+#VER A 541 20250415 "B04153179106 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3028.76
+#TRANS 1947 {} -3028.76
+}
+
+#VER A 542 20250415 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -98.00
+#TRANS 6991 {} 78.40
+#TRANS 2641 {} 19.60
+}
+
+#VER A 543 20250414 "B04133138224 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2306.99
+#TRANS 1947 {} -2306.99
+}
+
+#VER A 544 20250414 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -248.00
+#TRANS 6991 {} 198.40
+#TRANS 2641 {} 49.60
+}
+
+#VER A 545 20250414 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -500.00
+#TRANS 6991 {} 400.00
+#TRANS 2641 {} 100.00
+}
+
+#VER A 546 20250410 "B04103048976 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4995.88
+#TRANS 1947 {} -4995.88
+}
+
+#VER A 547 20250409 "B04093019900 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 816.47
+#TRANS 1947 {} -816.47
+}
+
+#VER A 548 20250408 "B04082995583 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3466.21
+#TRANS 1947 {} -3466.21
+}
+
+#VER A 549 20250408 "Lokalhyra - med moms" 20260107
+{
+#TRANS 1930 {} -20566.00
+#TRANS 5010 {} 16452.80
+#TRANS 2641 {} 4113.20
+}
+
+#VER A 550 20250407 "B04052926667 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 3713.27
+#TRANS 1947 {} -3713.27
+}
+
+#VER A 551 20250407 "B04072977639 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1069.62
+#TRANS 1947 {} -1069.62
+}
+
+#VER A 552 20250403 "B04032867693 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 9772.84
+#TRANS 1947 {} -9772.84
+}
+
+#VER A 553 20250402 "B04022838225 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2269.57
+#TRANS 1947 {} -2269.57
+}
+
+#VER A 554 20250401 "B04012811476 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2410.38
+#TRANS 1947 {} -2410.38
+}
+
+#VER A 555 20250401 "Bankgiro - Ej avdragsgill" 20260107
+{
+#TRANS 1930 {} -976.00
+#TRANS 6992 {} 976.00
+}
+
+#VER A 556 20250331 "B03312794595 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2194.95
+#TRANS 1947 {} -2194.95
+}
+
+#VER A 557 20250331 "B03292744665 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1415.87
+#TRANS 1947 {} -1415.87
+}
+
+#VER A 558 20250331 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -8300.00 20250331 "Repayment of Director's Loan"
+#TRANS 2893 {} 8300.00 20250331 "Repayment of Director's Loan"
+}
+
+#VER A 559 20250331 "B03302773435 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 6521.20
+#TRANS 1947 {} -6521.20
+}
+
+#VER A 560 20250328 "B03282715066 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 5368.97
+#TRANS 1947 {} -5368.97
+}
+
+#VER A 561 20250327 "Bankgiro - Ej avdragsgill" 20260107
+{
+#TRANS 1930 {} -4321.00
+#TRANS 6992 {} 4321.00
+}
+
+#VER A 562 20250327 "Bankgiro - Ej avdragsgill" 20260107
+{
+#TRANS 1930 {} -2371.00
+#TRANS 6992 {} 2371.00
+}
+
+#VER A 563 20250327 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -624.00
+#TRANS 6991 {} 499.20
+#TRANS 2641 {} 124.80
+}
+
+#VER A 564 20250326 "B03262657151 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 99.49
+#TRANS 1947 {} -99.49
+}
+
+#VER A 565 20250324 "B03232597052 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1966.11
+#TRANS 1947 {} -1966.11
+}
+
+#VER A 566 20250324 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -41.00
+#TRANS 6991 {} 32.80
+#TRANS 2641 {} 8.20
+}
+
+#VER A 567 20250324 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -156.00
+#TRANS 6991 {} 124.80
+#TRANS 2641 {} 31.20
+}
+
+#VER A 568 20250321 "B03212537039 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 247.75
+#TRANS 1947 {} -247.75
+}
+
+#VER A 569 20250320 "B03202508892 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 4474.49
+#TRANS 1947 {} -4474.49
+}
+
+#VER A 570 20250318 "B03182456390 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 2811.85
+#TRANS 1947 {} -2811.85
+}
+
+#VER A 571 20250317 "B03152389857 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1242.74
+#TRANS 1947 {} -1242.74
+}
+
+#VER A 572 20250311 "B03112280424 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 596.99
+#TRANS 1947 {} -596.99
+}
+
+#VER A 573 20250310 "B03102263589 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 447.75
+#TRANS 1947 {} -447.75
+}
+
+#VER A 574 20250310 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -802.00
+#TRANS 6991 {} 641.60
+#TRANS 2641 {} 160.40
+}
+
+#VER A 575 20250228 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -2500.00
+#TRANS 6991 {} 2000.00
+#TRANS 2641 {} 500.00
+}
+
+#VER A 576 20250228 "Bankgiro - Avgift med moms" 20260107
+{
+#TRANS 1930 {} -624.00
+#TRANS 6991 {} 499.20
+#TRANS 2641 {} 124.80
+}
+
+#VER A 577 20250224 "B02241912572 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 1492.50
+#TRANS 1947 {} -1492.50
+}
+
+#VER A 578 20250217 "B02151692210 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 895.50
+#TRANS 1947 {} -895.50
+}
+
+#VER A 579 20250217 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} -30000.00 20250217 "Repayment of Director's Loan"
+#TRANS 2893 {} 30000.00 20250217 "Repayment of Director's Loan"
+}
+
+#VER A 580 20250214 "verfring - Programvara med moms" 20260107
+{
+#TRANS 1930 {} -700.00
+#TRANS 5420 {} 560.00
+#TRANS 2611 {} 140.00
+}
+
+#VER A 581 20250214 "B02141664681 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 17.90
+#TRANS 1947 {} -17.90
+}
+
+#VER A 582 20250214 "Lokalhyra - med moms" 20260107
+{
+#TRANS 1930 {} -20760.00
+#TRANS 5010 {} 16608.00
+#TRANS 2641 {} 4152.00
+}
+
+#VER A 583 20250214 Tullavgifter 20260107
+{
+#TRANS 1930 {} -36946.00
+#TRANS 1460 {} 36946.00 20250214 "Tullavgifter"
+}
+
+#VER A 584 20250213 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} 15000.00 20250213 "Repayment of Director's Loan"
+#TRANS 2893 {} -15000.00 20250213 "Repayment of Director's Loan"
+}
+
+#VER A 585 20250213 "Repayment of Director's Loan" 20260107
+{
+#TRANS 1930 {} 15000.00 20250213 "Repayment of Director's Loan"
+#TRANS 2893 {} -15000.00 20250213 "Repayment of Director's Loan"
+}
+
+#VER A 586 20250213 "B02131637331 - Worldline kortbetalning" 20260107
+{
+#TRANS 1930 {} 29.85
+#TRANS 1947 {} -29.85
+}
+
+#VER A 587 20250227 "Loan from Director to Company - Cash Flow Support" 20260107
+{
+#TRANS 1930 {} 7000.00 20250227 "Loan from Director to Company - Cash Flow Support"
+#TRANS 2893 {} -7000.00 20250227 "Loan from Director to Company - Cash Flow Support"
+}
+
+#VER A 588 20250228 "First China container - verfring frn Futureworld till inkp" 20260107
+{
+#TRANS 2441 {} -368492.00
+#TRANS 4545 {} 368492.00
+#TRANS 2645 {} -92123.00
+#TRANS 2615 {} 92123.00
+}
+
+#VER A 589 20240930 "Momsredovisning juli-september 2024" 20260107
+{
+#TRANS 2641 {} -1485.00
+#TRANS 2645 {} 102316.25
+#TRANS 2615 {} -102316.25
+#TRANS 2650 {} 1485.00
+}
+
+#VER A 590 20241231 "Momsredovisning oktober-december 2024" 20260107
+{
+#TRANS 2641 {} -16027.16
+#TRANS 2645 {} 79930.50
+#TRANS 2615 {} -79930.50
+#TRANS 2650 {} 16027.00
+#TRANS 3740 {} 0.16
+}
+
+#VER A 591 20250331 "Momsredovisning januari-mars 2025" 20260107
+{
+#TRANS 2611 {} 23478.90
+#TRANS 2641 {} -11926.50
+#TRANS 2645 {} 92123.00
+#TRANS 2615 {} -92123.00
+#TRANS 2650 {} -11551.00
+#TRANS 3740 {} -1.40
+}
+
+#VER A 592 20250630 "Momsredovisning april-juni 2025" 20260107
+{
+#TRANS 2641 {} -17567.40
+#TRANS 2611 {} 44235.38
+#TRANS 2650 {} -26668.00
+#TRANS 3740 {} 0.02
+}
+
+#VER A 593 20250630 "Allokering maskiner och inventarier frn import" 20260107
+{
+#TRANS 1220 {} 49170.68
+#TRANS 4545 {} -49170.68
+}
+
+#VER A 594 20250630 "Allokering marknadsfringskostnader frn import" 20260107
+{
+#TRANS 5900 {} 37738.29
+#TRANS 4545 {} -37738.29
+}
+
+#VER A 595 20250630 "Allokering handelslager 85% frn import" 20260107
+{
+#TRANS 1460 {} 761502.53
+#TRANS 4545 {} -761502.53
+}
+
+#VER A 596 20250630 "Allokering marknadsfringslager 15% frn import" 20260107
+{
+#TRANS 1469 {} 134382.80
+#TRANS 4545 {} -134382.80
+}
+
+#VER A 597 20250630 "Allokering frbrukningsmaterial frn import" 20260107
+{
+#TRANS 5460 {} 2249.62
+#TRANS 4545 {} -2249.62
+}
+
+#VER A 598 20250630 "Allokering frakt- och transportkostnader frn import" 20260107
+{
+#TRANS 5700 {} 114392.93
+#TRANS 4545 {} -114392.93
+}
+
+#VER A 599 20250201 "korrgingirn av valuta fel " 20260107
+{
+#TRANS 4545 {} 1950.00 20250201 "korrgingirn av valuta fel "
+#TRANS 2091 {} -1950.00 20250201 "korrgingirn av valuta fel "
+}
+
+#VER A 600 20250630 "235-IST-266493095 invoice 42 shipping from turkey " 20260107
+{
+#TRANS 2893 {} -44500.00 20250630 "235-IST-266493095 invoice 42 shipping from turkey "
+#TRANS 5700 {} 44500.00 20250630 "235-IST-266493095 invoice 42 shipping from turkey "
+}
+
+#VER A 601 20250630 "KSV fr slda damjackor oktober 2024 - juni 2025" 20260107
+{
+#TRANS 4110 {} 163049.24
+#TRANS 1460 {} -163049.24
+}
+
+#VER A 602 20250630 "KSV fr slda kinaprodukter oktober 2024 - juni 2025" 20260107
+{
+#TRANS 4110 {} 42970.00
+#TRANS 1460 {} -42970.00
+}
+
+#VER A 603 20250630 "Avskrivning av skadade damjackor (transport/knappar)" 20260107
+{
+#TRANS 6990 {} 9245.06 20250630 "Avskrivning av skadade damjackor (transport/knappar)"
+#TRANS 1460 {} -9245.06
+}
+
+#VER A 604 20250131 "Avskrivning av stulna damjackor (frsta 4 mnader)" 20260107
+{
+#TRANS 6990 {} 5462.99 20250131 "Avskrivning av stulna damjackor (frsta 4 mnader)"
+#TRANS 1460 {} -5462.99
+}
+
+#VER A 605 20250630 "Marknadsfringsgvor enligt 15% policy fr kinaprodukter" 20260107
+{
+#TRANS 5900 {} 18181.70 20250630 "Marknadsfringsgvor enligt 15% policy fr kinaprodukter"
+#TRANS 1469 {} -18181.70 20250630 "Marknadsfringsgvor enligt 15% policy fr kinaprodukter"
+}
+
+#VER A 606 20250630 "fixing invintory costs " 20260107
+{
+#TRANS 5700 {} -158892.00 20250630 "fixing invintory costs "
+#TRANS 1460 {} 158892.00 20250630 "fixing invintory costs "
+}
+
+#VER A 607 20250630 "Varor bags skor biliga for markiting to assest mellan att dela de " 20260107
+{
+#TRANS 1460 {} 134382.00 20250630 "Varor bags skor biliga for markiting to assest mellan att d"
+#TRANS 1469 {} -134382.00 20250630 "Varor bags skor biliga for markiting to assest mellan att d"
+}
+
+#VER A 608 20250630 "Omfring av 65% av ln frn Ahmed Gheyath Al-Sharif till villkorat aktiegartillskott enligt avtal 2025-07-20." 20260107
+{
+#TRANS 2093 {} -1.00 20250630 "Omfring av 65% av ln frn Ahmed Gheyath Al-Sharif till vi"
+#TRANS 2893 {} 1.00 20250630 "Omfring av 65% av ln frn Ahmed Gheyath Al-Sharif till vi"
+}
+
+#VER A 609 20250701 "Clear opening 1469 balance - previous period marketing gifts" 20260107
+{
+#TRANS 1469 {} 18180.90
+#TRANS 5900 {} -18180.90
+}
+
+#VER A 610 20250930 "COGS - Q3 2025 sales (921 units)" 20260107
+{
+#TRANS 4110 {} 45344.24
+#TRANS 1460 {} -45344.24
+}
+
+#VER A 611 20250930 "Allocate Q3 2025 marketing gifts to staging (231 units @ 25% policy)" 20260107
+{
+#TRANS 1469 {} 11337.54
+#TRANS 1460 {} -11337.54
+}
+
+#VER A 612 20250930 "Expense Q3 2025 marketing gifts - clean 1469 to zero" 20260107
+{
+#TRANS 5900 {} 11337.54
+#TRANS 1469 {} -11337.54
+}
+
+#VER A 613 20250701 "Google G Suite software" 20260107
+{
+#TRANS 5410 {} 81.13
+#TRANS 2641 {} 20.28
+#TRANS 2893 {} -101.41
+}
+
+#VER A 614 20250701 "Fortnox software subscription" 20260107
+{
+#TRANS 5410 {} 119.20
+#TRANS 2641 {} 29.80
+#TRANS 2893 {} -149.00
+}
+
+#VER A 615 20250701 "TikTok advertising" 20260107
+{
+#TRANS 5900 {} 55.77
+#TRANS 2893 {} -55.77
+}
+
+#VER A 616 20250701 "Bank fee - Marginalen monthly" 20260107
+{
+#TRANS 6570 {} 70.00
+#TRANS 1930 {} -70.00
+}
+
+#VER A 617 20250703 "Lagar Hyra office rent" 20260107
+{
+#TRANS 5010 {} 1564.80
+#TRANS 2641 {} 391.20
+#TRANS 1930 {} -1956.00
+}
+
+#VER A 618 20250703 "Visma software" 20260107
+{
+#TRANS 5410 {} 1497.60
+#TRANS 2641 {} 374.40
+#TRANS 1930 {} -1872.00
+}
+
+#VER A 619 20250703 "Hyra Butik shop rent" 20260107
+{
+#TRANS 5010 {} 16440.00
+#TRANS 2641 {} 4110.00
+#TRANS 1930 {} -20550.00
+}
+
+#VER A 620 20250703 "Lagar Hyra office rent 2" 20260107
+{
+#TRANS 5010 {} 1564.80
+#TRANS 2641 {} 391.20
+#TRANS 1930 {} -1956.00
+}
+
+#VER A 621 20250703 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 865.64
+#TRANS 1947 {} -865.64
+}
+
+#VER A 622 20250705 "Moneygram Greece - business travel" 20260107
+{
+#TRANS 5610 {} 2944.11
+#TRANS 2893 {} -2944.11
+}
+
+#VER A 623 20250706 "Sormland traffic business travel" 20260107
+{
+#TRANS 5610 {} 18.40
+#TRANS 2641 {} 4.60
+#TRANS 2893 {} -23.00
+}
+
+#VER A 624 20250703 "TEMU.COM - Business supplies" 20260107
+{
+#TRANS 5460 {} 339.00
+#TRANS 2893 {} -339.00
+}
+
+#VER A 625 20250708 "TEMU.COM - Business supplies" 20260107
+{
+#TRANS 5460 {} 702.00
+#TRANS 2893 {} -702.00
+}
+
+#VER A 626 20250719 "TikTok Ads - Marketing expense" 20260107
+{
+#TRANS 5900 {} 2000.00
+#TRANS 2893 {} -2000.00
+}
+
+#VER A 627 20250707 "Aviation fee - flight booking" 20260107
+{
+#TRANS 5610 {} 28.00
+#TRANS 2641 {} 7.00
+#TRANS 2893 {} -35.00
+}
+
+#VER A 628 20250707 "Bolagsverket registration fee" 20260107
+{
+#TRANS 6250 {} 507.00
+#TRANS 1930 {} -507.00
+}
+
+#VER A 629 20250707 "VAT payment to Skatteverket - Q2 balance" 20260107
+{
+#TRANS 1930 {} -20707.00
+#TRANS 2650 {} 20707.00
+}
+
+#VER A 630 20250707 "Easy Cashier POS system" 20260107
+{
+#TRANS 5410 {} 2748.00
+#TRANS 2641 {} 687.00
+#TRANS 1930 {} -3435.00
+}
+
+#VER A 631 20250707 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 3806.83
+#TRANS 1947 {} -3806.83
+}
+
+#VER A 632 20250708 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 2221.81
+#TRANS 1947 {} -2221.81
+}
+
+#VER A 633 20250710 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 1343.23
+#TRANS 1947 {} -1343.23
+}
+
+#VER A 634 20250714 "Fatoora Riyadh - business travel" 20260107
+{
+#TRANS 5610 {} 906.03
+#TRANS 2893 {} -906.03
+}
+
+#VER A 635 20250714 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 2837.70
+#TRANS 1947 {} -2837.70
+}
+
+#VER A 636 20250715 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 743.25
+#TRANS 1947 {} -743.25
+}
+
+#VER A 637 20250717 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 3845.66
+#TRANS 1947 {} -3845.66
+}
+
+#VER A 638 20250718 "Arbetsformedlingen government subsidy" 20260107
+{
+#TRANS 1930 {} 9119.00
+#TRANS 1630 {} -9119.00
+}
+
+#VER A 639 20250718 "Administrative fee payment" 20260107
+{
+#TRANS 6250 {} 500.00
+#TRANS 1930 {} -500.00
+}
+
+#VER A 640 20250721 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 198.00
+#TRANS 1947 {} -198.00
+}
+
+#VER A 641 20250721 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 493.50
+#TRANS 1947 {} -493.50
+}
+
+#VER A 642 20250722 "Administrative fee payment" 20260107
+{
+#TRANS 6250 {} 250.00
+#TRANS 1930 {} -250.00
+}
+
+#VER A 643 20250724 "Shareholder loan repayment" 20260107
+{
+#TRANS 2893 {} 15274.28
+#TRANS 1930 {} -15274.28
+}
+
+#VER A 644 20250724 "Bredband internet service" 20260107
+{
+#TRANS 5410 {} 625.00
+#TRANS 1930 {} -625.00
+}
+
+#VER A 645 20250724 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 2528.26
+#TRANS 1947 {} -2528.26
+}
+
+#VER A 646 20250728 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 4848.61
+#TRANS 1947 {} -4848.61
+}
+
+#VER A 647 20250729 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 3619.76
+#TRANS 1947 {} -3619.76
+}
+
+#VER A 648 20250730 "Card terminal maintenance fee" 20260107
+{
+#TRANS 6570 {} 248.00
+#TRANS 1930 {} -248.00
+}
+
+#VER A 649 20250731 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 1865.60
+#TRANS 1947 {} -1865.60
+}
+
+#VER A 650 20250731 "Anthropic AI software" 20260107
+{
+#TRANS 5410 {} 900.60
+#TRANS 2641 {} 225.15
+#TRANS 2893 {} -1125.75
+}
+
+#VER A 651 20250801 "Bank fee - August monthly" 20260107
+{
+#TRANS 6570 {} 70.00
+#TRANS 1930 {} -70.00
+}
+
+#VER A 652 20250801 "Hyra Butik shop rent" 20260107
+{
+#TRANS 5010 {} 15986.40
+#TRANS 2641 {} 3996.60
+#TRANS 1930 {} -19983.00
+}
+
+#VER A 653 20250801 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 6.14
+#TRANS 1947 {} -6.14
+}
+
+#VER A 654 20250801 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 125.00
+#TRANS 1945 {} -125.00
+}
+
+#VER A 655 20250802 "Fortnox software subscription" 20260107
+{
+#TRANS 5410 {} 119.20
+#TRANS 2641 {} 29.80
+#TRANS 2893 {} -149.00
+}
+
+#VER A 656 20250804 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 6001.77
+#TRANS 1947 {} -6001.77
+}
+
+#VER A 657 20250804 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 2515.32
+#TRANS 1947 {} -2515.32
+}
+
+#VER A 658 20250806 "Rent correction August" 20260107
+{
+#TRANS 5010 {} 1516.80
+#TRANS 2641 {} 379.20
+#TRANS 1930 {} -1896.00
+}
+
+#VER A 659 20250807 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 3370.02
+#TRANS 1947 {} -3370.02
+}
+
+#VER A 660 20250808 "Tele2 telecom service" 20260107
+{
+#TRANS 5410 {} 90.27
+#TRANS 2641 {} 22.57
+#TRANS 2893 {} -112.84
+}
+
+#VER A 661 20250811 "Customer payment via Bankgiro - direktbetalning" 20260107
+{
+#TRANS 1930 {} 250.00
+#TRANS 3051 {} -250.00
+}
+
+#VER A 662 20250811 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 2418.89
+#TRANS 1947 {} -2418.89
+}
+
+#VER A 663 20250812 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 1757.15
+#TRANS 1947 {} -1757.15
+}
+
+#VER A 664 20250813 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 1.98
+#TRANS 1947 {} -1.98
+}
+
+#VER A 665 20250814 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 1879.51
+#TRANS 1947 {} -1879.51
+}
+
+#VER A 666 20250816 "Clas Ohlson business supplies" 20260107
+{
+#TRANS 5920 {} 63.92
+#TRANS 2641 {} 15.98
+#TRANS 2893 {} -79.90
+}
+
+#VER A 667 20250816 "Shopify advertising EUR" 20260107
+{
+#TRANS 5900 {} 409.08
+#TRANS 2893 {} -409.08
+}
+
+#VER A 668 20250816 "IN & FINN AB business supplies" 20260107
+{
+#TRANS 5920 {} 192.80
+#TRANS 2641 {} 48.20
+#TRANS 2893 {} -241.00
+}
+
+#VER A 669 20250818 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 1359.16
+#TRANS 1947 {} -1359.16
+}
+
+#VER A 670 20250826 "Car insurance Bilforsakring" 20260107
+{
+#TRANS 5620 {} 849.00
+#TRANS 1930 {} -849.00
+}
+
+#VER A 671 20250826 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 788.03
+#TRANS 1947 {} -788.03
+}
+
+#VER A 672 20250826 "Hi3G telecom service" 20260107
+{
+#TRANS 5410 {} 972.00
+#TRANS 2641 {} 243.00
+#TRANS 2893 {} -1215.00
+}
+
+#VER A 673 20250827 "Shareholder loan repayment 2" 20260107
+{
+#TRANS 2893 {} 12000.00
+#TRANS 1930 {} -12000.00
+}
+
+#VER A 674 20250827 "Administrative fee payment" 20260107
+{
+#TRANS 6250 {} 500.00
+#TRANS 1930 {} -500.00
+}
+
+#VER A 675 20250827 "WISE account transfer" 20260107
+{
+#TRANS 1945 {} 2500.00
+#TRANS 1930 {} -2500.00
+}
+
+#VER A 676 20250827 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 198.99
+#TRANS 1947 {} -198.99
+}
+
+#VER A 677 20250828 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 6558.62
+#TRANS 1947 {} -6558.62
+}
+
+#VER A 678 20250828 "TikTok advertising" 20260107
+{
+#TRANS 5900 {} 90.00
+#TRANS 1945 {} -90.00
+}
+
+#VER A 679 20250829 "TikTok reversal credit" 20260107
+{
+#TRANS 1945 {} 90.00
+#TRANS 5900 {} -90.00
+}
+
+#VER A 680 20250829 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 138.00
+#TRANS 1945 {} -138.00
+}
+
+#VER A 681 20250829 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 21.09
+#TRANS 1945 {} -21.09
+}
+
+#VER A 682 20250829 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 152.00
+#TRANS 1945 {} -152.00
+}
+
+#VER A 683 20250829 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 14.55
+#TRANS 1945 {} -14.55
+}
+
+#VER A 684 20250830 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 167.00
+#TRANS 1945 {} -167.00
+}
+
+#VER A 685 20250830 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 49.33
+#TRANS 1945 {} -49.33
+}
+
+#VER A 686 20250831 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 184.00
+#TRANS 1945 {} -184.00
+}
+
+#VER A 687 20250831 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 45.23
+#TRANS 1945 {} -45.23
+}
+
+#VER A 688 20250901 "Bank fee - September monthly" 20260107
+{
+#TRANS 6570 {} 70.00
+#TRANS 1930 {} -70.00
+}
+
+#VER A 689 20250901 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 4095.38
+#TRANS 1947 {} -4095.38
+}
+
+#VER A 690 20250901 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 1.50
+#TRANS 1947 {} -1.50
+}
+
+#VER A 691 20250901 "TikTok advertising" 20260107
+{
+#TRANS 5900 {} 267.72
+#TRANS 1945 {} -267.72
+}
+
+#VER A 692 20250902 "Rent correction September" 20260107
+{
+#TRANS 5010 {} 1516.80
+#TRANS 2641 {} 379.20
+#TRANS 1930 {} -1896.00
+}
+
+#VER A 693 20250902 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 774.10
+#TRANS 1947 {} -774.10
+}
+
+#VER A 694 20250902 "Facebook ad credit reversal" 20260107
+{
+#TRANS 1945 {} 184.00
+#TRANS 5900 {} -184.00
+}
+
+#VER A 695 20250903 "Bank service fees" 20260107
+{
+#TRANS 6570 {} 248.00
+#TRANS 1930 {} -248.00
+}
+
+#VER A 696 20250903 "Fortnox software subscription" 20260107
+{
+#TRANS 5410 {} 119.20
+#TRANS 2641 {} 29.80
+#TRANS 2893 {} -149.00
+}
+
+#VER A 697 20250903 "Temu business supplies" 20260107
+{
+#TRANS 2893 {} 281.19
+#TRANS 1945 {} -281.19
+}
+
+#VER A 698 20250903 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 65.77
+#TRANS 1945 {} -65.77
+}
+
+#VER A 699 20250904 "WISE account transfer" 20260107
+{
+#TRANS 1945 {} 5000.00
+#TRANS 1930 {} -5000.00
+}
+
+#VER A 700 20250904 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 11344.02
+#TRANS 1947 {} -11344.02
+}
+
+#VER A 701 20250904 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 202.00
+#TRANS 1945 {} -202.00
+}
+
+#VER A 702 20250904 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 184.00
+#TRANS 1945 {} -184.00
+}
+
+#VER A 703 20250904 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 221.00
+#TRANS 1945 {} -221.00
+}
+
+#VER A 704 20250904 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 18.73
+#TRANS 1945 {} -18.73
+}
+
+#VER A 705 20250904 "Facebook advertising" 20260107
+{
+#TRANS 5900 {} 241.00
+#TRANS 1945 {} -241.00
+}
+
+#VER A 706 20250905 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 4529.31
+#TRANS 1947 {} -4529.31
+}
+
+#VER A 707 20250905 "OpenAI AI software" 20260107
+{
+#TRANS 5410 {} 96.72
+#TRANS 2641 {} 24.18
+#TRANS 2893 {} -120.90
+}
+
+#VER A 708 20250906 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 3904.36
+#TRANS 1947 {} -3904.36
+}
+
+#VER A 709 20250906 "Malardalstrafik business transport" 20260107
+{
+#TRANS 5610 {} 293.60
+#TRANS 2641 {} 73.40
+#TRANS 2893 {} -367.00
+}
+
+#VER A 710 20250908 "Hyra Butik shop rent" 20260107
+{
+#TRANS 5010 {} 15986.40
+#TRANS 2641 {} 3996.60
+#TRANS 1930 {} -19983.00
+}
+
+#VER A 711 20250909 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 5495.34
+#TRANS 1947 {} -5495.34
+}
+
+#VER A 712 20250913 "Shopify advertising EUR" 20260107
+{
+#TRANS 5900 {} 400.82
+#TRANS 2893 {} -400.82
+}
+
+#VER A 713 20250915 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 8216.41
+#TRANS 1947 {} -8216.41
+}
+
+#VER A 714 20250915 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 3500.37
+#TRANS 1947 {} -3500.37
+}
+
+#VER A 715 20250918 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 2649.66
+#TRANS 1947 {} -2649.66
+}
+
+#VER A 716 20250922 "WISE account transfer" 20260107
+{
+#TRANS 1945 {} 12000.00
+#TRANS 1930 {} -12000.00
+}
+
+#VER A 717 20250922 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 6306.25
+#TRANS 1947 {} -6306.25
+}
+
+#VER A 718 20250922 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 5883.39
+#TRANS 1947 {} -5883.39
+}
+
+#VER A 719 20250922 "Hi3G telecom service" 20260107
+{
+#TRANS 5410 {} 1288.80
+#TRANS 2641 {} 322.20
+#TRANS 2893 {} -1611.00
+}
+
+#VER A 720 20250924 "TikTok advertising" 20260107
+{
+#TRANS 5900 {} 1588.00
+#TRANS 2893 {} -1588.00
+}
+
+#VER A 721 20250925 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 10481.25
+#TRANS 1947 {} -10481.25
+}
+
+#VER A 722 20250926 "Rent correction September" 20260107
+{
+#TRANS 5010 {} 1612.80
+#TRANS 2641 {} 403.20
+#TRANS 1930 {} -2016.00
+}
+
+#VER A 723 20250926 "Additional rent September" 20260107
+{
+#TRANS 5010 {} 16127.20
+#TRANS 2641 {} 4031.80
+#TRANS 1930 {} -20159.00
+}
+
+#VER A 724 20250926 "Plusgiro service fee" 20260107
+{
+#TRANS 6570 {} 248.00
+#TRANS 1930 {} -248.00
+}
+
+#VER A 725 20250929 "Worldline card sales" 20260107
+{
+#TRANS 1930 {} 12047.34
+#TRANS 1947 {} -12047.34
+}
+
+#VER A 726 20250930 "Shareholder loan repayment 3" 20260107
+{
+#TRANS 2893 {} 27905.00
+#TRANS 1930 {} -27905.00
+}
+
+#VER A 727 20250930 "Worldline settlement" 20260107
+{
+#TRANS 1930 {} 17122.87
+#TRANS 1947 {} -17122.87
+}
+
+#VER A 728 20250930 "Shareholder loan repayment 4" 20260107
+{
+#TRANS 2893 {} 17000.00
+#TRANS 1930 {} -17000.00
+}
+
+#VER A 729 20250930 "St1 Gillbergaplan fuel" 20260107
+{
+#TRANS 5611 {} 784.62
+#TRANS 2641 {} 196.15
+#TRANS 2893 {} -980.77
+}
+
+#VER A 730 20250810 "Resecentrum travel booking" 20260107
+{
+#TRANS 5610 {} 908.80
+#TRANS 2641 {} 227.20
+#TRANS 2893 {} -1136.00
+}
+
+#VER A 731 20250811 "National Express - business transport" 20260107
+{
+#TRANS 5610 {} 279.99
+#TRANS 2893 {} -279.99
+}
+
+#VER A 732 20250826 "Budgetair flight booking" 20260107
+{
+#TRANS 5610 {} 555.88
+#TRANS 2893 {} -555.88
+}
+
+#VER A 733 20250905 "Aviation fee" 20260107
+{
+#TRANS 5610 {} 31.20
+#TRANS 2641 {} 7.80
+#TRANS 2893 {} -39.00
+}
+
+#VER A 734 20250801 "Google G Suite software" 20260107
+{
+#TRANS 5410 {} 58.40
+#TRANS 2641 {} 14.61
+#TRANS 2893 {} -73.01
+}
+
+#VER A 735 20250901 "Google G Suite software" 20260107
+{
+#TRANS 5410 {} 56.65
+#TRANS 2641 {} 14.18
+#TRANS 2893 {} -70.83
+}
+
+#VER A 736 20250902 "Shopify advertising EUR" 20260107
+{
+#TRANS 5900 {} 156.65
+#TRANS 2893 {} -156.65
+}
+
+#VER A 737 20250930 "Q3 2025 card sales via Worldline" 20260107
+{
+#TRANS 1947 {} 155780.70
+#TRANS 3051 {} -124624.56
+#TRANS 2611 {} -31156.14
+}
+
+#VER A 738 20250930 "Q3 2025 cash sales" 20260107
+{
+#TRANS 1910 {} 26271.17
+#TRANS 3051 {} -21016.94
+#TRANS 2611 {} -5254.23
+}
+
+#VER A 739 20250930 "Worldline transaction fees Q3 2025" 20260107
+{
+#TRANS 6570 {} 772.36
+#TRANS 1947 {} -772.36
+}
+
+#VER A 740 20250715 "Shopify EUR card purchase - Wise USD" 20260107
+{
+#TRANS 1942 {} -398.01
+#TRANS 5900 {} 398.01
+}
+
+#VER A 741 20250701 "Google Cloud SEK card purchase - Wise USD" 20260107
+{
+#TRANS 1942 {} -172.81
+#TRANS 5410 {} 172.81
+}
+
+#VER A 742 20250922 "SEK to USD conversion - Wise platform" 20260107
+{
+#TRANS 1942 {} 9602.44
+#TRANS 1945 {} -9602.44
+}
+
+#VER A 743 20250922 "Transfer payment from Wise USD account" 20260107
+{
+#TRANS 1942 {} -9426.49
+#TRANS 2893 {} 9426.49
+}
+
+#VER A 744 20250818 "Betalning moms fr period: April-Juni 2025 (korrigerad med verifikation A761 av Mohammad Sami Alsharef, 2025-10-27)" 20260107
+{
+#TRANS 2650 {} 26668.00
+#TRANS 1630 {} -26668.00
+}
+
+#VER A 745 20250630 "terbitalning till nra stnde " 20260107
+{
+#TRANS 2893 {} 35000.00 20250630 "terbitalning till nra stnde "
+#TRANS 1910 {} -35000.00 20250630 "terbitalning till nra stnde "
+}
+
+#VER A 746 20250930 "Momsredovisning juli-september 2025" 20260107
+{
+#TRANS 2641 {} -20696.30
+#TRANS 2611 {} 36410.37
+#TRANS 2650 {} -15714.00
+#TRANS 3740 {} -0.07
+}
+
+#VER A 747 20250212 "Debiterad preliminarskatt februari 2025" 20260107
+{
+#TRANS 1630 {} -1716.00
+#TRANS 2510 {} 1716.00
+}
+
+#VER A 748 20250301 "Kostnadsranta skattekonto mars" 20260107
+{
+#TRANS 1630 {} -13.00
+#TRANS 8423 {} 13.00
+}
+
+#VER A 749 20250312 "Debiterad preliminarskatt mars 2025" 20260107
+{
+#TRANS 1630 {} -1716.00
+#TRANS 2510 {} 1716.00
+}
+
+#VER A 750 20250313 "Beslut korrigering preliminarskatt 1" 20260107
+{
+#TRANS 1630 {} 1716.00
+#TRANS 2510 {} -1716.00
+}
+
+#VER A 751 20250313 "Beslut korrigering preliminarskatt 2" 20260107
+{
+#TRANS 1630 {} 1716.00
+#TRANS 2510 {} -1716.00
+}
+
+#VER A 752 20250405 "Korrigerad kostnadsranta" 20260107
+{
+#TRANS 1630 {} 13.00
+#TRANS 8423 {} -13.00
+}
+
+#VER A 753 20250612 "Arbetsgivaravgift maj 2025" 20260107
+{
+#TRANS 1630 {} -7917.00
+#TRANS 2510 {} 7917.00
+}
+
+#VER A 754 20250612 "Avdragen skatt maj 2025" 20260107
+{
+#TRANS 1630 {} -8316.00
+#TRANS 2510 {} 8316.00
+}
+
+#VER A 755 20250612 "Anstallningsstod juni 2025 fran Arbetsformedlingen" 20260107
+{
+#TRANS 1630 {} 21027.00
+#TRANS 3980 {} -21027.00
+}
+
+#VER A 756 20250705 "Intaktsranta skattekonto juli" 20260107
+{
+#TRANS 1630 {} 7.00
+#TRANS 8311 {} -7.00
+}
+
+#VER A 757 20250708 "Inbetalning till skattekonto moms" 20260107
+{
+#TRANS 1630 {} 20707.00
+#TRANS 2650 {} -20707.00
+}
+
+#VER A 758 20250709 "Beslut moms september 2024 kredit" 20260107
+{
+#TRANS 1630 {} 1485.00
+#TRANS 2650 {} -1485.00
+}
+
+#VER A 759 20250709 "Beslut moms oktober-december 2024 kredit" 20260107
+{
+#TRANS 1630 {} 16027.00
+#TRANS 2650 {} -16027.00
+}
+
+#VER A 760 20250714 "Arbetsgivaravgift juni 2025" 20260107
+{
+#TRANS 1630 {} -3431.00
+#TRANS 2510 {} 3431.00
+}
+
+#VER A 761 20250714 "Avdragen skatt juni 2025" 20260107
+{
+#TRANS 1630 {} -3276.00
+#TRANS 2510 {} 3276.00
+}
+
+#VER A 762 20250714 "Anstallningsstod juli 2025 fran Arbetsformedlingen" 20260107
+{
+#TRANS 1630 {} 9112.00
+#TRANS 3980 {} -9112.00
+}
+
+#VER A 763 20250802 "Intaktsranta skattekonto augusti" 20260107
+{
+#TRANS 1630 {} 34.00
+#TRANS 8311 {} -34.00
+}
+
+#VER A 764 20250802 "Korrigerad intaktsranta augusti" 20260107
+{
+#TRANS 1630 {} 82.00
+#TRANS 8311 {} -82.00
+}
+
+#VER A 765 20250812 "Beslut moms januari-mars 2025 debitering" 20260107
+{
+#TRANS 1630 {} -11551.00
+#TRANS 2650 {} 11551.00
+}
+
+#VER A 766 20250906 "Intaktsranta skattekonto september" 20260107
+{
+#TRANS 1630 {} 13.00
+#TRANS 8311 {} -13.00
+}
+
+#VER A 767 20250906 "Korrigerad intaktsranta september" 20260107
+{
+#TRANS 1630 {} -29.00
+#TRANS 8423 {} 29.00
+}
+
+#VER A 768 20250201 "Manadsavgift Foretagskonto - February" 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 769 20250301 "Manadsavgift Foretagskonto - March" 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 770 20250401 "Manadsavgift Foretagskonto - April" 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 771 20250501 "Manadsavgift Foretagskonto - May" 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 772 20250601 "Manadsavgift Foretagskonto - June" 20260107
+{
+#TRANS 1930 {} -70.00
+#TRANS 6570 {} 70.00
+}
+
+#VER A 773 20250228 "Lokalhyra februari - Lagar office rent" 20260107
+{
+#TRANS 1930 {} -1896.00
+#TRANS 5010 {} 1516.80
+#TRANS 2641 {} 379.20
+}
+
+#VER A 774 20250327 "HECKSHER LINIEAGENTURER AB - Tull inspect report shipping" 20260107
+{
+#TRANS 1930 {} -2875.00
+#TRANS 6991 {} 2300.00
+#TRANS 2641 {} 575.00
+}
+
+#VER A 775 20250401 "Plusgiro - Payment" 20260107
+{
+#TRANS 1930 {} -497.00
+#TRANS 6991 {} 397.60
+#TRANS 2641 {} 99.40
+}
+
+#VER A 776 20251006 "St1 Gillbergaplan - Company fuel" 20260107
+{
+#TRANS 5611 {} 725.18
+#TRANS 2641 {} 181.29
+#TRANS 2893 {} -906.47
+}
+
+#VER A 777 20251007 "TEMU.COM - Company purchase" 20260107
+{
+#TRANS 4000 {} 893.82
+#TRANS 2641 {} 223.46
+#TRANS 2893 {} -1117.28
+}
+
+#VER A 778 20251009 "AMAZONMKTPLC - Company purchase" 20260107
+{
+#TRANS 4000 {} 1035.10
+#TRANS 2641 {} 258.77
+#TRANS 2893 {} -1293.87
+}
+
+#VER A 779 20251010 "PEGASUS Turkey flight - Company travel" 20260107
+{
+#TRANS 5810 {} 867.14
+#TRANS 2893 {} -867.14
+}
+
+#VER A 780 20251016 "TEMU.COM refund" 20260107
+{
+#TRANS 4000 {} -101.30
+#TRANS 2641 {} -25.32
+#TRANS 2893 {} 126.62
+}
+
+#VER A 781 20251016 "TEMU.COM refund" 20260107
+{
+#TRANS 4000 {} -19.71
+#TRANS 2641 {} -4.93
+#TRANS 2893 {} 24.64
+}
+
+#VER A 782 20251124 "APPLE.COM/BILL - iCloud company" 20260107
+{
+#TRANS 5420 {} 199.20
+#TRANS 2641 {} 49.80
+#TRANS 2893 {} -249.00
+}
+
+#VER A 783 20251127 "FOREX 861 Arlanda - Future World Tech loan" 20260107
+{
+#TRANS 2893 {} -6500.00
+#TRANS 2441 {} 6500.00
+}
+
+#VER A 784 20251127 "FOREX 861 Arlanda - Future World Tech loan" 20260107
+{
+#TRANS 2893 {} -10000.00
+#TRANS 2441 {} 10000.00
+}
+
+#VER A 785 20251127 "FOREX 861 Arlanda - Future World Tech loan" 20260107
+{
+#TRANS 2893 {} -10000.00
+#TRANS 2441 {} 10000.00
+}
+
+#VER A 786 20251002 "Hallon SEK 100.00 SEK" 20260107
+{
+#TRANS 6212 {} 80.00
+#TRANS 2641 {} 20.00
+#TRANS 1945 {} -100.00
+}
+
+#VER A 787 20251002 "Hallon USD 9.40 USD kurs 9.35988" 20260107
+{
+#TRANS 6212 {} 70.40
+#TRANS 2641 {} 17.60
+#TRANS 1942 {} -88.00
+}
+
+#VER A 788 20251003 "Shopify EUR inbetalning 103.75 EUR" 20260107
+{
+#TRANS 1944 {} 1193.13
+#TRANS 1580 {} -1193.13
+}
+
+#VER A 789 20251006 "Wise avgift SEK 26.20 SEK" 20260107
+{
+#TRANS 6570 {} 26.20
+#TRANS 1945 {} -26.20
+}
+
+#VER A 790 20251006 "SEK till TRY 12486 SEK kurs 4.43116" 20260107
+{
+#TRANS 1945 {} -12486.00
+#TRANS 1940 {} 12432.54
+#TRANS 6570 {} 53.46
+}
+
+#VER A 791 20251006 "EUR till TRY 124.81 EUR kurs 48.6857" 20260107
+{
+#TRANS 1944 {} -1436.55
+#TRANS 1940 {} 1430.21
+#TRANS 6570 {} 6.34
+}
+
+#VER A 792 20251006 "Loan repayment TRY 61066.41 TRY kurs 4.43" 20260107
+{
+#TRANS 2893 {} 13862.75
+#TRANS 1940 {} -13862.75
+}
+
+#VER A 793 20251010 "Shopify EUR inbetalning 86.12 EUR" 20260107
+{
+#TRANS 1944 {} 990.38
+#TRANS 1580 {} -990.38
+}
+
+#VER A 794 20251010 "SEK till USD 2870 SEK kurs 0.105" 20260107
+{
+#TRANS 1945 {} -2870.00
+#TRANS 1942 {} 2857.14
+#TRANS 6570 {} 12.86
+}
+
+#VER A 795 20251010 "Loan repayment USD 320.00 USD" 20260107
+{
+#TRANS 2893 {} 2944.00
+#TRANS 1942 {} -2944.00
+}
+
+#VER A 796 20251017 "Shopify EUR inbetalning 418.35 EUR" 20260107
+{
+#TRANS 1944 {} 4811.03
+#TRANS 1580 {} -4811.03
+}
+
+#VER A 797 20251017 "Temu forpackning SEK 548.87 SEK" 20260107
+{
+#TRANS 5460 {} 548.87
+#TRANS 1945 {} -548.87
+}
+
+#VER A 798 20251024 "Shopify EUR inbetalning 154.12 EUR" 20260107
+{
+#TRANS 1944 {} 1772.38
+#TRANS 1580 {} -1772.38
+}
+
+#VER A 799 20251024 "One.com SEK 11.25 SEK" 20260107
+{
+#TRANS 5420 {} 9.00
+#TRANS 2641 {} 2.25
+#TRANS 1945 {} -11.25
+}
+
+#VER A 800 20251027 "Google Play app SEK 176.40 SEK" 20260107
+{
+#TRANS 5420 {} 176.40
+#TRANS 1945 {} -176.40
+}
+
+#VER A 801 20251027 "Google Play app SEK 176.40 SEK" 20260107
+{
+#TRANS 5420 {} 176.40
+#TRANS 1945 {} -176.40
+}
+
+#VER A 802 20251031 "YouTube Premium SEK 10.00 SEK" 20260107
+{
+#TRANS 5420 {} 10.00
+#TRANS 1945 {} -10.00
+}
+
+#VER A 803 20251101 "TikTok Ads SEK 748.05 SEK" 20260107
+{
+#TRANS 5900 {} 748.05
+#TRANS 1945 {} -748.05
+}
+
+#VER A 804 20251101 "Temu refund SEK 30.97 SEK" 20260107
+{
+#TRANS 1945 {} 30.97
+#TRANS 5460 {} -30.97
+}
+
+#VER A 805 20251101 "TikTok Ads EUR 23.45 EUR kurs 10.9513" 20260107
+{
+#TRANS 5900 {} 256.81
+#TRANS 1944 {} -259.10
+#TRANS 6570 {} 2.29
+}
+
+#VER A 806 20251102 "Hallon EUR 11.78 EUR kurs 10.9513" 20260107
+{
+#TRANS 6212 {} 103.20
+#TRANS 2641 {} 25.80
+#TRANS 1944 {} -129.88
+#TRANS 6570 {} 0.88
+}
+
+#VER A 807 20251106 "Cashback EUR 0.15 EUR" 20260107
+{
+#TRANS 1944 {} 1.73
+#TRANS 8311 {} -1.73
+}
+
+#VER A 808 20251107 "Shopify EUR inbetalning 371.75 EUR" 20260107
+{
+#TRANS 1944 {} 4275.13
+#TRANS 1580 {} -4275.13
+}
+
+#VER A 809 20251114 "Shopify EUR inbetalning 86.37 EUR" 20260107
+{
+#TRANS 1944 {} 993.32
+#TRANS 1580 {} -993.32
+}
+
+#VER A 810 20251114 "Shipit.se frakt EUR 91.08 EUR kurs 10.9795" 20260107
+{
+#TRANS 5700 {} 800.00
+#TRANS 2641 {} 200.00
+#TRANS 1944 {} -1004.63
+#TRANS 6570 {} 4.63
+}
+
+#VER A 811 20251119 "TikTok Ads EUR 178.32 EUR kurs 11.0027" 20260107
+{
+#TRANS 5900 {} 1962.00
+#TRANS 1944 {} -1974.10
+#TRANS 6570 {} 12.10
+}
+
+#VER A 812 20251121 "Shopify EUR inbetalning 1398.29 EUR" 20260107
+{
+#TRANS 1944 {} 16080.33
+#TRANS 1580 {} -16080.33
+}
+
+#VER A 813 20251123 "St1 drivmedel EUR 37.82 EUR kurs 10.999" 20260107
+{
+#TRANS 5610 {} 332.76
+#TRANS 2641 {} 83.18
+#TRANS 1944 {} -415.94
+}
+
+#VER A 814 20251125 "Booking.com flight EUR 624.99 EUR kurs 1.15685" 20260107
+{
+#TRANS 5810 {} 7187.39
+#TRANS 1944 {} -7220.46
+#TRANS 6570 {} 33.07
+}
+
+#VER A 815 20251125 "Booking.com USD 0.98 USD" 20260107
+{
+#TRANS 5810 {} 9.02
+#TRANS 1942 {} -9.02
+}
+
+#VER A 816 20251127 "Forex EUR 2.91 EUR kurs 10.9894" 20260107
+{
+#TRANS 5810 {} 25.61
+#TRANS 2641 {} 6.40
+#TRANS 1944 {} -32.13
+#TRANS 6570 {} 0.12
+}
+
+#VER A 817 20251127 "Arlanda Walk Through EUR 32.00 EUR kurs 10.9989" 20260107
+{
+#TRANS 5810 {} 281.60
+#TRANS 2641 {} 70.40
+#TRANS 1944 {} -353.55
+#TRANS 6570 {} 1.55
+}
+
+#VER A 818 20251127 "Jureskog mat EUR 52.65 EUR kurs 10.9975" 20260107
+{
+#TRANS 5810 {} 516.96
+#TRANS 2641 {} 62.04
+#TRANS 1944 {} -582.18
+#TRANS 6570 {} 3.18
+}
+
+#VER A 819 20251127 "Take Away Mart EUR 4.46 EUR kurs 10.9952" 20260107
+{
+#TRANS 5810 {} 43.75
+#TRANS 2641 {} 5.25
+#TRANS 1944 {} -49.28
+#TRANS 6570 {} 0.28
+}
+
+#VER A 820 20251128 "Beijing Airport mat EUR 0.98 EUR kurs 8.19996 CNY" 20260107
+{
+#TRANS 5810 {} 10.90
+#TRANS 1944 {} -11.00
+#TRANS 6570 {} 0.10
+}
+
+#VER A 821 20251128 "Shopify EUR inbetalning 2199.39 EUR" 20260107
+{
+#TRANS 1944 {} 25292.99
+#TRANS 1580 {} -25292.99
+}
+
+#VER A 822 20251128 "EUR till SEK 3633.31 EUR kurs 10.9945" 20260107
+{
+#TRANS 1944 {} -40174.82
+#TRANS 1945 {} 39946.43
+#TRANS 6570 {} 228.39
+}
+
+#VER A 823 20251128 "Overforing till Marginalen SEK 39934.97 SEK" 20260107
+{
+#TRANS 1930 {} 39934.97
+#TRANS 1945 {} -39934.97
+}
+
+#VER A 824 20251203 "Cashback EUR 0.47 EUR" 20260107
+{
+#TRANS 1944 {} 5.41
+#TRANS 8311 {} -5.41
+}
+
+#VER A 825 20251204 "Future World Tech Kina 31472.19 USD kurs 0.10645" 20260107
+{
+#TRANS 2441 {} 295641.24
+#TRANS 6570 {} 1358.76
+#TRANS 1945 {} -297000.00
+}
+
+#VER A 826 20251205 "Shopify EUR inbetalning 573.75 EUR" 20260107
+{
+#TRANS 1944 {} 6598.13
+#TRANS 1580 {} -6598.13
+}
+
+#VER A 827 20251208 "Shopify avgift EUR 106.61 EUR" 20260107
+{
+#TRANS 6570 {} 1226.58
+#TRANS 1944 {} -1226.58
+}
+
+#VER A 828 20251208 "EUR till USD 465.94 EUR kurs 1.1651" 20260107
+{
+#TRANS 1944 {} -5374.86
+#TRANS 1942 {} 5355.62
+#TRANS 6570 {} 19.24
+}
+
+#VER A 829 20251209 "SEK till USD 15546 SEK kurs 0.10707" 20260107
+{
+#TRANS 1945 {} -15546.00
+#TRANS 1942 {} 15437.54
+#TRANS 6570 {} 108.46
+}
+
+#VER A 830 20251211 "Beijing mat USD 75.61 USD kurs 7.0621 CNY" 20260107
+{
+#TRANS 5810 {} 700.65
+#TRANS 1942 {} -702.23
+#TRANS 6570 {} 1.58
+}
+
+#VER A 831 20251211 "Malardalstrafik USD 79.49 USD kurs 9.23423" 20260107
+{
+#TRANS 5810 {} 692.45
+#TRANS 2641 {} 41.55
+#TRANS 1942 {} -735.49
+#TRANS 6570 {} 1.49
+}
+
+#VER A 832 20251212 "Shopify EUR inbetalning 58.31 EUR" 20260107
+{
+#TRANS 1944 {} 670.55
+#TRANS 1580 {} -670.55
+}
+
+#VER A 833 20251212 "Circle K drivmedel USD 67.13 USD kurs 9.28897" 20260107
+{
+#TRANS 5610 {} 498.82
+#TRANS 2641 {} 124.71
+#TRANS 1942 {} -624.65
+#TRANS 6570 {} 1.12
+}
+
+#VER A 834 20251212 "Fadushka mat USD 2.16 USD kurs 9.27977" 20260107
+{
+#TRANS 5810 {} 17.86
+#TRANS 2641 {} 2.14
+#TRANS 1942 {} -20.07
+#TRANS 6570 {} 0.07
+}
+
+#VER A 835 20251214 "Shopify abonnemang EUR 36.00 EUR" 20260107
+{
+#TRANS 5420 {} 414.00
+#TRANS 1944 {} -414.00
+}
+
+#VER A 836 20251215 "Shopify avgift EUR 2.88 EUR" 20260107
+{
+#TRANS 6570 {} 33.12
+#TRANS 1944 {} -33.12
+}
+
+#VER A 837 20251217 "Shopify avgift EUR 19.43 EUR" 20260107
+{
+#TRANS 6570 {} 223.44
+#TRANS 1944 {} -223.44
+}
+
+#VER A 838 20251217 "Shopify avgift USD 32.95 USD kurs 0.85346" 20260107
+{
+#TRANS 6570 {} 303.60
+#TRANS 1942 {} -303.60
+}
+
+#VER A 839 20251217 "Loan repayment USD 225.96 USD kurs 9.33791" 20260107
+{
+#TRANS 2893 {} 2110.00
+#TRANS 1942 {} -2114.00
+#TRANS 6570 {} 4.00
+}
+
+#VER A 840 20251219 "One.com USD 13.75 USD kurs 9.31722" 20260107
+{
+#TRANS 5420 {} 102.50
+#TRANS 2641 {} 25.63
+#TRANS 1942 {} -128.48
+#TRANS 6570 {} 0.35
+}
+
+#VER A 841 20251224 "Bolagsverket USD 240.06 USD kurs 9.16446" 20260107
+{
+#TRANS 6991 {} 2200.00
+#TRANS 1942 {} -2204.70
+#TRANS 6570 {} 4.70
+}
+
+#VER A 842 20251224 "PRV registrering USD 294.43 USD kurs 9.17034" 20260107
+{
+#TRANS 6991 {} 2700.00
+#TRANS 1942 {} -2705.72
+#TRANS 6570 {} 5.72
+}
+
+#VER A 843 20251225 "TikTok Ads USD 179.76 USD kurs 9.17929" 20260107
+{
+#TRANS 5900 {} 1650.10
+#TRANS 1942 {} -1653.36
+#TRANS 6570 {} 3.26
+}
+
+#VER A 844 20251225 "Loan repayment USD 205.02 USD kurs 9.17442" 20260107
+{
+#TRANS 2893 {} 1880.94
+#TRANS 1942 {} -1884.80
+#TRANS 6570 {} 3.86
+}
+
+#VER A 845 20251225 "Loan repayment USD 7.49 USD kurs 9.17442" 20260107
+{
+#TRANS 2893 {} 68.70
+#TRANS 1942 {} -68.82
+#TRANS 6570 {} 0.12
+}
+
+#VER A 846 20251225 "Loan repayment USD 63.11 USD kurs 9.17442" 20260107
+{
+#TRANS 2893 {} 579.00
+#TRANS 1942 {} -580.23
+#TRANS 6570 {} 1.23
+}
+
+#VER A 847 20251229 "Shopify EUR inbetalning 86.77 EUR" 20260107
+{
+#TRANS 1944 {} 997.85
+#TRANS 1580 {} -997.85
+}
+
+#VER A 848 20251229 "EUR till USD 86.47 EUR kurs 1.1762" 20260107
+{
+#TRANS 1944 {} -997.85
+#TRANS 1942 {} 994.40
+#TRANS 6570 {} 3.45
+}
+
+#VER A 849 20251229 "St1 drivmedel USD 96.07 USD kurs 9.17915" 20260107
+{
+#TRANS 5610 {} 705.48
+#TRANS 2641 {} 176.36
+#TRANS 1942 {} -883.49
+#TRANS 6570 {} 1.65
+}
+
+#VER A 850 20251230 "TikTok Ads USD 152.94 USD kurs 9.19322" 20260107
+{
+#TRANS 5900 {} 1406.00
+#TRANS 1942 {} -1408.98
+#TRANS 6570 {} 2.98
+}
+
+#VER A 851 20251231 "TikTok Ads USD 152.46 USD kurs 9.22201" 20260107
+{
+#TRANS 5900 {} 1406.00
+#TRANS 1942 {} -1408.54
+#TRANS 6570 {} 2.54
+}
+
+#VER A 852 20251001 "Manadsavgift Foretagskonto okt" 20260107
+{
+#TRANS 6570 {} 70.00
+#TRANS 1930 {} -70.00
+}
+
+#VER A 853 20251003 "Worldline deposit B10037527853" 20260107
+{
+#TRANS 1930 {} 6744.05
+#TRANS 1947 {} -6744.05
+}
+
+#VER A 854 20251006 "Worldline deposit B10047556132" 20260107
+{
+#TRANS 1930 {} 3689.41
+#TRANS 1947 {} -3689.41
+}
+
+#VER A 855 20251006 "Overforing till Wise" 20260107
+{
+#TRANS 1945 {} 10486.00
+#TRANS 1930 {} -10486.00
+}
+
+#VER A 856 20251006 "Worldline deposit B10067605445" 20260107
+{
+#TRANS 1930 {} 3336.21
+#TRANS 1947 {} -3336.21
+}
+
+#VER A 857 20251007 "Worldline deposit B10077622879" 20260107
+{
+#TRANS 1930 {} 2555.13
+#TRANS 1947 {} -2555.13
+}
+
+#VER A 858 20251009 "Inbetalning till Skattekonto" 20260107
+{
+#TRANS 1630 {} 625.00
+#TRANS 1930 {} -625.00
+}
+
+#VER A 859 20251008 "Bankgiro betalning 2027001" 20260107
+{
+#TRANS 6570 {} 400.00
+#TRANS 2641 {} 100.00
+#TRANS 1930 {} -500.00
+}
+
+#VER A 860 20251009 "Overforing till Wise" 20260107
+{
+#TRANS 1945 {} 4500.00
+#TRANS 1930 {} -4500.00
+}
+
+#VER A 861 20251009 "Worldline deposit B10097674111" 20260107
+{
+#TRANS 1930 {} 0.99
+#TRANS 1947 {} -0.99
+}
+
+#VER A 862 20251010 "Worldline deposit B10107702101" 20260107
+{
+#TRANS 1930 {} 1701.91
+#TRANS 1947 {} -1701.91
+}
+
+#VER A 863 20251013 "Worldline deposit B10127760785" 20260107
+{
+#TRANS 1930 {} 5491.37
+#TRANS 1947 {} -5491.37
+}
+
+#VER A 864 20251014 "Frakt PostNord 50207042" 20260107
+{
+#TRANS 5700 {} 339.20
+#TRANS 2641 {} 84.80
+#TRANS 1930 {} -424.00
+}
+
+#VER A 865 20251014 "Worldline deposit B10147798619" 20260107
+{
+#TRANS 1930 {} 2972.53
+#TRANS 1947 {} -2972.53
+}
+
+#VER A 866 20251017 "Svea Ekonomi kortterminal" 20260107
+{
+#TRANS 6570 {} 198.40
+#TRANS 2641 {} 49.60
+#TRANS 1930 {} -248.00
+}
+
+#VER A 867 20251017 "Forsakring 53020525" 20260107
+{
+#TRANS 6310 {} 3763.00
+#TRANS 1930 {} -3763.00
+}
+
+#VER A 868 20251017 "Worldline deposit B10177881088" 20260107
+{
+#TRANS 1930 {} 6687.36
+#TRANS 1947 {} -6687.36
+}
+
+#VER A 869 20251020 "Worldline deposit B10197936186" 20260107
+{
+#TRANS 1947 {} -5266.50
+#TRANS 1930 {} 5266.50
+}
+
+#VER A 870 20251022 "Worldline deposit B10228000236" 20260107
+{
+#TRANS 1930 {} 7578.34
+#TRANS 1947 {} -7578.34
+}
+
+#VER A 871 20251024 "Worldline deposit B10248056799" 20260107
+{
+#TRANS 1930 {} 4268.50
+#TRANS 1947 {} -4268.50
+}
+
+#VER A 872 20251027 "Worldline deposit B10258085288" 20260107
+{
+#TRANS 1930 {} 2928.26
+#TRANS 1947 {} -2928.26
+}
+
+#VER A 873 20251027 "Worldline deposit B10278133717" 20260107
+{
+#TRANS 1930 {} 5268.49
+#TRANS 1947 {} -5268.49
+}
+
+#VER A 874 20251028 "Hyra oktober butik/lager 4392007" 20260107
+{
+#TRANS 5010 {} 15986.40
+#TRANS 2641 {} 3996.60
+#TRANS 1930 {} -19983.00
+}
+
+#VER A 875 20251028 "Hyra lagar 4392007" 20260107
+{
+#TRANS 5010 {} 1516.80
+#TRANS 2641 {} 379.20
+#TRANS 1930 {} -1896.00
+}
+
+#VER A 876 20251028 "Inbetalning till Skattekonto" 20260107
+{
+#TRANS 1630 {} 15714.00
+#TRANS 1930 {} -15714.00
+}
+
+#VER A 877 20251028 "Worldline deposit B10288150305" 20260107
+{
+#TRANS 1930 {} 4349.13
+#TRANS 1947 {} -4349.13
+}
+
+#VER A 878 20251029 "Worldline deposit B10298175527" 20260107
+{
+#TRANS 1930 {} 5560.94
+#TRANS 1947 {} -5560.94
+}
+
+#VER A 879 20251030 "Worldline deposit B10308203309" 20260107
+{
+#TRANS 1930 {} 2750.16
+#TRANS 1947 {} -2750.16
+}
+
+#VER A 880 20251031 "Worldline deposit B10318231769" 20260107
+{
+#TRANS 1930 {} 4535.93
+#TRANS 1947 {} -4535.93
+}
+
+#VER A 881 20251101 "Manadsavgift Foretagskonto nov" 20260107
+{
+#TRANS 6570 {} 70.00
+#TRANS 1930 {} -70.00
+}
+
+#VER A 882 20251103 "Worldline deposit B11018260572" 20260107
+{
+#TRANS 1930 {} 6164.00
+#TRANS 1947 {} -6164.00
+}
+
+#VER A 883 20251103 "Worldline deposit B11028288982" 20260107
+{
+#TRANS 1930 {} 1191.00
+#TRANS 1947 {} -1191.00
+}
+
+#VER A 884 20251104 "Worldline deposit B11048324588" 20260107
+{
+#TRANS 1930 {} 2243.70
+#TRANS 1947 {} -2243.70
+}
+
+#VER A 885 20251107 "Bank avgift enskildfirma samis" 20260107
+{
+#TRANS 6570 {} 1000.00
+#TRANS 1930 {} -1000.00
+}
+
+#VER A 886 20251107 "Worldline deposit B11078404621" 20260107
+{
+#TRANS 1930 {} 4180.96
+#TRANS 1947 {} -4180.96
+}
+
+#VER A 887 20251110 "Worldline deposit B11088433471" 20260107
+{
+#TRANS 1930 {} 3324.26
+#TRANS 1947 {} -3324.26
+}
+
+#VER A 888 20251110 "Worldline deposit B11108482009" 20260107
+{
+#TRANS 1930 {} 1188.01
+#TRANS 1947 {} -1188.01
+}
+
+#VER A 889 20251111 "Worldline deposit B11118498315" 20260107
+{
+#TRANS 1930 {} 2482.51
+#TRANS 1947 {} -2482.51
+}
+
+#VER A 890 20251112 "Worldline deposit B11128524941" 20260107
+{
+#TRANS 1930 {} 1141.26
+#TRANS 1947 {} -1141.26
+}
+
+#VER A 891 20251113 "Worldline deposit B11138552310" 20260107
+{
+#TRANS 1930 {} 892.51
+#TRANS 1947 {} -892.51
+}
+
+#VER A 892 20251114 "Worldline deposit B11148578818" 20260107
+{
+#TRANS 1930 {} 1941.22
+#TRANS 1947 {} -1941.22
+}
+
+#VER A 893 20251117 "Svea Ekonomi kortterminal" 20260107
+{
+#TRANS 6570 {} 198.40
+#TRANS 2641 {} 49.60
+#TRANS 1930 {} -248.00
+}
+
+#VER A 894 20251117 "Worldline deposit B11178656600" 20260107
+{
+#TRANS 1930 {} 1981.02
+#TRANS 1947 {} -1981.02
+}
+
+#VER A 895 20251117 "Skuld 2893 inbetalning 6641229" 20260107
+{
+#TRANS 1930 {} 284.00
+#TRANS 2893 {} -284.00
+}
+
+#VER A 896 20251118 "Worldline deposit B11188674426" 20260107
+{
+#TRANS 1930 {} 3048.64
+#TRANS 1947 {} -3048.64
+}
+
+#VER A 897 20251119 "Worldline deposit B11198697754" 20260107
+{
+#TRANS 1930 {} 16205.47
+#TRANS 1947 {} -16205.47
+}
+
+#VER A 898 20251120 "Svea Ekonomi kortterminal" 20260107
+{
+#TRANS 6570 {} 198.40
+#TRANS 2641 {} 49.60
+#TRANS 1930 {} -248.00
+}
+
+#VER A 899 20251120 "Worldline deposit B11208725080" 20260107
+{
+#TRANS 1930 {} 8057.42
+#TRANS 1947 {} -8057.42
+}
+
+#VER A 900 20251121 "Worldline deposit B11218753235" 20260107
+{
+#TRANS 1930 {} 14373.20
+#TRANS 1947 {} -14373.20
+}
+
+#VER A 901 20251124 "Worldline deposit B11228781865" 20260107
+{
+#TRANS 1930 {} 7070.42
+#TRANS 1947 {} -7070.42
+}
+
+#VER A 902 20251124 "Frakt PostNord 52494309" 20260107
+{
+#TRANS 5700 {} 734.96
+#TRANS 2641 {} 183.74
+#TRANS 1930 {} -918.70
+}
+
+#VER A 903 20251124 "Frakt PostNord 52494309" 20260107
+{
+#TRANS 5700 {} 1548.69
+#TRANS 2641 {} 387.17
+#TRANS 1930 {} -1935.86
+}
+
+#VER A 904 20251124 "Worldline deposit B11248831366" 20260107
+{
+#TRANS 1930 {} 29356.25
+#TRANS 1947 {} -29356.25
+}
+
+#VER A 905 20251125 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 1726.40
+#TRANS 2641 {} 431.60
+#TRANS 1930 {} -2158.00
+}
+
+#VER A 906 20251126 "Skuld 2893 inbetalning" 20260107
+{
+#TRANS 1930 {} 19000.00
+#TRANS 2893 {} -19000.00
+}
+
+#VER A 907 20251126 "SAMIS1 Skuld 2893 inbetalning" 20260107
+{
+#TRANS 1930 {} 20000.00
+#TRANS 2893 {} -20000.00
+}
+
+#VER A 908 20251126 "Worldline deposit B11268872500" 20260107
+{
+#TRANS 1930 {} 14641.45
+#TRANS 1947 {} -14641.45
+}
+
+#VER A 909 20251126 "Skuld 2893 inbetalning 6641229" 20260107
+{
+#TRANS 1930 {} 778.00
+#TRANS 2893 {} -778.00
+}
+
+#VER A 910 20251126 "Skuld 2893 inbetalning SKULDRA" 20260107
+{
+#TRANS 1930 {} 38800.00
+#TRANS 2893 {} -38800.00
+}
+
+#VER A 911 20251127 "Worldline deposit B11278900577" 20260107
+{
+#TRANS 1930 {} 4219.76
+#TRANS 1947 {} -4219.76
+}
+
+#VER A 912 20251127 "Inbetalning 07306298220" 20260107
+{
+#TRANS 1930 {} 7856.00
+#TRANS 2893 {} -7856.00
+}
+
+#VER A 913 20251201 "Manadsavgift Foretagskonto dec" 20260107
+{
+#TRANS 6570 {} 70.00
+#TRANS 1930 {} -70.00
+}
+
+#VER A 914 20251201 "Worldline deposit B11298957172" 20260107
+{
+#TRANS 1930 {} 21737.55
+#TRANS 1947 {} -21737.55
+}
+
+#VER A 915 20251201 "Worldline deposit B12019008327" 20260107
+{
+#TRANS 1930 {} 7.49
+#TRANS 1947 {} -7.49
+}
+
+#VER A 916 20251201 "Worldline deposit B11308985634" 20260107
+{
+#TRANS 1930 {} 8006.70
+#TRANS 1947 {} -8006.70
+}
+
+#VER A 917 20251202 "Worldline deposit B12029026954" 20260107
+{
+#TRANS 1930 {} 4400.82
+#TRANS 1947 {} -4400.82
+}
+
+#VER A 918 20251203 "Worldline deposit B12039050289" 20260107
+{
+#TRANS 1930 {} 1617.86
+#TRANS 1947 {} -1617.86
+}
+
+#VER A 919 20251204 "China invoice payment till Wise" 20260107
+{
+#TRANS 1945 {} 297000.00
+#TRANS 1930 {} -297000.00
+}
+
+#VER A 920 20251208 "Worldline deposit B12069136385" 20260107
+{
+#TRANS 1930 {} 10857.31
+#TRANS 1947 {} -10857.31
+}
+
+#VER A 921 20251208 "Worldline deposit B12089184747" 20260107
+{
+#TRANS 1930 {} 4611.77
+#TRANS 1947 {} -4611.77
+}
+
+#VER A 922 20251209 "Wise transfer 55250500" 20260107
+{
+#TRANS 1945 {} 15546.00
+#TRANS 1930 {} -15546.00
+}
+
+#VER A 923 20251209 "Worldline deposit B12099203466" 20260107
+{
+#TRANS 1930 {} 1710.39
+#TRANS 1947 {} -1710.39
+}
+
+#VER A 924 20251210 "Worldline deposit B12109227020" 20260107
+{
+#TRANS 1930 {} 2889.45
+#TRANS 1947 {} -2889.45
+}
+
+#VER A 925 20251211 "Worldline deposit B12119255696" 20260107
+{
+#TRANS 1930 {} 2136.02
+#TRANS 1947 {} -2136.02
+}
+
+#VER A 926 20251212 "Worldline deposit B12129284073" 20260107
+{
+#TRANS 1930 {} 5373.35
+#TRANS 1947 {} -5373.35
+}
+
+#VER A 927 20251215 "Frakt 50516822" 20260107
+{
+#TRANS 5700 {} 2332.00
+#TRANS 2641 {} 583.00
+#TRANS 1930 {} -2915.00
+}
+
+#VER A 928 20251215 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 101.60
+#TRANS 2641 {} 25.40
+#TRANS 1930 {} -127.00
+}
+
+#VER A 929 20251215 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 189.60
+#TRANS 2641 {} 47.40
+#TRANS 1930 {} -237.00
+}
+
+#VER A 930 20251215 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 790.40
+#TRANS 2641 {} 197.60
+#TRANS 1930 {} -988.00
+}
+
+#VER A 931 20251215 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 2490.40
+#TRANS 2641 {} 622.60
+#TRANS 1930 {} -3113.00
+}
+
+#VER A 932 20251215 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 116.00
+#TRANS 2641 {} 29.00
+#TRANS 1930 {} -145.00
+}
+
+#VER A 933 20251215 "Frakt PostNord 52494309" 20260107
+{
+#TRANS 5700 {} 311.20
+#TRANS 2641 {} 77.80
+#TRANS 1930 {} -389.00
+}
+
+#VER A 934 20251215 "Fretag mobil Telia 47460035" 20260107
+{
+#TRANS 6212 {} 455.20
+#TRANS 2641 {} 113.80
+#TRANS 1930 {} -569.00
+}
+
+#VER A 935 20251215 "Plusgiro betalning 47704044" 20260107
+{
+#TRANS 6570 {} 198.40
+#TRANS 2641 {} 49.60
+#TRANS 1930 {} -248.00
+}
+
+#VER A 936 20251215 "Worldline deposit B12159361494" 20260107
+{
+#TRANS 1930 {} 4866.82
+#TRANS 1947 {} -4866.82
+}
+
+#VER A 937 20251217 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 95.20
+#TRANS 2641 {} 23.80
+#TRANS 1930 {} -119.00
+}
+
+#VER A 938 20251217 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 61.44
+#TRANS 2641 {} 15.36
+#TRANS 1930 {} -76.80
+}
+
+#VER A 939 20251217 "Worldline deposit B12179405561" 20260107
+{
+#TRANS 1930 {} 4422.83
+#TRANS 1947 {} -4422.83
+}
+
+#VER A 940 20251219 "Worldline deposit B12199460221" 20260107
+{
+#TRANS 1930 {} 6409.08
+#TRANS 1947 {} -6409.08
+}
+
+#VER A 941 20251222 "Svea Ekonomi kortterminal" 20260107
+{
+#TRANS 6570 {} 198.40
+#TRANS 2641 {} 49.60
+#TRANS 1930 {} -248.00
+}
+
+#VER A 942 20251222 "Worldline deposit B12219518994" 20260107
+{
+#TRANS 1930 {} 8512.45
+#TRANS 1947 {} -8512.45
+}
+
+#VER A 943 20251229 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 199.50
+#TRANS 2641 {} 49.88
+#TRANS 1930 {} -249.38
+}
+
+#VER A 944 20251229 "Frakt DB Schenker 9423047" 20260107
+{
+#TRANS 5700 {} 84.00
+#TRANS 2641 {} 21.00
+#TRANS 1930 {} -105.00
+}
+
+#VER A 945 20251229 "Worldline deposit B12269613247" 20260107
+{
+#TRANS 1930 {} 6894.90
+#TRANS 1947 {} -6894.90
+}
+
+#VER A 946 20251229 "Worldline deposit B12299649730" 20260107
+{
+#TRANS 1930 {} 3644.67
+#TRANS 1947 {} -3644.67
+}
+
+#VER A 947 20251229 "Worldline deposit B12249582328" 20260107
+{
+#TRANS 1930 {} 4899.72
+#TRANS 1947 {} -4899.72
+}
+
+#VER A 948 20251230 "Worldline deposit B12309664541" 20260107
+{
+#TRANS 1930 {} 137.10
+#TRANS 1947 {} -137.10
+}
+
+#VER A 949 20251231 "Ranta Marginalen" 20260107
+{
+#TRANS 1930 {} 122.38
+#TRANS 8400 {} -122.38
+}
+
+#VER A 950 20251231 "Ranta Marginalen" 20260107
+{
+#TRANS 1930 {} 0.23
+#TRANS 8400 {} -0.23
+}
+
+#VER A 951 20251031 "Worldline avgift oktober" 20260107
+{
+#TRANS 6570 {} 400.67
+#TRANS 1947 {} -400.67
+}
+
+#VER A 952 20251130 "Worldline avgift november" 20260107
+{
+#TRANS 6570 {} 811.68
+#TRANS 1947 {} -811.68
+}
+
+#VER A 953 20251231 "Worldline avgift december" 20260107
+{
+#TRANS 6570 {} 542.83
+#TRANS 1947 {} -542.83
+}
+
+#VER A 954 20251031 "Kortforsaljning Oktober Worldline" 20260107
+{
+#TRANS 1947 {} 75685.21
+#TRANS 3051 {} -60548.17
+#TRANS 2611 {} -15137.04
+}
+
+#VER A 955 20251130 "Kortforsaljning November Worldline" 20260107
+{
+#TRANS 1947 {} 153447.31
+#TRANS 3051 {} -122757.85
+#TRANS 2611 {} -30689.46
+}
+
+#VER A 956 20251231 "Kortforsaljning December Worldline" 20260107
+{
+#TRANS 1947 {} 87156.66
+#TRANS 3051 {} -69725.33
+#TRANS 2611 {} -17431.33
+}
+
+#VER A 957 20251231 "Kontantforsaljning Q4" 20260107
+{
+#TRANS 1910 {} 43087.75
+#TRANS 3051 {} -34470.20
+#TRANS 2611 {} -8617.55
+}
+
+#VER A 958 20251003 "Shopify EUR 103.75" 20260107
+{
+#TRANS 1580 {} 1193.13
+#TRANS 3051 {} -954.50
+#TRANS 2611 {} -238.63
+}
+
+#VER A 959 20251010 "Shopify EUR 86.12" 20260107
+{
+#TRANS 1580 {} 990.38
+#TRANS 3051 {} -792.30
+#TRANS 2611 {} -198.08
+}
+
+#VER A 960 20251017 "Shopify EUR 418.35" 20260107
+{
+#TRANS 1580 {} 4811.03
+#TRANS 3051 {} -3848.82
+#TRANS 2611 {} -962.21
+}
+
+#VER A 961 20251024 "Shopify EUR 154.12" 20260107
+{
+#TRANS 1580 {} 1772.38
+#TRANS 3051 {} -1417.90
+#TRANS 2611 {} -354.48
+}
+
+#VER A 962 20251107 "Shopify EUR 371.75" 20260107
+{
+#TRANS 1580 {} 4275.13
+#TRANS 3051 {} -3420.10
+#TRANS 2611 {} -855.03
+}
+
+#VER A 963 20251114 "Shopify EUR 86.37" 20260107
+{
+#TRANS 1580 {} 993.32
+#TRANS 3051 {} -794.66
+#TRANS 2611 {} -198.66
+}
+
+#VER A 964 20251121 "Shopify EUR 1398.29" 20260107
+{
+#TRANS 1580 {} 16080.33
+#TRANS 3051 {} -12864.27
+#TRANS 2611 {} -3216.06
+}
+
+#VER A 965 20251128 "Shopify EUR 2199.39" 20260107
+{
+#TRANS 1580 {} 25292.99
+#TRANS 3051 {} -20234.39
+#TRANS 2611 {} -5058.60
+}
+
+#VER A 966 20251205 "Shopify EUR 573.75" 20260107
+{
+#TRANS 1580 {} 6598.13
+#TRANS 3051 {} -5278.50
+#TRANS 2611 {} -1319.63
+}
+
+#VER A 967 20251212 "Shopify EUR 58.31" 20260107
+{
+#TRANS 1580 {} 670.55
+#TRANS 3051 {} -536.44
+#TRANS 2611 {} -134.11
+}
+
+#VER A 968 20251229 "Shopify EUR 86.77" 20260107
+{
+#TRANS 1580 {} 997.85
+#TRANS 3051 {} -798.28
+#TRANS 2611 {} -199.57
+}
+
+#VER A 969 20251231 "Varuforbrukning Q4 2025" 20260107
+{
+#TRANS 4110 {} 225647.19
+#TRANS 1460 {} -225647.19
+}
+
+#VER A 970 20251231 "Reklamgavor till kunder Q4 2025" 20260107
+{
+#TRANS 5900 {} 26238.05
+#TRANS 1460 {} -26238.05
+}
+
+#VER A 971 20251231 "Kassation och svinn Q4 2025" 20260107
+{
+#TRANS 4530 {} 10495.22
+#TRANS 1460 {} -10495.22
+}
+
+#VER A 972 20251124 "Liuhua Hotel Guangzhou - Kinaresa arbetsresa" 20260107
+{
+#TRANS 5010 {} 7178.53
+#TRANS 2893 {} -7178.53
+}
+
+#VER A 973 20251129 "Liuhua Hotel Guangzhou - Kinaresa arbetsresa" 20260107
+{
+#TRANS 5010 {} 4486.38
+#TRANS 2893 {} -4486.38
+}
+
+#VER A 974 20251127 "FOREX Arlanda - Lneavans till Future World Tech" 20260107
+{
+#TRANS 2441 {} 10000.00
+#TRANS 2893 {} -10000.00
+}
+
+#VER A 975 20251128 "Kontantuttagsavgift - Remamber kort avgift" 20260107
+{
+#TRANS 5900 {} 240.00
+#TRANS 2893 {} -240.00
+}
+
+#VER A 976 20251205 "Aviavgift - Remamber kortavgift" 20260107
+{
+#TRANS 5900 {} 31.20
+#TRANS 2893 {} -31.20
+}
+
+#VER A 977 20251205 "vertrasseringsavgift - Remamber" 20260107
+{
+#TRANS 5900 {} 76.00
+#TRANS 2893 {} -76.00
+}
+
+#VER A 978 20251006 "Wise Enterprise transfer" 20260107
+{
+#TRANS 1945 {} 2026.20
+#TRANS 2893 {} -2026.20
+}
+
+#VER A 979 20251103 "G&S By Samis jackets test transaktion" 20260107
+{
+#TRANS 2893 {} -1.00
+#TRANS 2893 {} 1.00
+}
+
+#VER A 980 20251020 "G&S By Samis jackets test transaktion" 20260107
+{
+#TRANS 2893 {} -1.00
+#TRANS 2893 {} 1.00
+}
+
+#VER A 981 20251006 "G&S By Samis jackets test transaktion" 20260107
+{
+#TRANS 2893 {} -1.00
+#TRANS 2893 {} 1.00
+}
+
+#VER A 982 20251006 "G&S By Samis jackets test transaktion" 20260107
+{
+#TRANS 2893 {} -1.00
+#TRANS 2893 {} 1.00
+}
+
+#VER A 983 20251209 "YESIM Roaming - Kinaresa" 20260107
+{
+#TRANS 6990 {} 167.17
+#TRANS 2893 {} -167.17
+}
+
+#VER A 984 20251023 "Fortnox Bokforingsprogram" 20260107
+{
+#TRANS 6500 {} 119.20
+#TRANS 2641 {} 29.80
+#TRANS 2893 {} -149.00
+}
+
+#VER A 985 20251101 "Fortnox Bokforingsprogram" 20260107
+{
+#TRANS 6500 {} 119.20
+#TRANS 2641 {} 29.80
+#TRANS 2893 {} -149.00
+}
+
+#VER A 986 20251114 "Fortnox Bokforingsprogram" 20260107
+{
+#TRANS 6500 {} 19.20
+#TRANS 2641 {} 4.80
+#TRANS 2893 {} -24.00
+}
+
+#VER A 987 20251212 "Fortnox Bokforingsprogram" 20260107
+{
+#TRANS 6500 {} 119.20
+#TRANS 2641 {} 29.80
+#TRANS 2893 {} -149.00
+}
+
+#VER A 988 20251117 "Skatteverket Betalning (korrigerad med verifikation A1031 av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 1630 {} 400.00
+#TRANS 2893 {} -400.00
+}
+
+#VER A 989 20251026 "SJ AB Tag - Arbetsresa" 20260107
+{
+#TRANS 5010 {} 76.80
+#TRANS 2641 {} 19.20
+#TRANS 2893 {} -96.00
+}
+
+#VER A 990 20251026 "SJ AB Tag - Arbetsresa" 20260107
+{
+#TRANS 5010 {} 76.80
+#TRANS 2641 {} 19.20
+#TRANS 2893 {} -96.00
+}
+
+#VER A 991 20251014 "MALARDALSTRAFIKEN - Arbetsresa" 20260107
+{
+#TRANS 5010 {} 293.60
+#TRANS 2641 {} 73.40
+#TRANS 2893 {} -367.00
+}
+
+#VER A 992 20251012 "MALARDALSTRAFIKEN - Arbetsresa" 20260107
+{
+#TRANS 5010 {} 293.60
+#TRANS 2641 {} 73.40
+#TRANS 2893 {} -367.00
+}
+
+#VER A 993 20251127 "MALARDALSTRAFIKEN - Arbetsresa" 20260107
+{
+#TRANS 5010 {} 587.20
+#TRANS 2641 {} 146.80
+#TRANS 2893 {} -734.00
+}
+
+#VER A 994 20251224 "Swish Auronis AB - Fretagsbetalning" 20260107
+{
+#TRANS 2893 {} -100.00
+#TRANS 2893 {} 100.00
+}
+
+#VER A 995 20251001 "TikTok Ads - Marknadsforing" 20260107
+{
+#TRANS 5900 {} 1070.11
+#TRANS 2893 {} -1070.11
+}
+
+#VER A 996 20251101 "Google GSUITE - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 63.12
+#TRANS 2893 {} -63.12
+}
+
+#VER A 997 20251201 "Google GSUITE - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 63.42
+#TRANS 2893 {} -63.42
+}
+
+#VER A 998 20251001 "Google GSUITE - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 63.77
+#TRANS 2893 {} -63.77
+}
+
+#VER A 999 20251201 "TikTok Ads - Marknadsforing" 20260107
+{
+#TRANS 5900 {} 29.03
+#TRANS 2893 {} -29.03
+}
+
+#VER A 1000 20251203 "TikTok Ads - Marknadsforing" 20260107
+{
+#TRANS 5900 {} 2744.00
+#TRANS 2893 {} -2744.00
+}
+
+#VER A 1001 20251013 "Shopify Platform - E-handel" 20260107
+{
+#TRANS 6500 {} 323.67
+#TRANS 2641 {} 80.92
+#TRANS 2893 {} -404.59
+}
+
+#VER A 1002 20251112 "Shopify Platform - E-handel" 20260107
+{
+#TRANS 6500 {} 400.49
+#TRANS 2641 {} 100.12
+#TRANS 2893 {} -500.61
+}
+
+#VER A 1003 20251103 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 17.02
+#TRANS 2641 {} 4.26
+#TRANS 2893 {} -21.28
+}
+
+#VER A 1004 20251103 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 83.61
+#TRANS 2641 {} 20.90
+#TRANS 2893 {} -104.51
+}
+
+#VER A 1005 20251103 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 51.10
+#TRANS 2641 {} 12.77
+#TRANS 2893 {} -63.87
+}
+
+#VER A 1006 20251103 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 51.10
+#TRANS 2641 {} 12.77
+#TRANS 2893 {} -63.87
+}
+
+#VER A 1007 20251203 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 48.00
+#TRANS 2641 {} 12.00
+#TRANS 2893 {} -60.00
+}
+
+#VER A 1008 20251203 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 48.00
+#TRANS 2641 {} 12.00
+#TRANS 2893 {} -60.00
+}
+
+#VER A 1009 20251203 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 48.00
+#TRANS 2641 {} 12.00
+#TRANS 2893 {} -60.00
+}
+
+#VER A 1010 20251203 "VIMLA Telefonabonnemang - Fretag" 20260107
+{
+#TRANS 6990 {} 16.00
+#TRANS 2641 {} 4.00
+#TRANS 2893 {} -20.00
+}
+
+#VER A 1011 20251110 "St1 Gillbergaplan - Fretagsbrnsle" 20260107
+{
+#TRANS 5010 {} 757.14
+#TRANS 2641 {} 189.28
+#TRANS 2893 {} -946.42
+}
+
+#VER A 1012 20251125 "AIMO Parkering - Fretag" 20260107
+{
+#TRANS 5010 {} 283.96
+#TRANS 2641 {} 70.99
+#TRANS 2893 {} -354.95
+}
+
+#VER A 1013 20251116 "Apple.com iCloud - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 13.60
+#TRANS 2641 {} 3.40
+#TRANS 2893 {} -17.00
+}
+
+#VER A 1014 20251211 "Apple.com iCloud - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 199.20
+#TRANS 2641 {} 49.80
+#TRANS 2893 {} -249.00
+}
+
+#VER A 1015 20251216 "Apple.com iCloud - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 14.40
+#TRANS 2641 {} 3.60
+#TRANS 2893 {} -18.00
+}
+
+#VER A 1016 20251016 "Apple.com iCloud - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 14.40
+#TRANS 2641 {} 3.60
+#TRANS 2893 {} -18.00
+}
+
+#VER A 1017 20251011 "Apple.com iCloud - Fretagstjanst" 20260107
+{
+#TRANS 6500 {} 199.20
+#TRANS 2641 {} 49.80
+#TRANS 2893 {} -249.00
+}
+
+#VER A 1018 20251202 "Partners on Booking BV - Resekostnader Arlanda" 20260107
+{
+#TRANS 5010 {} 1139.47
+#TRANS 2641 {} 284.87
+#TRANS 2893 {} -1424.34
+}
+
+#VER A 1019 20251005 "Tubekick - Underhllning/Fretag" 20260107
+{
+#TRANS 5900 {} 104.85
+#TRANS 2641 {} 26.21
+#TRANS 2893 {} -131.06
+}
+
+#VER A 1020 20251115 "TG JBC Orebro - Arbetsresa" 20260107
+{
+#TRANS 5010 {} 1644.00
+#TRANS 2641 {} 411.00
+#TRANS 2893 {} -2055.00
+}
+
+#VER A 1021 20251128 "Shopify Sale for Wise payout" 20260107
+{
+#TRANS 1580 {} 39934.97
+#TRANS 3051 {} -31947.98
+#TRANS 2611 {} -7986.99
+}
+
+#VER A 1022 20251101 "Int§ktsr§nta Skattekonto nov" 20260107
+{
+#TRANS 1630 {} 3.00
+#TRANS 8314 {} -3.00
+}
+
+#VER A 1023 20251112 "Frseningsavgift Skattekonto" 20260107
+{
+#TRANS 6530 {} 625.00
+#TRANS 1630 {} -625.00
+}
+
+#VER A 1024 20251112 "Moms juli-sept 2025 debiterad Skattekonto" 20260107
+{
+#TRANS 2650 {} 15714.00
+#TRANS 1630 {} -15714.00
+}
+
+#VER A 1025 20251206 "Int§ktsr§nta Skattekonto dec (korrigerad med verifikation A1032 av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 1630 {} 5.00
+#TRANS 8314 {} -5.00
+}
+
+#VER A 1026 20251231 "Valutakursjustering EUR 1944 - Bokslut" 20260107
+{
+#TRANS 1944 {} -2017.41
+#TRANS 7960 {} 2017.41
+}
+
+#VER A 1027 20251231 "Valutakursjustering USD 1942 - Bokslut" 20260107
+{
+#TRANS 1942 {} -364.01
+#TRANS 7960 {} 364.01
+}
+
+#VER A 1028 20251231 "Momsavst§mning Q4 2025 - Utg•ende moms till momsredovisning (korrigerad med verifikation A1033 av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 2611 {} 92597.43
+#TRANS 2650 {} -92597.43
+}
+
+#VER A 1029 20251231 "Momsavst§mning Q4 2025 - Ing•ende moms till momsredovisning (korrigerad med verifikation A1034 av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 2641 {} -10954.62
+#TRANS 2650 {} 10954.62
+}
+
+#VER A 1030 20251231 "Üterbetalning till ahmed " 20260107
+{
+#TRANS 1910 {} -43381.00 20251231 "Üterbetalning till ahmed "
+#TRANS 2893 {} 43381.00 20251231 "Üterbetalning till ahmed "
+}
+
+#VER A 1031 20251117 "Korrigering av ver.nr. A988, Skatteverket Betalning (av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 1630 {} -400.00 20251117 "Korrigering av ver.nr. A988, Skatteverket Betalning"
+#TRANS 2893 {} 400.00 20251117 "Korrigering av ver.nr. A988, Skatteverket Betalning"
+}
+
+#VER A 1032 20251206 "Korrigering av ver.nr. A1025, Int§ktsr§nta Skattekonto dec (av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 1630 {} -5.00 20251206 "Korrigering av ver.nr. A1025, Int§ktsr§nta Skattekonto de"
+#TRANS 8314 {} 5.00 20251206 "Korrigering av ver.nr. A1025, Int§ktsr§nta Skattekonto de"
+}
+
+#VER A 1033 20251231 "Korrigering av ver.nr. A1028, Momsavst§mning Q4 2025 - Utg•ende moms till momsredovisning (av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 2611 {} -92597.43
+#TRANS 2650 {} 92597.43
+}
+
+#VER A 1034 20251231 "Korrigering av ver.nr. A1029, Momsavst§mning Q4 2025 - Ing•ende moms till momsredovisning (av Mohammad Sami Alsharef, 2026-01-07)" 20260107
+{
+#TRANS 2641 {} 10954.62 20251231 "Korrigering av ver.nr. A1029, Momsavst§mning Q4 2025 - Ing"
+#TRANS 2650 {} -10954.62 20251231 "Korrigering av ver.nr. A1029, Momsavst§mning Q4 2025 - Ing"
+}
+
+#VER A 1035 20251231 "Momsredovisning oktober-december 2025" 20260107
+{
+#TRANS 2641 {} -10954.62
+#TRANS 2611 {} 92597.43
+#TRANS 2650 {} -81643.00
+#TRANS 3740 {} 0.19
+}
+
+#VER A 1036 20251231 "Wise avst§mning SEK, USD, GBP, EUR" 20260107
+{
+#TRANS 1945 {} -7569.80 20251231 "Korrigering Wise SEK till 0"
+#TRANS 1942 {} 3117.52 20251231 "Korrigering Wise USD till 411.27 USD"
+#TRANS 1943 {} -1847.99 20251231 "Korrigering Wise GBP till 0"
+#TRANS 1944 {} 12.83 20251231 "Korrigering Wise EUR till 0"
+#TRANS 6570 {} 6287.44 20251231 "Wise bankavgifter och kursdifferenser"
+}

@@ -4005,12 +4005,6 @@
 #TRANS 2615 {} 92123.00
 }
 
-#VER A 601 20250201 "Settlement of supplier invoice via related-party financing (korrigerad med verifikation A764 av Mohammad Sami Alsharef, 2025-12-29)" 20251212
-{
-#TRANS 2441 {} -278158.00 20250201 "Settlement of supplier invoice via related-party financing"
-#TRANS 2893 {} 278158.00 20250201 "Settlement of supplier invoice via related-party financing"
-}
-
 #VER A 602 20240930 "Momsredovisning juli-september 2024" 20251212
 {
 #TRANS 2641 {} -1485.00
@@ -5004,11 +4998,6 @@
 #TRANS 3740 {} -0.07
 }
 
-#VER A 764 20250201 "Korrigering av ver.nr. A601, Settlement of supplier invoice via related-party financing (av Mohammad Sami Alsharef, 2025-12-29)" 20251229
-{
-#TRANS 2441 {} 278158.00 20250201 "Settlement of supplier invoice via related-party financing"
-#TRANS 2893 {} -278158.00 20250201 "Settlement of supplier invoice via related-party financing"
-}
 
 #VER K 1 20250212 "Debiterad preliminarskatt februari 2025" 20260107
 {
